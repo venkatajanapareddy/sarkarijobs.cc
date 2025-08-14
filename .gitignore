@@ -35,6 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Data (uncomment if you want to exclude data from git)
-# public/data/
-EOF < /dev/null
+# Data (exclude large files to fit Vercel free tier)
+public/data/application_forms/
+public/data/raw_jobs/
+
+# Scripts with credentials (never commit!)
+scripts/upload-to-r2.js

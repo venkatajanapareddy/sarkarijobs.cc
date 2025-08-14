@@ -16,6 +16,11 @@ export async function loadJobDetails(jobId: string): Promise<any> {
     const jobContent = await fs.readFile(jobPath, 'utf8');
     const processedJob = JSON.parse(jobContent);
     
+    // Add application form local flag if we have a form
+    if (processedJob.links?.applicationForm) {
+      processedJob.links.applicationFormLocal = true;
+    }
+    
     // Then load the raw job for full content
     const rawJobPath = path.join(dataBasePath, 'raw_jobs', `raw_job_${jobId}.json`);
     try {
@@ -72,10 +77,11 @@ export async function loadJobs(): Promise<Job[]> {
         category: jobData.department || 'Government',
         location: jobData.location || 'All India',
         
-        // Map links - for local forms, create a proper URL path
-        applicationForm: jobData.links?.applicationFormLocal 
-          ? `/api/forms/${jobData.id}` 
-          : jobData.links?.applicationForm,
+        // Map links - use R2 URLs for PDFs
+        applicationForm: jobData.links?.applicationFormR2 || 
+          (jobData.id 
+            ? `https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/${jobData.id}_form.pdf`
+            : jobData.links?.applicationForm),
         officialWebsite: jobData.links?.official,
         onlineApplication: jobData.links?.notification,
         

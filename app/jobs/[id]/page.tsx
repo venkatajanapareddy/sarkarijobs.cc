@@ -272,9 +272,9 @@ export default async function JobDetailPage({ params }: { params: { id: string }
           {(job.links?.applicationFormLocal || job.links?.applicationForm || job.links?.official || job.links?.notification) && (
             <div className="mt-4 pt-4 border-t dark:border-gray-800">
               <div className="flex flex-wrap gap-3">
-                {job.links?.applicationFormLocal ? (
+                {(job.links?.applicationFormLocal || job.links?.applicationForm) && (
                   <a
-                    href={`/api/forms/${job.id}`}
+                    href={job.links?.applicationFormLocal ? `/api/forms/${job.id}` : job.links.applicationForm}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
@@ -282,17 +282,7 @@ export default async function JobDetailPage({ params }: { params: { id: string }
                     <Download className="w-4 h-4" />
                     Download Application Form
                   </a>
-                ) : job.links?.applicationForm ? (
-                  <a
-                    href={job.links.applicationForm}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-                  >
-                    <Download className="w-4 h-4" />
-                    Download Application Form
-                  </a>
-                ) : null}
+                )}
                 
                 {job.links?.official && (
                   <a
