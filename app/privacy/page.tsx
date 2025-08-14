@@ -151,7 +151,7 @@ export default function PrivacyPage() {
                 If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
               </p>
               <p className="mt-2">
-                Email: contact@sarkarijob.cc<br />
+                Email: admin@sarkarijob.cc<br />
                 Website: https://sarkarijob.cc
               </p>
             </section>

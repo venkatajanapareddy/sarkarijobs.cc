@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Connect</h3>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Email: contact@sarkarijob.cc
+              Email: admin@sarkarijob.cc
             </p>
           </div>
         </div>

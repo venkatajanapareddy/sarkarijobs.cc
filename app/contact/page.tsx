@@ -36,10 +36,10 @@ export default function ContactPage() {
                   For general inquiries and support
                 </p>
                 <a 
-                  href="mailto:contact@sarkarijob.cc" 
+                  href="mailto:admin@sarkarijob.cc" 
                   className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
                 >
-                  contact@sarkarijob.cc
+                  admin@sarkarijob.cc
                 </a>
               </div>
 
