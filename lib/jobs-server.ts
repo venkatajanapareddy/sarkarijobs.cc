@@ -21,21 +21,27 @@ export async function loadJobDetails(jobId: string): Promise<any> {
       processedJob.links.applicationFormLocal = true;
     }
     
-    // Then load the raw job for full content
-    const rawJobPath = path.join(dataBasePath, 'raw_jobs', `raw_job_${jobId}.json`);
-    try {
-      const rawContent = await fs.readFile(rawJobPath, 'utf8');
-      const rawJob = JSON.parse(rawContent);
-      
-      // Merge both to get complete data
-      return {
-        ...processedJob,
-        rawContent: rawJob.rawContent
-      };
-    } catch {
-      // If raw job doesn't exist, return processed job only
-      return processedJob;
+    // In production, raw content is already merged into job files
+    // In development, try to load from separate raw_jobs folder
+    if (process.env.NODE_ENV !== 'production') {
+      const rawJobPath = path.join(dataBasePath, 'raw_jobs', `raw_job_${jobId}.json`);
+      try {
+        const rawContent = await fs.readFile(rawJobPath, 'utf8');
+        const rawJob = JSON.parse(rawContent);
+        
+        // Merge both to get complete data
+        return {
+          ...processedJob,
+          rawContent: rawJob.rawContent
+        };
+      } catch {
+        // If raw job doesn't exist, return processed job only
+        return processedJob;
+      }
     }
+    
+    // In production, raw content is already in the job file
+    return processedJob;
   } catch (error) {
     console.error('Error loading job details:', error);
     return null;
