@@ -1,13 +1,14 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Calendar, Users, Building, MapPin, Banknote, FileText, ExternalLink, Download, Clock, GraduationCap, IndianRupee } from 'lucide-react';
+import { ArrowLeft, Users, Building, MapPin, Banknote, FileText, ExternalLink, Download, Clock, GraduationCap, IndianRupee } from 'lucide-react';
 import { loadJobDetails, loadJobs } from '@/lib/jobs-server';
 import { formatDate, getDaysLeft } from '@/lib/jobs-types';
 import type { Metadata } from 'next';
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const job = await loadJobDetails(params.id);
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const job = await loadJobDetails(id);
   
   if (!job) {
     return {
@@ -51,8 +52,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function JobDetailPage({ params }: { params: { id: string } }) {
-  const job = await loadJobDetails(params.id);
+export default async function JobDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const job = await loadJobDetails(id);
   
   if (!job) {
     notFound();

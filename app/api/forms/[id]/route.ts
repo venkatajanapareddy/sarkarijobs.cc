@@ -1,13 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs/promises';
-import path from 'path';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const jobId = params.id;
+    const { id: jobId } = await params;
     
     // Redirect to R2 URL - files are now hosted on Cloudflare R2
     const r2BaseUrl = 'https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev';
