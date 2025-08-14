@@ -61,10 +61,6 @@ const faqs = [
     answer: "While we strive for accuracy, if you find any incorrect information, please contact us immediately at admin@sarkarijob.cc. Always verify critical information like dates and eligibility on the official recruitment website."
   },
   {
-    question: "Can I get job alerts from SarkariJob.cc?",
-    answer: "Currently, we don't offer email alerts. However, we recommend bookmarking our website and visiting daily for the latest updates. We're working on adding notification features in the future."
-  },
-  {
     question: "Why should I trust SarkariJob.cc?",
     answer: "We source all information directly from official government websites and notifications. We provide direct links to official sources for verification. We never charge fees or make false promises about job guarantees."
   },
