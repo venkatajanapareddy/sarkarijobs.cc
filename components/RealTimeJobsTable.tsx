@@ -11,21 +11,41 @@ export default function RealTimeJobsTable() {
   const [error, setError] = useState<string | null>(null)
   const [lastFetched, setLastFetched] = useState<Date | null>(null)
   const [isRefreshing, setIsRefreshing] = useState(false)
+  const [page, setPage] = useState(1)
+  const [hasMore, setHasMore] = useState(true)
+  const [loadingMore, setLoadingMore] = useState(false)
+  const [totalCount, setTotalCount] = useState(0)
 
-  // Fetch jobs from API
-  const fetchJobs = async (refresh = false) => {
+  // Fetch jobs from API with pagination
+  const fetchJobs = async (refresh = false, loadMore = false) => {
     try {
-      if (refresh) setIsRefreshing(true);
-      else setLoading(true);
+      if (refresh) {
+        setIsRefreshing(true);
+        setPage(1);
+      } else if (loadMore) {
+        setLoadingMore(true);
+      } else {
+        setLoading(true);
+      }
       
-      const response = await fetch('/api/jobs')
+      const currentPage = loadMore ? page + 1 : refresh ? 1 : page;
+      const response = await fetch(`/api/jobs?page=${currentPage}&limit=20`)
       const data: JobsApiResponse = await response.json()
       
       if (data.error) {
         throw new Error(data.error)
       }
       
-      setJobs(data.jobs)
+      if (loadMore) {
+        setJobs(prev => [...prev, ...data.jobs])
+        setPage(currentPage)
+      } else {
+        setJobs(data.jobs)
+        if (refresh) setPage(1)
+      }
+      
+      setHasMore(data.jobs.length === 20 && jobs.length + data.jobs.length < data.totalCount)
+      setTotalCount(data.totalCount)
       setLastFetched(new Date(data.fetchedAt || new Date()))
       setError(null)
     } catch (err) {
@@ -34,6 +54,7 @@ export default function RealTimeJobsTable() {
     } finally {
       setLoading(false)
       setIsRefreshing(false)
+      setLoadingMore(false)
     }
   }
 
@@ -245,6 +266,38 @@ export default function RealTimeJobsTable() {
             );
           })}
         </div>
+        
+        {/* Load More Button */}
+        {hasMore && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={() => fetchJobs(false, true)}
+              disabled={loadingMore}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-blue text-white rounded-lg hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              {loadingMore ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  Loading...
+                </>
+              ) : (
+                <>
+                  Load More Jobs
+                  <span className="text-sm opacity-75">
+                    ({jobs.length} of {totalCount})
+                  </span>
+                </>
+              )}
+            </button>
+          </div>
+        )}
+        
+        {/* Show total when all loaded */}
+        {!hasMore && jobs.length > 0 && (
+          <div className="mt-6 text-center text-gray-500 dark:text-gray-400">
+            Showing all {jobs.length} jobs
+          </div>
+        )}
       </div>
     </div>
   )
