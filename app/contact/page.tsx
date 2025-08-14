@@ -24,7 +24,7 @@ export default function ContactPage() {
           
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-              We're here to help! Whether you have questions about job listings, need assistance navigating the website, 
+              We&apos;re here to help! Whether you have questions about job listings, need assistance navigating the website, 
               or want to report an issue, feel free to reach out to us.
             </p>
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-1">Feedback & Suggestions</h3>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Ideas to improve our service or features you'd like to see added
+                    Ideas to improve our service or features you&apos;d like to see added
                   </p>
                 </div>
 
@@ -95,7 +95,7 @@ export default function ContactPage() {
                   <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                     <li>• Check our FAQ page for answers to common questions</li>
                     <li>• Verify job details on the official recruitment website</li>
-                    <li>• Ensure you're viewing the latest job information</li>
+                    <li>• Ensure you&apos;re viewing the latest job information</li>
                   </ul>
                 </div>
               </div>

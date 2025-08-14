@@ -61,6 +61,7 @@ export default function RealTimeJobsTable() {
   // Initial load
   useEffect(() => {
     fetchJobs()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // Get urgency class based on days remaining

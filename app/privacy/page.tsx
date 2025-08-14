@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">1. Introduction</h2>
               <p>
-                Welcome to SarkariJob.cc ("we," "our," or "us"). We respect your privacy and are committed to protecting 
+                Welcome to SarkariJob.cc (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your privacy and are committed to protecting 
                 your personal information. This Privacy Policy explains how we collect, use, and safeguard your information 
                 when you visit our website.
               </p>
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">8. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">8. Children&apos;s Privacy</h2>
               <p>
                 SarkariJob.cc is intended for users who are at least 18 years old or the minimum age for employment in 
                 their jurisdiction. We do not knowingly collect personal information from children.
@@ -141,7 +141,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">10. Changes to This Policy</h2>
               <p>
                 We may update this Privacy Policy from time to time. Any changes will be posted on this page with an 
-                updated "Last updated" date. We encourage you to review this Privacy Policy periodically.
+                updated &quot;Last updated&quot; date. We encourage you to review this Privacy Policy periodically.
               </p>
             </section>
 
