@@ -1,0 +1,54 @@
+{
+  "totalJobs": 6,
+  "processedAt": "2025-08-14T00:16:23.749Z",
+  "jobs": [
+    {
+      "id": "7b4d79ba-32bb-4cc3-a8d0-04bae7126af5",
+      "title": "Pharmacist",
+      "organization": "National Ayush Mission Kerala",
+      "location": "Kerala",
+      "totalPosts": 2,
+      "lastDate": "2025-08-18"
+    },
+    {
+      "id": "d752ab99-637d-4e08-9d28-5498874b4b8f",
+      "title": "Graduate Apprentice",
+      "organization": "Airport Authority of India",
+      "location": "Goa",
+      "totalPosts": 19,
+      "lastDate": "2025-08-24"
+    },
+    {
+      "id": "de32f5a5-5cf6-4481-b14e-198946ea9bce",
+      "title": "Senior Vigilance Officer",
+      "organization": "Indian Railway Catering and Tourism Corporation",
+      "location": "Goa",
+      "totalPosts": 1,
+      "lastDate": "2025-09-10"
+    },
+    {
+      "id": "e8fc0d64-3035-4bcc-be74-37558eea0b74",
+      "title": "Junior Research Fellow",
+      "organization": "The University of Kalyani",
+      "location": "Andhra Pradesh",
+      "totalPosts": 1,
+      "lastDate": "2025-08-20"
+    },
+    {
+      "id": "f8391348-14c6-4112-a2a8-b02b37f9a7dd",
+      "title": "Junior Engineer",
+      "organization": "Pune Municipal Corporation",
+      "location": "Goa",
+      "totalPosts": 169,
+      "lastDate": "2025-08-30"
+    },
+    {
+      "id": "fa46be20-4656-45a4-85c9-55e04e9bafb9",
+      "title": "Community Health Officer",
+      "organization": "DHS Dahod",
+      "location": "Andhra Pradesh",
+      "totalPosts": 27,
+      "lastDate": "2025-08-23"
+    }
+  ]
+}
