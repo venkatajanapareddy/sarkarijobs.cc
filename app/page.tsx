@@ -1,6 +1,5 @@
 import Header from "@/components/Header"
-import JobsTable from "@/components/JobsTable"
-import SectionHeader from "@/components/SectionHeader"
+import HomePage from "@/components/HomePage"
 import { loadJobs } from "@/lib/jobs-server"
 import type { Metadata } from 'next'
 
@@ -44,14 +43,7 @@ export default async function Home() {
       <Header />
       
       <main className="container mx-auto px-4 py-8" role="main">
-        {/* Primary Job Section */}
-        <section className="mb-10">
-          <SectionHeader 
-            title="Latest Government Jobs" 
-            subtitle={`${jobs.length} active job postings from various government departments`}
-          />
-          <JobsTable jobs={jobs} />
-        </section>
+        <HomePage jobs={jobs} />
       </main>
     </div>
   )
