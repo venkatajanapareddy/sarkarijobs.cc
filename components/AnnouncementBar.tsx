@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { AlertTriangle, TrendingUp, Clock, Bell, ArrowRight, Sparkles, Zap } from 'lucide-react'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 
 interface AnnouncementBarProps {
   jobs: Job[]
@@ -164,10 +166,12 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
             {announcements.length > 1 && (
               <div className="hidden sm:flex items-center gap-1.5 ml-4">
                 {announcements.map((_, index) => (
-                  <button
+                  <Button
                     key={index}
                     onClick={() => setCurrentAnnouncement(index)}
-                    className={`w-1.5 h-1.5 rounded-full transition-all ${
+                    variant="ghost"
+                    size="sm"
+                    className={`w-1.5 h-1.5 p-0 rounded-full transition-all ${
                       index === currentAnnouncement 
                         ? 'bg-white w-4' 
                         : 'bg-white/40 hover:bg-white/60'

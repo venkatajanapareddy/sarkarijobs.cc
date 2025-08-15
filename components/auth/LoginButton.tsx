@@ -1,10 +1,19 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { createClient } from '@/utils/supabase/client'
 import { User, LogIn, LogOut, Star } from 'lucide-react'
 import Link from 'next/link'
 import { globalEvents, EVENTS } from '@/utils/events'
+import { Button } from '@/components/ui/button'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import { Badge } from '@/components/ui/badge'
 
 interface LoginButtonProps {
   user: any
@@ -13,9 +22,7 @@ interface LoginButtonProps {
 
 export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: LoginButtonProps) {
   const [isLoading, setIsLoading] = useState(false)
-  const [showDropdown, setShowDropdown] = useState(false)
   const [savedJobsCount, setSavedJobsCount] = useState(initialCount)
-  const dropdownRef = useRef<HTMLDivElement>(null)
   const supabase = createClient()
 
   // Fetch saved jobs count
@@ -60,30 +67,6 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     }
   }, [user, fetchSavedJobsCount])
 
-  // Fetch count when dropdown opens or user changes
-  useEffect(() => {
-    if (showDropdown && user) {
-      fetchSavedJobsCount()
-    }
-  }, [showDropdown, user, fetchSavedJobsCount])
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setShowDropdown(false)
-      }
-    }
-
-    if (showDropdown) {
-      document.addEventListener('mousedown', handleClickOutside)
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [showDropdown])
-
   const handleSignIn = async () => {
     setIsLoading(true)
     const { error } = await supabase.auth.signInWithOAuth({
@@ -106,55 +89,51 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
 
   if (user) {
     return (
-      <div className="relative" ref={dropdownRef}>
-        <button
-          onClick={() => setShowDropdown(!showDropdown)}
-          className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-        >
-          <User className="w-4 h-4" />
-          <span className="hidden sm:inline text-sm font-medium">
-            {user.email?.split('@')[0]}
-          </span>
-          {savedJobsCount > 0 && (
-            <span className="bg-blue-500 text-white text-xs px-1.5 py-0.5 rounded-full">
-              {savedJobsCount}
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button variant="secondary" className="gap-2">
+            <User className="w-4 h-4" />
+            <span className="hidden sm:inline text-sm font-medium">
+              {user.email?.split('@')[0]}
             </span>
-          )}
-        </button>
-
-        {showDropdown && (
-          <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50">
-            <Link
-              href="/saved-jobs"
-              className="flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-              onClick={() => setShowDropdown(false)}
-            >
+            {savedJobsCount > 0 && (
+              <Badge variant="default" className="ml-1">
+                {savedJobsCount}
+              </Badge>
+            )}
+          </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end" className="w-48">
+          <DropdownMenuItem asChild>
+            <Link href="/saved-jobs" className="flex items-center gap-2">
               <Star className="w-4 h-4" />
               Saved Jobs ({savedJobsCount})
             </Link>
-            <hr className="my-2 border-gray-200 dark:border-gray-700" />
-            <button
-              onClick={handleSignOut}
-              disabled={isLoading}
-              className="flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 w-full text-left text-red-600 dark:text-red-400"
-            >
-              <LogOut className="w-4 h-4" />
-              Sign Out
-            </button>
-          </div>
-        )}
-      </div>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem
+            onClick={handleSignOut}
+            disabled={isLoading}
+            className="text-red-600 dark:text-red-400 focus:text-red-600 dark:focus:text-red-400"
+          >
+            <LogOut className="w-4 h-4 mr-2" />
+            Sign Out
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
     )
   }
 
   return (
-    <button
+    <Button
       onClick={handleSignIn}
       disabled={isLoading}
-      className="flex items-center gap-2 px-3 py-1.5 text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-all disabled:opacity-50"
+      variant="ghost"
+      size="sm"
+      className="gap-2"
     >
       <LogIn className="w-4 h-4" />
       <span>Sign in</span>
-    </button>
+    </Button>
   )
 }

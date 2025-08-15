@@ -5,6 +5,7 @@ import Link from "next/link"
 import { ArrowRight, RefreshCw, Loader2, Calendar, Users, Building, MapPin } from "lucide-react"
 import { Job, JobsApiResponse, formatDate, getDaysLeft } from "@/lib/jobs-types"
 import { generateJobSlug } from "@/lib/slug-utils"
+import { Button } from '@/components/ui/button'
 
 export default function RealTimeJobsTable() {
   const [jobs, setJobs] = useState<Job[]>([])
@@ -88,12 +89,9 @@ export default function RealTimeJobsTable() {
     return (
       <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-8 text-center">
         <p className="text-red-600 dark:text-red-400 mb-4">{error}</p>
-        <button 
-          onClick={() => fetchJobs()}
-          className="px-4 py-2 bg-primary-blue text-white rounded-lg hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700"
-        >
+        <Button onClick={() => fetchJobs()}>
           Try Again
-        </button>
+        </Button>
       </div>
     )
   }
@@ -105,14 +103,15 @@ export default function RealTimeJobsTable() {
         <p className="text-sm text-gray-600 dark:text-gray-400">
           {jobs.length} active job postings • Last updated: {lastFetched?.toLocaleTimeString('en-IN')}
         </p>
-        <button
+        <Button
           onClick={() => fetchJobs(true)}
           disabled={isRefreshing}
-          className="flex items-center gap-2 px-3 py-1.5 text-sm text-primary-blue dark:text-blue-400 hover:bg-primary-light/20 dark:hover:bg-blue-900/20 rounded-lg transition-colors disabled:opacity-50"
+          variant="ghost"
+          size="sm"
         >
-          <RefreshCw className={`w-4 h-4 ${isRefreshing ? 'animate-spin' : ''}`} />
+          <RefreshCw className={`w-4 h-4 mr-2 ${isRefreshing ? 'animate-spin' : ''}`} />
           Refresh
-        </button>
+        </Button>
       </div>
 
       {/* Jobs table */}
@@ -272,25 +271,25 @@ export default function RealTimeJobsTable() {
         {/* Load More Button */}
         {hasMore && (
           <div className="mt-6 text-center">
-            <button
+            <Button
               onClick={() => fetchJobs(false, true)}
               disabled={loadingMore}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-blue text-white rounded-lg hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              size="lg"
             >
               {loadingMore ? (
                 <>
-                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <Loader2 className="w-4 h-4 animate-spin mr-2" />
                   Loading...
                 </>
               ) : (
                 <>
                   Load More Jobs
-                  <span className="text-sm opacity-75">
+                  <span className="text-sm opacity-75 ml-2">
                     ({jobs.length} of {totalCount})
                   </span>
                 </>
               )}
-            </button>
+            </Button>
           </div>
         )}
         

@@ -5,6 +5,7 @@ import { Star } from 'lucide-react'
 import SignInModal from './SignInModal'
 import { globalEvents, EVENTS } from '@/utils/events'
 import { createClient } from '@/utils/supabase/client'
+import { Button } from '@/components/ui/button'
 
 interface SaveJobButtonProps {
   jobId: string
@@ -174,21 +175,23 @@ export default function SaveJobButton({
 
   return (
     <>
-      <button
+      <Button
         onClick={handleSaveToggle}
         disabled={isLoading}
-        className={`${sizeClasses[size]} rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors disabled:opacity-50 flex items-center gap-2`}
+        variant="ghost"
+        size={size === 'sm' ? 'sm' : size === 'lg' ? 'lg' : 'default'}
+        className="gap-2"
         title={isSaved ? 'Remove from saved jobs' : 'Save job'}
       >
         <Star 
           className={`${iconSizes[size]} ${isSaved ? 'fill-yellow-500 text-yellow-500' : 'text-gray-400'} transition-colors`}
         />
         {showText && (
-          <span className="text-sm font-medium">
+          <span>
             {isSaved ? 'Saved' : 'Save'}
           </span>
         )}
-      </button>
+      </Button>
       
       <SignInModal 
         isOpen={showSignInModal}
