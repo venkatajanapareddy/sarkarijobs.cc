@@ -1,9 +1,11 @@
 'use client'
 
-import { useState, useMemo } from 'react'
-import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, GraduationCap, Building2, X } from 'lucide-react'
+import { useState, useMemo, useEffect, useRef } from 'react'
+import Link from 'next/link'
+import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, GraduationCap, Building2, X, Sparkles, ArrowRight, Users } from 'lucide-react'
 import JobsTable from './JobsTable'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
+import { generateJobSlug } from '@/lib/slug-utils'
 
 interface HomePageProps {
   jobs: Job[]
@@ -15,6 +17,8 @@ export default function HomePage({ jobs }: HomePageProps) {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedUrgency, setSelectedUrgency] = useState('all')
   const [showFilters, setShowFilters] = useState(false)
+  const [canScroll, setCanScroll] = useState(false)
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
 
   // Extract unique locations and categories
   const locations = useMemo(() => {
@@ -94,6 +98,19 @@ export default function HomePage({ jobs }: HomePageProps) {
     return { closingSoon, closingToday, byCategory }
   }, [jobs])
 
+  // Get recently added jobs (last 3 days)
+  const recentJobs = useMemo(() => {
+    const threeDaysAgo = new Date()
+    threeDaysAgo.setDate(threeDaysAgo.getDate() - 3)
+    
+    return jobs
+      .filter(job => {
+        const postedDate = new Date(job.publishedAt || job.processedAt || '')
+        return postedDate >= threeDaysAgo
+      })
+      .slice(0, 5)
+  }, [jobs])
+
   // Get urgent jobs for alert banner
   const urgentJobs = useMemo(() => {
     return jobs
@@ -108,6 +125,20 @@ export default function HomePage({ jobs }: HomePageProps) {
       })
       .slice(0, 3)
   }, [jobs])
+
+  // Check if scroll is needed for recent jobs
+  useEffect(() => {
+    const checkScroll = () => {
+      if (scrollContainerRef.current) {
+        const { scrollWidth, clientWidth } = scrollContainerRef.current
+        setCanScroll(scrollWidth > clientWidth)
+      }
+    }
+    
+    checkScroll()
+    window.addEventListener('resize', checkScroll)
+    return () => window.removeEventListener('resize', checkScroll)
+  }, [recentJobs])
 
   return (
     <div className="space-y-6">
@@ -154,6 +185,99 @@ export default function HomePage({ jobs }: HomePageProps) {
         </div>
       </div>
 
+      {/* Recently Added Jobs - Compact horizontal scroll */}
+      {recentJobs.length > 0 && (
+        <div className="relative">
+          <div className="flex items-center gap-2 mb-2">
+            <Sparkles className="w-4 h-4 text-blue-500" />
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">New this week</span>
+            <span className="text-xs bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 px-1.5 py-0.5 rounded-full">
+              {recentJobs.length}
+            </span>
+            {/* Scroll indicator - only show if content actually overflows */}
+            {canScroll && (
+              <>
+                <span className="hidden sm:inline-flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 ml-auto">
+                  <span className="animate-pulse">→</span>
+                  Scroll for more
+                </span>
+                <span className="sm:hidden text-xs text-gray-500 dark:text-gray-400 ml-auto">
+                  Swipe →
+                </span>
+              </>
+            )}
+          </div>
+          <div className="relative">
+            {/* Gradient fade indicators - only show if scrollable */}
+            {canScroll && (
+              <>
+                <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-gray-50 dark:from-gray-950 to-transparent z-10 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-50 dark:from-gray-950 to-transparent z-10 pointer-events-none" />
+              </>
+            )}
+            
+            <div ref={scrollContainerRef} className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide scroll-smooth" id="recent-jobs-scroll">
+              {recentJobs.map((job, index) => {
+                const daysLeft = getDaysLeft(job.lastDate)
+                return (
+                  <Link 
+                    key={job.id}
+                    href={`/jobs/${generateJobSlug(job)}`}
+                    className="flex-shrink-0 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-2 hover:border-blue-400 dark:hover:border-blue-600 hover:shadow-sm transition-all min-w-[200px] max-w-[250px] group"
+                  >
+                    <div className="text-xs font-semibold text-gray-900 dark:text-gray-100 truncate">
+                      {job.title}
+                    </div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400 truncate mt-0.5">
+                      {job.organization}
+                    </div>
+                    <div className="flex items-center gap-2 mt-1">
+                      {job.location && (
+                        <span className="text-xs text-gray-600 dark:text-gray-400">
+                          📍 {job.location}
+                        </span>
+                      )}
+                      {daysLeft !== null && daysLeft <= 3 && (
+                        <span className="text-xs text-red-600 dark:text-red-400 font-medium">
+                          ⚡ {daysLeft}d left
+                        </span>
+                      )}
+                    </div>
+                    {/* Show position indicator on mobile */}
+                    {index === recentJobs.length - 1 && (
+                      <div className="sm:hidden absolute -right-2 top-1/2 -translate-y-1/2 w-1 h-8 bg-blue-500 rounded-full opacity-50" />
+                    )}
+                  </Link>
+                )
+              })}
+              {/* Add more indicator at the end if there are exactly 5 jobs */}
+              {recentJobs.length >= 5 && (
+                <div className="flex-shrink-0 flex items-center justify-center min-w-[100px] text-xs text-gray-500 dark:text-gray-400">
+                  <span className="flex items-center gap-1">
+                    <span>More coming</span>
+                    <span className="animate-pulse">...</span>
+                  </span>
+                </div>
+              )}
+            </div>
+          </div>
+          <style jsx>{`
+            .scrollbar-hide {
+              -ms-overflow-style: none;
+              scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+              display: none;
+            }
+            @media (min-width: 640px) {
+              #recent-jobs-scroll:hover + .scroll-hint {
+                opacity: 0;
+              }
+            }
+          `}</style>
+        </div>
+      )}
+
       {/* Search and Filter Bar */}
       <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-sm">
         <div className="flex flex-col lg:flex-row gap-4">
@@ -182,13 +306,13 @@ export default function HomePage({ jobs }: HomePageProps) {
           {/* Filter Toggle for Mobile */}
           <button
             onClick={() => setShowFilters(!showFilters)}
-            className="lg:hidden flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800"
+            className="lg:hidden flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg active:bg-blue-600 transition-colors"
           >
             <Filter className="w-4 h-4" />
-            Filters
+            <span className="font-medium">Filters</span>
             {(selectedLocation !== 'all' || selectedCategory !== 'all' || selectedUrgency !== 'all') && (
-              <span className="bg-blue-500 text-white text-xs px-2 py-0.5 rounded-full">
-                Active
+              <span className="bg-white text-blue-500 text-xs px-2 py-0.5 rounded-full font-semibold">
+                {[selectedLocation !== 'all', selectedCategory !== 'all', selectedUrgency !== 'all'].filter(Boolean).length}
               </span>
             )}
           </button>
@@ -235,46 +359,76 @@ export default function HomePage({ jobs }: HomePageProps) {
           </div>
         </div>
 
-        {/* Mobile Filters */}
+        {/* Mobile Filters - Enhanced UI */}
         {showFilters && (
-          <div className="lg:hidden mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 space-y-3">
-            <select
-              value={selectedLocation}
-              onChange={(e) => setSelectedLocation(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
-            >
-              <option value="all">All Locations</option>
-              {locations.map(loc => (
-                <option key={loc} value={loc}>{loc}</option>
-              ))}
-            </select>
+          <div className="lg:hidden mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+            <div className="space-y-3">
+              <div>
+                <label className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">Location</label>
+                <select
+                  value={selectedLocation}
+                  onChange={(e) => setSelectedLocation(e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 text-sm"
+                >
+                  <option value="all">📍 All Locations</option>
+                  {locations.map(loc => (
+                    <option key={loc} value={loc}>{loc}</option>
+                  ))}
+                </select>
+              </div>
 
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
-            >
-              <option value="all">All Categories</option>
-              <option value="Railway">Railway</option>
-              <option value="Banking">Banking</option>
-              <option value="UPSC/SSC">UPSC/SSC</option>
-              <option value="Defence/Police">Defence/Police</option>
-              <option value="Teaching">Teaching</option>
-              <option value="Medical">Medical</option>
-              <option value="Judicial">Judicial</option>
-              <option value="Other">Other</option>
-            </select>
+              <div>
+                <label className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">Category</label>
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 text-sm"
+                >
+                  <option value="all">🏢 All Categories</option>
+                  <option value="Railway">🚂 Railway</option>
+                  <option value="Banking">🏦 Banking</option>
+                  <option value="UPSC/SSC">📚 UPSC/SSC</option>
+                  <option value="Defence/Police">🛡️ Defence/Police</option>
+                  <option value="Teaching">🎓 Teaching</option>
+                  <option value="Medical">🏥 Medical</option>
+                  <option value="Judicial">⚖️ Judicial</option>
+                  <option value="Other">📋 Other</option>
+                </select>
+              </div>
 
-            <select
-              value={selectedUrgency}
-              onChange={(e) => setSelectedUrgency(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
-            >
-              <option value="all">All Deadlines</option>
-              <option value="today">Closing Today</option>
-              <option value="this-week">Next 7 Days</option>
-              <option value="closing-soon">Closing Soon</option>
-            </select>
+              <div>
+                <label className="text-xs font-medium text-gray-600 dark:text-gray-400 mb-1 block">Urgency</label>
+                <select
+                  value={selectedUrgency}
+                  onChange={(e) => setSelectedUrgency(e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 text-sm"
+                >
+                  <option value="all">⏰ All Deadlines</option>
+                  <option value="today">🔥 Closing Today</option>
+                  <option value="this-week">📅 Next 7 Days</option>
+                  <option value="closing-soon">⚡ Closing Soon</option>
+                </select>
+              </div>
+
+              <div className="flex gap-2 pt-2">
+                <button
+                  onClick={() => {
+                    setSelectedLocation('all')
+                    setSelectedCategory('all')
+                    setSelectedUrgency('all')
+                  }}
+                  className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300"
+                >
+                  Clear Filters
+                </button>
+                <button
+                  onClick={() => setShowFilters(false)}
+                  className="flex-1 px-4 py-2 bg-blue-500 text-white rounded-lg text-sm font-medium"
+                >
+                  Apply Filters
+                </button>
+              </div>
+            </div>
           </div>
         )}
       </div>
