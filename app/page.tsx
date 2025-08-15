@@ -1,5 +1,6 @@
 import Header from "@/components/Header"
 import HomePage from "@/components/HomePage"
+import AnnouncementBar from "@/components/AnnouncementBar"
 import { loadJobs } from "@/lib/jobs-server"
 import type { Metadata } from 'next'
 
@@ -40,6 +41,7 @@ export default async function Home() {
   
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+      <AnnouncementBar jobs={jobs} />
       <Header />
       
       <main className="container mx-auto px-4 py-8" role="main">

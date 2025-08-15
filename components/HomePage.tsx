@@ -111,32 +111,6 @@ export default function HomePage({ jobs }: HomePageProps) {
 
   return (
     <div className="space-y-6">
-      {/* Urgent Jobs Alert */}
-      {urgentJobs.length > 0 && (
-        <div className="bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 rounded-lg p-4">
-          <div className="flex items-start gap-3">
-            <AlertCircle className="w-5 h-5 text-red-600 dark:text-red-400 mt-0.5" />
-            <div className="flex-1">
-              <h3 className="font-semibold text-red-900 dark:text-red-100 mb-2">
-                ⚠️ {urgentJobs.length} Job{urgentJobs.length > 1 ? 's' : ''} Closing Soon!
-              </h3>
-              <div className="space-y-1">
-                {urgentJobs.map(job => (
-                  <div key={job.id} className="text-sm text-red-700 dark:text-red-300">
-                    <span className="font-medium">{job.organization}</span> - {job.title}
-                    {getDaysLeft(job.lastDate) === 0 ? (
-                      <span className="ml-2 font-bold">Closes TODAY!</span>
-                    ) : (
-                      <span className="ml-2">Last day tomorrow</span>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Quick Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-700">

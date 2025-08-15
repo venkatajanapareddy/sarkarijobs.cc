@@ -24,6 +24,12 @@ export interface Job {
   sourceUrl?: string;
   publishedAt?: string;
   processedAt?: string;
+  postedDate?: string;
+  metadata?: {
+    scrapedAt?: string;
+    processedAt?: string;
+  };
+  [key: string]: any; // Allow additional properties
 }
 
 export interface JobsApiResponse {
