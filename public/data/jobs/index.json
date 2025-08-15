@@ -1,6 +1,6 @@
 {
-  "totalJobs": 314,
-  "processedAt": "2025-08-15T04:15:50.300Z",
+  "totalJobs": 334,
+  "processedAt": "2025-08-15T04:25:16.807Z",
   "jobs": [
     {
       "id": "0043dc32-4597-4b10-9ddd-77f243a122ec",
@@ -17,6 +17,14 @@
       "location": "Telangana",
       "totalPosts": 33,
       "lastDate": "2025-08-25"
+    },
+    {
+      "id": "00cab566-7e01-42d1-a60e-c8de7b38a7e2",
+      "title": "Project Associate",
+      "organization": "Central Glass and Ceramic Research Institute",
+      "location": "West Bengal",
+      "totalPosts": 1,
+      "lastDate": "2025-08-18"
     },
     {
       "id": "01f6b168-804b-42a1-9e12-110fe013afdd",
@@ -129,6 +137,14 @@
       "location": "Chandigarh",
       "totalPosts": 1,
       "lastDate": "2025-08-19"
+    },
+    {
+      "id": "11508be6-07e5-416b-a620-1a94ed8ac4f5",
+      "title": "Sub Inspector",
+      "organization": "Puducherry Police",
+      "location": "Puducherry",
+      "totalPosts": 218,
+      "lastDate": "2025-09-12"
     },
     {
       "id": "11e733ee-7d5a-4b87-b143-b4304565099a",
@@ -249,6 +265,14 @@
       "location": "Bihar",
       "totalPosts": 21,
       "lastDate": "2025-08-25"
+    },
+    {
+      "id": "1d6a9a67-2f0e-45e5-9f01-d8dd481d3225",
+      "title": "Medical Officer",
+      "organization": "National Health Mission",
+      "location": "Assam",
+      "totalPosts": 78,
+      "lastDate": "2025-08-27"
     },
     {
       "id": "1dc0cc77-a4e8-4324-a982-78fac7fcd2b4",
@@ -707,6 +731,14 @@
       "lastDate": "2025-08-14"
     },
     {
+      "id": "47d98b58-08a6-46d9-b8a4-a6e8359e039e",
+      "title": "Consultant - Quality Assurance",
+      "organization": "Translational Health Science and Technology Institute",
+      "location": "Haryana",
+      "totalPosts": 1,
+      "lastDate": "2025-09-01"
+    },
+    {
       "id": "4804cefd-5ea1-42fb-b134-ff12b306bc8e",
       "title": "Expert Civil Engineer",
       "organization": "Madhya Pradesh Power Generation Company Limited",
@@ -721,6 +753,22 @@
       "location": "Meghalaya",
       "totalPosts": 5,
       "lastDate": "2025-08-14"
+    },
+    {
+      "id": "49659847-4c00-4885-8181-cff00077c997",
+      "title": "Associate Consultant",
+      "organization": "VOC Port Trust",
+      "location": "Tamil Nadu",
+      "totalPosts": 8,
+      "lastDate": "2025-08-20"
+    },
+    {
+      "id": "497c7c98-8c75-49be-a313-384dc167e629",
+      "title": "Research Associate",
+      "organization": "Acharya NG Ranga Agricultural University",
+      "location": "Andhra Pradesh",
+      "totalPosts": 1,
+      "lastDate": null
     },
     {
       "id": "49c97eb3-e3db-4053-9fc8-2455105e1d6b",
@@ -865,6 +913,14 @@
       "location": "Assam",
       "totalPosts": 5,
       "lastDate": null
+    },
+    {
+      "id": "598be6a1-48d0-4de8-a667-68583cdf999e",
+      "title": "Legal Officer",
+      "organization": "National Bank for Agriculture and Rural Development",
+      "location": "Maharashtra",
+      "totalPosts": 5,
+      "lastDate": "2025-08-31"
     },
     {
       "id": "5a8ea390-9463-440b-bc9a-9814643c9688",
@@ -1075,6 +1131,14 @@
       "lastDate": "2025-09-03"
     },
     {
+      "id": "6ceb95ce-fb6f-488e-9b50-f32813c08045",
+      "title": "Medical Officer",
+      "organization": "Ex-Service Contributory Health Scheme",
+      "location": "Tamil Nadu",
+      "totalPosts": 13,
+      "lastDate": "2025-08-20"
+    },
+    {
       "id": "6e46c29a-59f7-4b4f-a8bf-302fa5517702",
       "title": "Technical Officer",
       "organization": "IIT Tirupati",
@@ -1097,6 +1161,14 @@
       "location": "Odisha",
       "totalPosts": 1,
       "lastDate": "2025-08-17"
+    },
+    {
+      "id": "7178cb9d-d1ed-4314-9590-03e0ff95780f",
+      "title": "Junior Grade Translator",
+      "organization": "Gauhati High Court",
+      "location": "Assam",
+      "totalPosts": 1,
+      "lastDate": "2025-09-03"
     },
     {
       "id": "7329cc62-9a26-462f-82da-34c3fe83ee2f",
@@ -1371,6 +1443,14 @@
       "lastDate": "2025-08-11"
     },
     {
+      "id": "867df860-31f4-4a90-9d8e-f89fe62c9007",
+      "title": "Junior Resident",
+      "organization": "Government Medical College Hospital",
+      "location": "Maharashtra",
+      "totalPosts": 73,
+      "lastDate": "2025-08-21"
+    },
+    {
       "id": "869001eb-bde9-4067-aae8-314111f677db",
       "title": "Senior Resident",
       "organization": "Deen Dayal Upadhyay Hospital",
@@ -1433,6 +1513,14 @@
       "location": "Haryana",
       "totalPosts": 2,
       "lastDate": "2025-08-21"
+    },
+    {
+      "id": "906f9fbd-65ae-4d25-934f-c520bc7489a0",
+      "title": "Young Professional",
+      "organization": "Bureau of Indian Standards",
+      "location": "Tamil Nadu",
+      "totalPosts": 5,
+      "lastDate": "2025-09-05"
     },
     {
       "id": "91cc72b4-d615-4cc7-82e2-3ab1694629d6",
@@ -1513,6 +1601,14 @@
       "location": null,
       "totalPosts": 3588,
       "lastDate": "2025-08-25"
+    },
+    {
+      "id": "9b7a4f4c-0c4d-4dfa-b870-805a3ef67382",
+      "title": "Technical Associate",
+      "organization": "NIT Silchar",
+      "location": "Assam",
+      "totalPosts": 1,
+      "lastDate": "2025-09-03"
     },
     {
       "id": "9ba2ae54-17a1-4a7a-a9eb-6cd6a91ebd1e",
@@ -1601,6 +1697,14 @@
       "location": "Himachal Pradesh",
       "totalPosts": 600,
       "lastDate": "2025-09-17"
+    },
+    {
+      "id": "a4914505-6186-4c70-a93c-8cb2e36608d1",
+      "title": "Chief Project Manager",
+      "organization": "Rail Vikas Nigam Limited",
+      "location": "Delhi",
+      "totalPosts": 1,
+      "lastDate": "2025-09-12"
     },
     {
       "id": "a4b4e545-a6d9-410f-8f5f-655d02b09f0b",
@@ -1729,6 +1833,14 @@
       "location": "Tamil Nadu",
       "totalPosts": 16,
       "lastDate": "2025-08-24"
+    },
+    {
+      "id": "b0bdfcb6-fab6-4946-867e-3f450bdad021",
+      "title": "Nursing Superintendent",
+      "organization": "Railway Recruitment Board",
+      "location": "Maharashtra",
+      "totalPosts": 272,
+      "lastDate": "2025-09-08"
     },
     {
       "id": "b12fb47b-043e-4b0c-b91d-4d9f2d37c3cc",
@@ -1875,6 +1987,14 @@
       "lastDate": "2025-08-19"
     },
     {
+      "id": "be5a9380-8297-46eb-9f02-3c9eb427e1f5",
+      "title": "Medical Officer",
+      "organization": "Tezpur University",
+      "location": "Assam",
+      "totalPosts": 1,
+      "lastDate": "2025-09-12"
+    },
+    {
       "id": "c190b1a8-0303-40ce-9449-cc4b6b9c9e5f",
       "title": "Cathlab Technician",
       "organization": "District Civil Hospital Ahilyanagar",
@@ -1993,6 +2113,14 @@
       "location": "Tamil Nadu",
       "totalPosts": 475,
       "lastDate": "2025-09-05"
+    },
+    {
+      "id": "cf2bec0e-9398-4633-bc3d-4ceccc43ba51",
+      "title": "Security Staff",
+      "organization": "MGU Kerala",
+      "location": "Kerala",
+      "totalPosts": 1,
+      "lastDate": "2025-08-20"
     },
     {
       "id": "cfc393d7-8e61-4a2c-b742-c3736a338139",
@@ -2203,6 +2331,14 @@
       "lastDate": "2025-08-22"
     },
     {
+      "id": "e26d9d16-3075-49ff-adc6-4afd03d370b3",
+      "title": "Village Assistant",
+      "organization": "Ramanathapuram RDM",
+      "location": "Tamil Nadu",
+      "totalPosts": 29,
+      "lastDate": "2025-09-07"
+    },
+    {
       "id": "e2b758ab-8358-4721-a76c-e1cdd3a19f65",
       "title": "Project Associate",
       "organization": "IIT Bhubaneshwar",
@@ -2289,6 +2425,14 @@
       "location": "Gujarat",
       "totalPosts": 7,
       "lastDate": "2025-08-15"
+    },
+    {
+      "id": "ec136972-d536-424d-9ca7-7facb2fb8305",
+      "title": "Environment and Forestry Specialist",
+      "organization": "Maharashtra Institution for Transformation",
+      "location": "Maharashtra",
+      "totalPosts": 1,
+      "lastDate": "2025-08-25"
     },
     {
       "id": "ec19d4e7-9357-4860-942d-bec05c1c9ac9",
@@ -2387,6 +2531,14 @@
       "lastDate": "2025-09-15"
     },
     {
+      "id": "f3796b80-e12b-447c-871b-b8772f001c65",
+      "title": "Project Technical Support",
+      "organization": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+      "location": "Kerala",
+      "totalPosts": 1,
+      "lastDate": null
+    },
+    {
       "id": "f3e832ad-4c34-4add-9702-c180af60be6f",
       "title": "Executive Engineer",
       "organization": "Engineering Department Chandigarh",
@@ -2441,6 +2593,14 @@
       "location": "Maharashtra",
       "totalPosts": 169,
       "lastDate": "2025-08-30"
+    },
+    {
+      "id": "f9571c82-72b2-480d-924b-ed7998c4fe1e",
+      "title": "Multipurpose Health Worker",
+      "organization": "Baba Farid University of Health Science",
+      "location": "Punjab",
+      "totalPosts": 122,
+      "lastDate": "2025-09-02"
     },
     {
       "id": "fa3ca65d-9d69-4c6c-8f00-c2c6064c02c4",
