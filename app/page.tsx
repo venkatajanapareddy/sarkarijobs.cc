@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import HomePage from "@/components/HomePage"
 import AnnouncementBar from "@/components/AnnouncementBar"
 import { loadJobs } from "@/lib/jobs-server"
+import { createClient } from "@/utils/supabase/server"
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -39,13 +40,31 @@ export const metadata: Metadata = {
 export default async function Home() {
   const jobs = await loadJobs()
   
+  // Get saved job IDs for current user
+  let savedJobIds: string[] = []
+  try {
+    const supabase = await createClient()
+    const { data: { user } } = await supabase.auth.getUser()
+    
+    if (user) {
+      const { data: savedJobs } = await supabase
+        .from('saved_jobs')
+        .select('job_id')
+        .eq('user_id', user.id)
+      
+      savedJobIds = savedJobs?.map(sj => sj.job_id) || []
+    }
+  } catch (error) {
+    console.error('Error fetching saved jobs:', error)
+  }
+  
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
       <AnnouncementBar jobs={jobs} />
       <Header />
       
       <main className="container mx-auto px-4 py-8" role="main">
-        <HomePage jobs={jobs} />
+        <HomePage jobs={jobs} savedJobIds={savedJobIds} />
       </main>
     </div>
   )
