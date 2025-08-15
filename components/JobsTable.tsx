@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, Calendar, Users, Building, MapPin } from "lucide-react"
 import { Job, formatDate, getDaysLeft } from "@/lib/jobs-types"
+import { generateJobSlug } from "@/lib/slug-utils"
 
 export default function JobsTable({ jobs }: { jobs: Job[] }) {
   // Get urgency class based on days remaining
@@ -39,7 +40,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                       </div>
                     </td>
                     <td>
-                      <Link href={`/jobs/${job.id}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                      <Link href={`/jobs/${generateJobSlug(job)}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
                         {job.title}
                       </Link>
                     </td>
@@ -78,7 +79,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                     </td>
                     <td>
                       <Link
-                        href={`/jobs/${job.id}`}
+                        href={`/jobs/${generateJobSlug(job)}`}
                         className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                       >
                         View
@@ -120,7 +121,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                       </div>
                     </td>
                     <td>
-                      <Link href={`/jobs/${job.id}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                      <Link href={`/jobs/${generateJobSlug(job)}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
                         {job.title}
                       </Link>
                       {job.salary && (
@@ -141,7 +142,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                     </td>
                     <td>
                       <Link
-                        href={`/jobs/${job.id}`}
+                        href={`/jobs/${generateJobSlug(job)}`}
                         className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                       >
                         View
@@ -163,7 +164,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
               <div key={job.id} className="job-card m-4">
                 <div className="mb-3">
                   <h3 className="font-semibold text-lg text-gray-900 dark:text-gray-100">{job.organization}</h3>
-                  <Link href={`/jobs/${job.id}`} className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <Link href={`/jobs/${generateJobSlug(job)}`} className="text-blue-600 dark:text-blue-400 hover:underline">
                     {job.title}
                   </Link>
                   <div className="flex gap-2 mt-1">
@@ -206,7 +207,7 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                 
                 <div className="mt-4 flex gap-2">
                   <Link
-                    href={`/jobs/${job.id}`}
+                    href={`/jobs/${generateJobSlug(job)}`}
                     className="flex-1 inline-flex items-center justify-center gap-1 px-3 py-2 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                   >
                     View
