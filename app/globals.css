@@ -94,6 +94,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Button cursor */
+button:not(:disabled) {
+  cursor: pointer;
+}
+
 /* Custom Utility Classes */
 .text-primary-blue { color: var(--color-primary-blue); }
 .bg-primary-blue { background-color: var(--color-primary-blue); }
