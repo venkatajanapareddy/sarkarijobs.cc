@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import { Star } from 'lucide-react'
-import { useRouter } from 'next/navigation'
 import SignInModal from './SignInModal'
 import { globalEvents, EVENTS } from '@/utils/events'
 import { createClient } from '@/utils/supabase/client'
@@ -25,11 +24,10 @@ export default function SaveJobButton({
   initialSaved = false
 }: SaveJobButtonProps) {
   const [isSaved, setIsSaved] = useState(initialSaved)
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading] = useState(false) // Keep for disabled state
   const [user, setUser] = useState<any>(null)
   const [isSupabaseConfigured, setIsSupabaseConfigured] = useState(false)
   const [showSignInModal, setShowSignInModal] = useState(false)
-  const router = useRouter()
 
   // Update isSaved when initialSaved prop changes
   useEffect(() => {

@@ -46,7 +46,7 @@ export default function SavedJobsClient({ initialJobs, savedJobIds: initialSaved
             No saved jobs yet
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Start saving jobs you're interested in and they'll appear here.
+            Start saving jobs you&apos;re interested in and they&apos;ll appear here.
           </p>
           <Link
             href="/"

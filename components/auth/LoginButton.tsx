@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { createClient } from '@/utils/supabase/client'
 import { User, LogIn, LogOut, Star } from 'lucide-react'
 import Link from 'next/link'
@@ -19,7 +19,7 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
   const supabase = createClient()
 
   // Fetch saved jobs count
-  const fetchSavedJobsCount = async () => {
+  const fetchSavedJobsCount = useCallback(async () => {
     if (user) {
       try {
         const { count } = await supabase
@@ -32,7 +32,7 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
         console.error('Error fetching saved jobs count:', error)
       }
     }
-  }
+  }, [user, supabase])
 
   // Listen for saved jobs updates and update count optimistically
   useEffect(() => {
@@ -58,14 +58,14 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     return () => {
       globalEvents.removeEventListener(EVENTS.SAVED_JOBS_UPDATED, handleUpdate as EventListener)
     }
-  }, [user])
+  }, [user, fetchSavedJobsCount])
 
   // Fetch count when dropdown opens or user changes
   useEffect(() => {
     if (showDropdown && user) {
       fetchSavedJobsCount()
     }
-  }, [showDropdown, user])
+  }, [showDropdown, user, fetchSavedJobsCount])
 
   // Close dropdown when clicking outside
   useEffect(() => {
