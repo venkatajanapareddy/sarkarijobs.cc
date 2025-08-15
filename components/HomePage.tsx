@@ -9,9 +9,10 @@ import { generateJobSlug } from '@/lib/slug-utils'
 
 interface HomePageProps {
   jobs: Job[]
+  savedJobIds?: string[]
 }
 
-export default function HomePage({ jobs }: HomePageProps) {
+export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedLocation, setSelectedLocation] = useState('all')
   const [selectedCategory, setSelectedCategory] = useState('all')
@@ -479,7 +480,7 @@ export default function HomePage({ jobs }: HomePageProps) {
 
       {/* Jobs Table */}
       {filteredJobs.length > 0 ? (
-        <JobsTable jobs={filteredJobs} />
+        <JobsTable jobs={filteredJobs} savedJobIds={savedJobIds} />
       ) : (
         <div className="bg-white dark:bg-gray-900 rounded-lg p-12 text-center">
           <div className="max-w-md mx-auto">
