@@ -2,8 +2,9 @@ import Link from "next/link"
 import { ArrowRight, Calendar, Users, Building, MapPin } from "lucide-react"
 import { Job, formatDate, getDaysLeft } from "@/lib/jobs-types"
 import { generateJobSlug } from "@/lib/slug-utils"
+import SaveJobButton from "./SaveJobButton"
 
-export default function JobsTable({ jobs }: { jobs: Job[] }) {
+export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], savedJobIds?: string[] }) {
   // Get urgency class based on days remaining
   const getUrgencyClass = (days: number | null) => {
     if (days === null) return "text-gray-500"
@@ -85,13 +86,22 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                       </div>
                     </td>
                     <td>
-                      <Link
-                        href={`/jobs/${generateJobSlug(job)}`}
-                        className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
-                      >
-                        View
-                        <ArrowRight className="w-3 h-3" />
-                      </Link>
+                      <div className="flex items-center gap-2">
+                        <SaveJobButton 
+                          jobId={job.id} 
+                          jobTitle={job.title}
+                          jobOrganization={job.organization}
+                          size="sm"
+                          initialSaved={savedJobIds.includes(job.id)}
+                        />
+                        <Link
+                          href={`/jobs/${generateJobSlug(job)}`}
+                          className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
+                        >
+                          View
+                          <ArrowRight className="w-3 h-3" />
+                        </Link>
+                      </div>
                     </td>
                   </tr>
                 );
@@ -155,13 +165,22 @@ export default function JobsTable({ jobs }: { jobs: Job[] }) {
                       </div>
                     </td>
                     <td>
-                      <Link
-                        href={`/jobs/${generateJobSlug(job)}`}
-                        className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
-                      >
-                        View
-                        <ArrowRight className="w-3 h-3" />
-                      </Link>
+                      <div className="flex items-center gap-2">
+                        <SaveJobButton 
+                          jobId={job.id} 
+                          jobTitle={job.title}
+                          jobOrganization={job.organization}
+                          size="sm"
+                          initialSaved={savedJobIds.includes(job.id)}
+                        />
+                        <Link
+                          href={`/jobs/${generateJobSlug(job)}`}
+                          className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
+                        >
+                          View
+                          <ArrowRight className="w-3 h-3" />
+                        </Link>
+                      </div>
                     </td>
                   </tr>
                 );
