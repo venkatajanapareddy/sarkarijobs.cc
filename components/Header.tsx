@@ -12,7 +12,7 @@ export default function Header() {
             <Briefcase className="w-6 h-6 md:w-8 md:h-8 text-primary-blue dark:text-blue-400" />
             <div>
               <h1 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">SarkariJob.cc</h1>
-              <p className="text-xs text-gray-600 dark:text-gray-400 hidden sm:block">Find Latest Government Jobs in India</p>
+              <p className="text-xs text-gray-600 dark:text-gray-400 hidden sm:block">Find Latest Government Jobs in India 🇮🇳</p>
             </div>
           </Link>
           
