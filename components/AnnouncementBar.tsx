@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { X, AlertTriangle, TrendingUp, Clock, Bell, ArrowRight, Sparkles, Zap } from 'lucide-react'
+import { AlertTriangle, TrendingUp, Clock, Bell, ArrowRight, Sparkles, Zap } from 'lucide-react'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
 
@@ -11,7 +11,6 @@ interface AnnouncementBarProps {
 }
 
 export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
-  const [isVisible, setIsVisible] = useState(true)
   const [currentAnnouncement, setCurrentAnnouncement] = useState(0)
 
   // Get urgent and new jobs
@@ -95,8 +94,6 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
     }
   }, [announcements.length])
 
-  if (!isVisible) return null
-
   const announcement = announcements[currentAnnouncement] || announcements[0]
   const Icon = announcement?.icon || Bell
 
@@ -127,24 +124,24 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
       </div>
 
       <div className="relative container mx-auto px-4">
-        <div className="flex items-center justify-between py-2.5">
-          <div className="flex items-center gap-4 flex-1">
+        <div className="flex items-center justify-between py-1.5">
+          <div className="flex items-center gap-3 flex-1">
             {/* Animated Icon */}
             <div className="relative">
               <div className="absolute inset-0 bg-white/20 rounded-full animate-ping" />
-              <Icon className="relative w-5 h-5 text-white animate-pulse" />
+              <Icon className="relative w-4 h-4 text-white animate-pulse" />
             </div>
 
             {/* Main content */}
             <div className="flex items-center gap-3 flex-1">
               <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
-                <span className="text-white font-semibold text-sm sm:text-base">
+                <span className="text-white font-semibold text-xs sm:text-sm">
                   {announcement?.text}
                 </span>
                 {announcement?.subtext && (
                   <>
-                    <span className="hidden sm:inline text-white/60">•</span>
-                    <span className="text-white/90 text-xs sm:text-sm">
+                    <span className="hidden sm:inline text-white/60 text-xs">•</span>
+                    <span className="text-white/90 text-xs">
                       {announcement.subtext}
                     </span>
                   </>
@@ -155,9 +152,9 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
               {announcement?.link && (
                 <Link 
                   href={announcement.link}
-                  className="inline-flex items-center gap-1 px-3 py-1 bg-white/20 hover:bg-white/30 rounded-full transition-colors group ml-2"
+                  className="inline-flex items-center gap-1 px-2 py-0.5 bg-white/20 hover:bg-white/30 rounded-full transition-colors group ml-2"
                 >
-                  <span className="text-white text-sm font-medium">View Job</span>
+                  <span className="text-white text-xs font-medium">View Job</span>
                   <ArrowRight className="w-3 h-3 text-white group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               )}
@@ -183,21 +180,13 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
 
             {/* Quick Stats Badge */}
             <div className="hidden lg:flex items-center gap-3 ml-auto mr-4">
-              <div className="flex items-center gap-2 px-3 py-1 bg-white/20 rounded-full">
-                <Zap className="w-4 h-4 text-yellow-300" />
-                <span className="text-white text-sm font-medium">{jobs.length} Active Jobs</span>
+              <div className="flex items-center gap-2 px-2 py-0.5 bg-white/20 rounded-full">
+                <Zap className="w-3 h-3 text-yellow-300" />
+                <span className="text-white text-xs font-medium">{jobs.length} Active Jobs</span>
               </div>
             </div>
           </div>
 
-          {/* Close button */}
-          <button
-            onClick={() => setIsVisible(false)}
-            className="p-1.5 hover:bg-white/20 rounded-lg transition-colors group"
-            aria-label="Close announcement"
-          >
-            <X className="w-4 h-4 text-white/80 group-hover:text-white" />
-          </button>
         </div>
       </div>
 
