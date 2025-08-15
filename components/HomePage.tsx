@@ -6,6 +6,15 @@ import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, GraduationCa
 import JobsTable from './JobsTable'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 
 interface HomePageProps {
   jobs: Job[]
@@ -305,58 +314,70 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
           </div>
 
           {/* Filter Toggle for Mobile */}
-          <button
+          <Button
             onClick={() => setShowFilters(!showFilters)}
-            className="lg:hidden flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg active:bg-blue-600 transition-colors"
+            className="lg:hidden"
           >
-            <Filter className="w-4 h-4" />
-            <span className="font-medium">Filters</span>
+            <Filter className="w-4 h-4 mr-2" />
+            <span>Filters</span>
             {(selectedLocation !== 'all' || selectedCategory !== 'all' || selectedUrgency !== 'all') && (
-              <span className="bg-white text-blue-500 text-xs px-2 py-0.5 rounded-full font-semibold">
+              <Badge variant="secondary" className="ml-2">
                 {[selectedLocation !== 'all', selectedCategory !== 'all', selectedUrgency !== 'all'].filter(Boolean).length}
-              </span>
+              </Badge>
             )}
-          </button>
+          </Button>
 
           {/* Desktop Filters */}
           <div className="hidden lg:flex gap-3">
-            <select
+            <Select
               value={selectedLocation}
-              onChange={(e) => setSelectedLocation(e.target.value)}
-              className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              onValueChange={setSelectedLocation}
             >
-              <option value="all">All Locations</option>
-              {locations.map(loc => (
-                <option key={loc} value={loc}>{loc}</option>
-              ))}
-            </select>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="All Locations" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Locations</SelectItem>
+                {locations.map(loc => (
+                  <SelectItem key={loc} value={loc}>{loc}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
 
-            <select
+            <Select
               value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              onValueChange={setSelectedCategory}
             >
-              <option value="all">All Categories</option>
-              <option value="Railway">Railway</option>
-              <option value="Banking">Banking</option>
-              <option value="UPSC/SSC">UPSC/SSC</option>
-              <option value="Defence/Police">Defence/Police</option>
-              <option value="Teaching">Teaching</option>
-              <option value="Medical">Medical</option>
-              <option value="Judicial">Judicial</option>
-              <option value="Other">Other</option>
-            </select>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="All Categories" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Categories</SelectItem>
+                <SelectItem value="Railway">Railway</SelectItem>
+                <SelectItem value="Banking">Banking</SelectItem>
+                <SelectItem value="UPSC/SSC">UPSC/SSC</SelectItem>
+                <SelectItem value="Defence/Police">Defence/Police</SelectItem>
+                <SelectItem value="Teaching">Teaching</SelectItem>
+                <SelectItem value="Medical">Medical</SelectItem>
+                <SelectItem value="Judicial">Judicial</SelectItem>
+                <SelectItem value="Other">Other</SelectItem>
+              </SelectContent>
+            </Select>
 
-            <select
+            <Select
               value={selectedUrgency}
-              onChange={(e) => setSelectedUrgency(e.target.value)}
-              className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              onValueChange={setSelectedUrgency}
             >
-              <option value="all">All Deadlines</option>
-              <option value="today">Closing Today</option>
-              <option value="this-week">Next 7 Days</option>
-              <option value="closing-soon">Closing Soon</option>
-            </select>
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="All Deadlines" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All Deadlines</SelectItem>
+                <SelectItem value="today">Closing Today</SelectItem>
+                <SelectItem value="this-week">Next 7 Days</SelectItem>
+                <SelectItem value="closing-soon">Closing Soon</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
         </div>
 
@@ -412,22 +433,23 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
               </div>
 
               <div className="flex gap-2 pt-2">
-                <button
+                <Button
                   onClick={() => {
                     setSelectedLocation('all')
                     setSelectedCategory('all')
                     setSelectedUrgency('all')
                   }}
-                  className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300"
+                  variant="outline"
+                  className="flex-1"
                 >
                   Clear Filters
-                </button>
-                <button
+                </Button>
+                <Button
                   onClick={() => setShowFilters(false)}
-                  className="flex-1 px-4 py-2 bg-blue-500 text-white rounded-lg text-sm font-medium"
+                  className="flex-1"
                 >
                   Apply Filters
-                </button>
+                </Button>
               </div>
             </div>
           </div>
