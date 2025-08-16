@@ -1,0 +1,27 @@
+
+> website@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.4.6
+   - Local:        http://localhost:3000
+   - Network:      http://10.20.192.14:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1043ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1127ms (1188 modules)
+ ⨯ Error: useTheme must be used within a ThemeProvider
+    at useTheme (components/ThemeProvider.tsx:67:10)
+    at ThemeToggle (components/ThemeToggle.tsx:8:41)
+  65 |   const context = useContext(ThemeContext)
+  66 |   if (context === undefined) {
+> 67 |     throw new Error('useTheme must be used within a ThemeProvider')
+     |          ^
+  68 |   }
+  69 |   return context
+  70 | } {
+  digest: '3739531991'
+}
+ GET / 500 in 2124ms
+[?25h

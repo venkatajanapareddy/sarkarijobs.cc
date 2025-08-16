@@ -62,10 +62,9 @@ export default async function Home() {
     <>
       <AnnouncementBar jobs={jobs} />
       <Header />
-      
-      <main className="container mx-auto px-4 py-8" role="main">
+      <div className="container mx-auto px-4 py-8" role="main">
         <HomePage jobs={jobs} savedJobIds={savedJobIds} />
-      </main>
+      </div>
     </>
   )
 }
