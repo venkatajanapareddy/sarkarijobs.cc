@@ -28,15 +28,13 @@ Already configured. Visit: https://search.google.com/search-console
    - Submit important URLs manually for faster indexing
    - Monitor performance reports
 
-### 4. Yandex Webmaster
-1. Go to: https://webmaster.yandex.com
-2. Sign in or create Yandex account
-3. Add site: `https://sarkarijobs.cc`
-4. Verify ownership:
-   - **Meta tag**: Copy code and replace `your-yandex-verification-code` in `app/layout.tsx`
-   - **DNS record**: Add TXT record in Cloudflare
-5. Submit sitemap: `https://sarkarijobs.cc/sitemap.xml`
-6. Set region: India
+### 4. Yandex Webmaster ✅
+**Status**: Verification code added
+1. Meta tag verification code: `51f17cdf65df9a55` (added to layout.tsx)
+2. Complete setup at: https://webmaster.yandex.com
+3. Submit sitemap: `https://sarkarijobs.cc/sitemap.xml`
+4. Set region: India
+5. Monitor indexing status
 
 ### 5. DuckDuckGo
 - No webmaster tools needed
@@ -114,7 +112,8 @@ Already configured. Visit: https://search.google.com/search-console
 
 - **Google Search Console**: ✅ Verified
 - **Bing Webmaster Tools**: ✅ Verified (imported from GSC)
-- **Yandex**: Pending (add verification code to `/app/layout.tsx` if needed)
+- **Yandex Webmaster**: ✅ Verification code added (51f17cdf65df9a55)
+- **DuckDuckGo**: ✅ Covered by Bing
 
 Note: When importing from Google Search Console to Bing, no separate verification code is required. Bing accepts GSC verification as proof of ownership.
 
