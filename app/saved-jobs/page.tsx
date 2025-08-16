@@ -7,7 +7,7 @@ import { ArrowLeft, Star } from 'lucide-react'
 import { loadJobs } from '@/lib/jobs-server'
 
 export const metadata = {
-  title: 'Saved Jobs | SarkariJob.cc',
+  title: 'Saved Jobs | SarkariJobs.cc',
   description: 'View your saved government job postings',
 }
 
