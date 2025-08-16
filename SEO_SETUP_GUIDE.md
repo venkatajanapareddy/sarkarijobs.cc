@@ -17,19 +17,16 @@ Already configured. Visit: https://search.google.com/search-console
 
 ## 📋 Remaining Search Engine Setups
 
-### 3. Bing Webmaster Tools
-1. Go to: https://www.bing.com/webmasters
-2. Sign in with Microsoft account
-3. Add site: `https://sarkarijobs.cc`
-4. Verify ownership using one of these methods:
-   - **Meta tag**: Copy the verification code and replace `your-bing-verification-code` in `app/layout.tsx`
-   - **DNS TXT record**: Add TXT record in Cloudflare
-   - **HTML file**: Upload verification file to public folder
-5. Submit sitemap: `https://sarkarijobs.cc/sitemap.xml`
-6. Configure:
-   - Geographic targeting: India
-   - Crawl control settings
-   - URL submission for important pages
+### 3. Bing Webmaster Tools ✅
+**Status**: Completed via Google Search Console import
+1. Site imported from Google Search Console
+2. No separate verification needed when importing from GSC
+3. Sitemap automatically detected: `https://sarkarijobs.cc/sitemap.xml`
+4. Next steps in Bing Webmaster:
+   - Set geographic targeting: India
+   - Configure crawl control settings
+   - Submit important URLs manually for faster indexing
+   - Monitor performance reports
 
 ### 4. Yandex Webmaster
 1. Go to: https://webmaster.yandex.com
@@ -113,16 +110,13 @@ Already configured. Visit: https://search.google.com/search-console
 - [ ] Review search analytics data
 - [ ] Update meta descriptions for top pages
 
-## 🔗 Verification Codes Location
+## 🔗 Verification Status
 
-All verification codes are in `/app/layout.tsx`:
-```typescript
-verification: {
-  google: 'your-google-verification-code',  // Replace with actual code
-  bing: 'your-bing-verification-code',      // Replace with actual code
-  yandex: 'your-yandex-verification-code',  // Replace with actual code
-},
-```
+- **Google Search Console**: ✅ Verified
+- **Bing Webmaster Tools**: ✅ Verified (imported from GSC)
+- **Yandex**: Pending (add verification code to `/app/layout.tsx` if needed)
+
+Note: When importing from Google Search Console to Bing, no separate verification code is required. Bing accepts GSC verification as proof of ownership.
 
 ## 📝 Notes
 
