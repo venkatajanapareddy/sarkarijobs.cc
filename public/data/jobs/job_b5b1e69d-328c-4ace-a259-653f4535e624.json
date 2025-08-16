@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754280746e5eafdca3f18598b2e2b076cbd2ced189fe50ab1.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nii-recruitment-2025-apply-for-senior-research-fellow-post/33871",
-    "applicationFormLocal": "/data/application_forms/b5b1e69d-328c-4ace-a259-653f4535e624_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b5b1e69d-328c-4ace-a259-653f4535e624_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b5b1e69d-328c-4ace-a259-653f4535e624_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:55:26.839Z",

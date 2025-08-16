@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752918605b913b5fb764caed2f7e1780acbfe43426dff5aef.jpg",
     "sourceUrl": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-30307-typist-and-other-posts/33477",
-    "applicationFormLocal": "/data/application_forms/98c24c93-0e4c-4f39-9a8b-9f9bb26c53c7_form.jpg"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/98c24c93-0e4c-4f39-9a8b-9f9bb26c53c7_form.jpg",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/98c24c93-0e4c-4f39-9a8b-9f9bb26c53c7_form.jpg"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:02:24.915Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17535062299d0e06074b48178f4554629090ff76029988e43e.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/cerc-recruitment-2025-apply-offline-for-02-research-officer-posts/33650",
-    "applicationFormLocal": "/data/application_forms/3ce5a11c-f56b-4c90-9a96-6f29ff6583d7_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3ce5a11c-f56b-4c90-9a96-6f29ff6583d7_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3ce5a11c-f56b-4c90-9a96-6f29ff6583d7_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:49:40.333Z",

@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175508127737e0c223f8b9e0389d53e13f9b4f596547077e64.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aai-recruitment-2025-apply-online-for-19-apprentice-posts/34095",
-    "applicationFormLocal": "/data/application_forms/d752ab99-637d-4e08-9d28-5498874b4b8f_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d752ab99-637d-4e08-9d28-5498874b4b8f_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d752ab99-637d-4e08-9d28-5498874b4b8f_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-13T23:44:52.012Z",

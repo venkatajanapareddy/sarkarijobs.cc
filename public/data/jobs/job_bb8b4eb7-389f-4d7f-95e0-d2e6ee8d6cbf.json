@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17539548599f916248885b9f07479446344d62d714fd173833.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/cpt-recruitment-2025-apply-online-for-10-apprentice-posts/33795",
-    "applicationFormLocal": "/data/application_forms/bb8b4eb7-389f-4d7f-95e0-d2e6ee8d6cbf_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/bb8b4eb7-389f-4d7f-95e0-d2e6ee8d6cbf_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/bb8b4eb7-389f-4d7f-95e0-d2e6ee8d6cbf_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:10:49.655Z",

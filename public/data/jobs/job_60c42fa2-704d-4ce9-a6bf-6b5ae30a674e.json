@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175456835825a79a8b7f3dbace9114525ac9503370d2bc25c4.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-1535-ayush-medical-officer-posts/33964",
-    "applicationFormLocal": "/data/application_forms/60c42fa2-704d-4ce9-a6bf-6b5ae30a674e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/60c42fa2-704d-4ce9-a6bf-6b5ae30a674e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/60c42fa2-704d-4ce9-a6bf-6b5ae30a674e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:51:41.993Z",

@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175412942096e1e97abac40514a10ab96247916da65eb9b33f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ntpc-recruitment-2025-apply-online-for-25-manager-posts/33859",
-    "applicationFormLocal": "/data/application_forms/e4fec48a-d10d-4341-ab21-1f379161a35b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e4fec48a-d10d-4341-ab21-1f379161a35b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e4fec48a-d10d-4341-ab21-1f379161a35b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T21:52:11.554Z",

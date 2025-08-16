@@ -63,7 +63,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17526662371e1aa3fee9e1bfcc4c1759f5ded610b2a68416f1.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hal-india-recruitment-2025-apply-online-for-588-apprentice-posts/33397",
-    "applicationFormLocal": "/data/application_forms/ed184c70-1f84-4c24-8353-76a5efdfe20d_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ed184c70-1f84-4c24-8353-76a5efdfe20d_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ed184c70-1f84-4c24-8353-76a5efdfe20d_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:48:12.756Z",

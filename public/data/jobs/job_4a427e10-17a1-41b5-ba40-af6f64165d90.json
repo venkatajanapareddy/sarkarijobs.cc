@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754912115cce9bf45be490f02b4f090e50a0880f1f68bd8bb.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bmc-recruitment-2025-apply-offline-for-15-assistant-lab-technician-posts/34028",
-    "applicationFormLocal": "/data/application_forms/4a427e10-17a1-41b5-ba40-af6f64165d90_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4a427e10-17a1-41b5-ba40-af6f64165d90_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4a427e10-17a1-41b5-ba40-af6f64165d90_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:30:45.081Z",

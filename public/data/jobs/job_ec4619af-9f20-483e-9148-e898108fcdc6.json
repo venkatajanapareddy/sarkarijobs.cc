@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17544701494fe72f0746553776b8c4c0b210282207496d9855.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-giridih-recruitment-2025-apply-offline-for-district-programme-coordinator-post/33919",
-    "applicationFormLocal": "/data/application_forms/ec4619af-9f20-483e-9148-e898108fcdc6_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ec4619af-9f20-483e-9148-e898108fcdc6_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ec4619af-9f20-483e-9148-e898108fcdc6_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:24:46.385Z",

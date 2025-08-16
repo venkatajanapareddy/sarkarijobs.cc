@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752562363c7962fcbd0866f8fbaec2b7dd349614c2100fbc2.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tenkasi-rdm-recruitment-2025-apply-offline-for-24-village-assistant-posts/33358",
-    "applicationFormLocal": "/data/application_forms/aed3e0cb-f756-4310-9b6d-448de0b8ac34_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/aed3e0cb-f756-4310-9b6d-448de0b8ac34_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/aed3e0cb-f756-4310-9b6d-448de0b8ac34_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:48:44.234Z",

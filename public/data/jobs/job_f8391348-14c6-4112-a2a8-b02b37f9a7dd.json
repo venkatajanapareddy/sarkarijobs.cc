@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1755083378936e5c66d0530099e6d8df28a05811eb9cbdd417.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/pmc-recruitment-2025-apply-online-for-169-junior-engineer-posts/34096",
-    "applicationFormLocal": "/data/application_forms/f8391348-14c6-4112-a2a8-b02b37f9a7dd_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f8391348-14c6-4112-a2a8-b02b37f9a7dd_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f8391348-14c6-4112-a2a8-b02b37f9a7dd_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-13T23:44:47.186Z",

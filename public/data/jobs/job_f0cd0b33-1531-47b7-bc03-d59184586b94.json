@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754459040967eece3a51d79b7588e75f91084800606b234de.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-officer-post/33908",
-    "applicationFormLocal": "/data/application_forms/f0cd0b33-1531-47b7-bc03-d59184586b94_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f0cd0b33-1531-47b7-bc03-d59184586b94_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f0cd0b33-1531-47b7-bc03-d59184586b94_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:25:55.151Z",

@@ -53,7 +53,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17545455145d1e20c88c0422f6196f8ebd513f2e44b58c68a3.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/gmch-nilgiris-recruitment-2025-apply-offline-for-20-staff-nurse-pharmacist-posts/33942",
-    "applicationFormLocal": "/data/application_forms/c62cbd33-fab7-47d0-9588-c8e56292dbc3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c62cbd33-fab7-47d0-9588-c8e56292dbc3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c62cbd33-fab7-47d0-9588-c8e56292dbc3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:21:23.621Z",

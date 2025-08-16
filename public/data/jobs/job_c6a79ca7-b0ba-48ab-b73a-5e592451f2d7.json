@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753444415efda66393e4f2ed3bcad3d4585862bb22f471d6c.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/gmrcl-recruitment-2025-apply-online-for-39-manager-supervisor-posts/33641",
-    "applicationFormLocal": "/data/application_forms/c6a79ca7-b0ba-48ab-b73a-5e592451f2d7_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c6a79ca7-b0ba-48ab-b73a-5e592451f2d7_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c6a79ca7-b0ba-48ab-b73a-5e592451f2d7_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:50:03.863Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175489191324d417361c5a7de235450fd2a5339f350a2ad414.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ict-mumbai-recruitment-2025-apply-for-research-fellow-post/34009",
-    "applicationFormLocal": "/data/application_forms/da0e943d-e8dc-4f65-9ced-5b9c64efb7b0_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/da0e943d-e8dc-4f65-9ced-5b9c64efb7b0_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/da0e943d-e8dc-4f65-9ced-5b9c64efb7b0_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:33:15.574Z",

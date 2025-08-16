@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17553386040f9057585184a12693501459b0510b458cdd02c3.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/instem-recruitment-2025-apply-online-for-project-associate-i-ii-posts/34155",
-    "applicationFormLocal": "/data/application_forms/aa403c0d-b613-4062-bc3d-80b23b6760a0_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/aa403c0d-b613-4062-bc3d-80b23b6760a0_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/aa403c0d-b613-4062-bc3d-80b23b6760a0_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-16T10:30:04.602Z",

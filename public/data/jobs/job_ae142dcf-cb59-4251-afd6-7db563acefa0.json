@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754370476d98d04bce1b51022a23c870cc2132023ecc236b9.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iisc-recruitment-2025-apply-offline-for-project-assistant-posts/33882",
-    "applicationFormLocal": "/data/application_forms/ae142dcf-cb59-4251-afd6-7db563acefa0_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ae142dcf-cb59-4251-afd6-7db563acefa0_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ae142dcf-cb59-4251-afd6-7db563acefa0_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:54:24.888Z",

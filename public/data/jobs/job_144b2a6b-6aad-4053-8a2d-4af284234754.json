@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753080695545eec44930a3ca2007571ac54e7f37a7247302b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/spmp-recruitment-2025-apply-offline-for-06-assistant-manager-posts/33502",
-    "applicationFormLocal": "/data/application_forms/144b2a6b-6aad-4053-8a2d-4af284234754_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/144b2a6b-6aad-4053-8a2d-4af284234754_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/144b2a6b-6aad-4053-8a2d-4af284234754_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:02:07.089Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17534381379b7dbb0e19f5b7d7c3517423a6a4b22f164e045a.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/kmrcl-recruitment-2025-apply-offline-for-02-general-manager-post/33634",
-    "applicationFormLocal": "/data/application_forms/60ab7240-a1bf-4bb0-a61a-4bbc73fddd5c_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/60ab7240-a1bf-4bb0-a61a-4bbc73fddd5c_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/60ab7240-a1bf-4bb0-a61a-4bbc73fddd5c_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:51:00.146Z",

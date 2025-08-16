@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175516647266698e2d9b96b4e8cf7a2366178b3f266e472bee.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-consultant-post/34130",
-    "applicationFormLocal": "/data/application_forms/47d98b58-08a6-46d9-b8a4-a6e8359e039e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/47d98b58-08a6-46d9-b8a4-a6e8359e039e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/47d98b58-08a6-46d9-b8a4-a6e8359e039e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:13.068Z",

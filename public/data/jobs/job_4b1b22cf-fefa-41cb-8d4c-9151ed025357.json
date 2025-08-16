@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17548942892d9b0586d93ff4a23149dfa26a596dda323f7b85.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mahatransco-recruitment-2025-apply-online-for-37-electrician-posts/34011",
-    "applicationFormLocal": "/data/application_forms/4b1b22cf-fefa-41cb-8d4c-9151ed025357_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4b1b22cf-fefa-41cb-8d4c-9151ed025357_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4b1b22cf-fefa-41cb-8d4c-9151ed025357_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:33:02.479Z",

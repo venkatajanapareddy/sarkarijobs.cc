@@ -53,7 +53,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753248550b6891e8d9058e2a0c9e3d22dc2c781880ecfc092.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-434-pharmacist-nursing-superintendent-posts/33558",
-    "applicationFormLocal": "/data/application_forms/0385c15d-591b-4b77-8b68-86051fa2e005_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0385c15d-591b-4b77-8b68-86051fa2e005_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0385c15d-591b-4b77-8b68-86051fa2e005_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:00:38.832Z",

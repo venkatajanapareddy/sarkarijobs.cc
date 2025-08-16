@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175384961616696a92e6023b09d1faa70bbbae1aefcc7f7111.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/andaman-nicobar-administration-recruitment-2025-apply-online-for-28-forest-ranger-posts/33745",
-    "applicationFormLocal": "/data/application_forms/d9a2f374-cdc1-4a3d-ba41-0ab3fc72e829_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d9a2f374-cdc1-4a3d-ba41-0ab3fc72e829_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d9a2f374-cdc1-4a3d-ba41-0ab3fc72e829_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:45:54.437Z",

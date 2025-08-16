@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175491064810ac78ff925ff9d649adacb63c4098a3bba4af15.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/madras-high-court-recruitment-2025-apply-online-for-41-assistant-programmer-posts/34026",
-    "applicationFormLocal": "/data/application_forms/1e60ef9b-2efe-40c0-9d54-fc69a4fd8d6e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1e60ef9b-2efe-40c0-9d54-fc69a4fd8d6e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1e60ef9b-2efe-40c0-9d54-fc69a4fd8d6e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:30:57.300Z",

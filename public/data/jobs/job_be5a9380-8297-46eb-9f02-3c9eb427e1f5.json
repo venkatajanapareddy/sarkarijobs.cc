@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17551618097f453b98a3c50357bcf2765653e0ace2349b550d.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tezpur-university-recruitment-2025-apply-online-for-medical-officer-posts/34123",
-    "applicationFormLocal": "/data/application_forms/be5a9380-8297-46eb-9f02-3c9eb427e1f5_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/be5a9380-8297-46eb-9f02-3c9eb427e1f5_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/be5a9380-8297-46eb-9f02-3c9eb427e1f5_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:51.450Z",

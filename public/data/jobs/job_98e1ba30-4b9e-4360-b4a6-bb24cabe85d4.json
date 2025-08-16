@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753870755531157ba0c2cd191f582c4d62dcc6a75cf45326c.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhm-punjab-recruitment-2025-apply-online-for-60-nurse-posts/33767",
-    "applicationFormLocal": "/data/application_forms/98e1ba30-4b9e-4360-b4a6-bb24cabe85d4_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/98e1ba30-4b9e-4360-b4a6-bb24cabe85d4_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/98e1ba30-4b9e-4360-b4a6-bb24cabe85d4_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:43:35.416Z",

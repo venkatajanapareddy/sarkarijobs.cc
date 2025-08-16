@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17544611000165a0181f326dcc4050ab6cd475d1f1ade5b1ea.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-1315-tradesman-skilled-apprentice-posts/33911",
-    "applicationFormLocal": "/data/application_forms/6c597896-1d06-4c10-8403-8ff508b70b71_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6c597896-1d06-4c10-8403-8ff508b70b71_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6c597896-1d06-4c10-8403-8ff508b70b71_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:25:23.441Z",

@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17548953898c48600e48ccea3717c5f7d6e254eda578333032.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/kgbv-garhwa-recruitment-2025-apply-offline-for-23-teacher-accountant-posts/34012",
-    "applicationFormLocal": "/data/application_forms/e084ccc8-883b-4ed3-a9bb-1c8e49f484e3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e084ccc8-883b-4ed3-a9bb-1c8e49f484e3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e084ccc8-883b-4ed3-a9bb-1c8e49f484e3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:32:55.223Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175445362487a6eeefdc96b195ce1ce98cab2c1c7255186784.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/sbi-recruitment-2025-apply-online-for-5583-junior-associates-posts/33901",
-    "applicationFormLocal": "/data/application_forms/b8424699-59cb-44a4-afbb-af23d7f6cf15_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b8424699-59cb-44a4-afbb-af23d7f6cf15_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b8424699-59cb-44a4-afbb-af23d7f6cf15_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:27:07.801Z",

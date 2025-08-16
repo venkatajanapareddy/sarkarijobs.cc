@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17549092690a48c10e5b8b2f57d0806842fabc83249a5ff98f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/srfti-recruitment-2025-apply-offline-for-02-medical-officer-posts/34024",
-    "applicationFormLocal": "/data/application_forms/7eed5224-9fa6-40ec-aeed-a01741e89694_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7eed5224-9fa6-40ec-aeed-a01741e89694_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7eed5224-9fa6-40ec-aeed-a01741e89694_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:31:10.584Z",

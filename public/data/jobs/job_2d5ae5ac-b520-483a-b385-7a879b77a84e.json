@@ -63,7 +63,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/06/1751276821d17560a18b5bce4e65539592ef54eebd9940da9f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mahadiscom-recruitment-2025-apply-online-for-300-manager-engineer-posts/33029",
-    "applicationFormLocal": "/data/application_forms/2d5ae5ac-b520-483a-b385-7a879b77a84e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2d5ae5ac-b520-483a-b385-7a879b77a84e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2d5ae5ac-b520-483a-b385-7a879b77a84e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:52:47.946Z",

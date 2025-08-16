@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754913541612f4bc57f01946600d3a148a8df2d5cdadc2223.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mbma-recruitment-2025-apply-online-for-28-apprentice-posts/34030",
-    "applicationFormLocal": "/data/application_forms/5ce05b84-e76c-4d52-aedb-1fd5909811fa_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5ce05b84-e76c-4d52-aedb-1fd5909811fa_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5ce05b84-e76c-4d52-aedb-1fd5909811fa_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:30:04.242Z",

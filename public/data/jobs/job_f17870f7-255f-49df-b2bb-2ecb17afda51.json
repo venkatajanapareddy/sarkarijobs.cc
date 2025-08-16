@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754458423aa038137bedbb62b1c3c623a259ba7e5aec32fa2.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rlda-recruitment-2025-apply-offline-for-02-joint-general-manager-deputy-general-manager-posts/33907",
-    "applicationFormLocal": "/data/application_forms/f17870f7-255f-49df-b2bb-2ecb17afda51_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f17870f7-255f-49df-b2bb-2ecb17afda51_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f17870f7-255f-49df-b2bb-2ecb17afda51_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:26:04.043Z",

@@ -53,7 +53,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175462553651efd35de10bf21fa1eb65552d5a03ad297a0445.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/visl-recruitment-2025-apply-online-for-08-manager-field-engineer-posts/33966",
-    "applicationFormLocal": "/data/application_forms/651a1c47-da58-46ee-abff-50ac9b4658dd_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/651a1c47-da58-46ee-abff-50ac9b4658dd_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/651a1c47-da58-46ee-abff-50ac9b4658dd_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:30:12.291Z",

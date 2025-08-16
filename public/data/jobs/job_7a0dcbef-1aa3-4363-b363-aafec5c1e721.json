@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754904431ec60dc0d2ff22bb9bb95f4630a22fc8a8a38f42e.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ncdc-recruitment-2025-apply-offline-for-02-chief-and-deputy-director-posts/34019",
-    "applicationFormLocal": "/data/application_forms/7a0dcbef-1aa3-4363-b363-aafec5c1e721_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7a0dcbef-1aa3-4363-b363-aafec5c1e721_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7a0dcbef-1aa3-4363-b363-aafec5c1e721_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:32:03.416Z",

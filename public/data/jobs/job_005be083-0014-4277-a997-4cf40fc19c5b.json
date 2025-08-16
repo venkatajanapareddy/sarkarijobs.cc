@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1755081248beac14b143a068e374da53679b9620090cba7751.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/sccl-recruitment-2025-apply-online-for-33-general-medical-consultant-posts/34094",
-    "applicationFormLocal": "/data/application_forms/005be083-0014-4277-a997-4cf40fc19c5b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/005be083-0014-4277-a997-4cf40fc19c5b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/005be083-0014-4277-a997-4cf40fc19c5b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-13T23:44:56.949Z",

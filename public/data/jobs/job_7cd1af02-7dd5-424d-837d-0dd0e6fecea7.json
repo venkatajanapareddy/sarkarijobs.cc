@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752655578fcd86b743dad50c0255bfc7f40e4af093d3fe6ee.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aiims-rajkot-recruitment-2025-apply-online-for-107-faculty-posts/33387",
-    "applicationFormLocal": "/data/application_forms/7cd1af02-7dd5-424d-837d-0dd0e6fecea7_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7cd1af02-7dd5-424d-837d-0dd0e6fecea7_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7cd1af02-7dd5-424d-837d-0dd0e6fecea7_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:48:26.572Z",

@@ -53,7 +53,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753244834fcd709e77542a8f3e55f17dbdab05dc6c69d05a9.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hurl-recruitment-2025-apply-online-for-40-engineer-manager-and-other-posts/33553",
-    "applicationFormLocal": "/data/application_forms/6b0953dd-e33d-4b5b-b26b-90958ddefbdd_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6b0953dd-e33d-4b5b-b26b-90958ddefbdd_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6b0953dd-e33d-4b5b-b26b-90958ddefbdd_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:00:53.917Z",

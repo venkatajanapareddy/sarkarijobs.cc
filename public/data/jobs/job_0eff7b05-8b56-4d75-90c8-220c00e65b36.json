@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754644969e5a15f7290982c36282560821fe6836960831e58.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/svnit-recruitment-2025-apply-online-for-uba-manager-post/33983",
-    "applicationFormLocal": "/data/application_forms/0eff7b05-8b56-4d75-90c8-220c00e65b36_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0eff7b05-8b56-4d75-90c8-220c00e65b36_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0eff7b05-8b56-4d75-90c8-220c00e65b36_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:28:40.505Z",

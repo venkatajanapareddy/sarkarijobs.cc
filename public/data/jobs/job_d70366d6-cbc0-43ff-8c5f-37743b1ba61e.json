@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753961974e862592aba31809050939798458e8811fc0b8f83.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/grse-recruitment-2025-apply-online-for-specialist-posts/33803",
-    "applicationFormLocal": "/data/application_forms/d70366d6-cbc0-43ff-8c5f-37743b1ba61e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d70366d6-cbc0-43ff-8c5f-37743b1ba61e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d70366d6-cbc0-43ff-8c5f-37743b1ba61e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:10:29.692Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175464911152cca9860f442866fa7055f1f4512f9231ffe5ee.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/sai-recruitment-2025-apply-online-for-executive-chef-posts/33988",
-    "applicationFormLocal": "/data/application_forms/143de645-c93d-4cfe-9a58-4189630cb779_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/143de645-c93d-4cfe-9a58-4189630cb779_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/143de645-c93d-4cfe-9a58-4189630cb779_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:28:20.939Z",

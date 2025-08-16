@@ -68,7 +68,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754367932ef662064ec84bbdcfb59526fc3f861a693640c21.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-260-ssc-officer-posts/33880",
-    "applicationFormLocal": "/data/application_forms/1792680e-8448-458c-a685-17d90f641537_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1792680e-8448-458c-a685-17d90f641537_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1792680e-8448-458c-a685-17d90f641537_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:54:45.158Z",

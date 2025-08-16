@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754472521a711ffae0fb9afaa3daf556164fc55daa5086fd0.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nam-kerala-recruitment-2025-apply-offline-for-lab-technician-post/33922",
-    "applicationFormLocal": "/data/application_forms/e9614e45-d8d1-4c84-8392-80d0da150106_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e9614e45-d8d1-4c84-8392-80d0da150106_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/e9614e45-d8d1-4c84-8392-80d0da150106_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:24:23.268Z",

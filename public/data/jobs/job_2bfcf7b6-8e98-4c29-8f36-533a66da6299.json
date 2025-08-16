@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175377250200b421fa48707e236c1224946342f2ddf66f5b5f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aai-recruitment-2025-apply-online-for-32-senior-assistant-posts/33726",
-    "applicationFormLocal": "/data/application_forms/2bfcf7b6-8e98-4c29-8f36-533a66da6299_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2bfcf7b6-8e98-4c29-8f36-533a66da6299_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2bfcf7b6-8e98-4c29-8f36-533a66da6299_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:46:55.076Z",

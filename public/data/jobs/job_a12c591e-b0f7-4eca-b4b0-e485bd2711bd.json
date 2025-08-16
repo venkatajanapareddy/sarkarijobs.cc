@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754549533d9fdbf0ed92e7217be84e2d71802634028240adf.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-offline-for-03-project-research-scientist-and-other-posts/33947",
-    "applicationFormLocal": "/data/application_forms/a12c591e-b0f7-4eca-b4b0-e485bd2711bd_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a12c591e-b0f7-4eca-b4b0-e485bd2711bd_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a12c591e-b0f7-4eca-b4b0-e485bd2711bd_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:20:53.464Z",

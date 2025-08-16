@@ -33,7 +33,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1755168477f5b4d723e21ceccef70b17f42a09759b387a7982.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nabard-recruitment-2025-apply-online-for-05-legal-officer-and-other-posts/34132",
-    "applicationFormLocal": "/data/application_forms/598be6a1-48d0-4de8-a667-68583cdf999e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/598be6a1-48d0-4de8-a667-68583cdf999e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/598be6a1-48d0-4de8-a667-68583cdf999e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:01.916Z",

@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17539388196f03fa6a407cc9673f57c4c5b9767a61a900ffac.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iit-bhu-recruitment-2025-apply-offline-for-10-junior-research-fellow-and-other-posts/33782",
-    "applicationFormLocal": "/data/application_forms/7a42c86a-ab29-408a-afd3-99b425d451c1_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7a42c86a-ab29-408a-afd3-99b425d451c1_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7a42c86a-ab29-408a-afd3-99b425d451c1_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:12:11.355Z",

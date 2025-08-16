@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546521739a5267ac9a0a82d560eb4ff3d285ada75ba4e0f9.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tn-mrb-recruitment-2025-apply-online-for-02-assistant-medical-officer-posts/33992",
-    "applicationFormLocal": "/data/application_forms/9dfe4d4d-04bc-4812-b0ac-9dc6e3b6b002_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9dfe4d4d-04bc-4812-b0ac-9dc6e3b6b002_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9dfe4d4d-04bc-4812-b0ac-9dc6e3b6b002_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:27:56.180Z",

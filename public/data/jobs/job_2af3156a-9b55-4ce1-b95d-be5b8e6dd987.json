@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17539554845fd482848462a9a5f1d11c0e20a878918303a7b0.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/sai-recruitment-2025-apply-online-for-junior-engineer-posts/33796",
-    "applicationFormLocal": "/data/application_forms/2af3156a-9b55-4ce1-b95d-be5b8e6dd987_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2af3156a-9b55-4ce1-b95d-be5b8e6dd987_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/2af3156a-9b55-4ce1-b95d-be5b8e6dd987_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:10:42.697Z",

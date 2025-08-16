@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1755154373d6b5e41a1f0688e8aa194d31b46748b5470c495c.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bfuhs-recruitment-2025-apply-online-for-122-multipurpose-health-worker-posts/34118",
-    "applicationFormLocal": "/data/application_forms/f9571c82-72b2-480d-924b-ed7998c4fe1e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f9571c82-72b2-480d-924b-ed7998c4fe1e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f9571c82-72b2-480d-924b-ed7998c4fe1e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:20:15.335Z",

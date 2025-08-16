@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175439007400c0b21b56a2eb8d95a09d692c8ac13dc10da4fd.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aiims-nagpur-recruitment-2025-apply-online-for-108-senior-resident-posts/33890",
-    "applicationFormLocal": "/data/application_forms/fa6ce8da-6fba-4e17-b1a1-5f28abca5b26_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fa6ce8da-6fba-4e17-b1a1-5f28abca5b26_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fa6ce8da-6fba-4e17-b1a1-5f28abca5b26_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:53:23.489Z",

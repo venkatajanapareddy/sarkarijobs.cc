@@ -58,7 +58,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754542250a229d9649a152781978213af6ff7f5987c016b4f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-21-medical-officer-pharmacist-and-other-posts/33938",
-    "applicationFormLocal": "/data/application_forms/1d6529ff-bf16-4ea1-aeaa-31573ea77849_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1d6529ff-bf16-4ea1-aeaa-31573ea77849_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1d6529ff-bf16-4ea1-aeaa-31573ea77849_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:21:52.656Z",

@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175517249386cac630895f4b49786bfcb3803d29fddf2a68a7.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/puducherry-police-recruitment-2025-apply-online-for-218-sub-inspector-and-other-posts/34136",
-    "applicationFormLocal": "/data/application_forms/11508be6-07e5-416b-a620-1a94ed8ac4f5_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/11508be6-07e5-416b-a620-1a94ed8ac4f5_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/11508be6-07e5-416b-a620-1a94ed8ac4f5_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:18:39.189Z",

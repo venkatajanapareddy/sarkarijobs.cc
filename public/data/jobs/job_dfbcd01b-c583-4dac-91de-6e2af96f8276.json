@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546257858002670fb8e9d969c401654901cabc5500126de8.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bhel-recruitment-2025-apply-for-10-medical-consultant-posts/33965",
-    "applicationFormLocal": "/data/application_forms/dfbcd01b-c583-4dac-91de-6e2af96f8276_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/dfbcd01b-c583-4dac-91de-6e2af96f8276_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/dfbcd01b-c583-4dac-91de-6e2af96f8276_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:30:17.256Z",

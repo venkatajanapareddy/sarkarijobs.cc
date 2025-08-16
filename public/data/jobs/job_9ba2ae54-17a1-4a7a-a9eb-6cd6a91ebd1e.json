@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754388730cb8f49e7afa305419e18540ea440e1a98b4e5d17.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iit-roorkee-recruitment-2025-apply-for-project-assistant-post/33888",
-    "applicationFormLocal": "/data/application_forms/9ba2ae54-17a1-4a7a-a9eb-6cd6a91ebd1e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9ba2ae54-17a1-4a7a-a9eb-6cd6a91ebd1e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9ba2ae54-17a1-4a7a-a9eb-6cd6a91ebd1e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:53:39.500Z",

@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17533294403fef8ab5f1dfb6a675a941ca52a54815a1a4fde3.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hal-india-recruitment-2025-apply-offline-for-09-airframe-engine-fitter-posts/33582",
-    "applicationFormLocal": "/data/application_forms/45d9248d-ad6c-45c9-bb46-9ffb9beb94b4_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/45d9248d-ad6c-45c9-bb46-9ffb9beb94b4_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/45d9248d-ad6c-45c9-bb46-9ffb9beb94b4_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:59:23.179Z",

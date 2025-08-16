@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17534235434fdab2061f8c5cc6c6b6ee9e3d945710a47b0bb7.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aiims-bilaspur-recruitment-2025-apply-offline-for-02-lab-technician-posts/33622",
-    "applicationFormLocal": "/data/application_forms/46f0af0b-7860-42c6-91e3-737011957d4a_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/46f0af0b-7860-42c6-91e3-737011957d4a_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/46f0af0b-7860-42c6-91e3-737011957d4a_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:51:43.115Z",

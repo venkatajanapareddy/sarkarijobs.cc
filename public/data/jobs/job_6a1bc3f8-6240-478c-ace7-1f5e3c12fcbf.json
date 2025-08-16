@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17544545814f0c5f482141db48c3515d86166407594e6c1c3f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/sctimst-recruitment-2025-walk-in-interview-for-project-technical-support-post/33902",
-    "applicationFormLocal": "/data/application_forms/6a1bc3f8-6240-478c-ace7-1f5e3c12fcbf_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a1bc3f8-6240-478c-ace7-1f5e3c12fcbf_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a1bc3f8-6240-478c-ace7-1f5e3c12fcbf_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:27:01.656Z",

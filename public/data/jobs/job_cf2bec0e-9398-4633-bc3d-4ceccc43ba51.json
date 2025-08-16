@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175517246410d67fb26df9010a848f3e4078d53af62253f676.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mgu-kerala-recruitment-2025-apply-offline-for-security-staff-post/34137",
-    "applicationFormLocal": "/data/application_forms/cf2bec0e-9398-4633-bc3d-4ceccc43ba51_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/cf2bec0e-9398-4633-bc3d-4ceccc43ba51_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/cf2bec0e-9398-4633-bc3d-4ceccc43ba51_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:18:34.551Z",

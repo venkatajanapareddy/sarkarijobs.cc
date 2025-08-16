@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17549055717ed7f6f4fb591d39f191d803cb5af1a6433302f9.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-recruitment-2025-apply-offline-for-06-mid-level-health-provider-posts/34021",
-    "applicationFormLocal": "/data/application_forms/11e733ee-7d5a-4b87-b143-b4304565099a_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/11e733ee-7d5a-4b87-b143-b4304565099a_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/11e733ee-7d5a-4b87-b143-b4304565099a_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:31:50.380Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17544789935d36420d3c693943b0d044b4968ecd6acad84d54.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/cftri-recruitment-2025-apply-online-for-project-associate-posts/33929",
-    "applicationFormLocal": "/data/application_forms/36eabc0e-d584-4be2-bbca-7186e1816c80_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/36eabc0e-d584-4be2-bbca-7186e1816c80_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/36eabc0e-d584-4be2-bbca-7186e1816c80_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:23:21.790Z",

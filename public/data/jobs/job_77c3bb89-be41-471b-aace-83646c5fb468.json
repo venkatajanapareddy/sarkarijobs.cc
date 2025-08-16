@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546344357928df68af51068ad6b1e24ca4343fc978436519.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/chandigarh-administration-recruitment-2025-apply-offline-for-03-senior-resident-posts/33975",
-    "applicationFormLocal": "/data/application_forms/77c3bb89-be41-471b-aace-83646c5fb468_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/77c3bb89-be41-471b-aace-83646c5fb468_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/77c3bb89-be41-471b-aace-83646c5fb468_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:29:24.364Z",

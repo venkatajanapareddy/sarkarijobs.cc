@@ -53,7 +53,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/06/174963758413bda6e696d79007217502366a64ab09369a8cc8.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhm-uttarakhand-recruitment-2025-walk-in-for-63-medical-officer-posts/32762",
-    "applicationFormLocal": "/data/application_forms/a6f695cb-0acd-4edc-8c23-3dc303fa7db6_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a6f695cb-0acd-4edc-8c23-3dc303fa7db6_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a6f695cb-0acd-4edc-8c23-3dc303fa7db6_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:52:56.048Z",

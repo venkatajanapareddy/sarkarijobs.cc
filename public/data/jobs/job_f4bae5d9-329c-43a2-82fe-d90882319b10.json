@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754044781ea9fc855a970f3f948f061ff4f3834498d8cbd60.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/itpo-recruitment-2025-apply-online-for-31-deputy-manager-posts/33828",
-    "applicationFormLocal": "/data/application_forms/f4bae5d9-329c-43a2-82fe-d90882319b10_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f4bae5d9-329c-43a2-82fe-d90882319b10_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f4bae5d9-329c-43a2-82fe-d90882319b10_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:08:36.730Z",

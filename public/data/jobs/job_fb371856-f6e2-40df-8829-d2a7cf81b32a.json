@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175386067086101d381fab0a80013eb5e7eda97095fb9ad60c.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nit-warangal-recruitment-2025-apply-online-for-13-technical-officer-and-other-posts/33759",
-    "applicationFormLocal": "/data/application_forms/fb371856-f6e2-40df-8829-d2a7cf81b32a_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fb371856-f6e2-40df-8829-d2a7cf81b32a_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fb371856-f6e2-40df-8829-d2a7cf81b32a_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:44:13.607Z",

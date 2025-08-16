@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17551711997e589d9344bc49275a92b11cecdb9e070405a2ef.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-272-nursing-superintendent-posts/34135",
-    "applicationFormLocal": "/data/application_forms/b0bdfcb6-fab6-4946-867e-3f450bdad021_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b0bdfcb6-fab6-4946-867e-3f450bdad021_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b0bdfcb6-fab6-4946-867e-3f450bdad021_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:18:45.114Z",

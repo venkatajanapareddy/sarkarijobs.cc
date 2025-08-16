@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175378193200d611e54b1574b073572d73182316353f679bf0.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhai-recruitment-2025-apply-online-for-15-general-manager-posts/33733",
-    "applicationFormLocal": "/data/application_forms/9f4cdfd8-b1ac-46a7-9ae1-541cd3f98ba3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9f4cdfd8-b1ac-46a7-9ae1-541cd3f98ba3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/9f4cdfd8-b1ac-46a7-9ae1-541cd3f98ba3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:11:42.643Z",

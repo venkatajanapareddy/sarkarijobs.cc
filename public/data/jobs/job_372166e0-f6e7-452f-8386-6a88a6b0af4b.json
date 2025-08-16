@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175445673384c53d1c10bb00f17c76d27fd535571c5d0955df.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/cris-recruitment-2025-apply-offline-for-manager-deputy-manager-posts/33905",
-    "applicationFormLocal": "/data/application_forms/372166e0-f6e7-452f-8386-6a88a6b0af4b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/372166e0-f6e7-452f-8386-6a88a6b0af4b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/372166e0-f6e7-452f-8386-6a88a6b0af4b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:26:25.579Z",

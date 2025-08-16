@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753250736abca779d490da9beee8f92b098fcaf748afa6fb7.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ib-recruitment-2025-apply-online-for-4987-security-assistant-executive-posts/33560",
-    "applicationFormLocal": "/data/application_forms/fa3ca65d-9d69-4c6c-8f00-c2c6064c02c4_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fa3ca65d-9d69-4c6c-8f00-c2c6064c02c4_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/fa3ca65d-9d69-4c6c-8f00-c2c6064c02c4_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:00:20.005Z",

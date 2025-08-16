@@ -58,7 +58,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17527273479df3c06a77b2b987b1e6c75f9ffb6b2dd9411e50.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iit-tirupati-recruitment-2025-apply-online-for-42-junior-technician-posts/33402",
-    "applicationFormLocal": "/data/application_forms/6e46c29a-59f7-4b4f-a8bf-302fa5517702_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6e46c29a-59f7-4b4f-a8bf-302fa5517702_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6e46c29a-59f7-4b4f-a8bf-302fa5517702_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:47:45.810Z",

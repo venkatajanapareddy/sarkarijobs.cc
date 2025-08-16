@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17527488078e3c91c27a2f5b0da13964c6b9fa350da9ab08aa.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/apssb-recruitment-2025-apply-online-for-461-constable-and-other-posts/33421",
-    "applicationFormLocal": "/data/application_forms/440f4c75-f53f-42af-87c6-0b7afa700afa_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/440f4c75-f53f-42af-87c6-0b7afa700afa_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/440f4c75-f53f-42af-87c6-0b7afa700afa_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:03:23.488Z",

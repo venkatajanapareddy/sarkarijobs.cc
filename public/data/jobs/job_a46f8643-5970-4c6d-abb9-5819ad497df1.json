@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754651774e676da07071713f0884b969df096667054d1575e.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hprca-recruitment-2025-apply-online-for-600-junior-basic-teacher-posts/33991",
-    "applicationFormLocal": "/data/application_forms/a46f8643-5970-4c6d-abb9-5819ad497df1_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a46f8643-5970-4c6d-abb9-5819ad497df1_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a46f8643-5970-4c6d-abb9-5819ad497df1_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:28:01.045Z",

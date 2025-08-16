@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175463509149a90eb8af1cf90fe746c789b80d8d1c0829d218.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/amu-recruitment-2025-apply-online-for-senior-resident-post/33976",
-    "applicationFormLocal": "/data/application_forms/19d8829f-9829-44fb-b8ee-41d015d69198_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/19d8829f-9829-44fb-b8ee-41d015d69198_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/19d8829f-9829-44fb-b8ee-41d015d69198_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:29:18.644Z",

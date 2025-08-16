@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754451867ca09986906be4af7b2049d8418b0e461d621130f.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-junior-consultant-posts/33899",
-    "applicationFormLocal": "/data/application_forms/0f82cfea-86f6-4391-941d-f36bd73d6fba_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0f82cfea-86f6-4391-941d-f36bd73d6fba_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0f82cfea-86f6-4391-941d-f36bd73d6fba_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:52:51.162Z",

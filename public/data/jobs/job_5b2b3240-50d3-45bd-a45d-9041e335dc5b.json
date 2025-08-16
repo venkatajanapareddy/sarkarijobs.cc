@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17538527062342085c8053b197593d21514bf2c21ca83240b4.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/cnci-recruitment-2025-apply-offline-for-10-nursing-posts/33749",
-    "applicationFormLocal": "/data/application_forms/5b2b3240-50d3-45bd-a45d-9041e335dc5b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5b2b3240-50d3-45bd-a45d-9041e335dc5b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5b2b3240-50d3-45bd-a45d-9041e335dc5b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:45:47.204Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175316787528d7a7bf084b5daa3951769bf5bf344448a8ffb8.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/barc-recruitment-2025-apply-offline-for-radiologist-post/33534",
-    "applicationFormLocal": "/data/application_forms/4a3c7f5b-e74c-4f01-9dae-d02235db7d18_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4a3c7f5b-e74c-4f01-9dae-d02235db7d18_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4a3c7f5b-e74c-4f01-9dae-d02235db7d18_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:01:25.778Z",

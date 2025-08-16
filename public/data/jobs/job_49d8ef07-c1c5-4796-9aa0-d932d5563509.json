@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752836385f827a3aaaa1f0420c06016f40d0003eaa1e66a1e.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/south-western-railway-recruitment-2025-apply-online-for-904-apprentice-posts/33448",
-    "applicationFormLocal": "/data/application_forms/49d8ef07-c1c5-4796-9aa0-d932d5563509_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/49d8ef07-c1c5-4796-9aa0-d932d5563509_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/49d8ef07-c1c5-4796-9aa0-d932d5563509_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:03:03.918Z",

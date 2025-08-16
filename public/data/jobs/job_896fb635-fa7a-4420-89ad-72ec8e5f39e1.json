@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753765222507b889c9acba29762f4ef2b357e99f44f5c1109.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mpbdc-recruitment-2025-apply-online-for-44-manager-legal-advisor-posts/33715",
-    "applicationFormLocal": "/data/application_forms/896fb635-fa7a-4420-89ad-72ec8e5f39e1_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/896fb635-fa7a-4420-89ad-72ec8e5f39e1_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/896fb635-fa7a-4420-89ad-72ec8e5f39e1_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:47:21.970Z",

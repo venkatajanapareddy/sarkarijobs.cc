@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753166192b40993ca14ea76ef900906fc5fbfc40ce2d2b267.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ucsl-recruitment-2025-apply-online-for-08-executive-trainee-posts/33531",
-    "applicationFormLocal": "/data/application_forms/0d64d881-7f39-4ea8-b5f3-71ede5f47865_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0d64d881-7f39-4ea8-b5f3-71ede5f47865_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0d64d881-7f39-4ea8-b5f3-71ede5f47865_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:01:33.420Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17538651193d47cec56753cebb21ff43b706a535f3bf2bbd96.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/csio-recruitment-2025-apply-online-for-25-technical-assistant-posts/33761",
-    "applicationFormLocal": "/data/application_forms/69d6c12b-5bc9-487c-a271-c564afd13470_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/69d6c12b-5bc9-487c-a271-c564afd13470_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/69d6c12b-5bc9-487c-a271-c564afd13470_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:44:05.816Z",

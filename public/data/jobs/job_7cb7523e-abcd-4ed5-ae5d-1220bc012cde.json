@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175308777494631ded082e37d9c171e64bb264c0a25b81448b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/epfo-recruitment-2025-apply-offline-for-111-junior-engineer-auditor-posts/33506",
-    "applicationFormLocal": "/data/application_forms/7cb7523e-abcd-4ed5-ae5d-1220bc012cde_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7cb7523e-abcd-4ed5-ae5d-1220bc012cde_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7cb7523e-abcd-4ed5-ae5d-1220bc012cde_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:01:52.247Z",

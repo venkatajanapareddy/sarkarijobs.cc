@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175393560501751474703f2400a69891ea6e306268f259c5e1.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-lead-consultant-post/33777",
-    "applicationFormLocal": "/data/application_forms/b1d65d97-40bc-44d9-8faf-577f01cda45c_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b1d65d97-40bc-44d9-8faf-577f01cda45c_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b1d65d97-40bc-44d9-8faf-577f01cda45c_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:12:35.437Z",

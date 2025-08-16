@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17534263463ce499fd9f0faaa25c9781a2566b8ffcd8050557.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-50-technician-apprentice-posts/33626",
-    "applicationFormLocal": "/data/application_forms/d5af945d-291b-45d4-ba01-dcbafbc276bb_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d5af945d-291b-45d4-ba01-dcbafbc276bb_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d5af945d-291b-45d4-ba01-dcbafbc276bb_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:51:28.025Z",

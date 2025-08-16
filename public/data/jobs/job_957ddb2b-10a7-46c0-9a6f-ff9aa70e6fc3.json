@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17553236041181c376960514b2b9b1f6b4d14ffe1fdf33597b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/neeri-recruitment-2025-apply-online-for-04-project-associate-i-ii-posts/34143",
-    "applicationFormLocal": "/data/application_forms/957ddb2b-10a7-46c0-9a6f-ff9aa70e6fc3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/957ddb2b-10a7-46c0-9a6f-ff9aa70e6fc3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/957ddb2b-10a7-46c0-9a6f-ff9aa70e6fc3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-16T10:31:01.319Z",

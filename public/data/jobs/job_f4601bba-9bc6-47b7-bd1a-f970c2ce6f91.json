@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17529074571fbb7c86d236225ed6c93d3c74cbeef7919bf37b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/psssb-recruitment-2025-apply-online-for-367-senior-assistant-treasury-officer-posts/33471",
-    "applicationFormLocal": "/data/application_forms/f4601bba-9bc6-47b7-bd1a-f970c2ce6f91_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f4601bba-9bc6-47b7-bd1a-f970c2ce6f91_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/f4601bba-9bc6-47b7-bd1a-f970c2ce6f91_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:02:33.198Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175456655372b72c05b3a81c778a0c9cba9126043d4a875e42.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bjrmh-recruitment-2025-walk-in-interview-for-14-senior-resident-posts/33962",
-    "applicationFormLocal": "/data/application_forms/acf96089-bdc2-405c-863e-f6edf936486b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/acf96089-bdc2-405c-863e-f6edf936486b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/acf96089-bdc2-405c-863e-f6edf936486b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:51:51.305Z",

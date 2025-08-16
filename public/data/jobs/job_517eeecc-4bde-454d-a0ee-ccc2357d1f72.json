@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17545667480079a2829671ff82a48810bf62351d8190768fa6.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/wbhrb-recruitment-2025-apply-online-for-5018-staff-nurse-posts/33961",
-    "applicationFormLocal": "/data/application_forms/517eeecc-4bde-454d-a0ee-ccc2357d1f72_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/517eeecc-4bde-454d-a0ee-ccc2357d1f72_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/517eeecc-4bde-454d-a0ee-ccc2357d1f72_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:51:57.148Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175351157436166dbcb508d47f758e328c0322371c23c7cc12.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bob-recruitment-2025-apply-offline-for-medical-consultant-post/33656",
-    "applicationFormLocal": "/data/application_forms/cb8f01b0-107e-4ec5-b2da-f6187f9bdcfd_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/cb8f01b0-107e-4ec5-b2da-f6187f9bdcfd_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/cb8f01b0-107e-4ec5-b2da-f6187f9bdcfd_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:49:25.112Z",

@@ -63,7 +63,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546345616c244eaa010e3a96d07db381b16e1bf0145852a2.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/niacl-recruitment-2025-apply-online-for-550-ao-health-and-other-posts/33974",
-    "applicationFormLocal": "/data/application_forms/6a02b751-94af-48f7-8ecf-87b09967ae98_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a02b751-94af-48f7-8ecf-87b09967ae98_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a02b751-94af-48f7-8ecf-87b09967ae98_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:29:29.410Z",

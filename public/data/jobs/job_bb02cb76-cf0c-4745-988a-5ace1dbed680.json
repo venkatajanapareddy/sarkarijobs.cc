@@ -73,7 +73,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752821544d320f09f06c3174ddb06b3ee0686a29261ac5fff.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-8363-primary-and-upper-primary-teacher-and-other-posts/33436",
-    "applicationFormLocal": "/data/application_forms/bb02cb76-cf0c-4745-988a-5ace1dbed680_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/bb02cb76-cf0c-4745-988a-5ace1dbed680_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/bb02cb76-cf0c-4745-988a-5ace1dbed680_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:03:15.709Z",

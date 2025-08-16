@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175516169829a96e7f581f2d4cfcb7cf8043d47671f0dbff44.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nhm-assam-recruitment-2025-apply-online-for-78-medical-officer-posts/34122",
-    "applicationFormLocal": "/data/application_forms/1d6a9a67-2f0e-45e5-9f01-d8dd481d3225_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1d6a9a67-2f0e-45e5-9f01-d8dd481d3225_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/1d6a9a67-2f0e-45e5-9f01-d8dd481d3225_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:57.503Z",

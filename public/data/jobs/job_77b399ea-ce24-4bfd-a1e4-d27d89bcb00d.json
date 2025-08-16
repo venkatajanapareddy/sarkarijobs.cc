@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754481503c7c59c0f749c560ad8aba78b929e26c219bfac9e.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-online-for-assistant-general-manager-post/33932",
-    "applicationFormLocal": "/data/application_forms/77b399ea-ce24-4bfd-a1e4-d27d89bcb00d_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/77b399ea-ce24-4bfd-a1e4-d27d89bcb00d_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/77b399ea-ce24-4bfd-a1e4-d27d89bcb00d_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:22:53.742Z",

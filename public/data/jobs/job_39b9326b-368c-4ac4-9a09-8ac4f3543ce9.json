@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17543661186e2d07435c6e6558ae645318fcdd1e028ff77dd8.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aiims-rajkot-recruitment-2025-apply-online-for-scientist-b-posts/33878",
-    "applicationFormLocal": "/data/application_forms/39b9326b-368c-4ac4-9a09-8ac4f3543ce9_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/39b9326b-368c-4ac4-9a09-8ac4f3543ce9_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/39b9326b-368c-4ac4-9a09-8ac4f3543ce9_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:54:57.618Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175272617005dc820e38ad076962f79f89bea8920d15da3f38.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/csir-csio-recruitment-2025-apply-online-for-25-technical-assistant-posts/33401",
-    "applicationFormLocal": "/data/application_forms/eeab756f-ea9b-44df-a56b-5e622a4753d0_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/eeab756f-ea9b-44df-a56b-5e622a4753d0_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/eeab756f-ea9b-44df-a56b-5e622a4753d0_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:47:54.360Z",

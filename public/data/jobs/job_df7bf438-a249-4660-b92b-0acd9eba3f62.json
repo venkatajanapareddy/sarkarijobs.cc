@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17540408061e14c16fd8e936a91f28c6ed15f644145938ddb7.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-perambalur-recruitment-2025-apply-offline-for-08-pharmacist-and-other-posts/33823",
-    "applicationFormLocal": "/data/application_forms/df7bf438-a249-4660-b92b-0acd9eba3f62_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/df7bf438-a249-4660-b92b-0acd9eba3f62_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/df7bf438-a249-4660-b92b-0acd9eba3f62_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:08:57.977Z",

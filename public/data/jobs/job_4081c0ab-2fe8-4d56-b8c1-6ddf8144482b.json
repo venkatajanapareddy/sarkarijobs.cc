@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17540276580c609169b50b699ccc44dbe73b7f5c2f0a4c394c.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/wcd-jammu-kashmir-recruitment-2025-apply-offline-for-18-anganwadi-worker-helper-posts/33814",
-    "applicationFormLocal": "/data/application_forms/4081c0ab-2fe8-4d56-b8c1-6ddf8144482b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4081c0ab-2fe8-4d56-b8c1-6ddf8144482b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4081c0ab-2fe8-4d56-b8c1-6ddf8144482b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:09:47.405Z",

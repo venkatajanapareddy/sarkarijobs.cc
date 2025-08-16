@@ -98,7 +98,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175447737320c0ed1c120618b72bfaea1dbb579ff980c32554.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dsssb-recruitment-2025-apply-online-for-615-caretaker-assistant-pharmacist-and-other-posts/33928",
-    "applicationFormLocal": "/data/application_forms/0cefc8cf-7e0a-49a2-bd39-d73191aa7d78_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0cefc8cf-7e0a-49a2-bd39-d73191aa7d78_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/0cefc8cf-7e0a-49a2-bd39-d73191aa7d78_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:23:46.074Z",

@@ -43,7 +43,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546285792c10732fb1413e787386219cfedff00871014287.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/isro-lpsc-recruitment-2025-apply-online-for-23-technical-assistant-and-other-posts/33970",
-    "applicationFormLocal": "/data/application_forms/458b3056-3709-4b75-9132-b7d352f9d057_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/458b3056-3709-4b75-9132-b7d352f9d057_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/458b3056-3709-4b75-9132-b7d352f9d057_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:29:50.486Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175437211265e693cceac83744613d7fced0e40d0f655a8e76.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tmc-recruitment-2025-apply-online-for-mechanical-engineer-posts/33884",
-    "applicationFormLocal": "/data/application_forms/5799f9f3-58ed-44fd-964d-e5966a6996b3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5799f9f3-58ed-44fd-964d-e5966a6996b3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5799f9f3-58ed-44fd-964d-e5966a6996b3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:54:10.491Z",

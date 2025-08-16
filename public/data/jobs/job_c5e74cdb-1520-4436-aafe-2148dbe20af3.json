@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754392611c00130062d841bb1f2f55c5b122a64e3bc004026.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hartron-recruitment-2025-apply-online-for-130-data-entry-operator-posts/33893",
-    "applicationFormLocal": "/data/application_forms/c5e74cdb-1520-4436-aafe-2148dbe20af3_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c5e74cdb-1520-4436-aafe-2148dbe20af3_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c5e74cdb-1520-4436-aafe-2148dbe20af3_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:52:57.240Z",

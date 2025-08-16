@@ -63,7 +63,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17544596649e313cc9383958546032a15ed70ddbcf2bbf2cd3.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/apssb-recruitment-2025-apply-online-for-239-head-constable-driver-and-other-posts/33909",
-    "applicationFormLocal": "/data/application_forms/790fb98e-7a45-438a-a9ee-e2fbe7f87b8b_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/790fb98e-7a45-438a-a9ee-e2fbe7f87b8b_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/790fb98e-7a45-438a-a9ee-e2fbe7f87b8b_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:25:43.283Z",

@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754109649568dd7437b5c48bc11d2e706ee37629b73ae4cb6.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-02-team-lead-and-other-posts/33840",
-    "applicationFormLocal": "/data/application_forms/8ddc4851-c379-4d19-845f-999cf905bd12_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/8ddc4851-c379-4d19-845f-999cf905bd12_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/8ddc4851-c379-4d19-845f-999cf905bd12_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:08:08.382Z",

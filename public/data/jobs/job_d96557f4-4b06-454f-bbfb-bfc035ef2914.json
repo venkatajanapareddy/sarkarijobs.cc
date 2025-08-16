@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753184093d431b91a1482d220edead90bba854498af8a8132.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/epfo-recruitment-2025-apply-offline-for-17-vigilance-assistant-posts/33548",
-    "applicationFormLocal": "/data/application_forms/d96557f4-4b06-454f-bbfb-bfc035ef2914_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d96557f4-4b06-454f-bbfb-bfc035ef2914_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d96557f4-4b06-454f-bbfb-bfc035ef2914_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:01:00.989Z",

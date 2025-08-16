@@ -33,7 +33,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17529017508bd70d37f7720051673efd8748f01af8105827d2.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-online-for-14-engineer-manager-and-other-posts/33463",
-    "applicationFormLocal": "/data/application_forms/6fb580e6-3fb3-4fb4-958b-0c30c07a1c03_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6fb580e6-3fb3-4fb4-958b-0c30c07a1c03_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6fb580e6-3fb3-4fb4-958b-0c30c07a1c03_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:02:41.196Z",

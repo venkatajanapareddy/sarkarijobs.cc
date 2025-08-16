@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17527427046d61d62400fa4f9ac54b6d570952dfadca85f991.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/drdo-bibt-recruitment-2025-apply-offline-for-20-apprentice-trainee-posts/33415",
-    "applicationFormLocal": "/data/application_forms/43cfb790-f2bd-4573-a17a-075bdcca756a_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/43cfb790-f2bd-4573-a17a-075bdcca756a_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/43cfb790-f2bd-4573-a17a-075bdcca756a_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:47:37.575Z",

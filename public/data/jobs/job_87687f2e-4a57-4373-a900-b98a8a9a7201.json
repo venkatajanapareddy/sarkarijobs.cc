@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17553263685b7e713778306524ad9467df7ea523c9d8c68de6.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/aau-recruitment-2025-walk-in-interview-for-unskilled-worker-post/34148",
-    "applicationFormLocal": "/data/application_forms/87687f2e-4a57-4373-a900-b98a8a9a7201_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/87687f2e-4a57-4373-a900-b98a8a9a7201_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/87687f2e-4a57-4373-a900-b98a8a9a7201_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-16T10:30:36.704Z",

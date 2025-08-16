@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754132244644cac011b6367c48f015702ffa320c44347d2f1.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-thanjavur-recruitment-2025-apply-offline-for-131-staff-nurse-and-other-posts/33863",
-    "applicationFormLocal": "/data/application_forms/eab5a91b-5c61-450b-82f4-5568043340e7_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/eab5a91b-5c61-450b-82f4-5568043340e7_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/eab5a91b-5c61-450b-82f4-5568043340e7_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T21:51:52.254Z",

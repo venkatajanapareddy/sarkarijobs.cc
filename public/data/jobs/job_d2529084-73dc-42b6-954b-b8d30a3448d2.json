@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17541310798e7c1b6deee82e0dcdfc2d40365f826ec03d21ad.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/wrd-maharashtra-recruitment-2025-apply-for-legal-officer-post/33862",
-    "applicationFormLocal": "/data/application_forms/d2529084-73dc-42b6-954b-b8d30a3448d2_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d2529084-73dc-42b6-954b-b8d30a3448d2_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d2529084-73dc-42b6-954b-b8d30a3448d2_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T21:51:59.022Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1752650214aac6dffad6f8fa1e49e94bf29953c6f8083ee078.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/swr-recruitment-2025-apply-online-for-904-apprentice-posts/33385",
-    "applicationFormLocal": "/data/application_forms/a6ab46bc-9a9a-4f9a-b612-18869e30bc23_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a6ab46bc-9a9a-4f9a-b612-18869e30bc23_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/a6ab46bc-9a9a-4f9a-b612-18869e30bc23_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:48:36.760Z",

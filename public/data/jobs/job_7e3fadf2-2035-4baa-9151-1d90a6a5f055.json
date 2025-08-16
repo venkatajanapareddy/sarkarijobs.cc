@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753780563bc4f83d48a72ac685c968463f3ba5c5e44f44aab.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-for-05-apprentice-posts/33731",
-    "applicationFormLocal": "/data/application_forms/7e3fadf2-2035-4baa-9151-1d90a6a5f055_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7e3fadf2-2035-4baa-9151-1d90a6a5f055_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/7e3fadf2-2035-4baa-9151-1d90a6a5f055_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:46:40.970Z",

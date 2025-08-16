@@ -58,7 +58,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1755321253237d8bcbd36039e1413205a91b8f30c4ef271f08.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-vellore-recruitment-2025-apply-offline-for-53-staff-nurse-posts/34141",
-    "applicationFormLocal": "/data/application_forms/050fa412-aca0-4403-a5d3-9c093d4ba92e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/050fa412-aca0-4403-a5d3-9c093d4ba92e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/050fa412-aca0-4403-a5d3-9c093d4ba92e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-16T10:31:12.227Z",

@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753271946d1b99dccea82975af8f2d732cd9118178c3dbd3a.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/grse-recruitment-2025-apply-online-for-expert-specialist-posts/33579",
-    "applicationFormLocal": "/data/application_forms/40f6a4f4-f6f1-4a44-add4-b9ca65e27d69_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/40f6a4f4-f6f1-4a44-add4-b9ca65e27d69_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/40f6a4f4-f6f1-4a44-add4-b9ca65e27d69_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:59:30.431Z",

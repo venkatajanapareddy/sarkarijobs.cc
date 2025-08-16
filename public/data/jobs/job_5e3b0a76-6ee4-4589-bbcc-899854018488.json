@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17549077282d17e01ddf6d32113b65ac9ff44d5fe7f2143646.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment-2025-apply-online-for-junior-research-fellow-post/34023",
-    "applicationFormLocal": "/data/application_forms/5e3b0a76-6ee4-4589-bbcc-899854018488_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5e3b0a76-6ee4-4589-bbcc-899854018488_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/5e3b0a76-6ee4-4589-bbcc-899854018488_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:31:37.502Z",

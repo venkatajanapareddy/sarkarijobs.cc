@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754547345ca7d3e1af613b4ba8c753cff2dea0f8077fe593b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/nrcb-recruitment-2025-apply-offline-for-office-assistant-post/33945",
-    "applicationFormLocal": "/data/application_forms/4ad70baf-20ae-495b-b3ca-5fff6f03ee45_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4ad70baf-20ae-495b-b3ca-5fff6f03ee45_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4ad70baf-20ae-495b-b3ca-5fff6f03ee45_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:21:10.717Z",

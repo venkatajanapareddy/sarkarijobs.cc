@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175335808865b8dbddc3dbe6b03a608480f59b02212f5f778b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/manage-recruitment-2025-apply-online-for-08-business-executive-posts/33610",
-    "applicationFormLocal": "/data/application_forms/09248038-a774-4b3f-933c-ca26211c9c19_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/09248038-a774-4b3f-933c-ca26211c9c19_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/09248038-a774-4b3f-933c-ca26211c9c19_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:58:46.755Z",

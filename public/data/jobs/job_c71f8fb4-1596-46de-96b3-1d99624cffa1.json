@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17548950822e6da2b7a23ad895fbbf8bf364b139142752cb9b.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/iim-lucknow-recruitment-2025-apply-online-for-executive-post/34013",
-    "applicationFormLocal": "/data/application_forms/c71f8fb4-1596-46de-96b3-1d99624cffa1_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c71f8fb4-1596-46de-96b3-1d99624cffa1_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/c71f8fb4-1596-46de-96b3-1d99624cffa1_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:32:48.019Z",

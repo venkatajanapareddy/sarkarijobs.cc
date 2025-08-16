@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754568089037715b6b5a1bbedc18171c74e1059078bfc10de.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ssc-recruitment-2025-apply-online-for-05-young-professional-posts/33963",
-    "applicationFormLocal": "/data/application_forms/da103219-1248-4b87-bf21-2d1e98caaef0_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/da103219-1248-4b87-bf21-2d1e98caaef0_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/da103219-1248-4b87-bf21-2d1e98caaef0_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:51:46.662Z",

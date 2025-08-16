@@ -68,7 +68,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753866452693e7863c76b4aa51eaca884dfc90a060599abcf.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/jkssb-recruitment-2025-apply-online-for-621-pharmacist-and-other-posts/33762",
-    "applicationFormLocal": "/data/application_forms/6a0756d8-cff5-4438-b5d0-5ce51cf3a95a_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a0756d8-cff5-4438-b5d0-5ce51cf3a95a_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6a0756d8-cff5-4438-b5d0-5ce51cf3a95a_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:43:57.289Z",

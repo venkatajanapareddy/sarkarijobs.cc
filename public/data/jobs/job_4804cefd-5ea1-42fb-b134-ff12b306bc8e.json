@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175195490081a27bfa952e445bbb0e549d481c20eac477e1cc.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/mppgcl-recruitment-2025-apply-offline-for-04-engineer-posts/33208",
-    "applicationFormLocal": "/data/application_forms/4804cefd-5ea1-42fb-b134-ff12b306bc8e_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4804cefd-5ea1-42fb-b134-ff12b306bc8e_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/4804cefd-5ea1-42fb-b134-ff12b306bc8e_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-12T00:49:24.285Z",

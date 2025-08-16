@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/175335467091f94ef123c5a1f0c26faaa82e4cb405cc5fc2dc.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/indian-army-recruitment-2025-apply-online-for-31-ssc-posts/33605",
-    "applicationFormLocal": "/data/application_forms/3a51ff5a-a2da-45d8-a569-aeadcc15cbff_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3a51ff5a-a2da-45d8-a569-aeadcc15cbff_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3a51ff5a-a2da-45d8-a569-aeadcc15cbff_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:58:53.658Z",

@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/1754893233f6d95b9911e88f9d6593f593bf68543093410743.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/ucsl-recruitment-2025-apply-online-for-16-assistant-manager-supervisor-posts/34010",
-    "applicationFormLocal": "/data/application_forms/d5ddb206-dc3e-4f06-9016-6c4a4f0f9da6_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d5ddb206-dc3e-4f06-9016-6c4a4f0f9da6_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/d5ddb206-dc3e-4f06-9016-6c4a4f0f9da6_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:33:09.581Z",

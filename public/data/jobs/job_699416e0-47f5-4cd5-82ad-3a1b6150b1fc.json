@@ -28,7 +28,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/17531759253d8d8aa9245c44cf7eb5db6d00329e874b6b2774.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/thdc-recruitment-2025-apply-online-for-05-general-manager-posts/33537",
-    "applicationFormLocal": "/data/application_forms/699416e0-47f5-4cd5-82ad-3a1b6150b1fc_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/699416e0-47f5-4cd5-82ad-3a1b6150b1fc_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/699416e0-47f5-4cd5-82ad-3a1b6150b1fc_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T23:01:18.048Z",

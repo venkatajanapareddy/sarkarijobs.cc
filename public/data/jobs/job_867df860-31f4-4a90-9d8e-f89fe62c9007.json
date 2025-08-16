@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175516280342545b94c9953836c95a87450151300a7b84aac0.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/gmch-recruitment-2025-apply-online-for-73-junior-resident-posts/34124",
-    "applicationFormLocal": "/data/application_forms/867df860-31f4-4a90-9d8e-f89fe62c9007_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/867df860-31f4-4a90-9d8e-f89fe62c9007_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/867df860-31f4-4a90-9d8e-f89fe62c9007_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:45.668Z",

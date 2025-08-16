@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17546533011fa403e82e333ea6e86ab64c5bc4abbd4a434757.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/bfuhs-recruitment-2025-apply-online-for-406-staff-nurse-posts/33994",
-    "applicationFormLocal": "/data/application_forms/ec19d4e7-9357-4860-942d-bec05c1c9ac9_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ec19d4e7-9357-4860-942d-bec05c1c9ac9_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/ec19d4e7-9357-4860-942d-bec05c1c9ac9_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:27:45.730Z",

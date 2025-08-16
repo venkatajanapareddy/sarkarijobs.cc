@@ -38,7 +38,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/175456183215659117bddefa454183e6fe8cac5a12250a18be.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-for-11-technician-pharmacist-posts/33955",
-    "applicationFormLocal": "/data/application_forms/3afd969a-a2ac-4529-a8ab-8c8d4353f3a9_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3afd969a-a2ac-4529-a8ab-8c8d4353f3a9_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/3afd969a-a2ac-4529-a8ab-8c8d4353f3a9_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-10T04:52:31.749Z",

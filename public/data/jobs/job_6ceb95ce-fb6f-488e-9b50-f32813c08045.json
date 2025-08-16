@@ -48,7 +48,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17551666691f1d271e37dc19c0f0273b4d37b16dcea57e0e87.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-13-driver-pharmacist-and-other-posts/34131",
-    "applicationFormLocal": "/data/application_forms/6ceb95ce-fb6f-488e-9b50-f32813c08045_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6ceb95ce-fb6f-488e-9b50-f32813c08045_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/6ceb95ce-fb6f-488e-9b50-f32813c08045_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-15T04:19:07.140Z",

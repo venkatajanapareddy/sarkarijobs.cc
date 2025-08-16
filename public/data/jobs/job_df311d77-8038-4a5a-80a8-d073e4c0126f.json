@@ -63,7 +63,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/07/1753875666d19a80d6ebd94669c0df30e92f1079ab907520ec.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/dhs-karur-recruitment-2025-apply-offline-for-87-staff-nurse-and-other-posts/33773",
-    "applicationFormLocal": "/data/application_forms/df311d77-8038-4a5a-80a8-d073e4c0126f_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/df311d77-8038-4a5a-80a8-d073e4c0126f_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/df311d77-8038-4a5a-80a8-d073e4c0126f_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T22:12:42.087Z",

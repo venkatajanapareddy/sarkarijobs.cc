@@ -23,7 +23,8 @@
     "notification": null,
     "applicationForm": "https://files.allgovernmentjobs.in/public/2025/08/17549136292a1513ddcf86e33010da926a63e0353797107d61.pdf",
     "sourceUrl": "https://allgovernmentjobs.in/punjab-university-recruitment-2025-apply-offline-for-multi-task-worker-post/34031",
-    "applicationFormLocal": "/data/application_forms/b12fb47b-043e-4b0c-b91d-4d9f2d37c3cc_form.pdf"
+    "applicationFormLocal": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b12fb47b-043e-4b0c-b91d-4d9f2d37c3cc_form.pdf",
+    "applicationFormR2": "https://pub-3e5281bc67d445b2b6cba74cdfca7241.r2.dev/b12fb47b-043e-4b0c-b91d-4d9f2d37c3cc_form.pdf"
   },
   "metadata": {
     "scrapedAt": "2025-08-11T17:31:31.662Z",
