@@ -24,7 +24,6 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                 <th>Post Name</th>
                 <th>Location</th>
                 <th>Vacancies</th>
-                <th>Posted</th>
                 <th>Last Date</th>
                 <th>Action</th>
               </tr>
@@ -61,14 +60,6 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                       <div className="flex items-center gap-1">
                         <Users className="w-4 h-4 text-gray-400" />
                         <span className="font-medium">{job.totalPosts || '-'}</span>
-                      </div>
-                    </td>
-                    <td>
-                      <div className="text-sm text-gray-600 dark:text-gray-400">
-                        {job.publishedAt ? new Date(job.publishedAt).toLocaleDateString('en-IN', { 
-                          day: 'numeric',
-                          month: 'short'
-                        }) : 'Recent'}
                       </div>
                     </td>
                     <td>
@@ -246,10 +237,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                   {/* Date Row */}
                   <div className="flex items-center justify-between mt-2">
                     <span className="text-xs text-gray-500 dark:text-gray-400">
-                      Posted {job.publishedAt ? new Date(job.publishedAt).toLocaleDateString('en-IN', { 
-                        day: 'numeric',
-                        month: 'short'
-                      }) : 'recently'} • Apply by {formatDate(job.lastDate)}
+                      Apply by {formatDate(job.lastDate)}
                     </span>
                     <ArrowRight className="w-4 h-4 text-gray-400" />
                   </div>
