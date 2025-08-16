@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ArrowLeft, Mail, MessageSquare, Clock, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | SarkariJob.cc',
-  description: 'Get in touch with SarkariJob.cc for any queries about government job notifications, recruitment updates, or website feedback.',
+  title: 'Contact Us | SarkariJobs.cc',
+  description: 'Get in touch with SarkariJobs.cc for any queries about government job notifications, recruitment updates, or website feedback.',
 };
 
 export default function ContactPage() {
@@ -36,10 +36,10 @@ export default function ContactPage() {
                   For general inquiries and support
                 </p>
                 <a 
-                  href="mailto:admin@sarkarijob.cc" 
+                  href="mailto:admin@sarkarijobs.cc" 
                   className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
                 >
-                  admin@sarkarijob.cc
+                  admin@sarkarijobs.cc
                 </a>
               </div>
 
