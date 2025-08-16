@@ -100,10 +100,10 @@ export async function loadJobs(): Promise<Job[]> {
       jobs.push(job);
     }
     
-    // Sort by last date (newest first) or published date
+    // Sort by published date (newest jobs first), not by application deadline
     jobs.sort((a, b) => {
-      const dateA = a.lastDate || a.publishedAt || '';
-      const dateB = b.lastDate || b.publishedAt || '';
+      const dateA = a.publishedAt || a.processedAt || a.lastDate || '';
+      const dateB = b.publishedAt || b.processedAt || b.lastDate || '';
       return dateB.localeCompare(dateA);
     });
     
