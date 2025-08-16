@@ -9,50 +9,37 @@ interface ThemeContextType {
   toggleTheme: () => void
 }
 
-const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+export const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('light')
-  const [mounted, setMounted] = useState(false)
+  // Initialize theme from localStorage immediately to prevent flash
+  const [theme, setTheme] = useState<Theme>(() => {
+    // This runs only once on initial render
+    if (typeof window !== 'undefined') {
+      const savedTheme = localStorage.getItem('theme') as Theme | null
+      return savedTheme || 'light'
+    }
+    return 'light'
+  })
 
   useEffect(() => {
-    // Get theme from localStorage or default to light
-    const savedTheme = localStorage.getItem('theme') as Theme | null
-    const initialTheme = savedTheme || 'light'
-    
-    setTheme(initialTheme)
-    // Ensure the class is set correctly on mount
-    if (initialTheme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-    setMounted(true)
-  }, [])
+    // Apply the theme class on mount
+    document.documentElement.classList.toggle('dark', theme === 'dark')
+  }, [theme])
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
     
-    // Update theme
+    // Update state and localStorage immediately
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
     
-    // Toggle dark class with smooth transition
-    if (newTheme === 'dark') {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
+    // Toggle dark class immediately for faster response
+    document.documentElement.classList.toggle('dark', newTheme === 'dark')
   }
 
-  // Return a placeholder with the same structure to prevent layout shift
-  if (!mounted) {
-    return (
-      <div style={{ opacity: 0 }}>
-        {children}
-      </div>
-    )
-  }
+  // Don't wait for mounting - render immediately to prevent flash
+  // The theme is already set from localStorage in useEffect
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
