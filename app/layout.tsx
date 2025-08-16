@@ -53,11 +53,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://sarkarijobs.cc',
   },
-  // Verification handled via Google Search Console import
-  // verification: {
-  //   google: 'code-from-gsc',  // Already verified
-  //   bing: 'imported-from-gsc', // Imported from GSC
-  // },
+  verification: {
+    // google: handled via GSC
+    // bing: imported from GSC
+    yandex: '51f17cdf65df9a55',
+  },
 };
 
 export default function RootLayout({
