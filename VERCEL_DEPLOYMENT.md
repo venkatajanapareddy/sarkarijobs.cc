@@ -1,4 +1,4 @@
-# Deploying sarkarijob.cc to Vercel
+# Deploying sarkarijobs.cc to Vercel
 
 ## Steps to Deploy
 
@@ -27,12 +27,12 @@ When prompted:
 1. Go to https://vercel.com/dashboard
 2. Select your `sarkarijob-cc` project
 3. Go to Settings → Domains
-4. Add `sarkarijob.cc`
-5. Add `www.sarkarijob.cc`
+4. Add `sarkarijobs.cc`
+5. Add `www.sarkarijobs.cc`
 
 #### Option B: Via CLI
 ```bash
-vercel domains add sarkarijob.cc
+vercel domains add sarkarijobs.cc
 ```
 
 ### 4. Configure DNS in Cloudflare
@@ -40,13 +40,13 @@ vercel domains add sarkarijob.cc
 Since you bought the domain in Cloudflare, configure DNS:
 
 1. Log into Cloudflare Dashboard
-2. Select `sarkarijob.cc` domain
+2. Select `sarkarijobs.cc` domain
 3. Go to DNS settings
 4. Add these records:
 
 ```
 Type: CNAME
-Name: @ (or sarkarijob.cc)
+Name: @ (or sarkarijobs.cc)
 Target: cname.vercel-dns.com
 Proxy: OFF (DNS only)
 
@@ -70,8 +70,8 @@ NODE_ENV=production
 ### 6. Verify Deployment
 
 After DNS propagation (5-30 minutes):
-- Visit https://sarkarijob.cc
-- Visit https://www.sarkarijob.cc
+- Visit https://sarkarijobs.cc
+- Visit https://www.sarkarijobs.cc
 - Test a job detail page
 - Test downloading an application form
 
