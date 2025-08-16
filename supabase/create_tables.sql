@@ -1,4 +1,4 @@
--- Supabase SQL Script for SarkariJob.cc
+-- Supabase SQL Script for SarkariJobs.cc
 -- Run this in Supabase SQL Editor to create all necessary tables
 
 -- Create saved_jobs table for storing user's saved jobs
