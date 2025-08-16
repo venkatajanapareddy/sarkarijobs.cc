@@ -489,17 +489,15 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
           .sort((a, b) => b[1] - a[1])
           .slice(0, 8)
           .map(([category, count]) => (
-            <button
+            <Button
               key={category}
+              variant={selectedCategory === category ? 'default' : 'outline'}
+              size="sm"
               onClick={() => setSelectedCategory(category === selectedCategory ? 'all' : category)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedCategory === category
-                  ? 'bg-blue-500 text-white'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className="h-8"
             >
-              {category} ({count})
-            </button>
+              {category} <Badge variant="secondary" className="ml-1.5">{count}</Badge>
+            </Button>
           ))}
       </div>
 
