@@ -33,7 +33,7 @@ export default async function SavedJobsPage() {
   const jobs = allJobs.filter(job => savedJobIds.includes(job.id))
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <>
       <Header />
       
       <main className="container mx-auto px-4 py-8">
@@ -61,6 +61,6 @@ export default async function SavedJobsPage() {
 
         <SavedJobsClient initialJobs={jobs} savedJobIds={savedJobIds} />
       </main>
-    </div>
+    </>
   )
 }

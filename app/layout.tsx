@@ -29,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-IN" suppressHydrationWarning>
-      <head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -44,10 +46,7 @@ export default function RootLayout({
             `,
           }}
         />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      
         <NextTopLoader
           color="#0066CC"
           initialPosition={0.08}
@@ -61,7 +60,7 @@ export default function RootLayout({
         />
         <GoogleAnalytics />
         <ThemeProvider>
-          <div className="min-h-screen flex flex-col">
+          <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
             <main className="flex-grow">
               {children}
             </main>
