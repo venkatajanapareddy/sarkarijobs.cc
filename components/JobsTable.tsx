@@ -24,6 +24,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                 <th>Post Name</th>
                 <th>Location</th>
                 <th>Vacancies</th>
+                <th>Salary</th>
                 <th>Last Date</th>
                 <th>Action</th>
               </tr>
@@ -61,6 +62,13 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                         <Users className="w-4 h-4 text-gray-400" />
                         <span className="font-medium">{job.totalPosts || '-'}</span>
                       </div>
+                    </td>
+                    <td className="text-sm">
+                      {job.salary ? (
+                        <span className="font-medium text-green-600 dark:text-green-400">{job.salary}</span>
+                      ) : (
+                        <span className="text-gray-400">Not specified</span>
+                      )}
                     </td>
                     <td>
                       <div className="flex items-center gap-2">
