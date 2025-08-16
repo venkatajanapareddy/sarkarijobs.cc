@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: "What if I find incorrect information on SarkariJob.cc?",
-    answer: "While we strive for accuracy, if you find any incorrect information, please contact us immediately at admin@sarkarijob.cc. Always verify critical information like dates and eligibility on the official recruitment website."
+    answer: "While we strive for accuracy, if you find any incorrect information, please contact us immediately at admin@sarkarijobs.cc. Always verify critical information like dates and eligibility on the official recruitment website."
   },
   {
     question: "Why should I trust SarkariJob.cc?",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: "What should I do if an application link is not working?",
-    answer: "First, try accessing the official website directly. Government websites sometimes face high traffic. If the issue persists, contact us at admin@sarkarijob.cc with the job details, and we'll update the information."
+    answer: "First, try accessing the official website directly. Government websites sometimes face high traffic. If the issue persists, contact us at admin@sarkarijobs.cc with the job details, and we'll update the information."
   },
   {
     question: "Are state government jobs also listed on SarkariJob.cc?",
