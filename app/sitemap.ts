@@ -6,7 +6,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   
   // Generate job URLs
   const jobUrls = jobs.map((job) => ({
-    url: `https://sarkarijob.cc/jobs/${job.id}`,
+    url: `https://sarkarijobs.cc/jobs/${job.id}`,
     lastModified: new Date(job.processedAt || job.publishedAt || new Date()),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
@@ -14,7 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   
   return [
     {
-      url: 'https://sarkarijob.cc',
+      url: 'https://sarkarijobs.cc',
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,
