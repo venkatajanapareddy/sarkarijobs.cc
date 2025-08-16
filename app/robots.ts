@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://sarkarijob.cc/sitemap.xml',
+    sitemap: 'https://sarkarijobs.cc/sitemap.xml',
   }
 }
