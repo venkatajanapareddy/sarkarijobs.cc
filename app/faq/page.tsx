@@ -3,33 +3,33 @@ import Link from 'next/link';
 import { ArrowLeft, ChevronDown } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'FAQ - Frequently Asked Questions | SarkariJob.cc',
-  description: 'Find answers to common questions about government job applications, eligibility, exam patterns, and using SarkariJob.cc effectively.',
+  title: 'FAQ - Frequently Asked Questions | SarkariJobs.cc',
+  description: 'Find answers to common questions about government job applications, eligibility, exam patterns, and using SarkariJobs.cc effectively.',
 };
 
 const faqs = [
   {
-    question: "What is SarkariJob.cc?",
-    answer: "SarkariJob.cc is a free job portal that provides the latest government job notifications from various central and state government departments, PSUs, banks, railways, defense services, and other government organizations across India."
+    question: "What is SarkariJobs.cc?",
+    answer: "SarkariJobs.cc is a free job portal that provides the latest government job notifications from various central and state government departments, PSUs, banks, railways, defense services, and other government organizations across India."
   },
   {
-    question: "Is SarkariJob.cc an official government website?",
-    answer: "No, SarkariJob.cc is an independent information portal that aggregates and presents government job notifications from official sources. We provide links to official websites for applications. Always verify information on the official recruitment website."
+    question: "Is SarkariJobs.cc an official government website?",
+    answer: "No, SarkariJobs.cc is an independent information portal that aggregates and presents government job notifications from official sources. We provide links to official websites for applications. Always verify information on the official recruitment website."
   },
   {
-    question: "Do I need to pay any fees to use SarkariJob.cc?",
-    answer: "No, SarkariJob.cc is completely free to use. We do not charge any fees for accessing job information, downloading forms, or using any features of our website. Beware of any website or person asking for payment for government job information."
+    question: "Do I need to pay any fees to use SarkariJobs.cc?",
+    answer: "No, SarkariJobs.cc is completely free to use. We do not charge any fees for accessing job information, downloading forms, or using any features of our website. Beware of any website or person asking for payment for government job information."
   },
   {
     question: "How often is the website updated with new jobs?",
     answer: "We update our website daily with new government job notifications. We recommend visiting regularly or bookmarking our site to stay updated with the latest opportunities."
   },
   {
-    question: "How do I apply for jobs listed on SarkariJob.cc?",
+    question: "How do I apply for jobs listed on SarkariJobs.cc?",
     answer: "Click on any job listing to view detailed information. Each job page provides direct links to the official application website and downloadable application forms. Always apply through the official government website mentioned in the notification."
   },
   {
-    question: "Can I apply for government jobs through SarkariJob.cc directly?",
+    question: "Can I apply for government jobs through SarkariJobs.cc directly?",
     answer: "No, we only provide information about job openings. You must apply through the official website of the recruiting organization. We provide direct links to official websites and application forms for your convenience."
   },
   {
@@ -57,11 +57,11 @@ const faqs = [
     answer: "Focus on the syllabus mentioned in the official notification. Prepare topics like General Knowledge, Current Affairs, Reasoning, Quantitative Aptitude, and subject-specific knowledge based on the post. Practice previous year question papers and mock tests."
   },
   {
-    question: "What if I find incorrect information on SarkariJob.cc?",
+    question: "What if I find incorrect information on SarkariJobs.cc?",
     answer: "While we strive for accuracy, if you find any incorrect information, please contact us immediately at admin@sarkarijobs.cc. Always verify critical information like dates and eligibility on the official recruitment website."
   },
   {
-    question: "Why should I trust SarkariJob.cc?",
+    question: "Why should I trust SarkariJobs.cc?",
     answer: "We source all information directly from official government websites and notifications. We provide direct links to official sources for verification. We never charge fees or make false promises about job guarantees."
   },
   {
@@ -69,7 +69,7 @@ const faqs = [
     answer: "First, try accessing the official website directly. Government websites sometimes face high traffic. If the issue persists, contact us at admin@sarkarijobs.cc with the job details, and we'll update the information."
   },
   {
-    question: "Are state government jobs also listed on SarkariJob.cc?",
+    question: "Are state government jobs also listed on SarkariJobs.cc?",
     answer: "Yes, we list both central and state government job opportunities from across India, including state PSCs, state police, state health departments, and other state government organizations."
   },
   {
@@ -94,7 +94,7 @@ export default function FAQPage() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">Frequently Asked Questions</h1>
           
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-            Find answers to common questions about government jobs and using SarkariJob.cc
+            Find answers to common questions about government jobs and using SarkariJobs.cc
           </p>
 
           <div className="space-y-4">
@@ -131,7 +131,7 @@ export default function FAQPage() {
           <div className="mt-8 p-6 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg">
             <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">⚠️ Important Disclaimer</h3>
             <p className="text-gray-700 dark:text-gray-300 text-sm">
-              SarkariJob.cc is not affiliated with any government organization. We are an independent platform providing 
+              SarkariJobs.cc is not affiliated with any government organization. We are an independent platform providing 
               information about government job opportunities. Always verify information on official government websites 
               before making any decisions. We are not responsible for any changes in recruitment processes or requirements 
               made by recruiting organizations.

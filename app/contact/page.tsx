@@ -107,7 +107,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-2">Important Notice</h3>
                   <p className="text-gray-700 dark:text-gray-300">
-                    SarkariJob.cc is an information portal only. We do not charge any fees for job applications 
+                    SarkariJobs.cc is an information portal only. We do not charge any fees for job applications 
                     or guarantee job placements. Always apply through official government websites and beware of 
                     fraudulent job offers asking for payment.
                   </p>

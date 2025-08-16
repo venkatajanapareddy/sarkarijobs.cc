@@ -6,19 +6,19 @@ import { createClient } from "@/utils/supabase/server"
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Latest Government Jobs 2025 | SarkariJob.cc - Sarkari Naukri',
+  title: 'Latest Government Jobs 2025 | SarkariJobs.cc - Sarkari Naukri',
   description: 'Find latest government jobs, sarkari naukri, and recruitment notifications from UPSC, SSC, Railway, Banking, Defence, and more. Updated daily with 300+ active job postings.',
   keywords: 'government jobs, sarkari naukri, sarkari job, government jobs 2025, upsc, ssc, railway jobs, bank jobs, defence jobs, teaching jobs, india',
   openGraph: {
-    title: 'Latest Government Jobs 2025 | SarkariJob.cc',
+    title: 'Latest Government Jobs 2025 | SarkariJobs.cc',
     description: 'Find latest government jobs and sarkari naukri. 300+ active job postings from various government departments.',
     type: 'website',
-    siteName: 'SarkariJob.cc',
+    siteName: 'SarkariJobs.cc',
     locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Latest Government Jobs 2025 | SarkariJob.cc',
+    title: 'Latest Government Jobs 2025 | SarkariJobs.cc',
     description: 'Find latest government jobs and sarkari naukri. 300+ active job postings.',
   },
   robots: {

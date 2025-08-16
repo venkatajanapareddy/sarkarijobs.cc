@@ -121,7 +121,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">8. Children&apos;s Privacy</h2>
               <p>
-                SarkariJob.cc is intended for users who are at least 18 years old or the minimum age for employment in 
+                SarkariJobs.cc is intended for users who are at least 18 years old or the minimum age for employment in 
                 their jurisdiction. We do not knowingly collect personal information from children.
               </p>
             </section>

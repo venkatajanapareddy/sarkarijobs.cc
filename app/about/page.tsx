@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ArrowLeft, Target, Users, Award, TrendingUp } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us | SarkariJob.cc - Your Trusted Government Job Portal',
-  description: 'Learn about SarkariJob.cc, India\'s dedicated platform for latest government job notifications, exam dates, and recruitment updates across all government departments.',
+  title: 'About Us | SarkariJobs.cc - Your Trusted Government Job Portal',
+  description: 'Learn about SarkariJobs.cc, India\'s dedicated platform for latest government job notifications, exam dates, and recruitment updates across all government departments.',
 };
 
 export default function AboutPage() {
@@ -20,11 +20,11 @@ export default function AboutPage() {
         </Link>
 
         <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-8">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">About SarkariJob.cc</h1>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-6">About SarkariJobs.cc</h1>
           
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Welcome to SarkariJob.cc, your comprehensive destination for the latest government job notifications 
+              Welcome to SarkariJobs.cc, your comprehensive destination for the latest government job notifications 
               across India. We are dedicated to helping job seekers find their dream government positions by providing 
               timely, accurate, and detailed information about recruitment opportunities.
             </p>
@@ -75,7 +75,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mt-8 mb-4">Why Choose SarkariJob.cc?</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mt-8 mb-4">Why Choose SarkariJobs.cc?</h2>
             
             <ul className="space-y-3 text-gray-700 dark:text-gray-300">
               <li className="flex items-start gap-2">
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg mt-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-3">Stay Connected</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Bookmark SarkariJob.cc and visit daily for the latest government job updates. Your dream government 
+                Bookmark SarkariJobs.cc and visit daily for the latest government job updates. Your dream government 
                 job might be just one click away!
               </p>
             </div>

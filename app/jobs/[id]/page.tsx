@@ -14,21 +14,21 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   
   if (!job) {
     return {
-      title: 'Job Not Found | SarkariJob.cc',
+      title: 'Job Not Found | SarkariJobs.cc',
     };
   }
   
   const description = `${job.organization} is hiring for ${job.title}. ${job.totalPosts ? `${job.totalPosts} vacancies available.` : ''} ${job.salary ? `Salary: ${job.salary}.` : ''} Last date to apply: ${job.lastDate ? formatDate(job.lastDate) : 'Check notification'}.`;
   
   return {
-    title: `${job.title} - ${job.organization} | SarkariJob.cc`,
+    title: `${job.title} - ${job.organization} | SarkariJobs.cc`,
     description: description.substring(0, 160),
     keywords: `${job.title}, ${job.organization}, government jobs, sarkari naukri, ${job.location || 'India'}, recruitment 2025`,
     openGraph: {
       title: `${job.title} - ${job.organization}`,
       description,
       type: 'article',
-      siteName: 'SarkariJob.cc',
+      siteName: 'SarkariJobs.cc',
     },
     twitter: {
       card: 'summary',
