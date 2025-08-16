@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "@/components/Footer";
 import NextTopLoader from 'nextjs-toploader';
+import { WebsiteStructuredData } from "@/components/StructuredData";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -21,6 +22,42 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SarkariJobs.cc - Latest Government Jobs in India",
   description: "Find the latest government job notifications, exam dates, and application forms for various government departments across India.",
+  keywords: "government jobs, sarkari naukri, govt jobs, indian government jobs, upsc, ssc, railway jobs, bank jobs, defense jobs",
+  authors: [{ name: "SarkariJobs.cc Team" }],
+  creator: "SarkariJobs.cc",
+  publisher: "SarkariJobs.cc",
+  metadataBase: new URL('https://sarkarijobs.cc'),
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://sarkarijobs.cc',
+    siteName: 'SarkariJobs.cc',
+    title: 'SarkariJobs.cc - Latest Government Jobs in India',
+    description: 'Find the latest government job notifications, exam dates, and application forms for various government departments across India.',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'SarkariJobs.cc - Your Gateway to Government Jobs',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SarkariJobs.cc - Latest Government Jobs in India',
+    description: 'Find the latest government job notifications, exam dates, and application forms for various government departments across India.',
+    images: ['/og-image.png'],
+    creator: '@sarkarijobs_cc',
+  },
+  alternates: {
+    canonical: 'https://sarkarijobs.cc',
+  },
+  verification: {
+    google: 'your-google-verification-code',
+    bing: 'your-bing-verification-code',
+    yandex: 'your-yandex-verification-code',
+  },
 };
 
 export default function RootLayout({
@@ -60,6 +97,7 @@ export default function RootLayout({
           shadow="0 0 10px #0066CC,0 0 5px #0066CC"
         />
         <GoogleAnalytics />
+        <WebsiteStructuredData />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
             <div className="flex-grow">
