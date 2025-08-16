@@ -37,7 +37,7 @@ Moves your 320MB of application forms (PDFs, JPGs, DOCX) from your Git repositor
 2. Click **"Settings"** tab
 3. Under **"Public access"**:
    - Click "Allow public access"
-   - Add custom domain (optional): `forms.sarkarijob.cc`
+   - Add custom domain (optional): `forms.sarkarijobs.cc`
 
 ## Step 4: Update Upload Script
 
@@ -54,7 +54,7 @@ const R2_CONFIG = {
 ## Step 5: Run Upload
 
 ```bash
-cd /Users/v/code/dreadnought/sarkarijob.cc
+cd /Users/v/code/dreadnought/sarkarijobs.cc
 node scripts/upload-to-r2.js
 ```
 
@@ -75,9 +75,9 @@ https://[your-account-hash].r2.dev/sarkarijob-forms/filename.pdf
 ```
 
 ### Option B: Custom Domain (Professional)
-1. Add subdomain in Cloudflare DNS: `forms.sarkarijob.cc`
+1. Add subdomain in Cloudflare DNS: `forms.sarkarijobs.cc`
 2. Connect to R2 bucket
-3. Files will be at: `https://forms.sarkarijob.cc/filename.pdf`
+3. Files will be at: `https://forms.sarkarijobs.cc/filename.pdf`
 
 ## Costs
 
@@ -97,7 +97,7 @@ https://[your-account-hash].r2.dev/sarkarijob-forms/filename.pdf
 ## Questions?
 
 **Q: Which Cloudflare account should I use?**
-A: You can use your existing account where sarkarijob.cc domain is, or create a new free account.
+A: You can use your existing account where sarkarijobs.cc domain is, or create a new free account.
 
 **Q: Is this the same account as my domain?**
 A: It can be, but doesn't have to be. Using the same account makes custom domain setup easier.
