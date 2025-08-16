@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | SarkariJob.cc',
-  description: 'Privacy Policy for SarkariJob.cc - Learn how we collect, use, and protect your information when you use our government job portal.',
+  title: 'Privacy Policy | SarkariJobs.cc',
+  description: 'Privacy Policy for SarkariJobs.cc - Learn how we collect, use, and protect your information when you use our government job portal.',
 };
 
 export default function PrivacyPage() {
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">1. Introduction</h2>
               <p>
-                Welcome to SarkariJob.cc (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your privacy and are committed to protecting 
+                Welcome to SarkariJobs.cc (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your privacy and are committed to protecting 
                 your personal information. This Privacy Policy explains how we collect, use, and safeguard your information 
                 when you visit our website.
               </p>
@@ -40,7 +40,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">2. Information We Collect</h2>
               
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">Automatically Collected Information</h3>
-              <p>When you visit SarkariJob.cc, we automatically collect certain information about your device:</p>
+              <p>When you visit SarkariJobs.cc, we automatically collect certain information about your device:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Browser type and version</li>
                 <li>Operating system</li>
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
 
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2 mt-4">Information You Provide</h3>
               <p>
-                Currently, SarkariJob.cc does not require user registration or collect personal information directly. 
+                Currently, SarkariJobs.cc does not require user registration or collect personal information directly. 
                 If you contact us via email, we may collect your email address and any information you provide in your message.
               </p>
             </section>
@@ -91,7 +91,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-3">5. Cookies</h2>
               <p>
-                SarkariJob.cc uses essential cookies to maintain user preferences (such as dark/light theme selection). 
+                SarkariJobs.cc uses essential cookies to maintain user preferences (such as dark/light theme selection). 
                 These cookies do not contain personal information and are necessary for the website to function properly.
               </p>
               <p className="mt-2">
@@ -151,8 +151,8 @@ export default function PrivacyPage() {
                 If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
               </p>
               <p className="mt-2">
-                Email: admin@sarkarijob.cc<br />
-                Website: https://sarkarijob.cc
+                Email: admin@sarkarijobs.cc<br />
+                Website: https://sarkarijobs.cc
               </p>
             </section>
           </div>
