@@ -30,7 +30,7 @@ export async function GET(request: Request) {
     const response: JobsApiResponse = {
       jobs: paginatedJobs,
       totalCount: jobs.length,
-      source: 'sarkarijob.cc',
+      source: 'sarkarijobs.cc',
       fetchedAt: new Date().toISOString(),
       lastUpdated: new Date().toISOString()
     };
@@ -41,7 +41,7 @@ export async function GET(request: Request) {
     return NextResponse.json({
       jobs: [],
       totalCount: 0,
-      source: 'sarkarijob.cc',
+      source: 'sarkarijobs.cc',
       error: 'Failed to load jobs'
     } as JobsApiResponse, { status: 500 });
   }
