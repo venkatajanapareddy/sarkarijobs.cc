@@ -16,25 +16,42 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
-    // Get theme from localStorage or default to light (ignore system preference)
+    // Get theme from localStorage or default to light
     const savedTheme = localStorage.getItem('theme') as Theme | null
     const initialTheme = savedTheme || 'light'
     
     setTheme(initialTheme)
-    document.documentElement.classList.toggle('dark', initialTheme === 'dark')
+    // Ensure the class is set correctly on mount
+    if (initialTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    setMounted(true)
   }, [])
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
+    
+    // Update theme
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
-    document.documentElement.classList.toggle('dark', newTheme === 'dark')
+    
+    // Toggle dark class with smooth transition
+    if (newTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
   }
 
-  // Prevent flash of incorrect theme
+  // Return a placeholder with the same structure to prevent layout shift
   if (!mounted) {
-    return null
+    return (
+      <div style={{ opacity: 0 }}>
+        {children}
+      </div>
+    )
   }
 
   return (

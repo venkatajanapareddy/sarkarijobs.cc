@@ -3,6 +3,18 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Smooth theme transitions */
+@layer base {
+  * {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+  
+  /* Faster transitions for interactive elements */
+  button, a, input, select, textarea {
+    @apply transition-all duration-150 ease-in-out;
+  }
+}
+
 @theme inline {
   /* Design System Colors */
   --color-primary-blue: #0066CC;
@@ -203,7 +215,8 @@ button:not(:disabled) {
 
 /* Job card styles for mobile */
 .job-card {
-  @apply rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-4 shadow-sm dark:shadow-gray-800 transition-shadow hover:shadow-md dark:hover:shadow-lg;
+  @apply rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-4 shadow-sm dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-lg;
+  @apply transition-all duration-200;
 }
 
 /* Custom scrollbar */
