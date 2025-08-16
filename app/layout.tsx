@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SarkariJob.cc - Latest Government Jobs in India",
+  title: "SarkariJobs.cc - Latest Government Jobs in India",
   description: "Find the latest government job notifications, exam dates, and application forms for various government departments across India.",
 };
 
