@@ -3,15 +3,42 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Smooth theme transitions */
+/* Fast, optimized theme transitions */
 @layer base {
+  /* Reset all transitions first */
   * {
-    @apply transition-colors duration-200 ease-in-out;
+    transition: none !important;
   }
   
-  /* Faster transitions for interactive elements */
-  button, a, input, select, textarea {
-    @apply transition-all duration-150 ease-in-out;
+  /* Apply targeted transitions only where needed */
+  html.dark,
+  html:not(.dark) {
+    * {
+      transition: none !important;
+    }
+    
+    body,
+    header,
+    main,
+    div,
+    section,
+    nav,
+    aside,
+    footer {
+      transition: background-color 75ms ease-out, border-color 75ms ease-out !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, span, a, label, li, td, th {
+      transition: color 75ms ease-out !important;
+    }
+    
+    button, input, select, textarea {
+      transition: background-color 75ms ease-out, border-color 75ms ease-out, color 75ms ease-out !important;
+    }
+    
+    svg {
+      transition: fill 50ms ease-out, stroke 50ms ease-out !important;
+    }
   }
 }
 
