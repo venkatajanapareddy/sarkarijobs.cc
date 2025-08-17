@@ -89,6 +89,21 @@ export default function GovBuildingLogo({ className = "w-8 h-8" }: { className?:
       <rect x="51" y="22" width="12" height="2" fill="white" />   {/* White */}
       <rect x="51" y="24" width="12" height="2" fill="#138808" /> {/* Green */}
       
+      {/* Ashoka Chakra in the white band */}
+      <circle cx="57" cy="23" r="1" fill="none" stroke="#000080" strokeWidth="0.2" />
+      {/* Tiny spokes for the chakra */}
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((angle) => (
+        <line
+          key={angle}
+          x1="57"
+          y1="23"
+          x2={57 + 0.8 * Math.cos(angle * Math.PI / 180)}
+          y2={23 + 0.8 * Math.sin(angle * Math.PI / 180)}
+          stroke="#000080"
+          strokeWidth="0.1"
+        />
+      ))}
+      
       {/* Windows/Doors */}
       <rect
         x="45"
