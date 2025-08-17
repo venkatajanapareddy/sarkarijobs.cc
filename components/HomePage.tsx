@@ -37,6 +37,13 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
     if (filter === 'closing-today') {
       setSelectedUrgency('today')
       setShowFilters(true)
+      // Scroll to the filter section after a brief delay to ensure it's rendered
+      setTimeout(() => {
+        const filterSection = document.getElementById('filter-section')
+        if (filterSection) {
+          filterSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }, 100)
     }
   }, [searchParams])
   const [canScroll, setCanScroll] = useState(false)
@@ -301,7 +308,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
       )}
 
       {/* Search and Filter Bar */}
-      <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-sm">
+      <div id="filter-section" className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-sm scroll-mt-20">
         <div className="flex flex-col lg:flex-row gap-4">
           {/* Search */}
           <div className="flex-1">
