@@ -487,17 +487,23 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
         </p>
         
         {(searchTerm || selectedLocation !== 'all' || selectedCategory !== 'all' || selectedUrgency !== 'all') && (
-          <button
+          <Button
             onClick={() => {
               setSearchTerm('')
               setSelectedLocation('all')
               setSelectedCategory('all')
               setSelectedUrgency('all')
             }}
-            className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
+            variant="outline"
+            size="sm"
+            className="bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 border-red-200 dark:border-red-800 hover:bg-red-100 dark:hover:bg-red-900/30 hover:border-red-300 dark:hover:border-red-700 font-medium"
           >
+            <X className="w-3 h-3 mr-1" />
             Clear all filters
-          </button>
+            <span className="ml-1.5 px-1.5 py-0.5 bg-red-100 dark:bg-red-900/40 rounded-full text-xs">
+              {[searchTerm ? 1 : 0, selectedLocation !== 'all' ? 1 : 0, selectedCategory !== 'all' ? 1 : 0, selectedUrgency !== 'all' ? 1 : 0].reduce((a, b) => a + b, 0)}
+            </span>
+          </Button>
         )}
       </div>
 
