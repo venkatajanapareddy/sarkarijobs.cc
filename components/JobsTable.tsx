@@ -35,9 +35,9 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                 return (
                   <tr key={job.id} className={`${index % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-100/40 dark:bg-gray-800/30'} hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors`}>
                     <td className="font-medium">
-                      <div className="flex items-center gap-2">
-                        <Building className="w-4 h-4 text-gray-400" />
-                        {job.organization}
+                      <div className="flex items-start gap-2">
+                        <Building className="w-4 h-4 text-gray-400 flex-shrink-0 mt-0.5" />
+                        <span>{job.organization}</span>
                       </div>
                     </td>
                     <td>
@@ -128,9 +128,9 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                   <tr key={job.id} className={`${index % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-100/40 dark:bg-gray-800/30'} hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors`}>
                     <td className="font-medium">
                       <div>
-                        <div className="flex items-center gap-2">
-                          <Building className="w-4 h-4 text-gray-400" />
-                          {job.organization}
+                        <div className="flex items-start gap-2">
+                          <Building className="w-4 h-4 text-gray-400 flex-shrink-0 mt-0.5" />
+                          <span>{job.organization}</span>
                         </div>
                         <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
                           {job.location || 'All India'} • {job.totalPosts || '-'} Posts
