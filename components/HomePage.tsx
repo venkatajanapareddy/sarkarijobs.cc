@@ -337,12 +337,13 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
           {/* Filter Toggle for Mobile */}
           <Button
             onClick={() => setShowFilters(!showFilters)}
-            className="lg:hidden"
+            variant="outline"
+            className="lg:hidden bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700"
           >
             <Filter className="w-4 h-4 mr-2" />
             <span>Filters</span>
             {(selectedLocation !== 'all' || selectedCategory !== 'all' || selectedUrgency !== 'all') && (
-              <Badge variant="secondary" className="ml-2">
+              <Badge variant="secondary" className="ml-2 bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
                 {[selectedLocation !== 'all', selectedCategory !== 'all', selectedUrgency !== 'all'].filter(Boolean).length}
               </Badge>
             )}
@@ -461,13 +462,13 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
                     setSelectedUrgency('all')
                   }}
                   variant="outline"
-                  className="flex-1"
+                  className="flex-1 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700"
                 >
                   Clear Filters
                 </Button>
                 <Button
                   onClick={() => setShowFilters(false)}
-                  className="flex-1"
+                  className="flex-1 bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
                 >
                   Apply Filters
                 </Button>
