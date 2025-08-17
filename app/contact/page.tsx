@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-8">
         <Link 
           href="/" 
           className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 mb-6"

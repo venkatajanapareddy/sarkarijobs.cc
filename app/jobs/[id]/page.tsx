@@ -196,7 +196,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
-      <div className="max-w-5xl mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8">
         {/* Back button */}
         <Link 
           href="/" 
