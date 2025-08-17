@@ -496,13 +496,13 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
             }}
             variant="outline"
             size="sm"
-            className="bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 border-red-200 dark:border-red-800 hover:bg-red-100 dark:hover:bg-red-900/30 hover:border-red-300 dark:hover:border-red-700 font-medium"
+            className="border-blue-500 text-blue-600 hover:bg-blue-50 dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-900/20"
           >
-            <X className="w-3 h-3 mr-1" />
+            <X className="w-4 h-4 mr-1.5" />
             Clear all filters
-            <span className="ml-1.5 px-1.5 py-0.5 bg-red-100 dark:bg-red-900/40 rounded-full text-xs">
+            <Badge className="ml-2 bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300">
               {[searchTerm ? 1 : 0, selectedLocation !== 'all' ? 1 : 0, selectedCategory !== 'all' ? 1 : 0, selectedUrgency !== 'all' ? 1 : 0].reduce((a, b) => a + b, 0)}
-            </span>
+            </Badge>
           </Button>
         )}
       </div>
