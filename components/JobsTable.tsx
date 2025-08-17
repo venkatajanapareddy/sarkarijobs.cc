@@ -98,7 +98,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                           href={`/jobs/${generateJobSlug(job)}`}
                           className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                         >
-                          View
+                          Apply
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>
@@ -177,7 +177,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                           href={`/jobs/${generateJobSlug(job)}`}
                           className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                         >
-                          View
+                          Apply
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>
