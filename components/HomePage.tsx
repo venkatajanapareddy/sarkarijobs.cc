@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import { useSearchParams } from 'next/navigation'
 import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, GraduationCap, Building2, X, Sparkles, ArrowRight, Users } from 'lucide-react'
 import JobsTable from './JobsTable'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
@@ -23,11 +24,21 @@ interface HomePageProps {
 }
 
 export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
+  const searchParams = useSearchParams()
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedLocation, setSelectedLocation] = useState('all')
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedUrgency, setSelectedUrgency] = useState('all')
   const [showFilters, setShowFilters] = useState(false)
+  
+  // Check for filter parameter in URL
+  useEffect(() => {
+    const filter = searchParams.get('filter')
+    if (filter === 'closing-today') {
+      setSelectedUrgency('today')
+      setShowFilters(true)
+    }
+  }, [searchParams])
   const [canScroll, setCanScroll] = useState(false)
   const scrollContainerRef = useRef<HTMLDivElement>(null)
 

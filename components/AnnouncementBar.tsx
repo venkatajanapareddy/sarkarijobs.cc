@@ -46,8 +46,8 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
       type: 'urgent',
       icon: AlertTriangle,
       text: `🚨 ${closingToday} job${closingToday > 1 ? 's' : ''} closing TODAY!`,
-      subtext: urgentJobs[0] ? `${urgentJobs[0].organization} - ${urgentJobs[0].title}` : '',
-      link: urgentJobs[0] ? `/jobs/${generateJobSlug(urgentJobs[0])}` : null,
+      subtext: closingToday > 1 ? `View all ${closingToday} jobs closing today` : (urgentJobs[0] ? `${urgentJobs[0].organization} - ${urgentJobs[0].title}` : ''),
+      link: closingToday > 1 ? '/?filter=closing-today' : (urgentJobs[0] ? `/jobs/${generateJobSlug(urgentJobs[0])}` : null),
       color: 'red'
     })
   }
@@ -150,13 +150,15 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
                 )}
               </div>
 
-              {/* Link to specific job if urgent */}
+              {/* Link to specific job or filter */}
               {announcement?.link && (
                 <Link 
                   href={announcement.link}
                   className="inline-flex items-center gap-1 px-2 py-0.5 bg-white/20 hover:bg-white/30 rounded-full transition-colors group ml-2"
                 >
-                  <span className="text-white text-xs font-medium">View Job</span>
+                  <span className="text-white text-xs font-medium">
+                    {announcement.link.includes('filter=') ? 'View All' : 'View Job'}
+                  </span>
                   <ArrowRight className="w-3 h-3 text-white group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               )}
