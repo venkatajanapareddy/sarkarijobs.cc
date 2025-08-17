@@ -1,6 +1,5 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/utils/supabase/server'
-import Header from '@/components/Header'
 import SavedJobsClient from '@/components/SavedJobsClient'
 import Link from 'next/link'
 import { ArrowLeft, Star } from 'lucide-react'
@@ -33,9 +32,7 @@ export default async function SavedJobsPage() {
   const jobs = allJobs.filter(job => savedJobIds.includes(job.id))
 
   return (
-    <>
-      <Header />
-      <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8">
         <div className="mb-6">
           <Link 
             href="/"
@@ -59,7 +56,6 @@ export default async function SavedJobsPage() {
         </div>
 
         <SavedJobsClient initialJobs={jobs} savedJobIds={savedJobIds} />
-      </div>
-    </>
+    </div>
   )
 }

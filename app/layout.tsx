@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NextTopLoader from 'nextjs-toploader';
 import { WebsiteStructuredData } from "@/components/StructuredData";
@@ -103,6 +104,7 @@ export default function RootLayout({
         <WebsiteStructuredData />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
+            <Header />
             <div className="flex-grow">
               {children}
             </div>

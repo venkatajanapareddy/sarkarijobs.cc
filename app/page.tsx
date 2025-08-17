@@ -1,4 +1,3 @@
-import Header from "@/components/Header"
 import HomePageWrapper from "@/components/HomePageWrapper"
 import AnnouncementBar from "@/components/AnnouncementBar"
 import { loadJobs } from "@/lib/jobs-server"
@@ -61,7 +60,6 @@ export default async function Home() {
   return (
     <>
       <AnnouncementBar jobs={jobs} />
-      <Header />
       <div className="container mx-auto px-4 py-8" role="main">
         <HomePageWrapper jobs={jobs} savedJobIds={savedJobIds} />
       </div>
