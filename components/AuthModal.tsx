@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { X, Mail, Shield, Star, Bell, BookmarkCheck } from 'lucide-react';
+import { X, Shield, Star, Bell, BookmarkCheck } from 'lucide-react';
 import { createClient } from '@/utils/supabase/client';
 
 interface AuthModalProps {
@@ -12,84 +12,20 @@ interface AuthModalProps {
 
 export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: AuthModalProps) {
   const [isSignUp, setIsSignUp] = useState(!defaultToSignIn);
-  const [email, setEmail] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+  const [isGoogleLoading, setIsGoogleLoading] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
 
   useEffect(() => {
     if (isOpen) {
       // Reset state when modal opens
-      setEmail('');
       setMessage(null);
       setIsSignUp(!defaultToSignIn);
+      setIsGoogleLoading(false);
     }
   }, [isOpen, defaultToSignIn]);
 
-  const handleAuth = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsLoading(true);
-    setMessage(null);
-
-    try {
-      const supabase = createClient();
-      
-      if (isSignUp) {
-        // Sign up with magic link
-        const { error } = await supabase.auth.signInWithOtp({
-          email,
-          options: {
-            emailRedirectTo: `${window.location.origin}/auth/callback`,
-          },
-        });
-
-        if (error) {
-          // Check if the error is due to existing account with different provider
-          if (error.message?.includes('already registered') || error.message?.includes('identity already exists')) {
-            throw new Error('This email is already registered. Please sign in with Google if you previously used Google to create your account.');
-          }
-          throw error;
-        }
-
-        setMessage({
-          type: 'success',
-          text: 'Check your email for the magic link to complete sign up!'
-        });
-        setEmail('');
-      } else {
-        // Sign in with magic link
-        const { error } = await supabase.auth.signInWithOtp({
-          email,
-          options: {
-            emailRedirectTo: `${window.location.origin}/auth/callback`,
-          },
-        });
-
-        if (error) {
-          // Check if the error is due to existing account with different provider
-          if (error.message?.includes('already registered') || error.message?.includes('identity already exists')) {
-            throw new Error('This email is already registered with Google. Please use "Continue with Google" to sign in.');
-          }
-          throw error;
-        }
-
-        setMessage({
-          type: 'success',
-          text: 'Check your email for the magic link to sign in!'
-        });
-        setEmail('');
-      }
-    } catch (error: any) {
-      setMessage({
-        type: 'error',
-        text: error.message || 'Something went wrong. Please try again.'
-      });
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
   const handleGoogleSignIn = async () => {
-    setIsLoading(true);
+    setIsGoogleLoading(true);
     try {
       const supabase = createClient();
       const { error } = await supabase.auth.signInWithOAuth({
@@ -104,7 +40,7 @@ export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: A
         type: 'error',
         text: error.message || 'Failed to sign in with Google'
       });
-      setIsLoading(false);
+      setIsGoogleLoading(false);
     }
   };
 
@@ -139,9 +75,7 @@ export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: A
                 {isSignUp ? 'Create Your Account' : 'Welcome Back'}
               </h2>
               <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                {isSignUp 
-                  ? 'Start saving jobs and get notifications' 
-                  : 'Sign in to access your saved jobs'}
+                Sign in with Google to save jobs and get notifications
               </p>
             </div>
 
@@ -183,50 +117,11 @@ export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: A
               </div>
             )}
 
-            {/* Form */}
-            <form onSubmit={handleAuth} className="space-y-4">
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Email Address
-                </label>
-                <div className="relative">
-                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                  <input
-                    id="email"
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="your.email@example.com"
-                    className="w-full pl-10 pr-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100"
-                    required
-                  />
-                </div>
-              </div>
-
-              <button
-                type="submit"
-                disabled={isLoading}
-                className="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {isLoading ? 'Please wait...' : (isSignUp ? 'Sign Up with Email' : 'Sign In with Email')}
-              </button>
-            </form>
-
-            {/* Divider */}
-            <div className="relative my-6">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-gray-300 dark:border-gray-600"></div>
-              </div>
-              <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-white dark:bg-gray-900 text-gray-500">Or continue with</span>
-              </div>
-            </div>
-
             {/* Google Sign In */}
             <button
               onClick={handleGoogleSignIn}
-              disabled={isLoading}
-              className="w-full py-2 px-4 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={isGoogleLoading}
+              className="w-full py-3 px-4 bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-lg transition-colors flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
             >
               <svg className="h-5 w-5" viewBox="0 0 24 24">
                 <path
@@ -246,39 +141,15 @@ export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: A
                   d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
                 />
               </svg>
-              <span className="text-gray-700 dark:text-gray-300">
-                {isLoading ? 'Please wait...' : 'Continue with Google'}
+              <span>
+                {isGoogleLoading ? 'Please wait...' : 'Sign up with Google'}
               </span>
             </button>
 
-            {/* Toggle between sign up and sign in */}
-            <div className="mt-6 text-center text-sm">
-              <span className="text-gray-600 dark:text-gray-400">
-                {isSignUp ? 'Already have an account?' : "New to SarkariJobs.cc?"}
-              </span>{' '}
-              <button
-                type="button"
-                onClick={() => {
-                  setIsSignUp(!isSignUp);
-                  setMessage(null);
-                }}
-                className="font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
-              >
-                {isSignUp ? 'Sign In Instead' : 'Create Account'}
-              </button>
-            </div>
-
             {/* Privacy notice */}
-            <p className="mt-4 text-xs text-center text-gray-500 dark:text-gray-400">
+            <p className="mt-6 text-xs text-center text-gray-500 dark:text-gray-400">
               By continuing, you agree to our Terms of Service and Privacy Policy
             </p>
-            
-            {/* Sign in method notice */}
-            {!isSignUp && (
-              <p className="mt-2 text-xs text-center text-amber-600 dark:text-amber-400">
-                ⚠️ Use the same method you used to create your account
-              </p>
-            )}
           </div>
         </div>
       </div>
