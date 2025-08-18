@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { X, Mail, Shield, Star, Bell, BookmarkCheck, Clock } from 'lucide-react';
+import { X, Mail, Shield, Star, Bell, BookmarkCheck } from 'lucide-react';
 import { createClient } from '@/utils/supabase/client';
 
 interface AuthModalProps {
@@ -41,7 +41,13 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           },
         });
 
-        if (error) throw error;
+        if (error) {
+          // Check if the error is due to existing account with different provider
+          if (error.message?.includes('already registered') || error.message?.includes('identity already exists')) {
+            throw new Error('This email is already registered. Please sign in with Google if you previously used Google to create your account.');
+          }
+          throw error;
+        }
 
         setMessage({
           type: 'success',
@@ -57,7 +63,13 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           },
         });
 
-        if (error) throw error;
+        if (error) {
+          // Check if the error is due to existing account with different provider
+          if (error.message?.includes('already registered') || error.message?.includes('identity already exists')) {
+            throw new Error('This email is already registered with Google. Please use "Continue with Google" to sign in.');
+          }
+          throw error;
+        }
 
         setMessage({
           type: 'success',
@@ -153,7 +165,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                   <BookmarkCheck className="h-5 w-5 text-green-500 mt-0.5" />
                   <div>
                     <p className="text-sm font-medium text-gray-900 dark:text-gray-100">Track Applications</p>
-                    <p className="text-xs text-gray-600 dark:text-gray-400">Keep track of where you've applied</p>
+                    <p className="text-xs text-gray-600 dark:text-gray-400">Keep track of where you&apos;ve applied</p>
                   </div>
                 </div>
               </div>
@@ -259,6 +271,13 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
             <p className="mt-4 text-xs text-center text-gray-500 dark:text-gray-400">
               By continuing, you agree to our Terms of Service and Privacy Policy
             </p>
+            
+            {/* Sign in method notice */}
+            {!isSignUp && (
+              <p className="mt-2 text-xs text-center text-amber-600 dark:text-amber-400">
+                ⚠️ Use the same method you used to create your account
+              </p>
+            )}
           </div>
         </div>
       </div>
