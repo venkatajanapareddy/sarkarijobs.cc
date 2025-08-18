@@ -3,6 +3,56 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Disable text selection site-wide */
+@layer base {
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Allow selection only for form inputs */
+  input,
+  textarea,
+  select {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  
+  /* Disable right-click context menu */
+  body {
+    -webkit-touch-callout: none;
+  }
+  
+  /* Disable image dragging */
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+  }
+  
+  /* Allow pointer events for clickable images */
+  a img,
+  button img {
+    pointer-events: auto;
+  }
+  
+  /* Disable highlighting */
+  ::selection {
+    background-color: transparent;
+  }
+  
+  ::-moz-selection {
+    background-color: transparent;
+  }
+}
+
 /* Fast, optimized theme transitions */
 @layer base {
   /* Reset all transitions first */

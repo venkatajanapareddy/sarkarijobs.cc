@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NextTopLoader from 'nextjs-toploader';
 import { WebsiteStructuredData } from "@/components/StructuredData";
+import ContentProtection from "@/components/ContentProtection";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -84,6 +85,57 @@ export default function RootLayout({
                     document.documentElement.classList.add('dark');
                   }
                 } catch (e) {}
+                
+                // Disable right-click context menu
+                document.addEventListener('contextmenu', function(e) {
+                  e.preventDefault();
+                  return false;
+                });
+                
+                // Disable text selection with mouse
+                document.addEventListener('selectstart', function(e) {
+                  if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+                    e.preventDefault();
+                    return false;
+                  }
+                });
+                
+                // Disable copy keyboard shortcuts
+                document.addEventListener('keydown', function(e) {
+                  // Disable Ctrl+A, Ctrl+C, Ctrl+X
+                  if ((e.ctrlKey || e.metaKey) && (e.key === 'a' || e.key === 'c' || e.key === 'x')) {
+                    if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+                      e.preventDefault();
+                      return false;
+                    }
+                  }
+                  // Disable F12 (Developer Tools)
+                  if (e.key === 'F12') {
+                    e.preventDefault();
+                    return false;
+                  }
+                  // Disable Ctrl+Shift+I (Developer Tools)
+                  if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'I') {
+                    e.preventDefault();
+                    return false;
+                  }
+                  // Disable Ctrl+Shift+J (Console)
+                  if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'J') {
+                    e.preventDefault();
+                    return false;
+                  }
+                  // Disable Ctrl+U (View Source)
+                  if ((e.ctrlKey || e.metaKey) && e.key === 'u') {
+                    e.preventDefault();
+                    return false;
+                  }
+                });
+                
+                // Disable drag
+                document.addEventListener('dragstart', function(e) {
+                  e.preventDefault();
+                  return false;
+                });
               })();
             `,
           }}
@@ -102,6 +154,7 @@ export default function RootLayout({
         />
         <GoogleAnalytics />
         <WebsiteStructuredData />
+        <ContentProtection />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
             {/* Children will include the announcement bar and content */}
