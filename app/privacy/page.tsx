@@ -1,3 +1,4 @@
+import PageLayout from '@/components/PageLayout';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
@@ -9,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
-        <div className="container mx-auto px-4 py-8">
+    <PageLayout>
+      <div className="container mx-auto px-4 py-8">
         <Link 
           href="/" 
           className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 mb-6"
@@ -158,6 +159,6 @@ export default function PrivacyPage() {
           </div>
         </div>
       </div>
-    </div>
+    </PageLayout>
   );
 }
