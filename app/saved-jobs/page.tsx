@@ -1,3 +1,4 @@
+import PageLayout from '@/components/PageLayout'
 import { redirect } from 'next/navigation'
 import { createClient } from '@/utils/supabase/server'
 import SavedJobsClient from '@/components/SavedJobsClient'
@@ -32,7 +33,8 @@ export default async function SavedJobsPage() {
   const jobs = allJobs.filter(job => savedJobIds.includes(job.id))
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <PageLayout>
+      <div className="container mx-auto px-4 py-8">
         <div className="mb-6">
           <Link 
             href="/"
@@ -56,6 +58,7 @@ export default async function SavedJobsPage() {
         </div>
 
         <SavedJobsClient initialJobs={jobs} savedJobIds={savedJobIds} />
-    </div>
+      </div>
+    </PageLayout>
   )
 }
