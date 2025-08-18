@@ -77,6 +77,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
   let selectionProcess = null;
   let applicationFee = null;
   let howToApply = null;
+  let venue = null;
   
   // First check tables for structured data
   for (const table of tables) {
@@ -155,6 +156,23 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
   );
   if (applyList) {
     howToApply = applyList.items;
+  }
+  
+  // Extract venue/address information
+  if (rawContent?.fullText) {
+    // Look for venue section in the full text
+    const venueMatch = rawContent.fullText.match(/Venue[:\s]*([^]*?)(?:Important\s+Dates|Date\s+of|Official|$)/i);
+    if (venueMatch && venueMatch[1]) {
+      venue = venueMatch[1].trim().replace(/\n+/g, ', ').substring(0, 500);
+    }
+    
+    // If no venue found but it's a walk-in interview, look for address after "address given below"
+    if (!venue && rawContent.fullText.toLowerCase().includes('walk-in')) {
+      const addressMatch = rawContent.fullText.match(/address\s+given\s+below[:\s]*([^]*?)(?:Important\s+Dates|Date\s+of|Official|$)/i);
+      if (addressMatch && addressMatch[1]) {
+        venue = addressMatch[1].trim().replace(/\n+/g, ', ').substring(0, 500);
+      }
+    }
   }
   
   // Generate structured data for SEO
@@ -324,6 +342,7 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
             <div className="prose dark:prose-invert max-w-none">
               {paragraphs[0] && (
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                  {/* Content is already rephrased in the backend during processing */}
                   {paragraphs[0]}
                 </p>
               )}
@@ -426,6 +445,19 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
                 </div>
               ))}
             </div>
+          </div>
+        )}
+        
+        {/* Venue/Interview Location */}
+        {venue && (
+          <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6 mb-6">
+            <h2 className="text-lg font-semibold mb-3 text-blue-900 dark:text-blue-100 flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              Interview Venue / Address
+            </h2>
+            <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
+              {venue}
+            </p>
           </div>
         )}
         
