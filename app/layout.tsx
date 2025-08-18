@@ -104,10 +104,8 @@ export default function RootLayout({
         <WebsiteStructuredData />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
-            <Header />
-            <div className="flex-grow">
-              {children}
-            </div>
+            {/* Children will include the announcement bar and content */}
+            {children}
             <Footer />
           </div>
         </ThemeProvider>
