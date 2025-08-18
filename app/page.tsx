@@ -1,5 +1,6 @@
 import HomePageWrapper from "@/components/HomePageWrapper"
 import AnnouncementBar from "@/components/AnnouncementBar"
+import Header from "@/components/Header"
 import { loadJobs } from "@/lib/jobs-server"
 import { createClient } from "@/utils/supabase/server"
 import type { Metadata } from 'next'
@@ -60,8 +61,11 @@ export default async function Home() {
   return (
     <>
       <AnnouncementBar jobs={jobs} />
-      <div className="container mx-auto px-4 py-8" role="main">
-        <HomePageWrapper jobs={jobs} savedJobIds={savedJobIds} />
+      <Header />
+      <div className="flex-grow">
+        <div className="container mx-auto px-4 py-8" role="main">
+          <HomePageWrapper jobs={jobs} savedJobIds={savedJobIds} />
+        </div>
       </div>
     </>
   )
