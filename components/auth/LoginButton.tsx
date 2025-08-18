@@ -75,8 +75,18 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
 
   const handleSignOut = async () => {
     setIsLoading(true)
-    await supabase.auth.signOut()
-    window.location.reload()
+    try {
+      const { error } = await supabase.auth.signOut()
+      if (error) {
+        console.error('Error signing out:', error)
+      }
+      // Use location.href for a full page reload
+      window.location.href = '/'
+    } catch (error) {
+      console.error('Error during sign out:', error)
+      // Force reload even if there's an error
+      window.location.href = '/'
+    }
   }
 
   if (user) {
@@ -104,12 +114,15 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
-            onClick={handleSignOut}
+            onSelect={(e) => {
+              e.preventDefault()
+              handleSignOut()
+            }}
             disabled={isLoading}
-            className="text-red-600 dark:text-red-400 focus:text-red-600 dark:focus:text-red-400"
+            className="text-red-600 dark:text-red-400 focus:text-red-600 dark:focus:text-red-400 cursor-pointer"
           >
             <LogOut className="w-4 h-4 mr-2" />
-            Sign Out
+            {isLoading ? 'Signing out...' : 'Sign Out'}
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
