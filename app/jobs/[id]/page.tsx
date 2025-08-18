@@ -5,6 +5,7 @@ import { loadJobDetails, loadJobs } from '@/lib/jobs-server';
 import { formatDate, getDaysLeft } from '@/lib/jobs-types';
 import { generateJobSlug, extractJobIdFromSlug } from '@/lib/slug-utils';
 import VenueMap from '@/components/VenueMap';
+import PageLayout from '@/components/PageLayout';
 import type { Metadata } from 'next';
 
 // Generate metadata for SEO
