@@ -14,6 +14,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 import { Badge } from '@/components/ui/badge'
+import AuthModal from '@/components/AuthModal'
 
 interface LoginButtonProps {
   user: any
@@ -23,6 +24,7 @@ interface LoginButtonProps {
 export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: LoginButtonProps) {
   const [isLoading, setIsLoading] = useState(false)
   const [savedJobsCount, setSavedJobsCount] = useState(initialCount)
+  const [showAuthModal, setShowAuthModal] = useState(false)
   const supabase = createClient()
 
   // Fetch saved jobs count
@@ -67,18 +69,8 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     }
   }, [user, fetchSavedJobsCount])
 
-  const handleSignIn = async () => {
-    setIsLoading(true)
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
-      },
-    })
-    if (error) {
-      console.error('Error signing in:', error)
-    }
-    setIsLoading(false)
+  const handleSignIn = () => {
+    setShowAuthModal(true)
   }
 
   const handleSignOut = async () => {
@@ -125,15 +117,21 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
   }
 
   return (
-    <Button
-      onClick={handleSignIn}
-      disabled={isLoading}
-      variant="ghost"
-      size="sm"
-      className="gap-2"
-    >
-      <LogIn className="w-4 h-4" />
-      <span>Sign in</span>
-    </Button>
+    <>
+      <Button
+        onClick={handleSignIn}
+        disabled={isLoading}
+        variant="ghost"
+        size="sm"
+        className="gap-2"
+      >
+        <LogIn className="w-4 h-4" />
+        <span>Sign in</span>
+      </Button>
+      <AuthModal 
+        isOpen={showAuthModal} 
+        onClose={() => setShowAuthModal(false)} 
+      />
+    </>
   )
 }

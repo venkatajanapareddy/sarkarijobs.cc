@@ -8,7 +8,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NextTopLoader from 'nextjs-toploader';
 import { WebsiteStructuredData } from "@/components/StructuredData";
-import ContentProtection from "@/components/ContentProtection";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -154,7 +153,6 @@ export default function RootLayout({
         />
         <GoogleAnalytics />
         <WebsiteStructuredData />
-        <ContentProtection />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
             {/* Children will include the announcement bar and content */}
