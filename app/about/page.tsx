@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Target, Users, Award, TrendingUp } from 'lucide-react';
+import PageLayout from '@/components/PageLayout';
 
 export const metadata: Metadata = {
   title: 'About Us | SarkariJobs.cc - Your Trusted Government Job Portal',
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950">
+    <PageLayout>
         <div className="container mx-auto px-4 py-8">
         <Link 
           href="/" 
@@ -114,6 +115,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-    </div>
+    </PageLayout>
   );
 }
