@@ -4,6 +4,7 @@ import { ArrowLeft, Users, Building, MapPin, Banknote, FileText, ExternalLink, D
 import { loadJobDetails, loadJobs } from '@/lib/jobs-server';
 import { formatDate, getDaysLeft } from '@/lib/jobs-types';
 import { generateJobSlug, extractJobIdFromSlug } from '@/lib/slug-utils';
+import VenueMap from '@/components/VenueMap';
 import type { Metadata } from 'next';
 
 // Generate metadata for SEO
@@ -448,17 +449,9 @@ export default async function JobDetailPage({ params }: { params: Promise<{ id: 
           </div>
         )}
         
-        {/* Venue/Interview Location */}
+        {/* Venue/Interview Location with integrated map */}
         {venue && (
-          <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6 mb-6">
-            <h2 className="text-lg font-semibold mb-3 text-blue-900 dark:text-blue-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5" />
-              Interview Venue / Address
-            </h2>
-            <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
-              {venue}
-            </p>
-          </div>
+          <VenueMap venue={venue} organization={job.organization} />
         )}
         
       </div>
