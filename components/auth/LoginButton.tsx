@@ -15,6 +15,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { Badge } from '@/components/ui/badge'
 import AuthModal from '@/components/AuthModal'
+import LoadingToast from '@/components/LoadingToast'
 
 interface LoginButtonProps {
   user: any
@@ -26,6 +27,7 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
   const [savedJobsCount, setSavedJobsCount] = useState(initialCount)
   const [showAuthModal, setShowAuthModal] = useState(false)
   const [hasExistingAccount, setHasExistingAccount] = useState<boolean | null>(null)
+  const [showLoadingToast, setShowLoadingToast] = useState(false)
   const supabase = createClient()
 
   // Fetch saved jobs count
@@ -110,6 +112,8 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     if (hasSignedInBefore && lastProvider === 'google') {
       // Auto-signin with Google for returning users
       setIsLoading(true)
+      setShowLoadingToast(true)
+      
       try {
         const { error } = await supabase.auth.signInWithOAuth({
           provider: 'google',
@@ -119,11 +123,18 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
         })
         if (error) {
           console.error('Error signing in:', error)
-          // If auto-signin fails, show the modal
+          // Hide loading toast and show modal
+          setShowLoadingToast(false)
+          setIsLoading(false)
           setShowAuthModal(true)
         }
-      } finally {
+        // Note: Toast will remain visible as page redirects to Google
+      } catch (err) {
+        console.error('Error during sign in:', err)
+        // Hide loading toast and show modal on error
+        setShowLoadingToast(false)
         setIsLoading(false)
+        setShowAuthModal(true)
       }
     } else {
       // Show modal for new users or users without clear provider preference
@@ -199,6 +210,10 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
         <LogIn className="w-4 h-4" />
         <span>{isLoading ? 'Signing in...' : 'Sign in'}</span>
       </Button>
+      <LoadingToast 
+        message="Signing you in with Google..." 
+        isVisible={showLoadingToast} 
+      />
       <AuthModal 
         isOpen={showAuthModal} 
         onClose={() => setShowAuthModal(false)}
