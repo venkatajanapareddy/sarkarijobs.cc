@@ -25,6 +25,7 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
   const [isLoading, setIsLoading] = useState(false)
   const [savedJobsCount, setSavedJobsCount] = useState(initialCount)
   const [showAuthModal, setShowAuthModal] = useState(false)
+  const [hasExistingAccount, setHasExistingAccount] = useState<boolean | null>(null)
   const supabase = createClient()
 
   // Fetch saved jobs count
@@ -69,8 +70,65 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     }
   }, [user, fetchSavedJobsCount])
 
-  const handleSignIn = () => {
-    setShowAuthModal(true)
+  // Check if user has visited before (has existing account)
+  useEffect(() => {
+    const checkExistingAccount = () => {
+      // Check localStorage for previous auth
+      const hasSignedInBefore = localStorage.getItem('hasSignedIn')
+      const lastAuthProvider = localStorage.getItem('lastAuthProvider')
+      
+      if (hasSignedInBefore === 'true') {
+        setHasExistingAccount(true)
+        // Store the provider for auto-signin
+        if (lastAuthProvider) {
+          localStorage.setItem('preferredAuthProvider', lastAuthProvider)
+        }
+      } else {
+        setHasExistingAccount(false)
+      }
+    }
+    
+    checkExistingAccount()
+  }, [])
+
+  // Store auth success in localStorage
+  useEffect(() => {
+    if (user) {
+      localStorage.setItem('hasSignedIn', 'true')
+      // Try to detect which provider was used
+      if (user.app_metadata?.provider) {
+        localStorage.setItem('lastAuthProvider', user.app_metadata.provider)
+      }
+    }
+  }, [user])
+
+  const handleSignIn = async () => {
+    // Check if user has signed in before
+    const hasSignedInBefore = localStorage.getItem('hasSignedIn') === 'true'
+    const lastProvider = localStorage.getItem('lastAuthProvider')
+    
+    if (hasSignedInBefore && lastProvider === 'google') {
+      // Auto-signin with Google for returning users
+      setIsLoading(true)
+      try {
+        const { error } = await supabase.auth.signInWithOAuth({
+          provider: 'google',
+          options: {
+            redirectTo: `${window.location.origin}/auth/callback`,
+          },
+        })
+        if (error) {
+          console.error('Error signing in:', error)
+          // If auto-signin fails, show the modal
+          setShowAuthModal(true)
+        }
+      } finally {
+        setIsLoading(false)
+      }
+    } else {
+      // Show modal for new users or users without clear provider preference
+      setShowAuthModal(true)
+    }
   }
 
   const handleSignOut = async () => {
@@ -139,11 +197,12 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
         className="gap-2"
       >
         <LogIn className="w-4 h-4" />
-        <span>Sign in</span>
+        <span>{isLoading ? 'Signing in...' : 'Sign in'}</span>
       </Button>
       <AuthModal 
         isOpen={showAuthModal} 
-        onClose={() => setShowAuthModal(false)} 
+        onClose={() => setShowAuthModal(false)}
+        defaultToSignIn={hasExistingAccount === true}
       />
     </>
   )

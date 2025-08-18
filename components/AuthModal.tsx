@@ -7,10 +7,11 @@ import { createClient } from '@/utils/supabase/client';
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
+  defaultToSignIn?: boolean;
 }
 
-export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
-  const [isSignUp, setIsSignUp] = useState(true);
+export default function AuthModal({ isOpen, onClose, defaultToSignIn = true }: AuthModalProps) {
+  const [isSignUp, setIsSignUp] = useState(!defaultToSignIn);
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null);
@@ -20,9 +21,9 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
       // Reset state when modal opens
       setEmail('');
       setMessage(null);
-      setIsSignUp(true);
+      setIsSignUp(!defaultToSignIn);
     }
-  }, [isOpen]);
+  }, [isOpen, defaultToSignIn]);
 
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -144,7 +145,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
               </p>
             </div>
 
-            {/* Benefits (only show for sign up) */}
+            {/* Benefits (only show for new sign ups) */}
             {isSignUp && (
               <div className="mb-6 space-y-3">
                 <div className="flex items-start gap-3">
@@ -253,7 +254,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
             {/* Toggle between sign up and sign in */}
             <div className="mt-6 text-center text-sm">
               <span className="text-gray-600 dark:text-gray-400">
-                {isSignUp ? 'Already have an account?' : "Don't have an account?"}
+                {isSignUp ? 'Already have an account?' : "New to SarkariJobs.cc?"}
               </span>{' '}
               <button
                 type="button"
@@ -263,7 +264,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 }}
                 className="font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
               >
-                {isSignUp ? 'Sign In' : 'Sign Up'}
+                {isSignUp ? 'Sign In Instead' : 'Create Account'}
               </button>
             </div>
 
