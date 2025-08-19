@@ -30,6 +30,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedUrgency, setSelectedUrgency] = useState('all')
   const [showFilters, setShowFilters] = useState(false)
+  const [showAllUrgentJobs, setShowAllUrgentJobs] = useState(false)
   
   // Check for filter parameter in URL
   useEffect(() => {
@@ -127,18 +128,36 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
     return { closingSoon, closingToday, byCategory }
   }, [jobs])
 
-  // Get recently added jobs (last 3 days)
-  const recentJobs = useMemo(() => {
-    const threeDaysAgo = new Date()
-    threeDaysAgo.setDate(threeDaysAgo.getDate() - 3)
-    
-    return jobs
+  // Get time-sensitive jobs (closing within 7 days)
+  const { displayJobs: timeSensitiveJobs, allJobs: allTimeSensitiveJobs, totalCount: totalTimeSensitive } = useMemo(() => {
+    const urgentJobs = jobs
       .filter(job => {
-        const postedDate = new Date(job.publishedAt || job.processedAt || '')
-        return postedDate >= threeDaysAgo
+        const days = getDaysLeft(job.lastDate)
+        return days !== null && days >= 0 && days <= 7
       })
-      .slice(0, 5)
-  }, [jobs])
+      .sort((a, b) => {
+        const daysA = getDaysLeft(a.lastDate)
+        const daysB = getDaysLeft(b.lastDate)
+        
+        // Handle null values - put them at the end
+        if (daysA === null && daysB === null) return 0
+        if (daysA === null) return 1
+        if (daysB === null) return -1
+        
+        // Sort by days left (ascending - 0 days first, then 1, 2, etc.)
+        // This should put jobs closing TODAY at the top
+        return daysA - daysB
+      })
+    
+    // Initially show 6 jobs, expand to show all
+    const initialDisplayCount = Math.min(urgentJobs.length, 6)
+    
+    return {
+      displayJobs: showAllUrgentJobs ? urgentJobs : urgentJobs.slice(0, initialDisplayCount),
+      allJobs: urgentJobs,
+      totalCount: urgentJobs.length
+    }
+  }, [jobs, showAllUrgentJobs])
 
   // Get urgent jobs for alert banner
   const urgentJobs = useMemo(() => {
@@ -155,7 +174,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
       .slice(0, 3)
   }, [jobs])
 
-  // Check if scroll is needed for recent jobs
+  // Check if scroll is needed for time-sensitive jobs
   useEffect(() => {
     const checkScroll = () => {
       if (scrollContainerRef.current) {
@@ -167,7 +186,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
     checkScroll()
     window.addEventListener('resize', checkScroll)
     return () => window.removeEventListener('resize', checkScroll)
-  }, [recentJobs])
+  }, [timeSensitiveJobs])
 
   return (
     <div className="space-y-6">
@@ -214,17 +233,40 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
         </div>
       </div>
 
-      {/* Recently Added Jobs - Compact horizontal scroll */}
-      {recentJobs.length > 0 && (
+      {/* Time-Sensitive Jobs - Progressive disclosure */}
+      {allTimeSensitiveJobs.length > 0 && (
         <div className="relative">
           <div className="flex items-center gap-2 mb-2">
-            <Sparkles className="w-4 h-4 text-blue-500" />
-            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">New this week</span>
-            <span className="text-xs bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 px-1.5 py-0.5 rounded-full">
-              {recentJobs.length}
+            <AlertCircle className="w-4 h-4 text-orange-500" />
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Closing Soon</span>
+            <span className="text-xs bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300 px-1.5 py-0.5 rounded-full font-medium">
+              {totalTimeSensitive} {totalTimeSensitive === 1 ? 'job' : 'jobs'}
             </span>
-            {/* Scroll indicator - only show if content actually overflows */}
-            {canScroll && (
+            
+            {/* Expand/Collapse button */}
+            {totalTimeSensitive > 6 && (
+              <button
+                onClick={() => setShowAllUrgentJobs(!showAllUrgentJobs)}
+                className="ml-auto text-xs text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 font-medium flex items-center gap-1 transition-colors"
+              >
+                {showAllUrgentJobs ? (
+                  <>
+                    Show less
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                    </svg>
+                  </>
+                ) : (
+                  <>
+                    View all {totalTimeSensitive} urgent jobs
+                    <ArrowRight className="w-3 h-3" />
+                  </>
+                )}
+              </button>
+            )}
+            
+            {/* Scroll indicator - only show if scrollable and not expanded */}
+            {canScroll && !showAllUrgentJobs && totalTimeSensitive <= 6 && (
               <>
                 <span className="hidden sm:inline-flex items-center gap-1 text-xs text-gray-500 dark:text-gray-400 ml-auto">
                   <span className="animate-pulse">→</span>
@@ -237,22 +279,37 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
             )}
           </div>
           <div className="relative">
-            {/* Gradient fade indicators - only show if scrollable */}
-            {canScroll && (
+            {/* Gradient fade indicators - only show if scrollable and not expanded */}
+            {canScroll && !showAllUrgentJobs && (
               <>
                 <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-gray-50 dark:from-gray-950 to-transparent z-10 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-50 dark:from-gray-950 to-transparent z-10 pointer-events-none" />
               </>
             )}
             
-            <div ref={scrollContainerRef} className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide scroll-smooth" id="recent-jobs-scroll">
-              {recentJobs.map((job, index) => {
+            {/* Container changes between horizontal scroll and grid based on expanded state */}
+            <div 
+              ref={scrollContainerRef} 
+              className={
+                showAllUrgentJobs 
+                  ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 transition-all duration-300"
+                  : "flex gap-2 overflow-x-auto pb-2 scrollbar-hide scroll-smooth"
+              }
+              id="time-sensitive-jobs-scroll"
+            >
+              {timeSensitiveJobs.map((job, index) => {
                 const daysLeft = getDaysLeft(job.lastDate)
                 return (
                   <Link 
                     key={job.id}
                     href={`/jobs/${generateJobSlug(job)}`}
-                    className="flex-shrink-0 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg p-2 hover:border-blue-400 dark:hover:border-blue-600 hover:shadow-sm transition-all min-w-[200px] max-w-[250px] group"
+                    className={`${showAllUrgentJobs ? 'w-full' : 'flex-shrink-0 min-w-[200px] max-w-[250px]'} bg-white dark:bg-gray-900 border rounded-lg p-2 hover:shadow-sm transition-all group ${
+                      daysLeft === 0 
+                        ? 'border-red-300 dark:border-red-700 hover:border-red-400 dark:hover:border-red-600' 
+                        : daysLeft <= 3 
+                        ? 'border-orange-300 dark:border-orange-700 hover:border-orange-400 dark:hover:border-orange-600'
+                        : 'border-gray-200 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-600'
+                    }`}
                   >
                     <div className="text-xs font-semibold text-gray-900 dark:text-gray-100 truncate">
                       {job.title}
@@ -266,28 +323,25 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
                           📍 {job.location}
                         </span>
                       )}
-                      {daysLeft !== null && daysLeft <= 3 && (
-                        <span className="text-xs text-red-600 dark:text-red-400 font-medium">
-                          ⚡ {daysLeft}d left
+                      {daysLeft !== null && (
+                        <span className={`text-xs font-medium ${
+                          daysLeft === 0 
+                            ? 'text-red-600 dark:text-red-400' 
+                            : daysLeft <= 3 
+                            ? 'text-orange-600 dark:text-orange-400'
+                            : 'text-yellow-600 dark:text-yellow-400'
+                        }`}>
+                          {daysLeft === 0 ? '⏰ Last day!' : `⏱️ ${daysLeft}d left`}
                         </span>
                       )}
                     </div>
                     {/* Show position indicator on mobile */}
-                    {index === recentJobs.length - 1 && (
-                      <div className="sm:hidden absolute -right-2 top-1/2 -translate-y-1/2 w-1 h-8 bg-blue-500 rounded-full opacity-50" />
+                    {index === timeSensitiveJobs.length - 1 && (
+                      <div className="sm:hidden absolute -right-2 top-1/2 -translate-y-1/2 w-1 h-8 bg-orange-500 rounded-full opacity-50" />
                     )}
                   </Link>
                 )
               })}
-              {/* Add more indicator at the end if there are exactly 5 jobs */}
-              {recentJobs.length >= 5 && (
-                <div className="flex-shrink-0 flex items-center justify-center min-w-[100px] text-xs text-gray-500 dark:text-gray-400">
-                  <span className="flex items-center gap-1">
-                    <span>More coming</span>
-                    <span className="animate-pulse">...</span>
-                  </span>
-                </div>
-              )}
             </div>
           </div>
           <style jsx>{`
