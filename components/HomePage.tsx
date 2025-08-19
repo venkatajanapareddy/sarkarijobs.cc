@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, GraduationCap, Building2, X, Sparkles, ArrowRight, Users } from 'lucide-react'
+import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, X, ArrowRight } from 'lucide-react'
 import JobsTable from './JobsTable'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
@@ -159,20 +159,6 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
     }
   }, [jobs, showAllUrgentJobs])
 
-  // Get urgent jobs for alert banner
-  const urgentJobs = useMemo(() => {
-    return jobs
-      .filter(job => {
-        const days = getDaysLeft(job.lastDate)
-        return days !== null && days <= 1
-      })
-      .sort((a, b) => {
-        const daysA = getDaysLeft(a.lastDate) || 999
-        const daysB = getDaysLeft(b.lastDate) || 999
-        return daysA - daysB
-      })
-      .slice(0, 3)
-  }, [jobs])
 
   // Check if scroll is needed for time-sensitive jobs
   useEffect(() => {
@@ -306,7 +292,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
                     className={`${showAllUrgentJobs ? 'w-full' : 'flex-shrink-0 min-w-[200px] max-w-[250px]'} bg-white dark:bg-gray-900 border rounded-lg p-2 hover:shadow-sm transition-all group ${
                       daysLeft === 0 
                         ? 'border-red-300 dark:border-red-700 hover:border-red-400 dark:hover:border-red-600' 
-                        : daysLeft <= 3 
+                        : daysLeft !== null && daysLeft <= 3 
                         ? 'border-orange-300 dark:border-orange-700 hover:border-orange-400 dark:hover:border-orange-600'
                         : 'border-gray-200 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-600'
                     }`}
@@ -327,7 +313,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
                         <span className={`text-xs font-medium ${
                           daysLeft === 0 
                             ? 'text-red-600 dark:text-red-400' 
-                            : daysLeft <= 3 
+                            : daysLeft !== null && daysLeft <= 3 
                             ? 'text-orange-600 dark:text-orange-400'
                             : 'text-yellow-600 dark:text-yellow-400'
                         }`}>

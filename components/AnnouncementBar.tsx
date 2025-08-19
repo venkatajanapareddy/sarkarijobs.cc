@@ -1,12 +1,10 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { AlertTriangle, TrendingUp, Clock, Bell, ArrowRight, Sparkles, Zap } from 'lucide-react'
+import { AlertTriangle, TrendingUp, Clock, Bell, Sparkles, Zap } from 'lucide-react'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
 import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
 
 interface AnnouncementBarProps {
   jobs: Job[]
