@@ -149,19 +149,6 @@ export default function AnnouncementBar({ jobs }: AnnouncementBarProps) {
                   </>
                 )}
               </div>
-
-              {/* Link to specific job or filter */}
-              {announcement?.link && (
-                <Link 
-                  href={announcement.link}
-                  className="inline-flex items-center gap-1 px-2 py-0.5 bg-white/20 hover:bg-white/30 rounded-full transition-colors group ml-2"
-                >
-                  <span className="text-white text-xs font-medium">
-                    {announcement.link.includes('filter=') ? 'View All' : 'View Job'}
-                  </span>
-                  <ArrowRight className="w-3 h-3 text-white group-hover:translate-x-0.5 transition-transform" />
-                </Link>
-              )}
             </div>
 
             {/* Dots indicator if multiple announcements */}
