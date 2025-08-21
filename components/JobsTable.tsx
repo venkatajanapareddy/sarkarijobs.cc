@@ -98,7 +98,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                           href={`/jobs/${generateJobSlug(job)}`}
                           className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                         >
-                          Apply
+                          View
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>
@@ -177,7 +177,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                           href={`/jobs/${generateJobSlug(job)}`}
                           className="inline-flex items-center gap-1 px-3 py-1.5 text-sm bg-primary-blue text-white rounded hover:bg-primary-dark dark:bg-blue-600 dark:hover:bg-blue-700 transition-colors"
                         >
-                          Apply
+                          View
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>
@@ -245,7 +245,7 @@ export default function JobsTable({ jobs, savedJobIds = [] }: { jobs: Job[], sav
                   {/* Date Row */}
                   <div className="flex items-center justify-between mt-2">
                     <span className="text-xs text-gray-500 dark:text-gray-400">
-                      Apply by {formatDate(job.lastDate)}
+                      View by {formatDate(job.lastDate)}
                     </span>
                     <ArrowRight className="w-4 h-4 text-gray-400" />
                   </div>
