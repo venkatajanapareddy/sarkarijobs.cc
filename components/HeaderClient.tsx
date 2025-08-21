@@ -1,11 +1,9 @@
 'use client'
 
 import Link from "next/link"
-import { Briefcase } from "lucide-react"
 import ThemeToggle from "./ThemeToggle"
 import LoginButton from "./auth/LoginButton"
 import GovBuildingLogo from "./GovBuildingLogo"
-import { Button } from "@/components/ui/button"
 
 interface HeaderClientProps {
   user: any
@@ -29,25 +27,6 @@ export default function HeaderClient({ user, savedJobsCount, isSupabaseConfigure
           
           {/* Navigation and actions */}
           <div className="flex items-center gap-2 md:gap-4">
-            {/* Navigation Links */}
-            <nav className="hidden md:flex items-center gap-2">
-              <Link href="/">
-                <Button variant="ghost" size="sm" className="gap-2">
-                  <Briefcase className="h-4 w-4" />
-                  Jobs
-                </Button>
-              </Link>
-            </nav>
-            
-            {/* Mobile Navigation */}
-            <div className="flex md:hidden items-center gap-1">
-              <Link href="/">
-                <Button variant="ghost" size="sm" className="px-2">
-                  <Briefcase className="h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
-            
             {/* Right side actions */}
             {isSupabaseConfigured && (
               <LoginButton user={user} savedJobsCount={savedJobsCount} />
