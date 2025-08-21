@@ -6,6 +6,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AnnouncementBar from "@/components/AnnouncementBar";
+import { loadJobs } from "@/lib/jobs-server";
 import NextTopLoader from 'nextjs-toploader';
 import { WebsiteStructuredData } from "@/components/StructuredData";
 import "./globals.css";
@@ -61,11 +63,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Load jobs for announcement bar
+  const jobs = await loadJobs();
+  
   return (
     <html lang="en-IN" suppressHydrationWarning>
       <head>
@@ -155,8 +160,11 @@ export default function RootLayout({
         <WebsiteStructuredData />
         <ThemeProvider>
           <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
-            {/* Children will include the announcement bar and content */}
-            {children}
+            <AnnouncementBar jobs={jobs} />
+            <Header />
+            <main className="flex-grow">
+              {children}
+            </main>
             <Footer />
           </div>
         </ThemeProvider>
