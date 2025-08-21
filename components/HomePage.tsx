@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { Search, Filter, AlertCircle, TrendingUp, Calendar, MapPin, X, ArrowRight } from 'lucide-react'
 import JobsTable from './JobsTable'
-import { ResultsSection } from './ResultsSection'
 import { Job, getDaysLeft } from '@/lib/jobs-types'
 import { generateJobSlug } from '@/lib/slug-utils'
 import {
@@ -585,7 +584,6 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
       )}
 
       {/* Exam Results Section */}
-      <ResultsSection />
     </div>
   )
 }
