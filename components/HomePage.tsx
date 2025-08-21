@@ -518,7 +518,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
         )}
       </div>
 
-      {/* Results Count */}
+      {/* Jobs Count */}
       <div className="flex items-center justify-between">
         <p className="text-sm text-gray-600 dark:text-gray-400">
           Showing <span className="font-semibold text-gray-900 dark:text-gray-100">{filteredJobs.length}</span> jobs
@@ -583,7 +583,6 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
         </div>
       )}
 
-      {/* Exam Results Section */}
     </div>
   )
 }
