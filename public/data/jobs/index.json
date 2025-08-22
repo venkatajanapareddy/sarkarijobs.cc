@@ -1,174 +1,3773 @@
-{
-  "totalJobs": 21,
-  "processedAt": "2025-08-22T03:53:33.056Z",
-  "jobs": [
-    {
-      "id": "038539da-6e9c-4e11-b62d-3b9c5b43b708",
-      "title": "Senior Research Fellowship",
-      "organization": "Indian Institute of Technology",
-      "location": "West Bengal",
-      "totalPosts": 2,
-      "lastDate": "2025-08-26"
-    },
-    {
-      "id": "0741e049-82b6-4fee-a010-f3629a7ef450",
-      "title": "Lab Engineer",
-      "organization": "National Institute of Electronics and Information Technology",
-      "location": "Kerala",
-      "totalPosts": 2,
-      "lastDate": "2025-08-22"
-    },
-    {
-      "id": "08978fdf-c4aa-478d-9fb2-f36d6e9191dd",
-      "title": "Program Manager",
-      "organization": "Indian Institute of Science, Bangalore",
-      "location": "Karnataka",
-      "totalPosts": 4,
-      "lastDate": "2025-09-01"
-    },
-    {
-      "id": "0a2c83b6-adfe-43e1-8d61-0b55ef8f76ac",
-      "title": "Project Research Scientist",
-      "organization": "AIIMS Rishikesh",
-      "location": "Uttarakhand",
-      "totalPosts": 2,
-      "lastDate": "2025-08-31"
-    },
-    {
-      "id": "10524c3e-0067-4519-9e2c-ec7cd4056061",
-      "title": "Agromet Observer",
-      "organization": "Acharya NG Ranga Agricultural University",
-      "location": "Andhra Pradesh",
-      "totalPosts": 1,
-      "lastDate": "2025-08-22"
-    },
-    {
-      "id": "30135a36-0a7c-4e35-9239-eebf26207be5",
-      "title": "IT Engineer",
-      "organization": "IIT Gandhinagar",
-      "location": "Gujarat",
-      "totalPosts": 3,
-      "lastDate": "2025-08-23"
-    },
-    {
-      "id": "40dd0923-f6f7-4524-a6a5-39cd4467fa9a",
-      "title": "Technical Assistant",
-      "organization": "National Institute of Animal Biotechnology",
-      "location": "Telangana",
-      "totalPosts": 14,
-      "lastDate": "2025-08-23"
-    },
-    {
-      "id": "47c191af-b193-436e-a4ec-80bb5f9b3d06",
-      "title": "Junior Assistant",
-      "organization": "Water Resources, Power, and Infrastructure Sectors",
-      "location": "Haryana",
-      "totalPosts": 4,
-      "lastDate": "2025-08-27"
-    },
-    {
-      "id": "4e1cd24f-9739-4a79-b4c9-c4235c21c57e",
-      "title": "Pharmacist",
-      "organization": "Karnataka State Cooperative Consumer Federation Limited",
-      "location": "Karnataka",
-      "totalPosts": 34,
-      "lastDate": "2025-09-14"
-    },
-    {
-      "id": "56854215-d6e4-4148-a55f-1a76ed460823",
-      "title": "General Manager",
-      "organization": "Bharat Dynamic Limited",
-      "location": "Telangana",
-      "totalPosts": 1,
-      "lastDate": "2025-09-17"
-    },
-    {
-      "id": "61fbc5f7-33b7-4569-83a7-9baed79e1cdc",
-      "title": "Junior Research Fellow",
-      "organization": "IIT Madras",
-      "location": "Tamil Nadu",
-      "totalPosts": 1,
-      "lastDate": "2025-08-26"
-    },
-    {
-      "id": "71393e80-59fe-4615-858b-45a09ebf082c",
-      "title": "Medical Physicist",
-      "organization": "Tata Memorial Centre",
-      "location": "Maharashtra",
-      "totalPosts": 1,
-      "lastDate": null
-    },
-    {
-      "id": "738efdbf-c13f-4cfa-a386-c77c2ea54c14",
-      "title": "Chairman & Managing Director",
-      "organization": "ISRO NSIL",
-      "location": "Karnataka",
-      "totalPosts": 1,
-      "lastDate": "2025-09-11"
-    },
-    {
-      "id": "96b75e1a-8c9b-4ce0-ba54-74a645686f7c",
-      "title": "Junior Resident",
-      "organization": "VMMC Safdarjung Hospital",
-      "location": "Delhi",
-      "totalPosts": 89,
-      "lastDate": "2025-08-26"
-    },
-    {
-      "id": "999134b1-7416-44e6-a3d9-033090a1434a",
-      "title": "Staff Nurse",
-      "organization": "DHS Ranipet",
-      "location": "Tamil Nadu",
-      "totalPosts": 40,
-      "lastDate": "2025-09-01"
-    },
-    {
-      "id": "9e418048-d245-4189-8426-eeacf0df0aee",
-      "title": "Subject Experts",
-      "organization": "University of Lucknow",
-      "location": "Uttar Pradesh",
-      "totalPosts": 5,
-      "lastDate": null
-    },
-    {
-      "id": "a14f023e-0a08-4f67-90fe-3372d7538805",
-      "title": "Project Nurse",
-      "organization": "PGIMER",
-      "location": "Chandigarh",
-      "totalPosts": 1,
-      "lastDate": "2025-08-25"
-    },
-    {
-      "id": "b4a796db-a588-4aab-869a-17916d8c82ea",
-      "title": "Junior Research Fellow",
-      "organization": "IIT Ropar",
-      "location": "Punjab",
-      "totalPosts": 1,
-      "lastDate": "2025-08-25"
-    },
-    {
-      "id": "da47c919-cbbe-4191-930c-2bf32f50e0f1",
-      "title": "Project Engineer- I",
-      "organization": "Bharat Electronics Limited",
-      "location": "Karnataka",
-      "totalPosts": 20,
-      "lastDate": "2025-09-13"
-    },
-    {
-      "id": "eacec663-3bbf-4d22-9e08-e89b24631db0",
-      "title": "Junior Research Fellow Jobs",
-      "organization": "National Institute of Technology",
-      "location": "Bihar",
-      "totalPosts": 1,
-      "lastDate": "2025-08-30"
-    },
-    {
-      "id": "ff664ed1-1e5b-4785-b866-aff1a350664d",
-      "title": "Research Associate",
-      "organization": "Manipur University",
-      "location": "Manipur",
-      "totalPosts": 1,
-      "lastDate": "2025-08-26"
-    }
-  ]
-}
+[
+  {
+    "id": "1324eecb-a6b4-47cb-9b97-370a12c6054c",
+    "title": "Professor",
+    "organization": "Central University of Rajasthan",
+    "location": "Rajasthan",
+    "lastDate": "2025-09-30",
+    "totalPosts": 18,
+    "url": "https://allgovernmentjobs.in/curaj-recruitment-2025-apply-online-for-18-teaching-posts/33719"
+  },
+  {
+    "id": "790fb98e-7a45-438a-a9ee-e2fbe7f87b8b",
+    "title": "Dental Technician",
+    "organization": "Arunachal Pradesh Staff Selection Board",
+    "location": "Arunachal Pradesh",
+    "lastDate": "2025-09-30",
+    "totalPosts": 239,
+    "url": "https://allgovernmentjobs.in/apssb-recruitment-2025-apply-online-for-239-head-constable-driver-and-other-posts/33909"
+  },
+  {
+    "id": "98c24c93-0e4c-4f39-9a8b-9f9bb26c53c7",
+    "title": "Chief Commercial and Ticket Supervisor",
+    "organization": "Railway Recruitment Board",
+    "location": "Delhi",
+    "lastDate": "2025-09-29",
+    "totalPosts": 30307,
+    "url": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-30307-typist-and-other-posts/33477"
+  },
+  {
+    "id": "f1d14531-851b-4bce-ac38-07771b5224b8",
+    "title": "Deputy General Manager",
+    "organization": "Rail India Technical and Economic Services",
+    "location": "Haryana",
+    "lastDate": "2025-09-28",
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-online-for-06-deputy-general-manager-and-other-posts/34167"
+  },
+  {
+    "id": "b442885b-28a8-4c08-90cc-9aa5eb3fc1ed",
+    "title": "ITI Apprentice",
+    "organization": "Eastern Coalfields Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-09-26",
+    "totalPosts": 280,
+    "url": "https://allgovernmentjobs.in/ecl-recruitment-2025-apply-offline-for-280-iti-apprentice-posts/34179"
+  },
+  {
+    "id": "39703b1d-4db2-4c3a-a140-7a94eb3be50b",
+    "title": "Head Constable",
+    "organization": "Border Security Force",
+    "location": "Delhi",
+    "lastDate": "2025-09-23",
+    "totalPosts": 1121,
+    "url": "https://allgovernmentjobs.in/bsf-recruitment-2025-apply-online-for-1121-head-constable-posts/34092"
+  },
+  {
+    "id": "5da324c7-bbf9-4f26-82de-d8c6bf720782",
+    "title": "Group General Manager",
+    "organization": "Rail India Technical and Economic Services",
+    "location": "Delhi",
+    "lastDate": "2025-09-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-for-group-general-manager-post/33910"
+  },
+  {
+    "id": "85af1dec-b3e3-43a9-85ee-b288f4da2d2d",
+    "title": "Assistant Master",
+    "organization": "RMS Bengaluru",
+    "location": "Karnataka",
+    "lastDate": "2025-09-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/rms-bengaluru-recruitment-2025-apply-offline-for-assistant-master-posts/34181"
+  },
+  {
+    "id": "072b7771-a43a-4d31-95fb-141f28aeb120",
+    "title": "General Manager",
+    "organization": "Bharat Dynamic Limited",
+    "location": "Telangana",
+    "lastDate": "2025-09-17",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bdl-recruitment-2025-apply-offline-for-general-manager-post/34208"
+  },
+  {
+    "id": "7cb7523e-abcd-4ed5-ae5d-1220bc012cde",
+    "title": "Executive Engineer",
+    "organization": "Employees Provident Fund Organisation",
+    "location": "Delhi",
+    "lastDate": "2025-09-17",
+    "totalPosts": 111,
+    "url": "https://allgovernmentjobs.in/epfo-recruitment-2025-apply-offline-for-111-junior-engineer-auditor-posts/33506"
+  },
+  {
+    "id": "a46f8643-5970-4c6d-abb9-5819ad497df1",
+    "title": "Junior Basic Teacher Jobs",
+    "organization": "Himachal Pradesh Rajya Chayan Aayog",
+    "location": "Himachal Pradesh",
+    "lastDate": "2025-09-17",
+    "totalPosts": 600,
+    "url": "https://allgovernmentjobs.in/hprca-recruitment-2025-apply-online-for-600-junior-basic-teacher-posts/33991"
+  },
+  {
+    "id": "0cefc8cf-7e0a-49a2-bd39-d73191aa7d78",
+    "title": "Statistical Clerk",
+    "organization": "Delhi Subordinate Service Selection Board",
+    "location": "Delhi",
+    "lastDate": "2025-09-16",
+    "totalPosts": 615,
+    "url": "https://allgovernmentjobs.in/dsssb-recruitment-2025-apply-online-for-615-caretaker-assistant-pharmacist-and-other-posts/33928"
+  },
+  {
+    "id": "2289d3ce-3d45-416f-93db-babe70d1e6df",
+    "title": "Assistant Public Prosecutors",
+    "organization": "Telangana State Level Police Recruitment Board",
+    "location": "Telangana",
+    "lastDate": "2025-09-15",
+    "totalPosts": 118,
+    "url": "https://allgovernmentjobs.in/tslprb-recruitment-2025-apply-online-for-118-assistant-public-prosecutors-posts/34152"
+  },
+  {
+    "id": "6026076b-b922-4f4e-8354-030a2ee6a1ea",
+    "title": "Riflemen/ Riflewomen",
+    "organization": "Assam Rifles",
+    "location": "Assam",
+    "lastDate": "2025-09-15",
+    "totalPosts": 69,
+    "url": "https://allgovernmentjobs.in/assam-rifles-recruitment-2025-apply-online-for-69-rifleman-riflewomen-posts/34159"
+  },
+  {
+    "id": "60c42fa2-704d-4ce9-a6bf-6b5ae30a674e",
+    "title": "Ayush Medical Office",
+    "organization": "Rajasthan Staff Selection Board",
+    "location": "Rajasthan",
+    "lastDate": "2025-09-15",
+    "totalPosts": 1535,
+    "url": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-1535-ayush-medical-officer-posts/33964"
+  },
+  {
+    "id": "f33d4147-4a27-439d-894e-f388482c22c5",
+    "title": "Teaching Faculty (Assistant Professor)",
+    "organization": "Employees State Insurance Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-09-15",
+    "totalPosts": 243,
+    "url": "https://allgovernmentjobs.in/esic-recruitment-2025-apply-offline-for-243-teaching-faculty-posts/33638"
+  },
+  {
+    "id": "748bd2fb-56b7-455f-b2ac-1122e2bbcd14",
+    "title": "Pharmacist",
+    "organization": "Karnataka State Cooperative Consumer Federation Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-09-14",
+    "totalPosts": 34,
+    "url": "https://allgovernmentjobs.in/ksccf-recruitment-2025-apply-online-for-34-sales-assistant-pharmacist-posts/34213"
+  },
+  {
+    "id": "3d8c5087-5e0d-4a6b-88ed-f71d57f8fc53",
+    "title": "Assistant Manager",
+    "organization": "National Capital Region Transport Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-09-13",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ncrtc-recruitment-2025-apply-online-for-assistant-manager-post/34197"
+  },
+  {
+    "id": "da47c919-cbbe-4191-930c-2bf32f50e0f1",
+    "title": "Project Engineer- I",
+    "organization": "Bharat Electronics Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-09-13",
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/bel-recruitment-2025-apply-online-for-20-project-engineer-i-posts/34221"
+  },
+  {
+    "id": "11508be6-07e5-416b-a620-1a94ed8ac4f5",
+    "title": "Sub Inspector",
+    "organization": "Puducherry Police",
+    "location": "Puducherry",
+    "lastDate": "2025-09-12",
+    "totalPosts": 218,
+    "url": "https://allgovernmentjobs.in/puducherry-police-recruitment-2025-apply-online-for-218-sub-inspector-and-other-posts/34136"
+  },
+  {
+    "id": "2304d919-c081-4567-8b81-d636c61d52c5",
+    "title": "Joint General Manager/Deputy General Manager",
+    "organization": "Rail and Land Development Authority",
+    "location": "Delhi",
+    "lastDate": "2025-09-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/rlda-recruitment-2025-apply-offline-for-joint-general-manager-deputy-general-manager-posts/34151"
+  },
+  {
+    "id": "a4914505-6186-4c70-a93c-8cb2e36608d1",
+    "title": "Chief Project Manager",
+    "organization": "Rail Vikas Nigam Limited",
+    "location": "Delhi",
+    "lastDate": "2025-09-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/rvnl-recruitment-2025-apply-offline-for-chief-project-manager-posts/34129"
+  },
+  {
+    "id": "be5a9380-8297-46eb-9f02-3c9eb427e1f5",
+    "title": "Medical Officer",
+    "organization": "Tezpur University",
+    "location": "Assam",
+    "lastDate": "2025-09-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tezpur-university-recruitment-2025-apply-online-for-medical-officer-posts/34123"
+  },
+  {
+    "id": "738efdbf-c13f-4cfa-a386-c77c2ea54c14",
+    "title": "Chairman & Managing Director",
+    "organization": "ISRO NSIL",
+    "location": "Karnataka",
+    "lastDate": "2025-09-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/isro-nsil-recruitment-2025-apply-offline-for-chairman-managing-director-posts/34219"
+  },
+  {
+    "id": "de32f5a5-5cf6-4481-b14e-198946ea9bce",
+    "title": "Senior Vigilance Officer",
+    "organization": "Indian Railway Catering and Tourism Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-09-10",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/irctc-recruitment-2025-apply-offline-for-senior-vigilance-officer-posts/34098"
+  },
+  {
+    "id": "1e60ef9b-2efe-40c0-9d54-fc69a4fd8d6e",
+    "title": "Assistant Programmer",
+    "organization": "The Madras High Court",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-09",
+    "totalPosts": 41,
+    "url": "https://allgovernmentjobs.in/madras-high-court-recruitment-2025-apply-online-for-41-assistant-programmer-posts/34026"
+  },
+  {
+    "id": "004511d0-cb9b-4e63-8247-a57f40c12e49",
+    "title": "81",
+    "organization": "Life Insurance Corporation of India",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-08",
+    "totalPosts": 491,
+    "url": "https://allgovernmentjobs.in/lic-recruitment-2025-apply-online-for-491-aao-assistant-engineer-and-other-posts/34172"
+  },
+  {
+    "id": "0385c15d-591b-4b77-8b68-86051fa2e005",
+    "title": "Nursing Superintendent",
+    "organization": "Railway Recruitment Board",
+    "location": "Bihar",
+    "lastDate": "2025-09-08",
+    "totalPosts": 434,
+    "url": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-434-pharmacist-nursing-superintendent-posts/33558"
+  },
+  {
+    "id": "59ee89cc-32f1-4b86-8229-9b6fba4746e5",
+    "title": "Assistant Administrative Officer",
+    "organization": "Life Insurance Corporation of India",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-08",
+    "totalPosts": 350,
+    "url": "https://allgovernmentjobs.in/lic-recruitment-2025-apply-online-for-350-assistant-administrative-officers-posts/34171"
+  },
+  {
+    "id": "838f8758-6c97-4a1f-ad82-f4217fd033e8",
+    "title": "Field Engineer",
+    "organization": "National Hydro Electric Power Corporation",
+    "location": "Arunachal Pradesh",
+    "lastDate": "2025-09-08",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/nhpc-recruitment-2025-apply-online-for-09-medical-officer-field-engineer-posts/34153"
+  },
+  {
+    "id": "93ba8473-c995-4ee3-8ceb-548c923bac2e",
+    "title": "Assistant Legal Remembrancer/ District Litigation Officer",
+    "organization": "Jammu & Kashmir Public Service Commission",
+    "location": "Jammu",
+    "lastDate": "2025-09-08",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/jkpsc-recruitment-2025-apply-online-for-03-assistant-legal-remembrancer-posts/34146"
+  },
+  {
+    "id": "9994d843-6e38-41c7-9870-df50079a0028",
+    "title": "Customer Service Associate/ Clerk",
+    "organization": "Repco Bank",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-08",
+    "totalPosts": 30,
+    "url": "https://allgovernmentjobs.in/repco-bank-recruitment-2025-apply-online-for-30-customer-service-associate-clerk-posts/34194"
+  },
+  {
+    "id": "b0bdfcb6-fab6-4946-867e-3f450bdad021",
+    "title": "Nursing Superintendent",
+    "organization": "Railway Recruitment Board",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-08",
+    "totalPosts": 272,
+    "url": "https://allgovernmentjobs.in/rrb-recruitment-2025-apply-online-for-272-nursing-superintendent-posts/34135"
+  },
+  {
+    "id": "fdaf18fb-4020-4358-bb6e-fdf79935e554",
+    "title": "Axpert Developer",
+    "organization": "Bangalore Metro Rail Corporation Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-09-08",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/bmrcl-recruitment-2025-apply-online-for-05-axpert-developer-posts/34161"
+  },
+  {
+    "id": "e26d9d16-3075-49ff-adc6-4afd03d370b3",
+    "title": "Village Assistant",
+    "organization": "Ramanathapuram RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-07",
+    "totalPosts": 29,
+    "url": "https://allgovernmentjobs.in/ramanathapuram-rdm-recruitment-2025-apply-offline-for-29-village-assistant-posts/34119"
+  },
+  {
+    "id": "0e3fc60e-476e-45dc-aab2-0fd03678859b",
+    "title": "Anganwadi Workers",
+    "organization": "Women and Child Development",
+    "location": "Karnataka",
+    "lastDate": "2025-09-05",
+    "totalPosts": 257,
+    "url": "https://allgovernmentjobs.in/wcd-chitradurga-recruitment-2025-apply-online-for-257-anganwadi-worker-and-helper-posts/34014"
+  },
+  {
+    "id": "6034cdfa-789f-472b-8416-d64dc795a91b",
+    "title": "Young Professional",
+    "organization": "Bureau of Indian Standards",
+    "location": "Gujarat",
+    "lastDate": "2025-09-05",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bis-recruitment-2025-apply-online-for-young-professional-post/33632"
+  },
+  {
+    "id": "906f9fbd-65ae-4d25-934f-c520bc7489a0",
+    "title": "Young Professional",
+    "organization": "Bureau of Indian Standards",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-05",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/bis-recruitment-2025-apply-online-for-05-yong-professional-posts/34125"
+  },
+  {
+    "id": "cebf7e99-3275-4eb1-b795-3e36036fd466",
+    "title": "Trade Apprentice",
+    "organization": "Indian Oil Corporation Limited",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-05",
+    "totalPosts": 475,
+    "url": "https://allgovernmentjobs.in/iocl-recruitment-2025-apply-online-for-475-apprentice-posts/33946"
+  },
+  {
+    "id": "d0ea03e5-57a5-48bd-8860-530e3ed96de1",
+    "title": "Deputy Chief Mechanical Engineer",
+    "organization": "Konkan Railway Corporation Limited",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-05",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/krcl-recruitment-2025-apply-offline-for-deputy-chief-mechanical-engineer-posts/33982"
+  },
+  {
+    "id": "d5ddb206-dc3e-4f06-9016-6c4a4f0f9da6",
+    "title": "Assistant Manager",
+    "organization": "Udupi Cochin Shipyard Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-09-05",
+    "totalPosts": 16,
+    "url": "https://allgovernmentjobs.in/ucsl-recruitment-2025-apply-online-for-16-assistant-manager-supervisor-posts/34010"
+  },
+  {
+    "id": "28cd07a2-e304-4c21-a177-52e417af02f6",
+    "title": "Deputy General Manager",
+    "organization": "Dedicated Freight Corridor Corporation of India Limited",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-09-04",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dfccil-recruitment-2025-apply-offline-for-deputy-general-manager-and-other-posts/33984"
+  },
+  {
+    "id": "2d915e10-3c0b-426f-8b91-cf7cbd85bc55",
+    "title": "Chief Executive Officer",
+    "organization": "Nagpur DCCB",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-04",
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/nagpur-dccb-recruitment-2025-apply-offline-for-chief-executive-officer-posts/33979"
+  },
+  {
+    "id": "e6d990ec-0c38-498d-8539-69e2082b48f3",
+    "title": "Executive",
+    "organization": "RailTel Corporation of India Limited",
+    "location": "Delhi",
+    "lastDate": "2025-09-04",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/railtel-recruitment-2025-apply-offline-for-executive-posts/34196"
+  },
+  {
+    "id": "372166e0-f6e7-452f-8386-6a88a6b0af4b",
+    "title": "Manager/ Deputy Manager",
+    "organization": "Centre for Railway Information Systems",
+    "location": "Delhi",
+    "lastDate": "2025-09-03",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/cris-recruitment-2025-apply-offline-for-manager-deputy-manager-posts/33905"
+  },
+  {
+    "id": "517eeecc-4bde-454d-a0ee-ccc2357d1f72",
+    "title": "Staff Nurse",
+    "organization": "West Bengal Health Recruitment Board",
+    "location": "West Bengal",
+    "lastDate": "2025-09-03",
+    "totalPosts": 5018,
+    "url": "https://allgovernmentjobs.in/wbhrb-recruitment-2025-apply-online-for-5018-staff-nurse-posts/33961"
+  },
+  {
+    "id": "6a0756d8-cff5-4438-b5d0-5ce51cf3a95a",
+    "title": "Attendant",
+    "organization": "Jammu and Kashmir Services Selection Board",
+    "location": "Jammu",
+    "lastDate": "2025-09-03",
+    "totalPosts": 621,
+    "url": "https://allgovernmentjobs.in/jkssb-recruitment-2025-apply-online-for-621-pharmacist-and-other-posts/33762"
+  },
+  {
+    "id": "6c597896-1d06-4c10-8403-8ff508b70b71",
+    "title": "Tradesman Skilled Apprentice",
+    "organization": "The Indian Navy",
+    "location": "Delhi",
+    "lastDate": "2025-09-03",
+    "totalPosts": 1315,
+    "url": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-1315-tradesman-skilled-apprentice-posts/33911"
+  },
+  {
+    "id": "7178cb9d-d1ed-4314-9590-03e0ff95780f",
+    "title": "Junior Grade Translator",
+    "organization": "Gauhati High Court",
+    "location": "Assam",
+    "lastDate": "2025-09-03",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/gauhati-high-court-recruitment-2025-apply-online-for-junior-grade-translator-post/34120"
+  },
+  {
+    "id": "9b7a4f4c-0c4d-4dfa-b870-805a3ef67382",
+    "title": "Technical Associate",
+    "organization": "NIT Silchar",
+    "location": "Assam",
+    "lastDate": "2025-09-03",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-silchar-recruitment-2025-apply-offline-for-technical-associate-posts/34127"
+  },
+  {
+    "id": "c9ea6cb7-390b-446c-9da7-7f256d643693",
+    "title": "Staff Nurse",
+    "organization": "Chhattisgarh Professional Examination Board",
+    "location": "Chhattisgarh",
+    "lastDate": "2025-09-03",
+    "totalPosts": 225,
+    "url": "https://allgovernmentjobs.in/cg-vyapam-recruitment-2025-apply-online-for-225-staff-nurse-posts/34109"
+  },
+  {
+    "id": "a19ae001-85c7-487c-a2ac-edd9b76abd10",
+    "title": "Food Safety Officer",
+    "organization": "Tripura Public Service Commission",
+    "location": "Tripura",
+    "lastDate": "2025-09-02",
+    "totalPosts": 16,
+    "url": "https://allgovernmentjobs.in/tpsc-recruitment-2025-apply-online-for-16-food-safety-officer-posts/33647"
+  },
+  {
+    "id": "ed184c70-1f84-4c24-8353-76a5efdfe20d",
+    "title": "Graduate Apprentice",
+    "organization": "HAL India",
+    "location": "Maharashtra",
+    "lastDate": "2025-09-02",
+    "totalPosts": 588,
+    "url": "https://allgovernmentjobs.in/hal-india-recruitment-2025-apply-online-for-588-apprentice-posts/33397"
+  },
+  {
+    "id": "f9571c82-72b2-480d-924b-ed7998c4fe1e",
+    "title": "Multipurpose Health Worker",
+    "organization": "Baba Farid University of Health Science",
+    "location": "Punjab",
+    "lastDate": "2025-09-02",
+    "totalPosts": 122,
+    "url": "https://allgovernmentjobs.in/bfuhs-recruitment-2025-apply-online-for-122-multipurpose-health-worker-posts/34118"
+  },
+  {
+    "id": "1792680e-8448-458c-a685-17d90f641537",
+    "title": "Executive Branch",
+    "organization": "Indian Navy",
+    "location": "Delhi",
+    "lastDate": "2025-09-01",
+    "totalPosts": 260,
+    "url": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-260-ssc-officer-posts/33880"
+  },
+  {
+    "id": "47d98b58-08a6-46d9-b8a4-a6e8359e039e",
+    "title": "Consultant - Quality Assurance",
+    "organization": "Translational Health Science and Technology Institute",
+    "location": "Haryana",
+    "lastDate": "2025-09-01",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-consultant-post/34130"
+  },
+  {
+    "id": "6eb07fe9-7205-4088-b4b0-64a7be6994e2",
+    "title": "Project Scientist",
+    "organization": "IIT BHU",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-09-01",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-bhu-recruitment-2025-apply-for-project-scientist-post/34168"
+  },
+  {
+    "id": "7eed5224-9fa6-40ec-aeed-a01741e89694",
+    "title": "Medical Officer",
+    "organization": "Satyajit Ray Film & Television Institute",
+    "location": "West Bengal",
+    "lastDate": "2025-09-01",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/srfti-recruitment-2025-apply-offline-for-02-medical-officer-posts/34024"
+  },
+  {
+    "id": "a6dc3785-7277-4882-88a2-ac05f7a3342b",
+    "title": "Program Manager",
+    "organization": "Indian Institute of Science, Bangalore",
+    "location": "Karnataka",
+    "lastDate": "2025-09-01",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/iisc-recruitment-2025-apply-online-for-04-program-assistant-posts/34210"
+  },
+  {
+    "id": "ad0d9241-3b09-4dca-9671-87feb4a013ab",
+    "title": "Quarter Master",
+    "organization": "Sainik School Goalpara",
+    "location": "Assam",
+    "lastDate": "2025-09-01",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/sainik-school-goalpara-recruitment-2025-apply-offline-for-08-ward-boy-matron-posts/33973"
+  },
+  {
+    "id": "bb6446a7-1d9a-4ba4-90c4-6de1f41381db",
+    "title": "Staff Nurse",
+    "organization": "DHS Ranipet",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-09-01",
+    "totalPosts": 40,
+    "url": "https://allgovernmentjobs.in/dhs-ranipet-recruitment-2025-apply-offline-for-40-staff-nurse-pharmacist-and-other-posts/34206"
+  },
+  {
+    "id": "f6591dc9-9152-4e99-8723-a2d4cc269174",
+    "title": "Medical Record Technician",
+    "organization": "AIIMS Delhi",
+    "location": "Delhi",
+    "lastDate": "2025-09-01",
+    "totalPosts": 29,
+    "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-offline-for-29-medical-record-technician-posts/33950"
+  },
+  {
+    "id": "2a6dc766-7eed-4833-adb8-38027f29eb19",
+    "title": "Junior Scale Stenographer",
+    "organization": "The Himachal Pradesh High Court",
+    "location": "Himachal Pradesh",
+    "lastDate": "2025-08-31",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/hp-high-court-recruitment-2025-apply-online-for-junior-scale-stenographer-post/33718"
+  },
+  {
+    "id": "50c0e848-0228-496f-8171-8b66e51165b1",
+    "title": "Project Research Scientist",
+    "organization": "National Institute of Pharmaceutical Education and Research Ahmedabad",
+    "location": "Gujarat",
+    "lastDate": "2025-08-31",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/niper-recruitment-2025-apply-for-02-project-research-scientist-post/34164"
+  },
+  {
+    "id": "5794609f-ff13-44b7-bd22-8d018a4b911d",
+    "title": "Junior Research Fellow",
+    "organization": "Sardar Vallabhbhai National Institute of Technology",
+    "location": "Gujarat",
+    "lastDate": "2025-08-31",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/svnit-recruitment-2025-apply-for-junior-research-fellow-post/33576"
+  },
+  {
+    "id": "598be6a1-48d0-4de8-a667-68583cdf999e",
+    "title": "Legal Officer",
+    "organization": "National Bank for Agriculture and Rural Development",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-31",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/nabard-recruitment-2025-apply-online-for-05-legal-officer-and-other-posts/34132"
+  },
+  {
+    "id": "5fd405ba-3130-4993-9e8c-a3516fe704a1",
+    "title": "Project Executive",
+    "organization": "Government Department",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-31",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ryss-recruitment-2025-apply-offline-for-project-executive-posts/34169"
+  },
+  {
+    "id": "7a0dcbef-1aa3-4363-b363-aafec5c1e721",
+    "title": "Chief Director",
+    "organization": "National Cooperative Development Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-08-31",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/ncdc-recruitment-2025-apply-offline-for-02-chief-and-deputy-director-posts/34019"
+  },
+  {
+    "id": "7da47fae-aa9c-44ae-b144-45ea9ed836c8",
+    "title": "Senior Resident/ Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-31",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-05-senior-resident-and-medical-officer-posts/33559"
+  },
+  {
+    "id": "8b117c51-deeb-4e7f-88a2-c0537b505ee2",
+    "title": "Research Officer",
+    "organization": "Central Council for Research in Ayurvedic Sciences",
+    "location": "Delhi",
+    "lastDate": "2025-08-31",
+    "totalPosts": 394,
+    "url": "https://allgovernmentjobs.in/ccras-recruitment-2025-apply-online-for-394-multi-tasking-staff-and-other-posts/33181"
+  },
+  {
+    "id": "bca2b55f-fe08-4b38-bb86-aa08a4bacdf3",
+    "title": "Research Assistant",
+    "organization": "National Centre for Biological Sciences",
+    "location": "Karnataka",
+    "lastDate": "2025-08-31",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ncbs-recruitment-2025-apply-online-for-research-assistant-posts/33712"
+  },
+  {
+    "id": "e758a75c-afcd-4c90-a0c3-814c5f2951fd",
+    "title": "Project Research Scientist",
+    "organization": "AIIMS Rishikesh",
+    "location": "Uttarakhand",
+    "lastDate": "2025-08-31",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/aiims-rishikesh-recruitment-2025-apply-for-02-project-research-scientist-and-other-posts/34212"
+  },
+  {
+    "id": "e9695366-86a9-4f70-a27f-beae885ace2a",
+    "title": "Administrative Assistant",
+    "organization": "National Centre for Biological Sciences",
+    "location": "Karnataka",
+    "lastDate": "2025-08-31",
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/ncbs-recruitment-2025-apply-online-for-administrative-assistant-posts/34165"
+  },
+  {
+    "id": "f157bcc2-0a74-4538-853c-99c7c2e0c0b5",
+    "title": "Junior Assistant",
+    "organization": "Odisha Renewable Energy Development Agency",
+    "location": "Odisha",
+    "lastDate": "2025-08-31",
+    "totalPosts": 46,
+    "url": "https://allgovernmentjobs.in/oreda-recruitment-2025-apply-online-for-46-junior-assistant-and-other-posts/33753"
+  },
+  {
+    "id": "444c9e9b-4756-42af-aea2-d913949d59ac",
+    "title": "Junior Research Fellow Jobs",
+    "organization": "National Institute of Technology",
+    "location": "Bihar",
+    "lastDate": "2025-08-30",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-patna-recruitment-2025-apply-offline-for-junior-research-fellow-post/34209"
+  },
+  {
+    "id": "48a53009-5bf0-420a-9d8f-be85517442cc",
+    "title": "Anganwadi Worker Helper",
+    "organization": "Rajkot Municipal Corporation",
+    "location": "Gujarat",
+    "lastDate": "2025-08-30",
+    "totalPosts": 84,
+    "url": "https://allgovernmentjobs.in/rmc-recruitment-2025-apply-online-for-84-icds-anganwadi-worker-posts/34184"
+  },
+  {
+    "id": "66d0cc9f-2426-40e2-8ee5-5476824b641a",
+    "title": "Field Engineer",
+    "organization": "Water Resources, Power, and Infrastructure Sectors",
+    "location": "Haryana",
+    "lastDate": "2025-08-30",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/wapcos-recruitment-2025-apply-for-02-field-engineer-and-field-supervisor-post/34180"
+  },
+  {
+    "id": "6a02b751-94af-48f7-8ecf-87b09967ae98",
+    "title": "Legal Specialists",
+    "organization": "New India Assurance Company",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-30",
+    "totalPosts": 550,
+    "url": "https://allgovernmentjobs.in/niacl-recruitment-2025-apply-online-for-550-ao-health-and-other-posts/33974"
+  },
+  {
+    "id": "8043e03d-36c4-465f-b713-b3a3db495eb6",
+    "title": "Village Assistant",
+    "organization": "Thanjavur RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-30",
+    "totalPosts": 305,
+    "url": "https://allgovernmentjobs.in/thanjavur-rdm-recruitment-2025-apply-offline-for-305-village-assistant-posts/33861"
+  },
+  {
+    "id": "8586e5f2-1f7e-4eb8-aaf3-f282f275ed11",
+    "title": "Anganwadi Helper",
+    "organization": "WCD Gujarat",
+    "location": "Gujarat",
+    "lastDate": "2025-08-30",
+    "totalPosts": 9775,
+    "url": "https://allgovernmentjobs.in/wcd-gujarat-recruitment-2025-apply-online-for-9775-anganwadi-helper-worker-posts/33986"
+  },
+  {
+    "id": "f8391348-14c6-4112-a2a8-b02b37f9a7dd",
+    "title": "Junior Engineer",
+    "organization": "Pune Municipal Corporation",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-30",
+    "totalPosts": 169,
+    "url": "https://allgovernmentjobs.in/pmc-recruitment-2025-apply-online-for-169-junior-engineer-posts/34096"
+  },
+  {
+    "id": "050fa412-aca0-4403-a5d3-9c093d4ba92e",
+    "title": "Staff Nurse",
+    "organization": "DHS Vellore",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-29",
+    "totalPosts": 53,
+    "url": "https://allgovernmentjobs.in/dhs-vellore-recruitment-2025-apply-offline-for-53-staff-nurse-posts/34141"
+  },
+  {
+    "id": "0da80ced-c0ba-4549-b7bc-7be6b5cf551f",
+    "title": "Project Associate",
+    "organization": "Punjab University",
+    "location": "Punjab",
+    "lastDate": "2025-08-29",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/punjab-university-recruitment-2025-apply-for-project-associate-post/34187"
+  },
+  {
+    "id": "144b2a6b-6aad-4053-8a2d-4af284234754",
+    "title": "Assistant Manager",
+    "organization": "The Syama Prasad Mookerjee Port",
+    "location": "West Bengal",
+    "lastDate": "2025-08-29",
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/spmp-recruitment-2025-apply-offline-for-06-assistant-manager-posts/33502"
+  },
+  {
+    "id": "57fb743d-59e5-4fe3-9eb7-ba87eb16a997",
+    "title": "Project Research Scientist",
+    "organization": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-29",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-apply-online-for-project-research-scientist-post/34162"
+  },
+  {
+    "id": "ae53c921-c9ff-4583-99ed-1dfc495325a4",
+    "title": "Trade Apprentice",
+    "organization": "Morumugao Port Trust",
+    "location": "Goa",
+    "lastDate": "2025-08-29",
+    "totalPosts": 84,
+    "url": "https://allgovernmentjobs.in/mormugao-port-trust-recruitment-2025-apply-online-for-84-apprentice-posts/34022"
+  },
+  {
+    "id": "e035f241-47e3-468f-a8c8-bbb86c8c4792",
+    "title": "Group C",
+    "organization": "Western Railway Recruitment",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-29",
+    "totalPosts": 64,
+    "url": "https://allgovernmentjobs.in/western-railway-recruitment-2025-apply-online-for-64-group-c-d-posts/33819"
+  },
+  {
+    "id": "f17870f7-255f-49df-b2bb-2ecb17afda51",
+    "title": "Joint General Manager/ Deputy General Manager",
+    "organization": "Rail Land Development Authority",
+    "location": "Delhi",
+    "lastDate": "2025-08-29",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/rlda-recruitment-2025-apply-offline-for-02-joint-general-manager-deputy-general-manager-posts/33907"
+  },
+  {
+    "id": "f4bae5d9-329c-43a2-82fe-d90882319b10",
+    "title": "Deputy Manager",
+    "organization": "India Trade Promotion Organisation",
+    "location": "Delhi",
+    "lastDate": "2025-08-29",
+    "totalPosts": 31,
+    "url": "https://allgovernmentjobs.in/itpo-recruitment-2025-apply-online-for-31-deputy-manager-posts/33828"
+  },
+  {
+    "id": "0043dc32-4597-4b10-9ddd-77f243a122ec",
+    "title": "Lecturer",
+    "organization": "Union Public Service Commission",
+    "location": "Delhi",
+    "lastDate": "2025-08-28",
+    "totalPosts": 15,
+    "url": "https://allgovernmentjobs.in/upsc-recruitment-2025-apply-online-for-15-assistant-director-lecturer-posts/34018"
+  },
+  {
+    "id": "5de33ed0-55f8-49ac-8b25-2b51ba4ba65d",
+    "title": "Engineer",
+    "organization": "Bharat Heavy Electricals Limited",
+    "location": "Telangana",
+    "lastDate": "2025-08-28",
+    "totalPosts": 12,
+    "url": "https://allgovernmentjobs.in/bhel-recruitment-2025-apply-online-for-12-engineer-supervisor-posts/33981"
+  },
+  {
+    "id": "66cf3dbc-8597-4f3e-90f9-7600e33e293c",
+    "title": "Staff Nurse",
+    "organization": "All India Institute of Medical Sciences",
+    "location": "Delhi",
+    "lastDate": "2025-08-28",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-for-staff-nurse-post/34174"
+  },
+  {
+    "id": "7c95aef2-7d76-40e4-ac7f-cd5c4bdedd5b",
+    "title": "Boiler Inspector",
+    "organization": "Jharkhand Public Service Commission",
+    "location": "Jharkhand",
+    "lastDate": "2025-08-28",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/jpsc-recruitment-2025-apply-online-for-05-boiler-inspector-posts/33915"
+  },
+  {
+    "id": "89726266-4210-48d5-aa50-96eec3304a12",
+    "title": "Assistant Teacher",
+    "organization": "Uttar Pradesh Public Service Commission",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-28",
+    "totalPosts": 7466,
+    "url": "https://allgovernmentjobs.in/uppsc-recruitment-2025-apply-online-for-7466-assistant-teacher-post/33736"
+  },
+  {
+    "id": "91cc72b4-d615-4cc7-82e2-3ab1694629d6",
+    "title": "Assistant Manager",
+    "organization": "Noida Metro Rail Corporation",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-28",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/nmrc-recruitment-2025-apply-offline-for-08-assistant-manager-senior-accounts-assistant-posts/33857"
+  },
+  {
+    "id": "9dfe4d4d-04bc-4812-b0ac-9dc6e3b6b002",
+    "title": "Assistant Medical Officer",
+    "organization": "The Tamil Nadu Medical Services",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-28",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/tn-mrb-recruitment-2025-apply-online-for-02-assistant-medical-officer-posts/33992"
+  },
+  {
+    "id": "9f4cdfd8-b1ac-46a7-9ae1-541cd3f98ba3",
+    "title": "General Manager",
+    "organization": "National Highways Authority of India",
+    "location": "Delhi",
+    "lastDate": "2025-08-28",
+    "totalPosts": 15,
+    "url": "https://allgovernmentjobs.in/nhai-recruitment-2025-apply-online-for-15-general-manager-posts/33733"
+  },
+  {
+    "id": "a8d7854f-ccbe-430d-9c20-8575ee57e600",
+    "title": "Ophthalmic Assistant",
+    "organization": "State Health Society",
+    "location": "Bihar",
+    "lastDate": "2025-08-28",
+    "totalPosts": 220,
+    "url": "https://allgovernmentjobs.in/shs-bihar-recruitment-2025-apply-online-for-220-ophthalmic-assistant-posts/33987"
+  },
+  {
+    "id": "e9339d29-44d2-460f-ab65-018a2ab17157",
+    "title": "Professor",
+    "organization": "Gujarat Cancer and Research Institute",
+    "location": "Gujarat",
+    "lastDate": "2025-08-28",
+    "totalPosts": 210,
+    "url": "https://allgovernmentjobs.in/gcri-recruitment-2025-apply-online-for-210-resident-medical-officer-dental-surgeon-and-other-posts/34145"
+  },
+  {
+    "id": "0c3fbd3f-7d85-4c27-b956-75c12e9f4019",
+    "title": "Trade Apprentice",
+    "organization": "Hindustan Copper Limited",
+    "location": "Madhya Pradesh",
+    "lastDate": "2025-08-27",
+    "totalPosts": 167,
+    "url": "https://allgovernmentjobs.in/hindustan-copper-limited-recruitment-2025-apply-online-for-167-trade-apprentice-posts/33971"
+  },
+  {
+    "id": "1d6a9a67-2f0e-45e5-9f01-d8dd481d3225",
+    "title": "Medical Officer",
+    "organization": "National Health Mission",
+    "location": "Assam",
+    "lastDate": "2025-08-27",
+    "totalPosts": 78,
+    "url": "https://allgovernmentjobs.in/nhm-assam-recruitment-2025-apply-online-for-78-medical-officer-posts/34122"
+  },
+  {
+    "id": "24d2fb41-9ffa-4be4-a1e8-82e3ee53bb4a",
+    "title": "Executive Assistant",
+    "organization": "Tidel Park",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-27",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/tidel-park-recruitment-2025-apply-online-for-09-executive-assistant-manager-posts/34139"
+  },
+  {
+    "id": "cbb2322a-685b-4373-9da7-92fb67ec6214",
+    "title": "Senior Deputy General Manager",
+    "organization": "Rail Vikas Nigam Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-27",
+    "totalPosts": 29,
+    "url": "https://allgovernmentjobs.in/rvnl-recruitment-2025-apply-offline-for-29-manager-and-other-posts/33734"
+  },
+  {
+    "id": "ec19d4e7-9357-4860-942d-bec05c1c9ac9",
+    "title": "Staff Nurse",
+    "organization": "Baba Farid University of Health Sciences",
+    "location": "Punjab",
+    "lastDate": "2025-08-27",
+    "totalPosts": 406,
+    "url": "https://allgovernmentjobs.in/bfuhs-recruitment-2025-apply-online-for-406-staff-nurse-posts/33994"
+  },
+  {
+    "id": "eddd6833-0cb8-4435-8eec-d767cd237a4b",
+    "title": "Group C",
+    "organization": "RRC East Coast Railway",
+    "location": "Odisha",
+    "lastDate": "2025-08-27",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/rrc-east-coast-railway-recruitment-2025-apply-offline-for-08-group-c-d-posts/33790"
+  },
+  {
+    "id": "fa70cc4d-cdc8-4429-814c-7116f658eb28",
+    "title": "Junior Assistant",
+    "organization": "Water Resources, Power, and Infrastructure Sectors",
+    "location": "Haryana",
+    "lastDate": "2025-08-27",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/wapcos-recruitment-2025-apply-offline-for-04-junior-assistant-posts/34201"
+  },
+  {
+    "id": "038539da-6e9c-4e11-b62d-3b9c5b43b708",
+    "title": "Senior Research Fellowship",
+    "organization": "Indian Institute of Technology",
+    "location": "West Bengal",
+    "lastDate": "2025-08-26",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/iit-kharagnar-recruitment-2025-apply-online-for-02-senior-research-fellowship-posts/34218"
+  },
+  {
+    "id": "0f82cfea-86f6-4391-941d-f36bd73d6fba",
+    "title": "Junior Consultant",
+    "organization": "National Health Systems Resource Centre",
+    "location": "Delhi",
+    "lastDate": "2025-08-26",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-junior-consultant-posts/33899"
+  },
+  {
+    "id": "17d0e48f-2552-4e3b-8004-60ff5de82ea4",
+    "title": "Project Officer",
+    "organization": "Hooghly Cochin Shipyard Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-08-26",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-online-for-03-project-officer-posts/34175"
+  },
+  {
+    "id": "26e7c49a-3aca-4356-9393-9dcab7926353",
+    "title": "Graduate Apprentices",
+    "organization": "Hooghly Cochin Shipyard Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-08-26",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-online-for-05-apprenticeship-posts/33903"
+  },
+  {
+    "id": "2bfcf7b6-8e98-4c29-8f36-533a66da6299",
+    "title": "Senior Assistant",
+    "organization": "Airports Authority of India",
+    "location": "West Bengal",
+    "lastDate": "2025-08-26",
+    "totalPosts": 32,
+    "url": "https://allgovernmentjobs.in/aai-recruitment-2025-apply-online-for-32-senior-assistant-posts/33726"
+  },
+  {
+    "id": "2fac2bf9-400a-4e7d-ab44-374bf66d1528",
+    "title": "Junior Research Fellow",
+    "organization": "DYSL SM",
+    "location": "Telangana",
+    "lastDate": "2025-08-26",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dysl-sm-recruitment-2025-walk-in-for-junior-research-fellow-posts/33696"
+  },
+  {
+    "id": "34f5559f-5c31-4b3f-8aff-b37f044d6190",
+    "title": "Multipurpose Health Worker",
+    "organization": "Baba Farid University of Health Science",
+    "location": "Punjab",
+    "lastDate": "2025-08-26",
+    "totalPosts": 270,
+    "url": "https://allgovernmentjobs.in/bfuhs-recruitment-2025-apply-online-for-270-multipurpose-health-worker-posts/33954"
+  },
+  {
+    "id": "4518f4b8-4dc9-48e8-85d5-2c7d6bd1c4c5",
+    "title": "Translator",
+    "organization": "Women and Child Development",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-26",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/wcd-recruitment-2025-apply-offline-for-03-special-educator-post/33697"
+  },
+  {
+    "id": "458b3056-3709-4b75-9132-b7d352f9d057",
+    "title": "Technical Assistant",
+    "organization": "ISRO LPSC",
+    "location": "Karnataka",
+    "lastDate": "2025-08-26",
+    "totalPosts": 23,
+    "url": "https://allgovernmentjobs.in/isro-lpsc-recruitment-2025-apply-online-for-23-technical-assistant-and-other-posts/33970"
+  },
+  {
+    "id": "4a81c6cc-1552-4417-8bd2-b30d637ab047",
+    "title": "Junior Research Fellow",
+    "organization": "IIT Madras",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-26",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-madras-recruitment-2025-apply-online-for-junior-research-fellow-jobs/34202"
+  },
+  {
+    "id": "5a8ea390-9463-440b-bc9a-9814643c9688",
+    "title": "Project Assistant",
+    "organization": "Translational Health Science and Technology Institute",
+    "location": "Haryana",
+    "lastDate": "2025-08-26",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/thsti-recruitment-2025-walk-in-interview-for-08-quality-manager-and-other-posts/33934"
+  },
+  {
+    "id": "77b399ea-ce24-4bfd-a1e4-d27d89bcb00d",
+    "title": "Assistant General Manager",
+    "organization": "Hooghly Cochin Shipyard Limited",
+    "location": "Assam",
+    "lastDate": "2025-08-26",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-online-for-assistant-general-manager-post/33932"
+  },
+  {
+    "id": "7e3fadf2-2035-4baa-9151-1d90a6a5f055",
+    "title": "Graduate Apprentice",
+    "organization": "Hoogly Cochin Shipyard Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-08-26",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/hcsl-recruitment-2025-apply-for-05-apprentice-posts/33731"
+  },
+  {
+    "id": "96b75e1a-8c9b-4ce0-ba54-74a645686f7c",
+    "title": "Junior Resident",
+    "organization": "VMMC Safdarjung Hospital",
+    "location": "Delhi",
+    "lastDate": "2025-08-26",
+    "totalPosts": 89,
+    "url": "https://allgovernmentjobs.in/vmmc-safdarjung-hospital-recruitment-2025-walk-in-for-89-junior-resident-posts/34217"
+  },
+  {
+    "id": "b8424699-59cb-44a4-afbb-af23d7f6cf15",
+    "title": "Junior Associate (Customer Support & Sales)",
+    "organization": "State Bank of India",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-26",
+    "totalPosts": 5583,
+    "url": "https://allgovernmentjobs.in/sbi-recruitment-2025-apply-online-for-5583-junior-associates-posts/33901"
+  },
+  {
+    "id": "bbe6185e-39ed-4c4a-a71f-83a07f09fee4",
+    "title": "Junior Associate",
+    "organization": "State Bank of India",
+    "location": "Delhi",
+    "lastDate": "2025-08-26",
+    "totalPosts": 6589,
+    "url": "https://allgovernmentjobs.in/sbi-recruitment-2025-apply-online-for-6589-junior-associates-posts/33949"
+  },
+  {
+    "id": "ff664ed1-1e5b-4785-b866-aff1a350664d",
+    "title": "Research Associate",
+    "organization": "Manipur University",
+    "location": "Manipur",
+    "lastDate": "2025-08-26",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/manipur-university-recruitment-2025-apply-for-research-associate-post/34216"
+  },
+  {
+    "id": "005be083-0014-4277-a997-4cf40fc19c5b",
+    "title": "General Medical Consultant",
+    "organization": "Singareni Collieries Company",
+    "location": "Telangana",
+    "lastDate": "2025-08-25",
+    "totalPosts": 33,
+    "url": "https://allgovernmentjobs.in/sccl-recruitment-2025-apply-online-for-33-general-medical-consultant-posts/34094"
+  },
+  {
+    "id": "12408ab9-4c3a-4eae-be0a-bb633f9529f7",
+    "title": "Junior Research Fellow",
+    "organization": "Central Pollution Control Board",
+    "location": "Karnataka",
+    "lastDate": "2025-08-25",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/cpcb-recruitment-2025-apply-offline-for-03-senior-research-fellow-junior-research-fellow-posts/33923"
+  },
+  {
+    "id": "131d947a-9281-4376-a965-fc780a80e52e",
+    "title": "Technician",
+    "organization": "Hindustan Aeronautics Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-25",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/hal-recruitment-2025-apply-offline-for-05-technician-posts/33959"
+  },
+  {
+    "id": "1d6529ff-bf16-4ea1-aeaa-31573ea77849",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Bihar",
+    "lastDate": "2025-08-25",
+    "totalPosts": 21,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-21-medical-officer-pharmacist-and-other-posts/33938"
+  },
+  {
+    "id": "2b19bd6f-11e6-4d7f-99a3-a6b9fc035f4a",
+    "title": "Field Data Collector",
+    "organization": "National Institute of Mental Health and Neurosciences",
+    "location": "Karnataka",
+    "lastDate": "2025-08-25",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/nimhans-recruitment-2025-walk-in-for-05-field-data-collector-posts/34192"
+  },
+  {
+    "id": "2bae683e-f4cd-4d43-9e19-4d8e94e1d6c9",
+    "title": "Chief Financial Officer",
+    "organization": "Nainital Bank",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-25",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/nainital-bank-recruitment-2025-apply-offline-for-09-advisor-chief-financial-officer-posts/33972"
+  },
+  {
+    "id": "2d5ae5ac-b520-483a-b385-7a879b77a84e",
+    "title": "Additional Executive Engineer",
+    "organization": "Maharashtra State Electricity Distribution Company Limited",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-25",
+    "totalPosts": 300,
+    "url": "https://allgovernmentjobs.in/mahadiscom-recruitment-2025-apply-online-for-300-manager-engineer-posts/33029"
+  },
+  {
+    "id": "3ce5a11c-f56b-4c90-9a96-6f29ff6583d7",
+    "title": "Research Officer",
+    "organization": "Central Electricity Regulatory Commission",
+    "location": "Delhi",
+    "lastDate": "2025-08-25",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/cerc-recruitment-2025-apply-offline-for-02-research-officer-posts/33650"
+  },
+  {
+    "id": "440f4c75-f53f-42af-87c6-0b7afa700afa",
+    "title": "Constable",
+    "organization": "Arunachal Pradesh Staff Selection Board",
+    "location": "Arunachal Pradesh",
+    "lastDate": "2025-08-25",
+    "totalPosts": 461,
+    "url": "https://allgovernmentjobs.in/apssb-recruitment-2025-apply-online-for-461-constable-and-other-posts/33421"
+  },
+  {
+    "id": "538cff14-9a0e-4e6f-a486-7b9a716fe0fb",
+    "title": "Junior Clerk & Copyist",
+    "organization": "Mayurbhanj District Court",
+    "location": "Odisha",
+    "lastDate": "2025-08-25",
+    "totalPosts": 28,
+    "url": "https://allgovernmentjobs.in/mayurbhanj-district-court-recruitment-2025-apply-offline-for-28-junior-clerk-copyist-posts/33662"
+  },
+  {
+    "id": "5e61fea1-a410-4071-a40c-e5439bdd74f9",
+    "title": "Assistant Professor",
+    "organization": "AIIMS Jammu",
+    "location": "Jammu",
+    "lastDate": "2025-08-25",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/aiims-jammu-recruitment-2025-apply-online-for-08-assistant-professor-posts/34189"
+  },
+  {
+    "id": "6dfc281a-caff-485e-bb28-441862f6552e",
+    "title": "Project Nurse",
+    "organization": "PGIMER",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-apply-offline-for-project-nurse-posts/34211"
+  },
+  {
+    "id": "7221fb1b-a8ec-4b48-ac12-121b9374f0ea",
+    "title": "Junior Research Fellow",
+    "organization": "IIT Ropar",
+    "location": "Punjab",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-ropar-recruitment-2025-apply-online-for-junior-research-fellow-post/34200"
+  },
+  {
+    "id": "9683c345-653d-4bb3-ab3a-85373d59f622",
+    "title": "Nurse",
+    "organization": "National Health Mission",
+    "location": "Tripura",
+    "lastDate": "2025-08-25",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nhm-tripura-recruitment-2025-walk-in-interview-for-02-nurse-posts/33837"
+  },
+  {
+    "id": "99ba9359-149d-4517-acf3-76397ed13582",
+    "title": "Constable",
+    "organization": "Border Security Force",
+    "location": null,
+    "lastDate": "2025-08-25",
+    "totalPosts": 3588,
+    "url": "https://allgovernmentjobs.in/bsf-recruitment-2025-apply-online-for-3588-constable-posts/33557"
+  },
+  {
+    "id": "9a76d955-1eed-49c1-a282-c59555bd777a",
+    "title": "Centre In-Charge",
+    "organization": "IIEST Shibpur",
+    "location": "West Bengal",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iiest-shibpur-recruitment-2025-apply-offline-for-centre-incharge-posts/34190"
+  },
+  {
+    "id": "a3fa0174-1bc4-4a15-adab-df441b421a21",
+    "title": "Nurse",
+    "organization": "DHFWS Hassan",
+    "location": "Karnataka",
+    "lastDate": "2025-08-25",
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/dhfws-hassan-recruitment-2025-walk-in-for-06-nurse-clinical-psychologist-posts/34177"
+  },
+  {
+    "id": "c71f8fb4-1596-46de-96b3-1d99624cffa1",
+    "title": "Executive",
+    "organization": "Indian Institute of Management",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iim-lucknow-recruitment-2025-apply-online-for-executive-post/34013"
+  },
+  {
+    "id": "d72050ee-98d6-4874-bb7c-3c2eee4cc9dd",
+    "title": "Support Engineer",
+    "organization": "Rajasthan Staff Selection Board",
+    "location": "Rajasthan",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1050,
+    "url": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-1050-support-engineer-and-other-posts/33804"
+  },
+  {
+    "id": "ec136972-d536-424d-9ca7-7facb2fb8305",
+    "title": "Environment and Forestry Specialist",
+    "organization": "Maharashtra Institution for Transformation",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/mitra-recruitment-2025-apply-online-for-environment-and-forestry-specialist-posts/34133"
+  },
+  {
+    "id": "ff7ba4f1-00c7-43cf-a75b-4cc3687deb0e",
+    "title": "Junior Research Fellow",
+    "organization": "Indian Institute of Tropical Meteorology",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-25",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iitm-pune-recruitment-2025-apply-online-for-junior-research-fellow-post/33870"
+  },
+  {
+    "id": "143de645-c93d-4cfe-9a58-4189630cb779",
+    "title": "Executive Chef",
+    "organization": "Sports Authority of India",
+    "location": "Delhi",
+    "lastDate": "2025-08-24",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/sai-recruitment-2025-apply-online-for-executive-chef-posts/33988"
+  },
+  {
+    "id": "896fb635-fa7a-4420-89ad-72ec8e5f39e1",
+    "title": "General Manager",
+    "organization": "Madhya Pradesh Building Development Corporation Limited",
+    "location": "Madhya Pradesh",
+    "lastDate": "2025-08-24",
+    "totalPosts": 44,
+    "url": "https://allgovernmentjobs.in/mpbdc-recruitment-2025-apply-online-for-44-manager-legal-advisor-posts/33715"
+  },
+  {
+    "id": "b0053cd5-6a13-4d92-8fd4-d0b1a6fe56d2",
+    "title": "Village Assistant",
+    "organization": "Sivaganga Revenue and Disaster Management",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-24",
+    "totalPosts": 16,
+    "url": "https://allgovernmentjobs.in/sivaganga-rdm-recruitment-2025-apply-offline-for-16-village-assistant-posts/33629"
+  },
+  {
+    "id": "d752ab99-637d-4e08-9d28-5498874b4b8f",
+    "title": "Graduate Apprentice",
+    "organization": "Airport Authority of India",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-24",
+    "totalPosts": 19,
+    "url": "https://allgovernmentjobs.in/aai-recruitment-2025-apply-online-for-19-apprentice-posts/34095"
+  },
+  {
+    "id": "01f6b168-804b-42a1-9e12-110fe013afdd",
+    "title": "Professor",
+    "organization": "Indian Institute of Management Vishakapatnam",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-23",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/iimv-recruitment-2025-apply-offline-for-04-professor-and-other-posts/33699"
+  },
+  {
+    "id": "15232afe-5156-49dc-9723-19705e14a540",
+    "title": "Field Officer",
+    "organization": "Kalyan Singh Super Speciality Cancer Institute",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-23",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ksssci-recruitment-2025-apply-offline-for-field-officer-posts/34183"
+  },
+  {
+    "id": "3b37b14f-3b6a-4c49-bf8b-ed52ef9c4e96",
+    "title": "IT Engineer",
+    "organization": "IIT Gandhinagar",
+    "location": "Gujarat",
+    "lastDate": "2025-08-23",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment-2025-apply-online-for-03-it-engineer-posts/34198"
+  },
+  {
+    "id": "45d9248d-ad6c-45c9-bb46-9ffb9beb94b4",
+    "title": "Airframe Fitter",
+    "organization": "HAL India",
+    "location": "Karnataka",
+    "lastDate": "2025-08-23",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/hal-india-recruitment-2025-apply-offline-for-09-airframe-engine-fitter-posts/33582"
+  },
+  {
+    "id": "60ab7240-a1bf-4bb0-a61a-4bbc73fddd5c",
+    "title": "General Manager and Additional General Manager",
+    "organization": "Kolkata Metro Rail Corporation Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-08-23",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/kmrcl-recruitment-2025-apply-offline-for-02-general-manager-post/33634"
+  },
+  {
+    "id": "a4b4e545-a6d9-410f-8f5f-655d02b09f0b",
+    "title": "Senior Technical Assistant",
+    "organization": "Rail India Technical and Economic Services",
+    "location": "Haryana",
+    "lastDate": "2025-08-23",
+    "totalPosts": 58,
+    "url": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-online-for-58-resident-engineer-and-other-posts/33830"
+  },
+  {
+    "id": "abb951dc-9945-4db7-a0c0-06aa50ab73e8",
+    "title": "Program Manager",
+    "organization": "Indian Institute of Science",
+    "location": "Karnataka",
+    "lastDate": "2025-08-23",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iisc-recruitment-2025-apply-offline-for-program-manager-posts/33599"
+  },
+  {
+    "id": "cca03a1f-8d6f-4c74-b6a8-d61c761a2171",
+    "title": "Technical Assistant",
+    "organization": "National Institute of Animal Biotechnology",
+    "location": "Telangana",
+    "lastDate": "2025-08-23",
+    "totalPosts": 14,
+    "url": "https://allgovernmentjobs.in/niab-recruitment-2025-apply-online-for-14-technical-assistant-young-professional-and-other-posts/34214"
+  },
+  {
+    "id": "e7d417f8-4e3d-4200-85b9-92cbc620c2c8",
+    "title": "Senior Technical Assistant",
+    "organization": "Rail India Technical and Economic Services Limited",
+    "location": "Haryana",
+    "lastDate": "2025-08-23",
+    "totalPosts": 30,
+    "url": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-online-for-30-senior-technical-assistant-posts/33869"
+  },
+  {
+    "id": "fa46be20-4656-45a4-85c9-55e04e9bafb9",
+    "title": "Community Health Officer",
+    "organization": "DHS Dahod",
+    "location": "Gujarat",
+    "lastDate": "2025-08-23",
+    "totalPosts": 27,
+    "url": "https://allgovernmentjobs.in/dhs-dahod-recruitment-2025-apply-online-for-27-community-health-officer-posts/34100"
+  },
+  {
+    "id": "06570eec-8c87-42e2-a8d1-e7dcfb129091",
+    "title": "Project Scientist-I",
+    "organization": "Institute of Stem Cell Biology and Regenerative Medicine",
+    "location": "Karnataka",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/instem-recruitment-2025-apply-online-for-project-scientist-posts/34188"
+  },
+  {
+    "id": "10524c3e-0067-4519-9e2c-ec7cd4056061",
+    "title": "Agromet Observer",
+    "organization": "Acharya NG Ranga Agricultural University",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/angrau-recruitment-2025-walk-in-for-agromet-observer-posts/34215"
+  },
+  {
+    "id": "3ad8dad6-0841-49e2-a206-180a3a1b3c42",
+    "title": "Research Scholar",
+    "organization": "National Institute of Science Education and Research",
+    "location": "Odisha",
+    "lastDate": "2025-08-22",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/niser-recruitment-2025-apply-online-for-02-research-scholar-posts/34173"
+  },
+  {
+    "id": "48c621e7-a304-423e-a516-0af8cd1b9604",
+    "title": "Junior Research Fellow",
+    "organization": "IIT Jammu",
+    "location": "Jammu",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-jammu-recruitment-2025-apply-online-for-junior-research-fellow-posts/34186"
+  },
+  {
+    "id": "49c97eb3-e3db-4053-9fc8-2455105e1d6b",
+    "title": "Business Correspondent Coordinator",
+    "organization": "Bank of Baroda",
+    "location": "Haryana",
+    "lastDate": "2025-08-22",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/bob-recruitment-2025-apply-offline-for-04-business-correspondent-coordinator-posts/33952"
+  },
+  {
+    "id": "6a38b15c-5ce9-4608-915c-1abe4c931522",
+    "title": "Lab Engineer",
+    "organization": "National Institute of Electronics and Information Technology",
+    "location": "Kerala",
+    "lastDate": "2025-08-22",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nielit-recruitment-2025-apply-offline-for-02-lab-engineer-posts/34199"
+  },
+  {
+    "id": "848362e1-cd70-4111-801a-15a666e1d549",
+    "title": "Village Assistant",
+    "organization": "Tiruvallur RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-22",
+    "totalPosts": 151,
+    "url": "https://allgovernmentjobs.in/tiruvallur-rdm-recruitment-2025-apply-offline-for-151-village-assistant-posts/33577"
+  },
+  {
+    "id": "85a8cccd-a4b5-4ec1-9111-ebb6f672ad4b",
+    "title": "Junior Research Fellow",
+    "organization": "National Institute of Technology",
+    "location": "Kerala",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-calicut-recruitment-2025-apply-for-junior-research-fellow-post/34138"
+  },
+  {
+    "id": "aa403c0d-b613-4062-bc3d-80b23b6760a0",
+    "title": "Project Associate-I/II",
+    "organization": "Institute for Stem Cell Biology and Regenerative Medicine",
+    "location": "Karnataka",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/instem-recruitment-2025-apply-online-for-project-associate-i-ii-posts/34155"
+  },
+  {
+    "id": "b928861a-7bda-4621-8dbd-edd0862997e8",
+    "title": "Village Assistant",
+    "organization": "Tirupathur RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-22",
+    "totalPosts": 32,
+    "url": "https://allgovernmentjobs.in/tirupathur-rdm-recruitment-2025-apply-offline-for-32-village-assistant-posts/33603"
+  },
+  {
+    "id": "b98fce75-8f90-4e6a-bf90-704ac6d6d099",
+    "title": "Senior Lab Technician",
+    "organization": "DHS Madurai",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-22",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/dhs-madurai-recruitment-2025-apply-offline-for-04-senior-lab-technician-posts/34020"
+  },
+  {
+    "id": "c997e179-d73b-413d-b62b-442b57c4e35e",
+    "title": "Ship Draftsman Trainee",
+    "organization": "Cochin Shipyard Limited",
+    "location": "Kerala",
+    "lastDate": "2025-08-22",
+    "totalPosts": 35,
+    "url": "https://allgovernmentjobs.in/csl-recruitment-2025-apply-online-for-35-ship-draftsman-trainee-posts/33849"
+  },
+  {
+    "id": "d5af945d-291b-45d4-ba01-dcbafbc276bb",
+    "title": "Technician Apprentice",
+    "organization": "Indian Navy",
+    "location": "Delhi",
+    "lastDate": "2025-08-22",
+    "totalPosts": 50,
+    "url": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-50-technician-apprentice-posts/33626"
+  },
+  {
+    "id": "e1fbf878-190a-4f0a-885d-6d6a8bd4c06b",
+    "title": "Advisor",
+    "organization": "Delhi Metro Rail Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dmrc-recruitment-2025-apply-offline-for-advisor-posts/33853"
+  },
+  {
+    "id": "ee7f4143-5ec7-4472-ab0b-e7107be41cf0",
+    "title": "Senior Research Fellow",
+    "organization": "Indian Institute of Technology",
+    "location": "Jharkhand",
+    "lastDate": "2025-08-22",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-dhanbad-recruitment-2025-apply-online-for-senior-research-fellow-post/34195"
+  },
+  {
+    "id": "08ea1f01-65ae-4fe5-bcbf-a285e032a2e5",
+    "title": "Team Lead Clinical Science",
+    "organization": "Translational Health Science and Technology Institute",
+    "location": "Haryana",
+    "lastDate": "2025-08-21",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-02-team-lead-clinic-science-and-other-posts/34204"
+  },
+  {
+    "id": "0ae4ac41-a529-41b4-a2c3-f5790106448d",
+    "title": "Village Assistant",
+    "organization": "Tiruchirappalli Revenue and Disaster Management",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-21",
+    "totalPosts": 104,
+    "url": "https://allgovernmentjobs.in/tiruchirappalli-rdm-recruitment-2025-apply-offline-for-104-village-assistant-posts/33578"
+  },
+  {
+    "id": "1f979cb2-c7f1-4bc9-9ea3-9e18637825a8",
+    "title": "Drug Inspector",
+    "organization": "Maharashtra Public Service Commission",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-21",
+    "totalPosts": 109,
+    "url": "https://allgovernmentjobs.in/mpsc-recruitment-2025-apply-online-for-109-drug-inspector-posts/33781"
+  },
+  {
+    "id": "2c104875-0f4c-4a61-a49a-aa97c86125f4",
+    "title": "Junior Research Fellow (JRF)",
+    "organization": "Tamil Nadu Veterinary and Animal Sciences University",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-21",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tanuvas-recruitment-2025-walk-in-for-junior-research-fellow-posts/33933"
+  },
+  {
+    "id": "361fcc84-15ae-4dc2-b9d9-7f6dc70cbea0",
+    "title": "Group C",
+    "organization": "Eastern Railway",
+    "location": "West Bengal",
+    "lastDate": "2025-08-21",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/eastern-railway-recruitment-2025-apply-offline-for-02-group-c-posts/33388"
+  },
+  {
+    "id": "3a51ff5a-a2da-45d8-a569-aeadcc15cbff",
+    "title": "SSC (Tech)",
+    "organization": "Indian Army",
+    "location": "Delhi",
+    "lastDate": "2025-08-21",
+    "totalPosts": 31,
+    "url": "https://allgovernmentjobs.in/indian-army-recruitment-2025-apply-online-for-31-ssc-posts/33605"
+  },
+  {
+    "id": "44b63038-08b2-45b4-9295-a5d9365277a8",
+    "title": "Customer Service Associates",
+    "organization": "Institute of Banking Personnel Selection",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-21",
+    "totalPosts": 10277,
+    "url": "https://allgovernmentjobs.in/ibps-recruitment-2025-apply-online-for-10277-customer-service-associates-crp-csa-xv-posts/33807"
+  },
+  {
+    "id": "59353b8a-4ca2-498c-a51a-3774c44bc358",
+    "title": "Project Associate",
+    "organization": "AIIMS Bhubaneswar",
+    "location": "Odisha",
+    "lastDate": "2025-08-21",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aiims-bhubaneswar-recruitment-2025-walk-in-interview-for-project-associate-posts/34025"
+  },
+  {
+    "id": "699416e0-47f5-4cd5-82ad-3a1b6150b1fc",
+    "title": "Additional General Manager",
+    "organization": "Teri Hydro Development Corporation Limited",
+    "location": "Uttarakhand",
+    "lastDate": "2025-08-21",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/thdc-recruitment-2025-apply-online-for-05-general-manager-posts/33537"
+  },
+  {
+    "id": "7329cc62-9a26-462f-82da-34c3fe83ee2f",
+    "title": "Junior Research Fellow",
+    "organization": "Banaras Hindu University",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-21",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bhu-recruitment-2025-apply-offline-for-junior-research-fellow-post/33813"
+  },
+  {
+    "id": "82deef79-915e-41a1-b4dc-626d9bacf569",
+    "title": "Assistant Project Manager",
+    "organization": "KRCL",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-21",
+    "totalPosts": 13,
+    "url": "https://allgovernmentjobs.in/krcl-recruitment-2025-walk-in-interview-for-13-draftsman-and-other-posts/33794"
+  },
+  {
+    "id": "867df860-31f4-4a90-9d8e-f89fe62c9007",
+    "title": "Junior Resident",
+    "organization": "Government Medical College Hospital",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-21",
+    "totalPosts": 73,
+    "url": "https://allgovernmentjobs.in/gmch-recruitment-2025-apply-online-for-73-junior-resident-posts/34124"
+  },
+  {
+    "id": "8765895e-d13d-4dc5-a32a-6010b063feb4",
+    "title": "Doctor",
+    "organization": "North East Institute of Science and Technology, Jorhat",
+    "location": "Assam",
+    "lastDate": "2025-08-21",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/neist-recruitment-2025-apply-offline-for-doctor-post/34207"
+  },
+  {
+    "id": "8ddc4851-c379-4d19-845f-999cf905bd12",
+    "title": "Team Lead Clinical Science",
+    "organization": "Translational Health Science and Technology Institute",
+    "location": "Haryana",
+    "lastDate": "2025-08-21",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/thsti-recruitment-2025-apply-online-for-02-team-lead-and-other-posts/33840"
+  },
+  {
+    "id": "c4d99533-5e55-486e-95e0-d794d2474cbc",
+    "title": "Insect Collector",
+    "organization": "DHFWS Chikkaballapur",
+    "location": "Karnataka",
+    "lastDate": "2025-08-21",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dhfws-chikkaballapur-recruitment-2025-walk-in-interview-for-insect-collector-posts/34150"
+  },
+  {
+    "id": "da103219-1248-4b87-bf21-2d1e98caaef0",
+    "title": "Young Professional",
+    "organization": "Staff Selection Commission",
+    "location": "Delhi",
+    "lastDate": "2025-08-21",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/ssc-recruitment-2025-apply-online-for-05-young-professional-posts/33963"
+  },
+  {
+    "id": "dbdd9830-9c79-46a8-8358-a90f2ac16c1e",
+    "title": "Project Associate",
+    "organization": "Institute of Himalayan Bioresource Technology",
+    "location": "Himachal Pradesh",
+    "lastDate": "2025-08-21",
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/ihbt-recruitment-2025-walk-in-interview-for-20-project-associate-and-other-posts/34166"
+  },
+  {
+    "id": "e4fec48a-d10d-4341-ab21-1f379161a35b",
+    "title": "General Manager",
+    "organization": "National Thermal Power Corporation Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-21",
+    "totalPosts": 25,
+    "url": "https://allgovernmentjobs.in/ntpc-recruitment-2025-apply-online-for-25-manager-posts/33859"
+  },
+  {
+    "id": "03321eb2-f72c-4594-b580-f66375d141e5",
+    "title": "Project Associate",
+    "organization": "National Brain Research Centre",
+    "location": "Haryana",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nbrc-recruitment-2025-apply-offline-for-project-associate-post/33846"
+  },
+  {
+    "id": "085a3f63-1195-471a-920f-d87df91da8c1",
+    "title": "Senior Research Fellow",
+    "organization": "University of Hyderabad",
+    "location": "Telangana",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment-2025-apply-for-senior-research-fellow-posts/33894"
+  },
+  {
+    "id": "0d64d881-7f39-4ea8-b5f3-71ede5f47865",
+    "title": "Executive Trainees",
+    "organization": "Udupi Cochin Shipyard Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-20",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/ucsl-recruitment-2025-apply-online-for-08-executive-trainee-posts/33531"
+  },
+  {
+    "id": "1c01337c-bafe-4e54-8dab-f277efe3a3b2",
+    "title": "Advisor",
+    "organization": "Bharat Electronics Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bel-recruitment-2025-apply-offline-for-advisor-posts/33816"
+  },
+  {
+    "id": "2457c328-adfa-4c56-a063-ed999759d9cd",
+    "title": "Consultant Engineering",
+    "organization": "Indian Railway Catering and Tourism Corporation",
+    "location": "Telangana",
+    "lastDate": "2025-08-20",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/irctc-recruitment-2025-apply-offline-for-02-consultant-posts/33821"
+  },
+  {
+    "id": "2b21b131-5e28-44ba-b9f1-e5fcb1a814ba",
+    "title": "Project Management Executive",
+    "organization": "Kerala Industrial Infrastructure Development Corporation",
+    "location": "Kerala",
+    "lastDate": "2025-08-20",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/kinfra-recruitment-2025-apply-online-for-04-project-management-executive-posts/33937"
+  },
+  {
+    "id": "41c4bd0e-ee48-4092-82e0-a318b490c70e",
+    "title": "Senior Research Fellow",
+    "organization": "University of Hyderabad",
+    "location": "Telangana",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment-2025-apply-for-senior-research-fellow-post/33788"
+  },
+  {
+    "id": "49659847-4c00-4885-8181-cff00077c997",
+    "title": "Associate Consultant",
+    "organization": "VOC Port Trust",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/voc-port-trust-recruitment-2025-apply-offline-for-08-associate-consultant-posts/34117"
+  },
+  {
+    "id": "4a427e10-17a1-41b5-ba40-af6f64165d90",
+    "title": "X Ray Assistant",
+    "organization": "Brihgan Mumbai Municipal Corporation",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-20",
+    "totalPosts": 15,
+    "url": "https://allgovernmentjobs.in/bmc-recruitment-2025-apply-offline-for-15-assistant-lab-technician-posts/34028"
+  },
+  {
+    "id": "4e3b3f95-9ee9-4bef-9989-11331e229d7f",
+    "title": "Executive Trainees",
+    "organization": "Cochin Shipyard Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-20",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/csl-recruitment-2025-apply-online-for-08-executive-trainees-posts/33900"
+  },
+  {
+    "id": "5ce05b84-e76c-4d52-aedb-1fd5909811fa",
+    "title": "Apprentice",
+    "organization": "Meghalaya Basin Management Agency",
+    "location": "Meghalaya",
+    "lastDate": "2025-08-20",
+    "totalPosts": 28,
+    "url": "https://allgovernmentjobs.in/mbma-recruitment-2025-apply-online-for-28-apprentice-posts/34030"
+  },
+  {
+    "id": "6ceb95ce-fb6f-488e-9b50-f32813c08045",
+    "title": "Medical Officer",
+    "organization": "Ex-Service Contributory Health Scheme",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 13,
+    "url": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-13-driver-pharmacist-and-other-posts/34131"
+  },
+  {
+    "id": "773908df-2985-4640-9bc4-dafbe80d06b4",
+    "title": "Constable",
+    "organization": "Border Security Force",
+    "location": "Delhi",
+    "lastDate": "2025-08-20",
+    "totalPosts": 241,
+    "url": "https://allgovernmentjobs.in/bsf-recruitment-2025-apply-online-for-241-constable-posts/33625"
+  },
+  {
+    "id": "79bb5cc7-a9c5-4f1a-a9e8-132f9462c899",
+    "title": "Young Professional- II",
+    "organization": "Tamil Nadu Veterinary and Animal Sciences University",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tanuvas-recruitment-2025-apply-offline-for-young-professional-ii-posts/33996"
+  },
+  {
+    "id": "815716ba-1736-41f9-9dbe-a96864dfbf0d",
+    "title": "Radiologist",
+    "organization": "Mira Bhaindar Municipal Corporation",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-20",
+    "totalPosts": 129,
+    "url": "https://allgovernmentjobs.in/mbmc-recruitment-2025-apply-offline-for-129-medical-officer-and-other-posts/33750"
+  },
+  {
+    "id": "8c67eaf4-a96b-4c78-bdd4-17215d9b9462",
+    "title": "Staff Nurse",
+    "organization": "DHS Tiruvallur",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 84,
+    "url": "https://allgovernmentjobs.in/dhs-tiruvallur-recruitment-2025-apply-offline-for-84-staff-nurse-and-other-posts/33939"
+  },
+  {
+    "id": "a252f204-e56a-4d01-a1d8-3196e6cf93cf",
+    "title": "Consultant",
+    "organization": "District Health Society",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/dhs-tenkasi-recruitment-2025-apply-offline-for-05-consultant-and-other-posts/33904"
+  },
+  {
+    "id": "a643f259-f8f3-4a25-b3c6-6a384f675832",
+    "title": "Junior Research Fellow",
+    "organization": "NIT Nagaland",
+    "location": "Nagaland",
+    "lastDate": "2025-08-20",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/nit-nagaland-recruitment-2025-apply-for-03-junior-research-fellow-and-other-posts/34182"
+  },
+  {
+    "id": "aa81927d-bef7-49ac-b9d3-6c8691581d36",
+    "title": "Project Linked Person",
+    "organization": "ISI Kolkata",
+    "location": "West Bengal",
+    "lastDate": "2025-08-20",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/isi-kolkata-recruitment-2025-walk-in-for-02-project-linked-person-posts/33951"
+  },
+  {
+    "id": "b56ad4a3-9e80-472d-a872-2f0aa957ac2d",
+    "title": "Research Assistant",
+    "organization": "Jawaharlal Nehru University",
+    "location": "Delhi",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/jnu-recruitment-2025-apply-offline-for-research-assistant-posts/34015"
+  },
+  {
+    "id": "ba81f1ec-b72c-41d3-b5e7-8aff2296ec4c",
+    "title": "Medical Consultant",
+    "organization": "Reserve Bank of India",
+    "location": "Jammu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/rbi-recruitment-2025-apply-offline-for-medical-consultant-post/33512"
+  },
+  {
+    "id": "c84669d7-6dc5-44c7-a3ff-5af8466f2ac0",
+    "title": "Agniveervayu",
+    "organization": "Indian Air Force",
+    "location": "Delhi",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/indian-air-force-recruitment-2025-apply-online-for-agniveervayu-posts/34203"
+  },
+  {
+    "id": "cf2bec0e-9398-4633-bc3d-4ceccc43ba51",
+    "title": "Security Staff",
+    "organization": "MGU Kerala",
+    "location": "Kerala",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/mgu-kerala-recruitment-2025-apply-offline-for-security-staff-post/34137"
+  },
+  {
+    "id": "d96557f4-4b06-454f-bbfb-bfc035ef2914",
+    "title": "Village Assistant",
+    "organization": "Employees Provident Fund Organisation",
+    "location": "Delhi",
+    "lastDate": "2025-08-20",
+    "totalPosts": 17,
+    "url": "https://allgovernmentjobs.in/epfo-recruitment-2025-apply-offline-for-17-vigilance-assistant-posts/33548"
+  },
+  {
+    "id": "d987e661-9fc5-4c32-aa42-af7de5b2d75b",
+    "title": "General Manager",
+    "organization": "Bangalore Metro Rail Corporation Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-20",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/bmrcl-recruitment-2025-apply-online-for-03-general-manager-and-other-posts/33666"
+  },
+  {
+    "id": "d9a2f374-cdc1-4a3d-ba41-0ab3fc72e829",
+    "title": "Forest Ranger",
+    "organization": "Andaman and Nicobar Administration",
+    "location": null,
+    "lastDate": "2025-08-20",
+    "totalPosts": 28,
+    "url": "https://allgovernmentjobs.in/andaman-nicobar-administration-recruitment-2025-apply-online-for-28-forest-ranger-posts/33745"
+  },
+  {
+    "id": "da0e943d-e8dc-4f65-9ced-5b9c64efb7b0",
+    "title": "Research Fellow",
+    "organization": "Institute of Chemical Technology",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ict-mumbai-recruitment-2025-apply-for-research-fellow-post/34009"
+  },
+  {
+    "id": "e8fc0d64-3035-4bcc-be74-37558eea0b74",
+    "title": "Junior Research Fellow",
+    "organization": "The University of Kalyani",
+    "location": "West Bengal",
+    "lastDate": "2025-08-20",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/university-of-kalyani-recruitment-2025-apply-for-junior-research-fellow-post/34097"
+  },
+  {
+    "id": "eab5a91b-5c61-450b-82f4-5568043340e7",
+    "title": "Urban Health Nurse",
+    "organization": "DHS Thanjavur",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-20",
+    "totalPosts": 131,
+    "url": "https://allgovernmentjobs.in/dhs-thanjavur-recruitment-2025-apply-offline-for-131-staff-nurse-and-other-posts/33863"
+  },
+  {
+    "id": "f0912c28-62aa-421d-bc1f-eeb7e6c2715f",
+    "title": "Team Leader",
+    "organization": "Water and Power Consultancy Services Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-20",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/wapcos-recruitment-2025-apply-offline-for-09-team-leader-expert-posts/33931"
+  },
+  {
+    "id": "0fa21376-20b6-4a9b-b3cb-9c57ccc12367",
+    "title": "Medical Officer",
+    "organization": "NHM Chandigarh",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nhm-chandigarh-recruitment-2025-walk-in-for-medical-officer-posts/34016"
+  },
+  {
+    "id": "2ee54e11-b13b-48c4-aef0-3509d182b027",
+    "title": "Junior Research Fellowship",
+    "organization": "DRDO CVRDE",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-19",
+    "totalPosts": 9,
+    "url": "https://allgovernmentjobs.in/drdo-cvrde-recruitment-2025-apply-offline-for-09-junior-research-fellowship-posts/33732"
+  },
+  {
+    "id": "651a1c47-da58-46ee-abff-50ac9b4658dd",
+    "title": "Technical Expert",
+    "organization": "Vizhinjam International Seaport Limited",
+    "location": "Kerala",
+    "lastDate": "2025-08-19",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/visl-recruitment-2025-apply-online-for-08-manager-field-engineer-posts/33966"
+  },
+  {
+    "id": "a12c591e-b0f7-4eca-b4b0-e485bd2711bd",
+    "title": "Project Research Scientist",
+    "organization": "All India Institute of Medical Sciences",
+    "location": "Delhi",
+    "lastDate": "2025-08-19",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-offline-for-03-project-research-scientist-and-other-posts/33947"
+  },
+  {
+    "id": "a37fa997-f648-464e-a087-fab4c5a880c4",
+    "title": "Medical Officer",
+    "organization": "CMO Varanasi",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-19",
+    "totalPosts": 28,
+    "url": "https://allgovernmentjobs.in/cmo-varanasi-recruitment-2025-walk-in-interview-for-28-medical-officer-posts/33742"
+  },
+  {
+    "id": "aeb221b2-73d4-41dd-9ce9-cc6ebce087ae",
+    "title": "Junior Research Fellowship",
+    "organization": "IIT Tirupati",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-tirupati-recruitment-2025-apply-online-for-junior-research-fellowship-posts/33891"
+  },
+  {
+    "id": "b12fb47b-043e-4b0c-b91d-4d9f2d37c3cc",
+    "title": "Multi-Task Worker Jobs",
+    "organization": "Punjab University",
+    "location": "Punjab",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/punjab-university-recruitment-2025-apply-offline-for-multi-task-worker-post/34031"
+  },
+  {
+    "id": "b1d65d97-40bc-44d9-8faf-577f01cda45c",
+    "title": "Lead Consultant",
+    "organization": "National Health Systems Resource Centre",
+    "location": "Delhi",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-lead-consultant-post/33777"
+  },
+  {
+    "id": "bb1148b0-8063-4761-9323-e36b607bebeb",
+    "title": "Management Industrial Trainee",
+    "organization": "Bharat Electronics Limited",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-19",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/bel-recruitment-2025-walk-in-for-08-management-industrial-trainee-posts/33912"
+  },
+  {
+    "id": "bd738096-2055-4894-9940-285da969dcb3",
+    "title": "Computer Operator",
+    "organization": "District Child Protection Unit",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dcpu-tiruchirappalli-recruitment-2025-apply-offline-for-computer-operator-post/33918"
+  },
+  {
+    "id": "c5e74cdb-1520-4436-aafe-2148dbe20af3",
+    "title": "Data Entry Operator",
+    "organization": "Haryana State Electronics Development Corporation Limited",
+    "location": "Haryana",
+    "lastDate": "2025-08-19",
+    "totalPosts": 130,
+    "url": "https://allgovernmentjobs.in/hartron-recruitment-2025-apply-online-for-130-data-entry-operator-posts/33893"
+  },
+  {
+    "id": "dfb8298a-5e4f-447b-b12a-47ad2f37b516",
+    "title": "Technical Assistant",
+    "organization": "National Health System Resource Centre",
+    "location": "Delhi",
+    "lastDate": "2025-08-19",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-02-technical-assistant-and-other-posts/33614"
+  },
+  {
+    "id": "ec4619af-9f20-483e-9148-e898108fcdc6",
+    "title": "District Programme Coordinator",
+    "organization": "DHS Giridih",
+    "location": "Jharkhand",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dhs-giridih-recruitment-2025-apply-offline-for-district-programme-coordinator-post/33919"
+  },
+  {
+    "id": "fa6ce8da-6fba-4e17-b1a1-5f28abca5b26",
+    "title": "Senior Resident",
+    "organization": "All India Institute of Medical Sciences",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-19",
+    "totalPosts": 108,
+    "url": "https://allgovernmentjobs.in/aiims-nagpur-recruitment-2025-apply-online-for-108-senior-resident-posts/33890"
+  },
+  {
+    "id": "fcf413ee-10db-4df8-b66b-903c60e7f4b1",
+    "title": "Project Associate I",
+    "organization": "Central Glass and Ceramic Research Institute",
+    "location": "West Bengal",
+    "lastDate": "2025-08-19",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/csir-cgcri-recruitment-2025-apply-online-for-project-associate-i-posts/33896"
+  },
+  {
+    "id": "004f2560-c4fd-403e-8c59-8c740b9bdcbb",
+    "title": "Teaching Assistant",
+    "organization": "ISI Bangalore",
+    "location": "Karnataka",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/isi-bangalore-recruitment-2025-walk-in-for-teaching-assistant-posts/34163"
+  },
+  {
+    "id": "00cab566-7e01-42d1-a60e-c8de7b38a7e2",
+    "title": "Project Associate",
+    "organization": "Central Glass and Ceramic Research Institute",
+    "location": "West Bengal",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/cgcri-recruitment-2025-apply-offline-for-project-associate-post/34134"
+  },
+  {
+    "id": "11e733ee-7d5a-4b87-b143-b4304565099a",
+    "title": "Mid-Level Health Provider",
+    "organization": "District Health Society",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-18",
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/dhs-recruitment-2025-apply-offline-for-06-mid-level-health-provider-posts/34021"
+  },
+  {
+    "id": "2fdc4896-e526-45f7-bc77-d90ccfbe997e",
+    "title": "Senior Research Fellow",
+    "organization": "Central Agricultural University",
+    "location": "Meghalaya",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/cau-recruitment-2025-walk-in-interview-senior-research-fellow-post/34178"
+  },
+  {
+    "id": "315c3e3c-a2a2-4374-b16d-c1313a75ef67",
+    "title": "Village Assistant",
+    "organization": "Coimbatore RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-18",
+    "totalPosts": 61,
+    "url": "https://allgovernmentjobs.in/coimbatore-rdm-recruitment-20225-apply-offline-for-61-village-assistant-posts/33504"
+  },
+  {
+    "id": "322f357d-f2c5-4d78-8886-ba66657617ed",
+    "title": "Blood Bank Counsellor",
+    "organization": "GMCH Chhatrapati Sambhajinagar",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-18",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/gmch-chhatrapati-sambhajinagar-recruitment-2025-apply-offline-for-05-staff-nurse-posts/34093"
+  },
+  {
+    "id": "3739c0a5-875e-4a43-8597-a16c0bad64b5",
+    "title": "Junior Research Fellow",
+    "organization": "NIPER",
+    "location": "Gujarat",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/niper-recruitment-2025-apply-for-junior-research-fellow-post/33885"
+  },
+  {
+    "id": "44579997-19d0-4431-8183-2a7d71861759",
+    "title": "Senior Vice President",
+    "organization": "Oil and Natural Gas Corporation",
+    "location": "Delhi",
+    "lastDate": "2025-08-18",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/ongc-recruitment-2025-apply-online-for-02-senior-vice-president-posts/33927"
+  },
+  {
+    "id": "50ad1546-97dd-454e-8859-ba665691d557",
+    "title": "Junior Research Fellow",
+    "organization": "NIT Calicut",
+    "location": "Kerala",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-calicut-recruitment-2025-apply-offline-for-junior-research-fellow-posts/33953"
+  },
+  {
+    "id": "6b0eee0f-a963-4b8b-9747-c1b75b5d13cc",
+    "title": "Junior Research Fellow",
+    "organization": "University of Hyderabad",
+    "location": "Telangana",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/university-of-hyderabad-recruitment-2025-apply-offline-for-junior-research-fellow-post/34170"
+  },
+  {
+    "id": "6fb580e6-3fb3-4fb4-958b-0c30c07a1c03",
+    "title": "Manager",
+    "organization": "Rail India Technical and Economic Service",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-18",
+    "totalPosts": 14,
+    "url": "https://allgovernmentjobs.in/rites-recruitment-2025-apply-online-for-14-engineer-manager-and-other-posts/33463"
+  },
+  {
+    "id": "7b4d79ba-32bb-4cc3-a8d0-04bae7126af5",
+    "title": "Pharmacist",
+    "organization": "National Ayush Mission Kerala",
+    "location": "Kerala",
+    "lastDate": "2025-08-18",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nam-kerala-recruitment-2025-apply-offline-for-02-pharmacist-and-multipurpose-health-worker-posts/34101"
+  },
+  {
+    "id": "829b3709-243f-4108-a514-288af75d2e99",
+    "title": "Project Technical Support",
+    "organization": "Birla Institute of Technology and Science",
+    "location": "Rajasthan",
+    "lastDate": "2025-08-18",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/bits-pilani-recruitment-2025-apply-for-02-project-technical-support-and-other-post/33705"
+  },
+  {
+    "id": "8578ee93-fae2-4312-9f3e-922b79b6329f",
+    "title": "Staff Nurse",
+    "organization": "DHS Tiruppur",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-18",
+    "totalPosts": 108,
+    "url": "https://allgovernmentjobs.in/dhs-tiruppur-recruitment-2025-apply-offline-for-108-staff-nurse-and-other-posts/33709"
+  },
+  {
+    "id": "928f7c10-54f7-488b-8e8e-30b015f4c4c4",
+    "title": "Junior Research Fellow",
+    "organization": "Bose Institute",
+    "location": "West Bengal",
+    "lastDate": "2025-08-18",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/bose-institute-recruitment-2025-apply-offline-for-03-project-associate-and-other-posts/34147"
+  },
+  {
+    "id": "957ddb2b-10a7-46c0-9a6f-ff9aa70e6fc3",
+    "title": "Project Associate I",
+    "organization": "National Environmental Engineering Research Institute",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-18",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/neeri-recruitment-2025-apply-online-for-04-project-associate-i-ii-posts/34143"
+  },
+  {
+    "id": "98e1ba30-4b9e-4360-b4a6-bb24cabe85d4",
+    "title": "Nurse Practitioner in Midwifery",
+    "organization": "NHM Punjab",
+    "location": "Punjab",
+    "lastDate": "2025-08-18",
+    "totalPosts": 60,
+    "url": "https://allgovernmentjobs.in/nhm-punjab-recruitment-2025-apply-online-for-60-nurse-posts/33767"
+  },
+  {
+    "id": "c62cbd33-fab7-47d0-9588-c8e56292dbc3",
+    "title": "Audiologist",
+    "organization": "GMCH Nilgiris",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-18",
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/gmch-nilgiris-recruitment-2025-apply-offline-for-20-staff-nurse-pharmacist-posts/33942"
+  },
+  {
+    "id": "cb8f01b0-107e-4ec5-b2da-f6187f9bdcfd",
+    "title": "Medical Consultant",
+    "organization": "Bank of Baroda",
+    "location": "Gujarat",
+    "lastDate": "2025-08-18",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bob-recruitment-2025-apply-offline-for-medical-consultant-post/33656"
+  },
+  {
+    "id": "e084ccc8-883b-4ed3-a9bb-1c8e49f484e3",
+    "title": "Teacher",
+    "organization": "KGBV Garhwa",
+    "location": "Jharkhand",
+    "lastDate": "2025-08-18",
+    "totalPosts": 23,
+    "url": "https://allgovernmentjobs.in/kgbv-garhwa-recruitment-2025-apply-offline-for-23-teacher-accountant-posts/34012"
+  },
+  {
+    "id": "e439a316-6751-4548-a02b-70da9fcf92ca",
+    "title": "Enforcement Officer",
+    "organization": "Union Public Service Commission",
+    "location": "Delhi",
+    "lastDate": "2025-08-18",
+    "totalPosts": 230,
+    "url": "https://allgovernmentjobs.in/upsc-recruitment-2025-apply-online-for-230-enforcement-accounts-officer-posts/33735"
+  },
+  {
+    "id": "e925131a-554a-4d99-8d14-a522b6463449",
+    "title": "Senior Research Fellow",
+    "organization": "Motilal Nehru National Institute of Technology",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-18",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/manit-allahabad-recruitment-2025-apply-online-for-02-senior-and-junior-research-fellow-posts/33763"
+  },
+  {
+    "id": "f2c05973-c9fc-427d-9c77-622455d7a1a7",
+    "title": "Manager",
+    "organization": "Oil India",
+    "location": "Assam",
+    "lastDate": "2025-08-18",
+    "totalPosts": 54,
+    "url": "https://allgovernmentjobs.in/oil-india-recruitment-2025-apply-online-for-54-manager-superintending-engineer-posts/33495"
+  },
+  {
+    "id": "f4601bba-9bc6-47b7-bd1a-f970c2ce6f91",
+    "title": "Senior Assistant",
+    "organization": "Punjab Subordinate Service Selection Board",
+    "location": "Punjab",
+    "lastDate": "2025-08-18",
+    "totalPosts": 367,
+    "url": "https://allgovernmentjobs.in/psssb-recruitment-2025-apply-online-for-367-senior-assistant-treasury-officer-posts/33471"
+  },
+  {
+    "id": "0cb6a784-7bc3-4da5-926b-09a80e923e78",
+    "title": "Project Associate- I",
+    "organization": "Jawaharlal Nehru Centre for Advanced Scientific Research",
+    "location": "Karnataka",
+    "lastDate": "2025-08-17",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/jncasr-recruitment-2025-apply-offline-for-project-associate-i-posts/34158"
+  },
+  {
+    "id": "2ceb1965-4344-45fa-8159-6da518d0a199",
+    "title": "Assistant",
+    "organization": "Oriental Insurance Company Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-17",
+    "totalPosts": 500,
+    "url": "https://allgovernmentjobs.in/oicl-recruitment-2025-apply-online-for-500-assistant-posts/33764"
+  },
+  {
+    "id": "64830a0e-e44c-4dc3-8aea-d4a390035e4b",
+    "title": "SSC Executive",
+    "organization": "Indian Navy Recruitment",
+    "location": "Kerala",
+    "lastDate": "2025-08-17",
+    "totalPosts": 15,
+    "url": "https://allgovernmentjobs.in/indian-navy-recruitment-2025-apply-online-for-15-ssc-executive-posts/33701"
+  },
+  {
+    "id": "664f4038-3d32-49c7-95f8-6fcdd5f4c775",
+    "title": "Forest Section Officer",
+    "organization": "Andhra Pradesh Public Service Commission",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-17",
+    "totalPosts": 100,
+    "url": "https://allgovernmentjobs.in/appsc-recruitment-2025-apply-online-for-100-forest-section-officer-posts/33571"
+  },
+  {
+    "id": "710314b6-f2d4-4c67-ac5d-a000e61b8ea3",
+    "title": "Project Associate- II",
+    "organization": "NIT Rourkela",
+    "location": "Odisha",
+    "lastDate": "2025-08-17",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-rourkela-recruitment-2025-apply-offline-for-project-associate-ii-posts/33941"
+  },
+  {
+    "id": "783d2054-2050-44fd-a7f8-ac1c047f75ee",
+    "title": "Junior Research Fellow",
+    "organization": "IIT Mandi",
+    "location": "Himachal Pradesh",
+    "lastDate": "2025-08-17",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/iit-mandi-recruitment-2025-apply-online-for-05-junior-research-fellow-and-other-posts/33948"
+  },
+  {
+    "id": "bd4d84d2-2721-4d06-905f-e38383c068ab",
+    "title": "Junior Research Fellow",
+    "organization": "CIT Kokrajhar",
+    "location": "Assam",
+    "lastDate": "2025-08-17",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/cit-kokrajhar-recruitment-2025-apply-online-for-junior-research-fellow-posts/33783"
+  },
+  {
+    "id": "c4d2209a-5d17-4df5-8f95-ac966162197f",
+    "title": "Junior Project Assistant",
+    "organization": "NIT Karnataka",
+    "location": "Karnataka",
+    "lastDate": "2025-08-17",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-karnataka-recruitment-2025-apply-offline-for-junior-assistant-posts/33817"
+  },
+  {
+    "id": "fa3ca65d-9d69-4c6c-8f00-c2c6064c02c4",
+    "title": "Security Assistant/ Executive",
+    "organization": "Intelligence Bureau",
+    "location": "Delhi",
+    "lastDate": "2025-08-17",
+    "totalPosts": 4987,
+    "url": "https://allgovernmentjobs.in/ib-recruitment-2025-apply-online-for-4987-security-assistant-executive-posts/33560"
+  },
+  {
+    "id": "fb371856-f6e2-40df-8829-d2a7cf81b32a",
+    "title": "Technical Officer",
+    "organization": "NIT Warangal",
+    "location": "Telangana",
+    "lastDate": "2025-08-17",
+    "totalPosts": 13,
+    "url": "https://allgovernmentjobs.in/nit-warangal-recruitment-2025-apply-online-for-13-technical-officer-and-other-posts/33759"
+  },
+  {
+    "id": "1e904dde-3ee6-419f-8758-927a20250e11",
+    "title": "Deputy Team Leader (TLE)",
+    "organization": "Water and Power Consultancy Services Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-16",
+    "totalPosts": 7,
+    "url": "https://allgovernmentjobs.in/wapcos-recruitment-2025-apply-offline-for-07-deputy-team-leader-and-other-posts/33698"
+  },
+  {
+    "id": "4081c0ab-2fe8-4d56-b8c1-6ddf8144482b",
+    "title": "Anganwadi Helper",
+    "organization": "WCD Jammu & Kashmir",
+    "location": "Jammu",
+    "lastDate": "2025-08-16",
+    "totalPosts": 18,
+    "url": "https://allgovernmentjobs.in/wcd-jammu-kashmir-recruitment-2025-apply-offline-for-18-anganwadi-worker-helper-posts/33814"
+  },
+  {
+    "id": "4ad70baf-20ae-495b-b3ca-5fff6f03ee45",
+    "title": "Office Assistant",
+    "organization": "National Research Centre for Banana",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-16",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nrcb-recruitment-2025-apply-offline-for-office-assistant-post/33945"
+  },
+  {
+    "id": "5799f9f3-58ed-44fd-964d-e5966a6996b3",
+    "title": "Mechanical Engineer",
+    "organization": "Tata Memorial Hospital",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-16",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-apply-online-for-mechanical-engineer-posts/33884"
+  },
+  {
+    "id": "64a3bb4d-2376-457b-9632-507d6c1bea4d",
+    "title": "General Manager",
+    "organization": "Hindustan Insecticides Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-16",
+    "totalPosts": 13,
+    "url": "https://allgovernmentjobs.in/hil-recruitment-2025-apply-offline-for-13-manager-posts/33675"
+  },
+  {
+    "id": "79f542b1-8353-4d32-8da0-f6d0e48f68d5",
+    "title": "Typist",
+    "organization": "Meghalaya PSC",
+    "location": "Meghalaya",
+    "lastDate": "2025-08-16",
+    "totalPosts": 103,
+    "url": "https://allgovernmentjobs.in/meghalaya-psc-recruitment-2025-apply-online-for-103-typist-lower-division-assistant-posts/33452"
+  },
+  {
+    "id": "96512d74-b4a7-4f7f-afdd-421c6eec989e",
+    "title": "Scientific Assistant",
+    "organization": "Tata Institute of Fundamental Research",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-16",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/tifr-recruitment-2025-apply-online-for-02-scientific-assistant-posts/33684"
+  },
+  {
+    "id": "97c34a2c-2012-4fe1-b495-c555d309308c",
+    "title": "Junior Research Fellow",
+    "organization": "National Institute of Technology",
+    "location": "Odisha",
+    "lastDate": "2025-08-16",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-rourkela-recruitment-2025-apply-for-junior-research-fellow-post/33789"
+  },
+  {
+    "id": "a05bda5e-6e3d-41b3-8488-e34a082c030d",
+    "title": "Associate Project Engineer",
+    "organization": "IIT Guwahati",
+    "location": "Assam",
+    "lastDate": "2025-08-16",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/iit-guwahati-recruitment-2025-apply-online-for-associate-project-engineer-posts/33792"
+  },
+  {
+    "id": "b5b1e69d-328c-4ace-a259-653f4535e624",
+    "title": "Senior Research Fellow",
+    "organization": "National Institute of Immunology",
+    "location": "Delhi",
+    "lastDate": "2025-08-16",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nii-recruitment-2025-apply-for-senior-research-fellow-post/33871"
+  },
+  {
+    "id": "e4546168-fb23-42d0-9051-beaeccd634ce",
+    "title": "Village Assistant",
+    "organization": "Revenue and Disaster Management Department",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-16",
+    "totalPosts": 67,
+    "url": "https://allgovernmentjobs.in/rdm-namakkal-recruitment-2025-apply-offline-for-67-village-assistant-posts/33460"
+  },
+  {
+    "id": "1865a163-a738-4a9f-95db-df9c44f6f76e",
+    "title": "Apprentice",
+    "organization": "Naval Ship Repair Yard",
+    "location": "Manipur",
+    "lastDate": "2025-08-15",
+    "totalPosts": 50,
+    "url": "https://allgovernmentjobs.in/naval-ship-repair-yard-recruitment-2025-apply-online-for-50-apprentice-posts/33818"
+  },
+  {
+    "id": "43cfb790-f2bd-4573-a17a-075bdcca756a",
+    "title": "Diploma Apprentice Trainees",
+    "organization": "DRDO BIBT",
+    "location": "Karnataka",
+    "lastDate": "2025-08-15",
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/drdo-bibt-recruitment-2025-apply-offline-for-20-apprentice-trainee-posts/33415"
+  },
+  {
+    "id": "5e3b0a76-6ee4-4589-bbcc-899854018488",
+    "title": "Junior Research Fellow",
+    "organization": "Indian Institute of Technology",
+    "location": "Gujarat",
+    "lastDate": "2025-08-15",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-gandhinagar-recruitment-2025-apply-online-for-junior-research-fellow-post/34023"
+  },
+  {
+    "id": "69d6c12b-5bc9-487c-a271-c564afd13470",
+    "title": "Technical Assistant",
+    "organization": "Central Scientific Instruments Organisation",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-15",
+    "totalPosts": 25,
+    "url": "https://allgovernmentjobs.in/csio-recruitment-2025-apply-online-for-25-technical-assistant-posts/33761"
+  },
+  {
+    "id": "7d0cad5d-6487-442e-9389-245d53cc5301",
+    "title": "Senior Project Associate",
+    "organization": "Indian Institute of Technology",
+    "location": "West Bengal",
+    "lastDate": "2025-08-15",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/iit-kharagpur-recruitment-2025-apply-online-for-02-research-associate-and-other-posts/33940"
+  },
+  {
+    "id": "85a34b9c-280e-4847-a33a-d74fae733d13",
+    "title": "Protection Officer",
+    "organization": "District Child Protection Unit Tenkasi",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-15",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dcpu-recruitment-2025-apply-offline-for-01-protection-officer-post/33566"
+  },
+  {
+    "id": "ae142dcf-cb59-4251-afd6-7db563acefa0",
+    "title": "Project Assistant",
+    "organization": "Indian Institute of Science",
+    "location": "Karnataka",
+    "lastDate": "2025-08-15",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iisc-recruitment-2025-apply-offline-for-project-assistant-posts/33882"
+  },
+  {
+    "id": "bb02cb76-cf0c-4745-988a-5ace1dbed680",
+    "title": "Ayush Officer",
+    "organization": "Rajasthan Staff Selection Board",
+    "location": "Rajasthan",
+    "lastDate": "2025-08-15",
+    "totalPosts": 8363,
+    "url": "https://allgovernmentjobs.in/rssb-recruitment-2025-apply-online-for-8363-primary-and-upper-primary-teacher-and-other-posts/33436"
+  },
+  {
+    "id": "d2529084-73dc-42b6-954b-b8d30a3448d2",
+    "title": "Legal Officer",
+    "organization": "Maharashtra Water Resource Department",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-15",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/wrd-maharashtra-recruitment-2025-apply-for-legal-officer-post/33862"
+  },
+  {
+    "id": "d8526fdc-647b-42a5-8345-5ef78ee326a4",
+    "title": "Clerk",
+    "organization": "National Centre for Biological Sciences",
+    "location": "Karnataka",
+    "lastDate": "2025-08-15",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/ncbs-recruitment-2025-apply-online-for-05-clerk-posts/33600"
+  },
+  {
+    "id": "e2b758ab-8358-4721-a76c-e1cdd3a19f65",
+    "title": "Project Associate",
+    "organization": "IIT Bhubaneshwar",
+    "location": "Gujarat",
+    "lastDate": "2025-08-15",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/iit-bhubaneshwar-recruitment-2025-apply-online-for-03-project-associate-ii-posts/33887"
+  },
+  {
+    "id": "ebb512c9-8bdb-4568-bfe9-d4e8dde29448",
+    "title": "TGT",
+    "organization": "Sainik School Balachadi",
+    "location": "Gujarat",
+    "lastDate": "2025-08-15",
+    "totalPosts": 7,
+    "url": "https://allgovernmentjobs.in/sainik-school-balachadi-recruitment-2025-apply-offline-for-07-tgt-and-other-posts/33808"
+  },
+  {
+    "id": "eeab756f-ea9b-44df-a56b-5e622a4753d0",
+    "title": "Technical Assistant",
+    "organization": "CSIR-CSIO",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-15",
+    "totalPosts": 25,
+    "url": "https://allgovernmentjobs.in/csir-csio-recruitment-2025-apply-online-for-25-technical-assistant-posts/33401"
+  },
+  {
+    "id": "19d8829f-9829-44fb-b8ee-41d015d69198",
+    "title": "Senior Resident",
+    "organization": "Aligarh Muslim University",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/amu-recruitment-2025-apply-online-for-senior-resident-post/33976"
+  },
+  {
+    "id": "2af3156a-9b55-4ce1-b95d-be5b8e6dd987",
+    "title": "Junior Engineer",
+    "organization": "Sports Authority of India",
+    "location": "Delhi",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/sai-recruitment-2025-apply-online-for-junior-engineer-posts/33796"
+  },
+  {
+    "id": "46f0af0b-7860-42c6-91e3-737011957d4a",
+    "title": "Lab Technician",
+    "organization": "All India Institute of Medical Sciences",
+    "location": "Himachal Pradesh",
+    "lastDate": "2025-08-14",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/aiims-bilaspur-recruitment-2025-apply-offline-for-02-lab-technician-posts/33622"
+  },
+  {
+    "id": "473c2481-fcab-40e0-bb38-03376d147906",
+    "title": "Assistant Director",
+    "organization": "Union Public Service Commission",
+    "location": "Delhi",
+    "lastDate": "2025-08-14",
+    "totalPosts": 45,
+    "url": "https://allgovernmentjobs.in/upsc-recruitment-2025-apply-online-for-45-assistant-director-posts/33615"
+  },
+  {
+    "id": "4804cefd-5ea1-42fb-b134-ff12b306bc8e",
+    "title": "Expert Civil Engineer",
+    "organization": "Madhya Pradesh Power Generation Company Limited",
+    "location": "Madhya Pradesh",
+    "lastDate": "2025-08-14",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/mppgcl-recruitment-2025-apply-offline-for-04-engineer-posts/33208"
+  },
+  {
+    "id": "495c23b5-b060-4316-afc4-0befcc33898e",
+    "title": "Community Based Rehabilitation Worker",
+    "organization": "DSWO East Khasi Hills",
+    "location": "Meghalaya",
+    "lastDate": "2025-08-14",
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/dswo-east-khasi-hills-recruitment-2025-apply-online-for-05-rehabilitation-worker-posts/34027"
+  },
+  {
+    "id": "4a3c7f5b-e74c-4f01-9dae-d02235db7d18",
+    "title": "Radiologist",
+    "organization": "Bhabha Atomic Research Centre",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/barc-recruitment-2025-apply-offline-for-radiologist-post/33534"
+  },
+  {
+    "id": "4b1b22cf-fefa-41cb-8d4c-9151ed025357",
+    "title": "Electrician",
+    "organization": "Maharashtra State Electricity Transmission Company",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-14",
+    "totalPosts": 37,
+    "url": "https://allgovernmentjobs.in/mahatransco-recruitment-2025-apply-online-for-37-electrician-posts/34011"
+  },
+  {
+    "id": "52601b7b-8bf6-440f-a2c9-1a624f3bc68b",
+    "title": "Project Technician - I",
+    "organization": "National Institute of Mental Health and Neurosciences",
+    "location": "Karnataka",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nimhans-recruitment-2025-walk-in-interview-for-project-technician-posts/33957"
+  },
+  {
+    "id": "5b7dc96b-79de-46ee-9d1d-178e53b7be32",
+    "title": "Consultant",
+    "organization": "Tata Memorial Centre",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-apply-offline-for-consultant-post/33831"
+  },
+  {
+    "id": "629aeb87-da20-48c7-a75a-473eaff44649",
+    "title": "Assistant Manager",
+    "organization": "Brahmos Aerospace Limited",
+    "location": "Delhi",
+    "lastDate": "2025-08-14",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/brahmos-aerospace-limited-recruitment-2025-apply-offline-for-02-assistant-manager-and-technical-supervisor-posts/33850"
+  },
+  {
+    "id": "6b5d55a5-b433-4243-b41b-ebb752f42674",
+    "title": "Project Engineer",
+    "organization": "Indian Institute of Technology",
+    "location": "Kerala",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-palakkad-recruitment-2025-apply-for-project-engineer-post/33968"
+  },
+  {
+    "id": "7cd1af02-7dd5-424d-837d-0dd0e6fecea7",
+    "title": "Professor",
+    "organization": "AIIMS Rajkot",
+    "location": "Gujarat",
+    "lastDate": "2025-08-14",
+    "totalPosts": 107,
+    "url": "https://allgovernmentjobs.in/aiims-rajkot-recruitment-2025-apply-online-for-107-faculty-posts/33387"
+  },
+  {
+    "id": "8896c260-c0c8-4297-b415-481c59954441",
+    "title": "Phlebotomist",
+    "organization": "DHFWS Birbhum",
+    "location": "West Bengal",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/dhfws-birbhum-recruitment-2025-apply-online-for-phlebotomist-posts/33921"
+  },
+  {
+    "id": "8a7a61f4-fd20-4f6a-a530-954f083b0290",
+    "title": "Chief General Manager",
+    "organization": "TCIL",
+    "location": "Delhi",
+    "lastDate": "2025-08-14",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/tcil-recruitment-2025-apply-offline-for-02-chief-general-manager-posts/33617"
+  },
+  {
+    "id": "b267ba18-9382-4df4-ab03-1811f163f5ee",
+    "title": "Junior Technical Superintendent",
+    "organization": "IIITDM Kancheepuram",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-14",
+    "totalPosts": 27,
+    "url": "https://allgovernmentjobs.in/iitdm-kancheepuram-recruitment-2025-apply-online-for-27-non-teaching-posts/33298"
+  },
+  {
+    "id": "d7f39f35-8b36-4970-9a91-61c767c8096a",
+    "title": "Senior Lab and Field Helper",
+    "organization": "Punjab Agricultural University",
+    "location": "Punjab",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/pau-recruitment-2025-apply-offline-for-senior-lab-and-field-helper-post/33898"
+  },
+  {
+    "id": "df311d77-8038-4a5a-80a8-d073e4c0126f",
+    "title": "Staff Nurse",
+    "organization": "DHS Karur",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-14",
+    "totalPosts": 87,
+    "url": "https://allgovernmentjobs.in/dhs-karur-recruitment-2025-apply-offline-for-87-staff-nurse-and-other-posts/33773"
+  },
+  {
+    "id": "df7bf438-a249-4660-b92b-0acd9eba3f62",
+    "title": "Pharmacist",
+    "organization": "DHS Perambalur",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-14",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/dhs-perambalur-recruitment-2025-apply-offline-for-08-pharmacist-and-other-posts/33823"
+  },
+  {
+    "id": "dfbcd01b-c583-4dac-91de-6e2af96f8276",
+    "title": "Medical Consultant",
+    "organization": "Bharat Electricals Limited",
+    "location": "Uttarakhand",
+    "lastDate": "2025-08-14",
+    "totalPosts": 10,
+    "url": "https://allgovernmentjobs.in/bhel-recruitment-2025-apply-for-10-medical-consultant-posts/33965"
+  },
+  {
+    "id": "e1ec48f8-3200-47fc-9a67-280d9c68f4da",
+    "title": "Lower Division Clerk",
+    "organization": "Regional Medical Research Centre",
+    "location": "Odisha",
+    "lastDate": "2025-08-14",
+    "totalPosts": 11,
+    "url": "https://allgovernmentjobs.in/rmrc-recruitment-2025-apply-online-for-11-technician-and-other-posts/33826"
+  },
+  {
+    "id": "f181eb5f-b21a-4fa7-a7ae-6078de3d9137",
+    "title": "Manager",
+    "organization": "Udupi Cochin Shipyard Limited",
+    "location": "Karnataka",
+    "lastDate": "2025-08-14",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/ucsl-recruitment-2025-apply-online-for-02-manager-deputy-manager-posts/33633"
+  },
+  {
+    "id": "f57669df-d6a4-4341-9e4c-15f108988ce9",
+    "title": "Assistant Manager",
+    "organization": "Ahmedabad BRTS",
+    "location": "Gujarat",
+    "lastDate": "2025-08-14",
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/ahmedabad-brts-recruitment-2025-apply-offline-for-20-assistant-manager-and-other-posts/33721"
+  },
+  {
+    "id": "fd6da202-584e-49fc-b2a5-ec42126217b5",
+    "title": "Director General & Chief Executive Officer",
+    "organization": "Ministry of Health and Family Welfare",
+    "location": "Delhi",
+    "lastDate": "2025-08-14",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/mohfw-recruitment-2025-apply-offline-for-various-director-general-chief-executive-officer-posts/33269"
+  },
+  {
+    "id": "14c0f854-8c3b-4c38-a815-b797af983c3d",
+    "title": "Medical Officer",
+    "organization": "Ex-Servicemen Contributory Health Scheme",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-13",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/echs-recruitment-2025-walk-in-interview-for-medical-officer-posts/33800"
+  },
+  {
+    "id": "21cd8b99-d080-4f9d-ba65-0b02b23ee03f",
+    "title": "Senior Resident",
+    "organization": "Lady Hardinge Medical College",
+    "location": "Delhi",
+    "lastDate": "2025-08-13",
+    "totalPosts": 123,
+    "url": "https://allgovernmentjobs.in/lhmc-recruitment-2025-walk-in-interview-for-123-senior-resident-posts/33703"
+  },
+  {
+    "id": "25c75731-2974-4faf-b026-318b5dfeafa5",
+    "title": "Office-in-charge",
+    "organization": "Ex-Servicemen Contributory Health Scheme",
+    "location": "Odisha",
+    "lastDate": "2025-08-13",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-08-medical-officer-and-other-posts/33613"
+  },
+  {
+    "id": "39b9326b-368c-4ac4-9a09-8ac4f3543ce9",
+    "title": "Scientist B",
+    "organization": "AIIMS Rajkot",
+    "location": "Gujarat",
+    "lastDate": "2025-08-13",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aiims-rajkot-recruitment-2025-apply-online-for-scientist-b-posts/33878"
+  },
+  {
+    "id": "49d8ef07-c1c5-4796-9aa0-d932d5563509",
+    "title": "Apprentice",
+    "organization": "South Western Railway",
+    "location": "Karnataka",
+    "lastDate": "2025-08-13",
+    "totalPosts": 904,
+    "url": "https://allgovernmentjobs.in/south-western-railway-recruitment-2025-apply-online-for-904-apprentice-posts/33448"
+  },
+  {
+    "id": "6e46c29a-59f7-4b4f-a8bf-302fa5517702",
+    "title": "Technical Officer",
+    "organization": "IIT Tirupati",
+    "location": "Andhra Pradesh",
+    "lastDate": "2025-08-13",
+    "totalPosts": 42,
+    "url": "https://allgovernmentjobs.in/iit-tirupati-recruitment-2025-apply-online-for-42-junior-technician-posts/33402"
+  },
+  {
+    "id": "7c67d90a-3e90-40b5-9719-382b01b13eef",
+    "title": "Ayurveda Therapist",
+    "organization": "National Ayush Mission Kerala",
+    "location": "Kerala",
+    "lastDate": "2025-08-13",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/nam-kerala-recruitment-2025-apply-offline-for-03-ayurveda-therapist-and-other-posts/33877"
+  },
+  {
+    "id": "9511f1f7-82cd-42c4-97e2-3331ccdec45b",
+    "title": "Medical Officer",
+    "organization": "Ex-Servicemen Contributory Health Scheme",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-13",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/echs-recruitment-2025-apply-offline-for-04-medical-officer-posts/33855"
+  },
+  {
+    "id": "a1f9c623-ffcb-4344-87e5-eace2e707d03",
+    "title": "Adhoc Faculty",
+    "organization": "Motilal Nehru National Institute of Technology",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-13",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/mnnit-allahabad-recruitment-2025-apply-offline-for-03-adhoc-faculty-posts/33852"
+  },
+  {
+    "id": "a6ab46bc-9a9a-4f9a-b612-18869e30bc23",
+    "title": "Apprentice",
+    "organization": "South Western Railway",
+    "location": "Karnataka",
+    "lastDate": "2025-08-13",
+    "totalPosts": 904,
+    "url": "https://allgovernmentjobs.in/swr-recruitment-2025-apply-online-for-904-apprentice-posts/33385"
+  },
+  {
+    "id": "ab04b762-2437-4f87-b883-5709eeec5e40",
+    "title": "Nurse",
+    "organization": "Tata Memorial Centre",
+    "location": "Bihar",
+    "lastDate": "2025-08-13",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-nurse-posts/33785"
+  },
+  {
+    "id": "bc49dea9-891e-4490-9863-c1c8804fd328",
+    "title": "Graduate Apprentice",
+    "organization": "HAL India",
+    "location": "Odisha",
+    "lastDate": "2025-08-13",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/hal-india-recruitment-2025-walk-in-interview-for-apprentice-posts/33649"
+  },
+  {
+    "id": "c6a79ca7-b0ba-48ab-b73a-5e592451f2d7",
+    "title": "Manager",
+    "organization": "Gujarat Metro Rail Corporation Limited",
+    "location": "Gujarat",
+    "lastDate": "2025-08-13",
+    "totalPosts": 39,
+    "url": "https://allgovernmentjobs.in/gmrcl-recruitment-2025-apply-online-for-39-manager-supervisor-posts/33641"
+  },
+  {
+    "id": "f75e92fc-637c-46be-a98b-36c0cd4396eb",
+    "title": "Professional cum Technical Services",
+    "organization": "Troop Comforts Limited",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-13",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/tcl-recruitment-2025-apply-online-for-for-03-professional-cum-technician-posts/33757"
+  },
+  {
+    "id": "09248038-a774-4b3f-933c-ca26211c9c19",
+    "title": "Innovation",
+    "organization": "National Institute of Agricultural Extension Management",
+    "location": "Telangana",
+    "lastDate": "2025-08-12",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/manage-recruitment-2025-apply-online-for-08-business-executive-posts/33610"
+  },
+  {
+    "id": "40f6a4f4-f6f1-4a44-add4-b9ca65e27d69",
+    "title": "Expert/ Specialist",
+    "organization": "Garden Reach Shipbuilders & Engineers",
+    "location": "West Bengal",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/grse-recruitment-2025-apply-online-for-expert-specialist-posts/33579"
+  },
+  {
+    "id": "41e55dd5-bd2d-4d95-a67a-0fe46a82495d",
+    "title": "Yoga Teacher",
+    "organization": "The Zilla Parishad Wardha",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-12",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/zilla-parishad-wardha-recruitment-2025-apply-offline-for-04-yoga-teacher-posts/33930"
+  },
+  {
+    "id": "5b2b3240-50d3-45bd-a45d-9041e335dc5b",
+    "title": "Nursing",
+    "organization": "Chittaranjan National Cancer Institute",
+    "location": "West Bengal",
+    "lastDate": "2025-08-12",
+    "totalPosts": 10,
+    "url": "https://allgovernmentjobs.in/cnci-recruitment-2025-apply-offline-for-10-nursing-posts/33749"
+  },
+  {
+    "id": "6b0953dd-e33d-4b5b-b26b-90958ddefbdd",
+    "title": "Vice President",
+    "organization": "Hindustan Urvarak and Rasayan",
+    "location": "Delhi",
+    "lastDate": "2025-08-12",
+    "totalPosts": 40,
+    "url": "https://allgovernmentjobs.in/hurl-recruitment-2025-apply-online-for-40-engineer-manager-and-other-posts/33553"
+  },
+  {
+    "id": "760a59f8-b361-40cb-bef4-2f930e50d671",
+    "title": "Medical Officer",
+    "organization": "Zilla Swasthya Samiti",
+    "location": "Odisha",
+    "lastDate": "2025-08-12",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/zss-rayagad-recruitment-2025-walk-in-interview-for-08-medical-officer-posts/33848"
+  },
+  {
+    "id": "77c3bb89-be41-471b-aace-83646c5fb468",
+    "title": "Senior Resident",
+    "organization": "Chandigarh Administration",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-12",
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/chandigarh-administration-recruitment-2025-apply-offline-for-03-senior-resident-posts/33975"
+  },
+  {
+    "id": "7a42c86a-ab29-408a-afd3-99b425d451c1",
+    "title": "Junior Research Fellow",
+    "organization": "India Institute of Technology",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-12",
+    "totalPosts": 10,
+    "url": "https://allgovernmentjobs.in/iit-bhu-recruitment-2025-apply-offline-for-10-junior-research-fellow-and-other-posts/33782"
+  },
+  {
+    "id": "7b11341e-5edc-43d0-80f7-64cf57ed286d",
+    "title": "Track Maintainer",
+    "organization": "Konkan Railway Corporation Limited",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-12",
+    "totalPosts": 79,
+    "url": "https://allgovernmentjobs.in/krcl-recruitment-2025-apply-online-for-79-track-maintainer-points-man-posts/33295"
+  },
+  {
+    "id": "94a0b129-c48a-4e9a-9014-21166b220e4d",
+    "title": "BC Supervisor",
+    "organization": "Central Bank of India",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-12",
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/central-bank-of-india-recruitment-2025-apply-offline-for-04-bc-supervisor-posts/33752"
+  },
+  {
+    "id": "a8d8c3c3-c94c-46d8-bcd3-5a4ac857a5bc",
+    "title": "Paramedical Worker",
+    "organization": "National Health Mission",
+    "location": "Gujarat",
+    "lastDate": "2025-08-12",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nhm-gujarat-recruitment-2025-apply-online-for-02-paramedical-worker-and-other-posts/33883"
+  },
+  {
+    "id": "aecfa34a-9bef-4737-a59d-11e569eff8cc",
+    "title": "Senior Associate - Quality Assurance",
+    "organization": "Air India",
+    "location": "Haryana",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/air-india-recruitment-2025-apply-online-for-senior-associate-posts/33711"
+  },
+  {
+    "id": "aed3e0cb-f756-4310-9b6d-448de0b8ac34",
+    "title": "Village Assistant",
+    "organization": "Tenkasi RDM",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-12",
+    "totalPosts": 24,
+    "url": "https://allgovernmentjobs.in/tenkasi-rdm-recruitment-2025-apply-offline-for-24-village-assistant-posts/33358"
+  },
+  {
+    "id": "bb8b4eb7-389f-4d7f-95e0-d2e6ee8d6cbf",
+    "title": "Apprentice",
+    "organization": "Cochin Port Trust",
+    "location": "Kerala",
+    "lastDate": "2025-08-12",
+    "totalPosts": 10,
+    "url": "https://allgovernmentjobs.in/cpt-recruitment-2025-apply-online-for-10-apprentice-posts/33795"
+  },
+  {
+    "id": "c190b1a8-0303-40ce-9449-cc4b6b9c9e5f",
+    "title": "Cathlab Technician",
+    "organization": "District Civil Hospital Ahilyanagar",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-12",
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/district-civil-hospital-ahilyanagar-recruitment-2025-walk-in-for-cathlab-technician-posts/33977"
+  },
+  {
+    "id": "cb16a592-05fd-424a-b8dc-9c5cdde0cfdb",
+    "title": "Project Associate",
+    "organization": "National Institute of Technology",
+    "location": "West Bengal",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-durgapur-recruitment-2025-apply-for-project-associate-post/33758"
+  },
+  {
+    "id": "d70366d6-cbc0-43ff-8c5f-37743b1ba61e",
+    "title": "Specialist",
+    "organization": "Garden Reach Shipbuilders and Engineers Limited",
+    "location": "West Bengal",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/grse-recruitment-2025-apply-online-for-specialist-posts/33803"
+  },
+  {
+    "id": "e72fc842-8329-46b7-8ed9-fe5fad22269c",
+    "title": "Village Assistant",
+    "organization": "RDM Vellore",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-12",
+    "totalPosts": 30,
+    "url": "https://allgovernmentjobs.in/rdm-vellore-recruitment-2025-apply-offline-for-30-village-assistant-posts/33357"
+  },
+  {
+    "id": "f3e832ad-4c34-4add-9702-c180af60be6f",
+    "title": "Executive Engineer",
+    "organization": "Engineering Department Chandigarh",
+    "location": "Chandigarh",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/engineering-department-chandigarh-recruitment-2025-apply-for-executive-engineer-posts/33100"
+  },
+  {
+    "id": "fbdbdd8a-3662-4993-ae9f-ad1835739a63",
+    "title": "Housekeeper",
+    "organization": "Tata Memorial Center",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-12",
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-08-housekeeper-fireman-posts/33674"
+  },
+  {
+    "id": "ff069f93-5cb4-4834-a714-9462dc18fcae",
+    "title": "Assistant District Project Manager",
+    "organization": "Mysuru Zilla Panchayat",
+    "location": "Karnataka",
+    "lastDate": "2025-08-12",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/mysuru-zilla-panchayat-recruitment-2025-apply-online-for-assistant-district-project-manager-posts/33812"
+  },
+  {
+    "id": "12957dc8-df6b-4c9a-a32c-c7ae6174238f",
+    "title": "Project Coordinator",
+    "organization": "Tata Memorial Centre",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-apply-for-project-coordinator-post/33881"
+  },
+  {
+    "id": "25944c69-45d1-4ad3-8f95-f48b3eb59ecb",
+    "title": "Research Assistant/ Project Technical Support III",
+    "organization": "AIIMS Delhi",
+    "location": "Delhi",
+    "lastDate": "2025-08-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aiims-delhi-recruitment-2025-apply-online-for-research-assistant-project-technical-support-iii-posts/33886"
+  },
+  {
+    "id": "36eabc0e-d584-4be2-bbca-7186e1816c80",
+    "title": "Project Associate",
+    "organization": "Central Food Technological Research Institute",
+    "location": "Karnataka",
+    "lastDate": "2025-08-11",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/cftri-recruitment-2025-apply-online-for-project-associate-posts/33929"
+  },
+  {
+    "id": "7af7db09-8dd6-4c80-99bf-63353be0c8b4",
+    "title": "Senior Resident",
+    "organization": "ESIC Bihar",
+    "location": "Bihar",
+    "lastDate": "2025-08-11",
+    "totalPosts": 15,
+    "url": "https://allgovernmentjobs.in/esic-bihar-recruitment-2025-walk-in-interview-for-15-senior-resident-posts/33889"
+  },
+  {
+    "id": "85b7de77-d962-487e-bec8-28c62a205223",
+    "title": "Librarian",
+    "organization": "Visvesvaraya Technological University",
+    "location": "Karnataka",
+    "lastDate": "2025-08-11",
+    "totalPosts": 71,
+    "url": "https://allgovernmentjobs.in/vtu-recruitment-2025-apply-offline-for-71-librarian-lab-instructor-jobs/33876"
+  },
+  {
+    "id": "951798c3-e045-42f0-ac4d-3734836ac335",
+    "title": "Assistant Manager",
+    "organization": "Central Electronics Limited",
+    "location": "Uttar Pradesh",
+    "lastDate": "2025-08-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/cel-recruitment-2025-apply-offline-for-assistant-manager-posts/33969"
+  },
+  {
+    "id": "9ba2ae54-17a1-4a7a-a9eb-6cd6a91ebd1e",
+    "title": "Project Assistant",
+    "organization": "Indian Institute of Technology",
+    "location": "Uttarakhand",
+    "lastDate": "2025-08-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/iit-roorkee-recruitment-2025-apply-for-project-assistant-post/33888"
+  },
+  {
+    "id": "ba0331ed-0a64-4e2c-8780-9df9e1235825",
+    "title": "Consultant",
+    "organization": "Kalakshetra Foundation",
+    "location": "Tamil Nadu",
+    "lastDate": "2025-08-11",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/kalakshetra-foundation-recruitment-2025-apply-offline-for-consultant-posts/33990"
+  },
+  {
+    "id": "c4ff2e3c-3a5b-4c6c-ac63-192121b734fe",
+    "title": "Cooperative Intern",
+    "organization": "MSC Bank",
+    "location": "Maharashtra",
+    "lastDate": "2025-08-11",
+    "totalPosts": 16,
+    "url": "https://allgovernmentjobs.in/msc-bank-recruitment-2025-apply-offline-for-16-cooperative-intern-posts/33544"
+  },
+  {
+    "id": "7ce34b71-bbbc-4853-9fbe-75aaab8c226b",
+    "title": "Medical Officer",
+    "organization": "National Health Mission",
+    "location": "Gujarat",
+    "lastDate": "2025-08-10",
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/nhm-gujarat-recruitment-2025-apply-online-for-02-medical-officer-and-other-posts/33985"
+  },
+  {
+    "id": "e9614e45-d8d1-4c84-8392-80d0da150106",
+    "title": "Lab Technician",
+    "organization": "National Ayush Mission",
+    "location": "Kerala",
+    "lastDate": "2025-08-05",
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nam-kerala-recruitment-2025-apply-offline-for-lab-technician-post/33922"
+  },
+  {
+    "id": "a6f695cb-0acd-4edc-8c23-3dc303fa7db6",
+    "title": "Medical Officer",
+    "organization": "National Health Mission",
+    "location": "Uttarakhand",
+    "lastDate": "2025-06-29",
+    "totalPosts": 63,
+    "url": "https://allgovernmentjobs.in/nhm-uttarakhand-recruitment-2025-walk-in-for-63-medical-officer-posts/32762"
+  },
+  {
+    "id": "3afd969a-a2ac-4529-a8ab-8c8d4353f3a9",
+    "title": "Technician",
+    "organization": "Tata Memorial Centre",
+    "location": "Uttar Pradesh",
+    "lastDate": "2022-08-14",
+    "totalPosts": 11,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-for-11-technician-pharmacist-posts/33955"
+  },
+  {
+    "id": "03f17282-3515-412f-b70b-ad1c2efbfcc9",
+    "title": "Senior Research Fellow",
+    "organization": "Central Council for Research in Homoeopathy",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 8,
+    "url": "https://allgovernmentjobs.in/ccrh-recruitment-2025-walk-in-interview-for-08-senior-and-junior-research-fellow-posts/34156"
+  },
+  {
+    "id": "06c3f0fe-3f99-49fb-aeb8-5f03f49f7920",
+    "title": "Junior Materiovigilance",
+    "organization": "AIIMS Mangalagiri",
+    "location": "Andhra Pradesh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aiims-mangalagiri-recruitment-2025-walk-in-for-junior-materiovigilance-posts/33324"
+  },
+  {
+    "id": "0eff7b05-8b56-4d75-90c8-220c00e65b36",
+    "title": "UBA Manager",
+    "organization": "Sardar Vallabhbhai National Institute of Technology",
+    "location": "Gujarat",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/svnit-recruitment-2025-apply-online-for-uba-manager-post/33983"
+  },
+  {
+    "id": "130691ef-ee55-47e9-b466-591035df613f",
+    "title": "Nurse",
+    "organization": "Tata Memorial Centre",
+    "location": "Bihar",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-nurse-posts/33791"
+  },
+  {
+    "id": "137cf403-996b-4b1c-b227-d243aafb4c32",
+    "title": "Research Associate",
+    "organization": "National Rice Research Institute",
+    "location": "Odisha",
+    "lastDate": null,
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/nrri-recruitment-2025-walk-in-interview-for-03-laboratory-assistant-and-other-posts/33827"
+  },
+  {
+    "id": "1a1ad5fe-caa8-4a32-bca2-da1adb9c6e89",
+    "title": "Junior Research Fellow",
+    "organization": "Advanced Centre for Treatment Research and Education in Cancer",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/actrec-recruitment-2025-walk-in-interview-for-junior-research-fellow-post/34142"
+  },
+  {
+    "id": "1dc0cc77-a4e8-4324-a982-78fac7fcd2b4",
+    "title": "Government Job",
+    "organization": "Government Department",
+    "location": null,
+    "lastDate": null,
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/nhsrc-recruitment-2025-apply-online-for-depot-manager-posts/33925"
+  },
+  {
+    "id": "222a1014-0f31-4043-ac74-e3bdc3e349a7",
+    "title": "Government Job",
+    "organization": "Government Department",
+    "location": null,
+    "lastDate": null,
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/ccil-recruitment-2025-apply-offline-for-multi-tasking-staff-posts/33665"
+  },
+  {
+    "id": "2a3ba076-8623-4b65-b060-815a75af8b06",
+    "title": "Medical Officer",
+    "organization": "SAA Malda",
+    "location": "West Bengal",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/saa-malda-recruitment-2025-walk-in-interview-for-medical-officer-post/34193"
+  },
+  {
+    "id": "2e214e29-4271-4ec5-bfd4-de70986b8048",
+    "title": "Specialist",
+    "organization": "Employees State Insurance Corporation",
+    "location": "Uttar Pradesh",
+    "lastDate": null,
+    "totalPosts": 35,
+    "url": "https://allgovernmentjobs.in/esic-recruitment-2025-walk-in-interview-for-35-specialist-and-other-posts/34099"
+  },
+  {
+    "id": "309cbfc0-3170-49d7-9231-a673c8a9f2ce",
+    "title": "Junior Research Fellow",
+    "organization": "Defence Research and Development Organization",
+    "location": "Telangana",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/drdo-recruitment-2025-walk-in-interview-for-junior-research-fellow-post/33967"
+  },
+  {
+    "id": "387261f1-0c04-4940-ba38-aa7a0bbcc446",
+    "title": "Agricultural Field Operator",
+    "organization": "National Rice Research Institute",
+    "location": "Odisha",
+    "lastDate": null,
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/nrri-recruitment-2025-walk-in-interview-for-05-agriculture-field-operator-posts/33780"
+  },
+  {
+    "id": "3af484ab-1dd5-45e8-bf67-51062da6db16",
+    "title": "Government Job",
+    "organization": "Government Department",
+    "location": null,
+    "lastDate": null,
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/chennai-port-trust-recruitment-2025-apply-online-for-02-secretary-and-other-posts/33443"
+  },
+  {
+    "id": "3b0921cc-46ea-4422-b13d-0d5c50e8369d",
+    "title": "Medical Officer,",
+    "organization": "Unakoti District",
+    "location": "Tripura",
+    "lastDate": null,
+    "totalPosts": 4,
+    "url": "https://allgovernmentjobs.in/unakoti-district-recruitment-2025-walk-in-interview-for-04-medical-officer-and-other-posts/33995"
+  },
+  {
+    "id": "3d116013-ed59-4a45-b9eb-4031c93dd72b",
+    "title": "Project Technical Support",
+    "organization": "Postgraduate Institute of Medical Education and Research",
+    "location": "Chandigarh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-walk-in-interview-for-project-technical-support-post/33956"
+  },
+  {
+    "id": "3e1459ca-4ea4-4037-b76b-9b30950ad21f",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-officer-post/33875"
+  },
+  {
+    "id": "417295b7-eb75-49da-b812-44b28999ade3",
+    "title": "Professor",
+    "organization": "ESIC Karnataka",
+    "location": "Karnataka",
+    "lastDate": null,
+    "totalPosts": 14,
+    "url": "https://allgovernmentjobs.in/esic-karnataka-recruitment-2025-walk-in-interview-for-14-professor-and-other-posts/34017"
+  },
+  {
+    "id": "42203b9f-01ce-40b8-a23b-89c4edc9fd42",
+    "title": "Secondary Teacher/Higher Secondary Teacher",
+    "organization": "Nagpur Municipal Corporation",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 20,
+    "url": "https://allgovernmentjobs.in/nmc-recruitment-2025-walk-in-interview-for-20-secondary-teacher-posts/33989"
+  },
+  {
+    "id": "46ee4ab6-37ca-4f59-8765-2593dc262244",
+    "title": "Staff Nurse",
+    "organization": "Tata Memorial Centre",
+    "location": "Punjab",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-staff-nurse-post/33892"
+  },
+  {
+    "id": "497c7c98-8c75-49be-a313-384dc167e629",
+    "title": "Research Associate",
+    "organization": "Acharya NG Ranga Agricultural University",
+    "location": "Andhra Pradesh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/angrau-recruitment-2025-walk-in-interview-for-research-associate-post/34128"
+  },
+  {
+    "id": "503ebbda-b7c1-4167-b449-25c7aa90c6a1",
+    "title": "Research Scientist",
+    "organization": "Tata Memorial Centre",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-research-scientist-post/33978"
+  },
+  {
+    "id": "53df3e2d-afd9-4ae2-8cb7-d1c60cc230b2",
+    "title": "Senior Research Fellow",
+    "organization": "Central Council for Research in Ayurvedic Sciences",
+    "location": "Gujarat",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/ccras-recruitment-2025-walk-in-interview-for-senior-research-fellow-post/33958"
+  },
+  {
+    "id": "55b80eea-70a2-4ae0-8a19-dad075d3e0e9",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Punjab",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-officer-post/33920"
+  },
+  {
+    "id": "596b0373-c580-4b04-9128-c7f5d38d3e62",
+    "title": "Junior Engineer",
+    "organization": "Oil India",
+    "location": "Assam",
+    "lastDate": null,
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/oil-india-recruitment-2025-walk-in-interview-for-05-junior-engineer-posts/33653"
+  },
+  {
+    "id": "61516a6b-ba6f-4619-9352-7343a379b071",
+    "title": "Executive Engineer",
+    "organization": "National Institute of Technology",
+    "location": "Bihar",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/nit-patna-recruitment-2025-walk-in-interview-for-executive-engineer-post/33943"
+  },
+  {
+    "id": "645fbbdb-1893-401e-8934-f43f4988e354",
+    "title": "Government Job",
+    "organization": "Government Department",
+    "location": null,
+    "lastDate": null,
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/vnsgu-recruitment-2025-apply-offline-for-77-professor-assistant-professor-posts/33914"
+  },
+  {
+    "id": "699ad0f8-b3ea-444c-b9c1-8b637d5ebf75",
+    "title": "Project Technical Support",
+    "organization": "Post Graduate Institute of Medical Education and Research",
+    "location": "Chandigarh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/pgimer-recruitment-2025-walk-in-interview-for-project-technical-support-post/33980"
+  },
+  {
+    "id": "6a1bc3f8-6240-478c-ace7-1f5e3c12fcbf",
+    "title": "Project Technical Support",
+    "organization": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "location": "Kerala",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/sctimst-recruitment-2025-walk-in-interview-for-project-technical-support-post/33902"
+  },
+  {
+    "id": "71393e80-59fe-4615-858b-45a09ebf082c",
+    "title": "Medical Physicist",
+    "organization": "Tata Memorial Centre",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-physicist-post/34220"
+  },
+  {
+    "id": "71627921-9ec8-4a7b-9b46-e7f97fc92a57",
+    "title": "Junior Resident",
+    "organization": "Aruna Asaf Ali Hospital",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/aaa-recruitment-2025-walk-in-interview-for-junior-resident-post/34157"
+  },
+  {
+    "id": "7191f936-0216-4b02-bf15-def742b68ae6",
+    "title": "Subject Experts",
+    "organization": "University of Lucknow",
+    "location": "Uttar Pradesh",
+    "lastDate": null,
+    "totalPosts": 5,
+    "url": "https://allgovernmentjobs.in/lucknow-university-recruitment-2025-walk-in-interview-for-05-subject-expert-posts/34205"
+  },
+  {
+    "id": "765bfa5f-d8a0-4703-84b7-ca7e23dcee70",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Andhra Pradesh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-officer-post/33993"
+  },
+  {
+    "id": "7d862bea-cdf5-43a7-b639-e6017f6bbd52",
+    "title": "Research Intern",
+    "organization": "Council of Scientific and Industrial Research",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 16,
+    "url": "https://allgovernmentjobs.in/csir-recruitment-2025-walk-in-interview-for-16-research-intern-posts/34140"
+  },
+  {
+    "id": "836c574e-9b74-4c6a-9f35-056444754e52",
+    "title": "Senior Resident",
+    "organization": "Sardar Vallabh Bhai Patel Hospital, Delhi",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/svbph-delhi-recruitment-2025-walk-in-interview-for-03-senior-resident-and-junior-resident-posts/34144"
+  },
+  {
+    "id": "83ee8a86-6bda-4531-a7c8-7d6a2e2027cb",
+    "title": "Senior Resident",
+    "organization": "Sardar Vallabh Bhai Patel Hospital",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/svbph-delhi-recruitment-2025-walk-in-interview-for-senior-resident-post/33924"
+  },
+  {
+    "id": "869001eb-bde9-4067-aae8-314111f677db",
+    "title": "Senior Resident",
+    "organization": "Deen Dayal Upadhyay Hospital",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 12,
+    "url": "https://allgovernmentjobs.in/dduh-recruitment-2025-walk-in-interview-for-12-senior-resident-posts/33751"
+  },
+  {
+    "id": "87687f2e-4a57-4373-a900-b98a8a9a7201",
+    "title": "Unskilled Worker",
+    "organization": "Assam Agricultural University",
+    "location": "Assam",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/aau-recruitment-2025-walk-in-interview-for-unskilled-worker-post/34148"
+  },
+  {
+    "id": "8c0b971b-bf19-4a52-9433-a40cc387300b",
+    "title": "Medical Officer",
+    "organization": "ZSS Kandhamal",
+    "location": "Odisha",
+    "lastDate": null,
+    "totalPosts": 49,
+    "url": "https://allgovernmentjobs.in/zss-kandhamal-recruitment-2025-walk-in-interview-for-49-medical-officer-and-other-posts/34191"
+  },
+  {
+    "id": "9250852b-a453-4c4c-833a-1b0b47058a68",
+    "title": "Adhoc Assistant Professor E",
+    "organization": "Tata Memorial Centre",
+    "location": "Maharashtra",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-adhoc-assistant-professor-e-posts/34185"
+  },
+  {
+    "id": "9bc60b5b-79d3-4f55-a6d5-1749c00d1393",
+    "title": "Project Research Scientist",
+    "organization": "All India Institute of Medical Sciences",
+    "location": "Madhya Pradesh",
+    "lastDate": null,
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/aiims-bhopal-recruitment-2025-walk-in-interview-for-02-project-research-scientist-and-other-posts/34029"
+  },
+  {
+    "id": "acf96089-bdc2-405c-863e-f6edf936486b",
+    "title": "Senior Resident",
+    "organization": "Babu Jagjivan Ram Memorial Hospital",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 14,
+    "url": "https://allgovernmentjobs.in/bjrmh-recruitment-2025-walk-in-interview-for-14-senior-resident-posts/33962"
+  },
+  {
+    "id": "af182ae9-4345-4461-9217-cff3e9e5beea",
+    "title": "Senior Resident",
+    "organization": "Govind Ballabh Pant Institute of Postgraduate Medical Education and Research",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 22,
+    "url": "https://allgovernmentjobs.in/gipmer-recruitment-2025-walk-in-interview-for-22-senior-resident-posts/34160"
+  },
+  {
+    "id": "c8933fa1-fe6d-491f-882d-ab07b71c5ac4",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Punjab",
+    "lastDate": null,
+    "totalPosts": 2,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-02-medical-officer-post/33786"
+  },
+  {
+    "id": "c8b9f0bd-7b0f-4f62-8020-7b94df3cf628",
+    "title": "Senior Resident",
+    "organization": "Government Medical College",
+    "location": "Telangana",
+    "lastDate": null,
+    "totalPosts": 28,
+    "url": "https://allgovernmentjobs.in/gmc-jangoan-recruitment-2025-walk-in-interview-for-28-senior-resident-posts/33906"
+  },
+  {
+    "id": "cd5c9397-e84c-453a-afcd-3dc21f026964",
+    "title": "Junior Resident",
+    "organization": "Municipal Corporation of Delhi",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 3,
+    "url": "https://allgovernmentjobs.in/municipal-corporation-of-delhi-recruitment-2025-walk-in-interview-for-03-junior-resident-posts/33936"
+  },
+  {
+    "id": "cfc393d7-8e61-4a2c-b742-c3736a338139",
+    "title": "Government Job",
+    "organization": "Government Department",
+    "location": null,
+    "lastDate": null,
+    "totalPosts": null,
+    "url": "https://allgovernmentjobs.in/rrc-eastern-railway-recruitment-2025-apply-online-for-3115-apprentice-posts/33820"
+  },
+  {
+    "id": "d25d56ce-5c67-417a-841a-614461fa3665",
+    "title": "Project Associate",
+    "organization": "National Institute for Interdisciplinary Science and Technology",
+    "location": "Kerala",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/niist-recruitment-2025-walk-in-interview-for-project-associate-post/34176"
+  },
+  {
+    "id": "d93ed92c-267e-4ca2-9560-074e0618272f",
+    "title": "Staff Physician",
+    "organization": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "location": "Kerala",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/sctimst-recruitment-2025-walk-in-interview-for-staff-physician-post/33997"
+  },
+  {
+    "id": "dce497f1-cf7b-4457-aa42-707a8b999ed8",
+    "title": "Senior Resident",
+    "organization": "National Institute of Mental Health and Neurosciences",
+    "location": "Karnataka",
+    "lastDate": null,
+    "totalPosts": 6,
+    "url": "https://allgovernmentjobs.in/nimhans-recruitment-2025-walk-in-interview-for-06-senior-resident-posts/34149"
+  },
+  {
+    "id": "dd4074af-0955-4aa0-9463-16460155efd3",
+    "title": "Young Professional",
+    "organization": "Tamil Nadu Veterinary and Animal Sciences University",
+    "location": "Tamil Nadu",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tanuvas-recruitment-2025-walk-in-interview-for-young-professional-post/34111"
+  },
+  {
+    "id": "e00e414b-55a0-4690-9ed5-fc576151e656",
+    "title": "Junior Resident",
+    "organization": "BMH Delhi",
+    "location": "Delhi",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/bmh-delhi-recruitment-2025-walk-in-interview-for-junior-resident-post/33960"
+  },
+  {
+    "id": "f0cd0b33-1531-47b7-bc03-d59184586b94",
+    "title": "Medical Officer",
+    "organization": "Tata Memorial Centre",
+    "location": "Uttar Pradesh",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/tmc-recruitment-2025-walk-in-interview-for-medical-officer-post/33908"
+  },
+  {
+    "id": "f3796b80-e12b-447c-871b-b8772f001c65",
+    "title": "Project Technical Support",
+    "organization": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+    "location": "Kerala",
+    "lastDate": null,
+    "totalPosts": 1,
+    "url": "https://allgovernmentjobs.in/sctimst-recruitment-2025-walk-in-interview-for-project-technical-support-post/34126"
+  }
+]
