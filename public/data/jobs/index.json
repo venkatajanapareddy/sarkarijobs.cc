@@ -1,318 +1,150 @@
 {
-  "totalJobs": 39,
-  "processedAt": "2025-08-27T00:28:56.452Z",
+  "totalJobs": 18,
+  "processedAt": "2025-08-28T19:07:11.535Z",
   "jobs": [
     {
-      "id": "002e26f8-8fa1-4270-9985-4ef034625941",
-      "title": "Special Educator",
-      "organization": "Directorate of Secondary Education",
-      "location": "Assam",
-      "totalPosts": 108,
-      "lastDate": "2025-09-30"
+      "id": "0dac65f9-259b-4fd6-8a34-46f275549610",
+      "title": "Drug Analyst",
+      "organization": "West Bengal State Health & Family Welfare Samiti",
+      "location": "West Bengal",
+      "totalPosts": 20,
+      "lastDate": "2025-09-15"
     },
     {
-      "id": "00697764-78a7-4530-953b-7d5d1c08868b",
-      "title": "Project Engineer",
-      "organization": "National Institute of Electronics and Information Technology",
-      "location": "Tamil Nadu",
-      "totalPosts": 4,
-      "lastDate": "2025-09-04"
-    },
-    {
-      "id": "06335247-ab9b-40a4-9ed7-0606455f4eb0",
-      "title": "Technical Assistant",
-      "organization": "AFRI Jodhpur",
-      "location": "Rajasthan",
-      "totalPosts": 3,
-      "lastDate": "2025-09-14"
-    },
-    {
-      "id": "063685c2-86b2-48ee-b8ed-96ae2dc76f32",
-      "title": "Project Associate",
-      "organization": "IIT Gandhinagar",
-      "location": "Gujarat",
-      "totalPosts": 1,
-      "lastDate": "2025-08-31"
-    },
-    {
-      "id": "0d212d20-a8f9-45b1-a6f4-7d87d15a20a6",
-      "title": "Lead Consultant",
-      "organization": "National Health Systems Resource Centre",
-      "location": "Delhi",
-      "totalPosts": 1,
-      "lastDate": "2025-09-09"
-    },
-    {
-      "id": "0e984ce2-fbed-449e-99f2-bc7c68a4ba5f",
-      "title": "Field Investigator",
-      "organization": "Jawaharlal Institute of Postgraduate Medical Education and Research",
-      "location": "Puducherry",
-      "totalPosts": 1,
-      "lastDate": "2025-08-29"
-    },
-    {
-      "id": "125c44c3-2d38-432a-bead-5e2e33efec9b",
-      "title": "Female Therapeutic Assistant",
-      "organization": "DHS Ariyalur",
-      "location": "Tamil Nadu",
-      "totalPosts": 1,
-      "lastDate": "2025-09-10"
-    },
-    {
-      "id": "134e989f-a24b-43d4-9ac8-66c65154b956",
-      "title": "Assistant & Data Entry Operator",
-      "organization": "DCPU Ranipet",
-      "location": "Tamil Nadu",
-      "totalPosts": 1,
-      "lastDate": "2025-09-09"
-    },
-    {
-      "id": "16fb259a-bbf5-445d-87ab-ec2da7c1af9c",
+      "id": "18503ea9-240e-4b40-881f-5151d36e1217",
       "title": "Junior Research Fellow",
-      "organization": "Defence Research and Development Organisation",
+      "organization": "DRDO NPCL",
       "location": "Kerala",
-      "totalPosts": 8,
-      "lastDate": null
-    },
-    {
-      "id": "187b059a-1d9e-447f-9265-effcc871925c",
-      "title": "Junior Research Fellow",
-      "organization": "National Institute of Technology",
-      "location": "Odisha",
-      "totalPosts": 1,
-      "lastDate": null
-    },
-    {
-      "id": "2ae2c0cd-02ad-4c84-a1aa-d719e9dd05dc",
-      "title": "Technical Officer",
-      "organization": "Centre for DNA Fingerprinting and Diagnostics",
-      "location": "Telangana",
-      "totalPosts": 9,
-      "lastDate": "2025-09-30"
-    },
-    {
-      "id": "2da81c25-51b0-4f09-a552-2941dac74ac6",
-      "title": "Office Assistant",
-      "organization": "DLSA Jalna",
-      "location": "Maharashtra",
-      "totalPosts": 3,
-      "lastDate": "2025-08-29"
-    },
-    {
-      "id": "2e4e55d4-a4e1-49ac-8491-873029e1e7ec",
-      "title": "Special Educator",
-      "organization": "DEE Assam",
-      "location": "Assam",
-      "totalPosts": 228,
-      "lastDate": "2025-09-30"
-    },
-    {
-      "id": "2ea90695-517d-4640-a30c-6a27d0c85789",
-      "title": "Nurse",
-      "organization": "Department of Women Development and Child Welfare",
-      "location": "Telangana",
-      "totalPosts": 10,
-      "lastDate": "2025-09-15"
-    },
-    {
-      "id": "2ec44746-6d27-46b4-8430-d5917f1e45d2",
-      "title": "Senior Resident",
-      "organization": "Employees State Insurance Corporation",
-      "location": "Haryana",
-      "totalPosts": 64,
-      "lastDate": null
-    },
-    {
-      "id": "38622a7a-4f71-4db0-92ef-6ed6b0323f3e",
-      "title": "Lab Technician",
-      "organization": "Rail India Technical and Economic Service",
-      "location": "Bihar",
-      "totalPosts": 3,
-      "lastDate": "2025-09-14"
-    },
-    {
-      "id": "49204240-867f-4dff-9d05-9297e8c4b81f",
-      "title": "Apprentice",
-      "organization": "South Western Railway",
-      "location": "Tamil Nadu",
-      "totalPosts": 3518,
-      "lastDate": "2025-09-25"
-    },
-    {
-      "id": "4bf2ccab-a89d-4346-adaa-f8727a90ea87",
-      "title": "Honorary Visiting Specialist",
-      "organization": "Northern Railway",
-      "location": "Punjab",
-      "totalPosts": 7,
-      "lastDate": "2025-09-20"
-    },
-    {
-      "id": "4c8ef8a1-5143-4f51-80c9-9024961149d5",
-      "title": "Centre Head",
-      "organization": "State Bank of India",
-      "location": "Maharashtra",
-      "totalPosts": 12,
-      "lastDate": "2025-09-15"
-    },
-    {
-      "id": "4d39925f-cf22-4eea-982c-d345560869ba",
-      "title": "AMOs,",
-      "organization": "Institute for Plasma Research",
-      "location": "Gujarat",
-      "totalPosts": 27,
-      "lastDate": "2025-09-05"
-    },
-    {
-      "id": "58249583-9efd-4dfe-957c-470a077e3843",
-      "title": "Deputy General Manager",
-      "organization": "Metallurgical & Engineering Consultants Limited",
-      "location": "Jharkhand",
-      "totalPosts": 2,
-      "lastDate": "2025-09-24"
-    },
-    {
-      "id": "5f8a7c3a-e356-4894-b6db-6031e958a4df",
-      "title": "Assistant Pharmacist",
-      "organization": "HLL Lifecare Limited",
-      "location": "Chandigarh",
       "totalPosts": 5,
-      "lastDate": "2025-09-04"
+      "lastDate": "2025-10-11"
     },
     {
-      "id": "626f8f8f-1bfd-4dea-934f-85a8c0b0d66f",
-      "title": "Doctor (Medical Officer)",
-      "organization": "AIIMS Nagpur",
-      "location": "Maharashtra",
-      "totalPosts": 1,
-      "lastDate": "2025-09-08"
-    },
-    {
-      "id": "64e26182-36e3-46a8-8c04-464aa32d1e22",
-      "title": "Junior Research Fellow",
-      "organization": "NIT Manipur",
-      "location": "Manipur",
-      "totalPosts": 1,
-      "lastDate": "2025-09-05"
-    },
-    {
-      "id": "6f6ac122-82cc-4bc6-8518-e01269536224",
-      "title": "Field Investigator",
-      "organization": "Chaudhary Sarwan Kumar Himachal Pradesh Krishi Vishvavidyalaya",
-      "location": "Himachal Pradesh",
-      "totalPosts": 1,
-      "lastDate": "2025-08-28"
-    },
-    {
-      "id": "7b2e86ad-eb46-4152-9132-a632a624a1db",
-      "title": "Graduate Engineer",
-      "organization": "Indian Oil Corporation Limited",
+      "id": "19f8ca6a-bef8-42ff-8707-eedf6d0d8362",
+      "title": "Manager/ Assistant Manager",
+      "organization": "Rail Land Development Authority",
       "location": "Delhi",
       "totalPosts": 1,
-      "lastDate": "2025-09-21"
+      "lastDate": "2025-09-26"
     },
     {
-      "id": "9192d81b-02b6-4d05-9a41-6b3140bc2214",
-      "title": "Project Research Scientist",
-      "organization": "All India Institute of Medical Sciences, Rishikesh",
-      "location": "Uttarakhand",
-      "totalPosts": 2,
-      "lastDate": "2025-09-15"
-    },
-    {
-      "id": "a3436431-5468-42cb-bee6-af3e2d4430cd",
-      "title": "Young Professional -II",
-      "organization": "Indian Council of Medical Research",
-      "location": "Delhi",
+      "id": "2002865c-515f-4ccb-ae5e-b782c8fc1f69",
+      "title": "Agromet Observer",
+      "organization": "Bidhan Chandra Krishi Viswavidyalaya",
+      "location": "West Bengal",
       "totalPosts": 1,
-      "lastDate": "2025-09-10"
-    },
-    {
-      "id": "a8caff89-4a3f-49af-a6e9-568512e16786",
-      "title": "Village Assistant",
-      "organization": "Theni RDM",
-      "location": "Tamil Nadu",
-      "totalPosts": 25,
-      "lastDate": "2025-09-24"
-    },
-    {
-      "id": "ab8cd6f0-25f6-416c-9909-6d4f94c3c172",
-      "title": "Medical Officer",
-      "organization": "District Health and Family Welfare Society Gadag",
-      "location": "Karnataka",
-      "totalPosts": 4,
-      "lastDate": "2025-09-01"
-    },
-    {
-      "id": "aece4c2c-6e28-4d0e-872f-007500a2c763",
-      "title": "Medical Lab Technician",
-      "organization": "Punjab State AIDS Control Society",
-      "location": "Punjab",
-      "totalPosts": 14,
-      "lastDate": "2025-09-08"
-    },
-    {
-      "id": "bd3eef56-d7f7-4b53-acb2-888c6bd65781",
-      "title": "Project Research Scientist",
-      "organization": "King Georges Medical University",
-      "location": "Uttar Pradesh",
-      "totalPosts": 1,
-      "lastDate": "2025-09-08"
-    },
-    {
-      "id": "c026d488-285b-4b9b-b215-0182633287c5",
-      "title": "Senior Field Helper",
-      "organization": "Punjab Agricultural University",
-      "location": "Punjab",
-      "totalPosts": 2,
-      "lastDate": "2025-08-29"
-    },
-    {
-      "id": "c7ddea72-c9d3-4607-8f74-566cdc2bd06d",
-      "title": "Junior Engineer",
-      "organization": "Mizoram PSC",
-      "location": "Mizoram",
-      "totalPosts": 4,
-      "lastDate": "2025-09-19"
-    },
-    {
-      "id": "cd003854-bb33-4efc-b2dc-960642a3cbff",
-      "title": "Lecturer",
-      "organization": "Institute of Psychiatry and Human Behaviour",
-      "location": "Karnataka",
-      "totalPosts": 1,
-      "lastDate": null
-    },
-    {
-      "id": "d5e7d039-208c-401f-b662-e20ade295902",
-      "title": "Additional General Manager",
-      "organization": "Mumbai Railway Vikas Corporation",
-      "location": "Maharashtra",
-      "totalPosts": 3,
-      "lastDate": "2025-09-20"
-    },
-    {
-      "id": "deaf57a7-0b2e-4e2e-8fe8-75aae3bd1e89",
-      "title": "Methodologist",
-      "organization": "Tata Memorial Centre",
-      "location": "Maharashtra",
-      "totalPosts": 2,
       "lastDate": "2025-08-30"
     },
     {
-      "id": "f055bd4a-c44a-4b8e-9c99-9128f97b65f1",
-      "title": "Project Coordinator",
-      "organization": "Entrepreneurship Development Institute of India",
-      "location": "Karnataka",
-      "totalPosts": 1,
-      "lastDate": "2025-09-05"
+      "id": "38828b07-84eb-42ad-9a2f-0907f46feff1",
+      "title": "Assistant Professor",
+      "organization": "Gobind Ballabh Pant University of Agriculture and Technology",
+      "location": "Uttarakhand",
+      "totalPosts": 32,
+      "lastDate": "2025-09-01"
     },
     {
-      "id": "fff4124c-d318-4c9c-b413-2fa89193de69",
-      "title": "General Physician",
-      "organization": "Andhra Pradesh Medical Services Recruitment Board",
+      "id": "3f03da08-7f7c-4e74-a54e-bce16ac3693a",
+      "title": "Junior Resident",
+      "organization": "RGMC Hamirpur",
+      "location": "Himachal Pradesh",
+      "totalPosts": 26,
+      "lastDate": "2025-09-12"
+    },
+    {
+      "id": "4a24eead-8283-4d78-acd9-f22a290030fc",
+      "title": "Academic Associate - Decision Sciences Area.",
+      "organization": "IIMB",
+      "location": "Karnataka",
+      "totalPosts": 1,
+      "lastDate": "2025-09-08"
+    },
+    {
+      "id": "4c1f506c-cbed-4a82-bada-5753b68a9400",
+      "title": "Project Co-Ordinator",
+      "organization": "DCPU Viluppuram",
+      "location": "Tamil Nadu",
+      "totalPosts": 7,
+      "lastDate": "2025-09-11"
+    },
+    {
+      "id": "66a4af99-ba7e-4f9e-abaa-d571a78bd759",
+      "title": "Technical Assistant",
+      "organization": "Andhra Pradesh State Civil Supplies Corporation Limited",
       "location": "Andhra Pradesh",
-      "totalPosts": 185,
-      "lastDate": "2025-09-10"
+      "totalPosts": 6,
+      "lastDate": "2025-08-30"
+    },
+    {
+      "id": "69423301-7abb-4e62-b51c-5944bcfe6632",
+      "title": "Officer",
+      "organization": "Exim Bank",
+      "location": "Maharashtra",
+      "totalPosts": 8,
+      "lastDate": "2025-09-21"
+    },
+    {
+      "id": "8928a0cb-e551-4f82-9a9d-223505e6a9bf",
+      "title": "Medical Officer",
+      "organization": "DMHO Khammam",
+      "location": "Telangana",
+      "totalPosts": 4,
+      "lastDate": "2025-08-30"
+    },
+    {
+      "id": "a3bf0e6c-614f-45a0-a8e4-eeba2faab3c8",
+      "title": "Professor",
+      "organization": "ESIC Haryana",
+      "location": "Haryana",
+      "totalPosts": 47,
+      "lastDate": "2025-09-04"
+    },
+    {
+      "id": "aa46c7c2-ddde-493e-ba7f-4d4e9675e4d2",
+      "title": "Head",
+      "organization": "National Highways InvIT Project Managers Private Limited",
+      "location": "Delhi",
+      "totalPosts": 1,
+      "lastDate": "2025-09-11"
+    },
+    {
+      "id": "ae891895-dae6-4c24-b19b-11926ec564de",
+      "title": "IFC Block Anchor",
+      "organization": "Maharashtra State Rural Livelihoods Mission",
+      "location": "Maharashtra",
+      "totalPosts": 5,
+      "lastDate": "2025-09-06"
+    },
+    {
+      "id": "b27e07df-0311-498b-bd86-c7670053e865",
+      "title": "Assistant Manager",
+      "organization": "Kerala State Information Technology Infrastructure Limited",
+      "location": "Kerala",
+      "totalPosts": 4,
+      "lastDate": "2025-09-09"
+    },
+    {
+      "id": "bffe2b12-5a6d-482b-bcd1-32123ddf535d",
+      "title": "Junior Consultant",
+      "organization": "National Institute for Research in Tuberculosis",
+      "location": "Tamil Nadu",
+      "totalPosts": 1,
+      "lastDate": "2025-09-15"
+    },
+    {
+      "id": "c133c4e9-279e-4c4d-b1f9-a2da92ab43b0",
+      "title": "Associate Officer",
+      "organization": "Federal Bank",
+      "location": "Delhi",
+      "totalPosts": 1,
+      "lastDate": "2025-09-03"
+    },
+    {
+      "id": "c924c1e8-be2f-42d6-b3ff-df6928f9d5af",
+      "title": "Senior Project Engineer",
+      "organization": "Sree Chitra Tirunal Institute for Medical Sciences and Technology",
+      "location": "Kerala",
+      "totalPosts": 1,
+      "lastDate": "2025-09-09"
     }
   ]
 }
