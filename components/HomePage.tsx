@@ -211,7 +211,7 @@ export default function HomePage({ jobs, savedJobIds = [] }: HomePageProps) {
         <div className="bg-white dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">States Hiring</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">States & UTs Hiring</p>
               <p className="text-2xl font-bold text-green-600 dark:text-green-400">{locations.length}</p>
             </div>
             <MapPin className="w-8 h-8 text-green-500 opacity-20" />
