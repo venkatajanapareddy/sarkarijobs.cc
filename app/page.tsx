@@ -1,5 +1,5 @@
 import HomePageWrapper from "@/components/HomePageWrapper"
-import { loadJobs } from "@/lib/jobs-server"
+import { loadJobs } from "@/lib/jobs-server-optimized"
 import { createClient } from "@/utils/supabase/server"
 import type { Metadata } from 'next'
 
@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     google: 'add-your-google-verification-code',
   },
 }
+
+// Enable static generation with ISR (revalidate every 5 minutes)
+export const revalidate = 300;
 
 export default async function Home() {
   const jobs = await loadJobs()

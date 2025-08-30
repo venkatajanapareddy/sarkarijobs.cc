@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-job-index.js",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-index": "node scripts/generate-job-index.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
