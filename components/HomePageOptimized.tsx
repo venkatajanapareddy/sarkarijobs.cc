@@ -69,7 +69,8 @@ export default function HomePageOptimized({ jobs, savedJobIds = [] }: HomePagePr
   const locations = useMemo(() => {
     const locs = new Set<string>()
     for (let i = 0; i < Math.min(jobs.length, 100); i++) {
-      if (jobs[i].location) locs.add(jobs[i].location)
+      const location = jobs[i].location
+      if (location) locs.add(location)
     }
     return Array.from(locs).sort()
   }, [jobs])
@@ -109,8 +110,8 @@ export default function HomePageOptimized({ jobs, savedJobIds = [] }: HomePagePr
       result = result.filter(job => {
         const daysLeft = getDaysLeft(job.lastDate)
         if (selectedUrgency === 'today') return daysLeft === 0
-        if (selectedUrgency === '3days') return daysLeft >= 0 && daysLeft <= 3
-        if (selectedUrgency === 'week') return daysLeft >= 0 && daysLeft <= 7
+        if (selectedUrgency === '3days') return daysLeft !== null && daysLeft >= 0 && daysLeft <= 3
+        if (selectedUrgency === 'week') return daysLeft !== null && daysLeft >= 0 && daysLeft <= 7
         return true
       })
     }
@@ -135,7 +136,7 @@ export default function HomePageOptimized({ jobs, savedJobIds = [] }: HomePagePr
     for (let i = 0; i < Math.min(jobs.length, 100); i++) {
       const daysLeft = getDaysLeft(jobs[i].lastDate)
       if (daysLeft === 0) closingToday++
-      if (daysLeft >= 0 && daysLeft <= 3) closingSoon++
+      if (daysLeft !== null && daysLeft >= 0 && daysLeft <= 3) closingSoon++
     }
     
     return {
@@ -150,12 +151,12 @@ export default function HomePageOptimized({ jobs, savedJobIds = [] }: HomePagePr
     return jobs
       .filter(job => {
         const daysLeft = getDaysLeft(job.lastDate)
-        return daysLeft >= 0 && daysLeft <= 3
+        return daysLeft !== null && daysLeft >= 0 && daysLeft <= 3
       })
       .sort((a, b) => {
         const daysA = getDaysLeft(a.lastDate)
         const daysB = getDaysLeft(b.lastDate)
-        return daysA - daysB
+        return (daysA ?? 999) - (daysB ?? 999)
       })
       .slice(0, showAllUrgentJobs ? undefined : 5)
   }, [jobs, showAllUrgentJobs])
@@ -364,7 +365,6 @@ export default function HomePageOptimized({ jobs, savedJobIds = [] }: HomePagePr
           <JobsTable 
             jobs={displayedJobs} 
             savedJobIds={savedJobIds}
-            showSaveButton={false}
           />
         </Suspense>
         
