@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { createClient } from '@/utils/supabase/client'
 import { User, LogIn, LogOut, Star } from 'lucide-react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { globalEvents, EVENTS } from '@/utils/events'
 import { Button } from '@/components/ui/button'
 import {
@@ -23,6 +24,7 @@ interface LoginButtonProps {
 }
 
 export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: LoginButtonProps) {
+  const router = useRouter()
   const [isLoading, setIsLoading] = useState(false)
   const [savedJobsCount, setSavedJobsCount] = useState(initialCount)
   const [showAuthModal, setShowAuthModal] = useState(false)
