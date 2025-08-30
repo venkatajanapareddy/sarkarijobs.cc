@@ -11,33 +11,19 @@ interface ThemeContextType {
 
 export const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
-// Helper to get initial theme
-function getInitialTheme(): Theme {
-  // Check if we're on the client and if dark class is already applied
-  if (typeof window !== 'undefined') {
-    // First check if dark class is already applied by the script
-    if (document.documentElement.classList.contains('dark')) {
-      return 'dark'
-    }
-    // Fallback to localStorage
-    const savedTheme = localStorage.getItem('theme') as Theme | null
-    return savedTheme || 'light'
-  }
-  return 'light'
-}
-
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  // Initialize theme based on what's already applied to prevent flash
-  const [theme, setTheme] = useState<Theme>(getInitialTheme)
+  // Start with 'light' on server to match default, will be corrected on mount
+  const [theme, setTheme] = useState<Theme>('light')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    // Once mounted, read the actual theme from DOM/localStorage
+    const isDark = document.documentElement.classList.contains('dark')
+    const savedTheme = localStorage.getItem('theme') as Theme | null
+    const currentTheme = isDark ? 'dark' : (savedTheme || 'light')
+    
+    setTheme(currentTheme)
     setMounted(true)
-    // Ensure the theme class matches our state
-    const currentTheme = getInitialTheme()
-    if (currentTheme !== theme) {
-      setTheme(currentTheme)
-    }
   }, [])
 
   const toggleTheme = () => {
