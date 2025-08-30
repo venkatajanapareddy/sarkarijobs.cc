@@ -154,11 +154,14 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     setIsLoading(true)
     
     try {
-      // Sign out from Supabase
-      const { error } = await supabase.auth.signOut()
+      // Sign out from Supabase with explicit options
+      const { error } = await supabase.auth.signOut({
+        scope: 'global' // Ensure we sign out globally
+      })
       
       if (error) {
         console.error('Supabase sign out error:', error)
+        // Continue with cleanup even if there's an error
       }
       
       // Clear all Supabase auth-related storage
@@ -167,16 +170,39 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
         const theme = localStorage.getItem('theme')
         
         // Clear all storage keys that contain 'sb-' (Supabase auth tokens)
-        Object.keys(localStorage).forEach(key => {
-          if (key.startsWith('sb-')) {
-            localStorage.removeItem(key)
+        const keysToRemove: string[] = []
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i)
+          if (key && (key.includes('sb-') || key.includes('supabase'))) {
+            keysToRemove.push(key)
           }
+        }
+        
+        keysToRemove.forEach(key => {
+          localStorage.removeItem(key)
         })
         
         // Also clear session storage
-        Object.keys(sessionStorage).forEach(key => {
-          if (key.startsWith('sb-')) {
-            sessionStorage.removeItem(key)
+        const sessionKeysToRemove: string[] = []
+        for (let i = 0; i < sessionStorage.length; i++) {
+          const key = sessionStorage.key(i)
+          if (key && (key.includes('sb-') || key.includes('supabase'))) {
+            sessionKeysToRemove.push(key)
+          }
+        }
+        
+        sessionKeysToRemove.forEach(key => {
+          sessionStorage.removeItem(key)
+        })
+        
+        // Clear cookies that might contain auth tokens
+        document.cookie.split(";").forEach((c) => {
+          const eqPos = c.indexOf("=")
+          const name = eqPos > -1 ? c.substring(0, eqPos).trim() : c.trim()
+          if (name.includes('sb-') || name.includes('supabase')) {
+            document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`
+            document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.sarkarijobs.cc`
+            document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=sarkarijobs.cc`
           }
         })
         
@@ -185,6 +211,9 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
           localStorage.setItem('theme', theme)
         }
       }
+      
+      // Small delay to ensure cleanup completes
+      await new Promise(resolve => setTimeout(resolve, 100))
       
       // Force a hard refresh to clear all state
       window.location.href = '/'
