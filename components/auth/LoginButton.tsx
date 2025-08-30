@@ -144,32 +144,32 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     }
   }
 
-  const handleSignOut = async () => {
+  const handleSignOut = async (e?: React.MouseEvent) => {
+    // Prevent any default behavior
+    if (e) {
+      e.preventDefault()
+      e.stopPropagation()
+    }
+    
     setIsLoading(true)
+    
     try {
-      const { error } = await supabase.auth.signOut()
-      if (error) {
-        console.error('Error signing out:', error)
-        // Continue with redirect even if there's an error
-      }
+      // Sign out from Supabase
+      await supabase.auth.signOut()
       
-      // Clear any local storage items
+      // Clear auth-related storage but keep theme
       if (typeof window !== 'undefined') {
-        // Clear auth-related storage but keep theme
         const theme = localStorage.getItem('theme')
-        localStorage.clear()
-        if (theme) localStorage.setItem('theme', theme)
+        const authKeys = ['sb-localhost-auth-token', 'sb-yuiehwusmtmogqvqpqbr-auth-token']
+        authKeys.forEach(key => localStorage.removeItem(key))
       }
       
-      // Use router.push for proper Next.js navigation
-      router.push('/')
-      router.refresh()
-    } catch (error) {
-      console.error('Error during sign out:', error)
-      // Force reload as fallback
+      // Force a hard refresh to clear all state
       window.location.href = '/'
-    } finally {
-      setIsLoading(false)
+    } catch (error) {
+      console.error('Sign out error:', error)
+      // Even on error, try to redirect
+      window.location.href = '/'
     }
   }
 
@@ -197,14 +197,16 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem
-            onClick={handleSignOut}
-            disabled={isLoading}
-            className="text-red-600 dark:text-red-400 focus:text-red-600 dark:focus:text-red-400 cursor-pointer"
-          >
-            <LogOut className="w-4 h-4 mr-2" />
-            {isLoading ? 'Signing out...' : 'Sign Out'}
-          </DropdownMenuItem>
+          <div className="px-2 py-1">
+            <button
+              onClick={handleSignOut}
+              disabled={isLoading}
+              className="w-full flex items-center gap-2 px-2 py-1.5 text-sm text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950 rounded-sm cursor-pointer disabled:opacity-50"
+            >
+              <LogOut className="w-4 h-4" />
+              {isLoading ? 'Signing out...' : 'Sign Out'}
+            </button>
+          </div>
         </DropdownMenuContent>
       </DropdownMenu>
     )
