@@ -83,12 +83,21 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
+                // Apply theme immediately before any paint to prevent flash
                 try {
-                  const theme = localStorage.getItem('theme') || 'light';
+                  const theme = localStorage.getItem('theme');
                   if (theme === 'dark') {
                     document.documentElement.classList.add('dark');
+                  } else if (theme === 'light') {
+                    document.documentElement.classList.remove('dark');
+                  } else {
+                    // Default to light if no preference
+                    document.documentElement.classList.remove('dark');
                   }
-                } catch (e) {}
+                } catch (e) {
+                  // Fallback to light theme on error
+                  document.documentElement.classList.remove('dark');
+                }
                 
                 // Disable right-click context menu
                 document.addEventListener('contextmenu', function(e) {

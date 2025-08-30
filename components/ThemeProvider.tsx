@@ -11,31 +11,44 @@ interface ThemeContextType {
 
 export const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  // Initialize theme from localStorage immediately to prevent flash
-  const [theme, setTheme] = useState<Theme>(() => {
-    // This runs only once on initial render
-    if (typeof window !== 'undefined') {
-      const savedTheme = localStorage.getItem('theme') as Theme | null
-      return savedTheme || 'light'
+// Helper to get initial theme
+function getInitialTheme(): Theme {
+  // Check if we're on the client and if dark class is already applied
+  if (typeof window !== 'undefined') {
+    // First check if dark class is already applied by the script
+    if (document.documentElement.classList.contains('dark')) {
+      return 'dark'
     }
-    return 'light'
-  })
+    // Fallback to localStorage
+    const savedTheme = localStorage.getItem('theme') as Theme | null
+    return savedTheme || 'light'
+  }
+  return 'light'
+}
+
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  // Initialize theme based on what's already applied to prevent flash
+  const [theme, setTheme] = useState<Theme>(getInitialTheme)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    // Apply the theme class on mount
-    document.documentElement.classList.toggle('dark', theme === 'dark')
-  }, [theme])
+    setMounted(true)
+    // Ensure the theme class matches our state
+    const currentTheme = getInitialTheme()
+    if (currentTheme !== theme) {
+      setTheme(currentTheme)
+    }
+  }, [])
 
   const toggleTheme = () => {
+    if (!mounted) return
+    
     const newTheme = theme === 'light' ? 'dark' : 'light'
     
-    // Update state and localStorage immediately
-    setTheme(newTheme)
-    localStorage.setItem('theme', newTheme)
-    
-    // Toggle dark class immediately for faster response
+    // Apply changes immediately to prevent flash
     document.documentElement.classList.toggle('dark', newTheme === 'dark')
+    localStorage.setItem('theme', newTheme)
+    setTheme(newTheme)
   }
 
   // Don't wait for mounting - render immediately to prevent flash

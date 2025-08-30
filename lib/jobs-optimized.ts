@@ -15,7 +15,7 @@ export async function loadJobsOptimized(): Promise<Job[]> {
   }
   
   // Map the lightweight index to Job format
-  return cachedIndex.map((job: any) => ({
+  return (cachedIndex || []).map((job: any) => ({
     id: job.id,
     title: job.title,
     organization: job.organization,
