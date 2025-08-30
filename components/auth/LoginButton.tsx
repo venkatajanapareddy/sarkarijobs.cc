@@ -155,13 +155,35 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
     
     try {
       // Sign out from Supabase
-      await supabase.auth.signOut()
+      const { error } = await supabase.auth.signOut()
       
-      // Clear auth-related storage but keep theme
+      if (error) {
+        console.error('Supabase sign out error:', error)
+      }
+      
+      // Clear all Supabase auth-related storage
       if (typeof window !== 'undefined') {
+        // Save theme before clearing
         const theme = localStorage.getItem('theme')
-        const authKeys = ['sb-localhost-auth-token', 'sb-yuiehwusmtmogqvqpqbr-auth-token']
-        authKeys.forEach(key => localStorage.removeItem(key))
+        
+        // Clear all storage keys that contain 'sb-' (Supabase auth tokens)
+        Object.keys(localStorage).forEach(key => {
+          if (key.startsWith('sb-')) {
+            localStorage.removeItem(key)
+          }
+        })
+        
+        // Also clear session storage
+        Object.keys(sessionStorage).forEach(key => {
+          if (key.startsWith('sb-')) {
+            sessionStorage.removeItem(key)
+          }
+        })
+        
+        // Restore theme
+        if (theme) {
+          localStorage.setItem('theme', theme)
+        }
       }
       
       // Force a hard refresh to clear all state
