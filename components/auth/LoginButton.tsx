@@ -148,13 +148,26 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
       const { error } = await supabase.auth.signOut()
       if (error) {
         console.error('Error signing out:', error)
+        // Continue with redirect even if there's an error
       }
-      // Use location.href for a full page reload
-      window.location.href = '/'
+      
+      // Clear any local storage items
+      if (typeof window !== 'undefined') {
+        // Clear auth-related storage but keep theme
+        const theme = localStorage.getItem('theme')
+        localStorage.clear()
+        if (theme) localStorage.setItem('theme', theme)
+      }
+      
+      // Use router.push for proper Next.js navigation
+      router.push('/')
+      router.refresh()
     } catch (error) {
       console.error('Error during sign out:', error)
-      // Force reload even if there's an error
+      // Force reload as fallback
       window.location.href = '/'
+    } finally {
+      setIsLoading(false)
     }
   }
 
@@ -183,10 +196,7 @@ export default function LoginButton({ user, savedJobsCount: initialCount = 0 }: 
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem
-            onSelect={(e) => {
-              e.preventDefault()
-              handleSignOut()
-            }}
+            onClick={handleSignOut}
             disabled={isLoading}
             className="text-red-600 dark:text-red-400 focus:text-red-600 dark:focus:text-red-400 cursor-pointer"
           >
